@@ -1,0 +1,33 @@
+{
+  "termino": "Senado",
+  "definicion": "Cámara de representación territorial de las Cortes Generales. En 2026 tiene 209 senadores elegidos en las urnas más los designados por los parlamentos autonómicos; puede enmendar o vetar las leyes y debe aprobar por mayoría absoluta las medidas del artículo 155.",
+  "relacionados": [
+    "congreso-de-los-diputados",
+    "senador-designado-autonomico",
+    "articulo-155"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 69, 90 y 155",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículo 3.2",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

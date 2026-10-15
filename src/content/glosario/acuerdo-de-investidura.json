@@ -1,0 +1,26 @@
+{
+  "termino": "Acuerdo de investidura (apoyo externo)",
+  "definicion": "Pacto por el que uno o varios grupos se comprometen a votar a favor, o a abstenerse, en la investidura de un candidato sin entrar en su Gobierno. Su contenido lo deciden las partes y no obliga jurídicamente a votar lo mismo en las leyes posteriores.",
+  "relacionados": [
+    "investidura",
+    "abstencion-parlamentaria",
+    "gobierno-en-minoria",
+    "coalicion-de-gobierno"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 67.2 y 99",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Término descriptivo de uso común, sin definición legal propia; se apoya en los preceptos citados. El art. 67.2 CE establece que los parlamentarios no están ligados por mandato imperativo."
+  }
+}

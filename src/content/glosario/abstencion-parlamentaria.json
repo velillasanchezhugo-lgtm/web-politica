@@ -1,0 +1,35 @@
+{
+  "termino": "Abstención (en una votación parlamentaria)",
+  "definicion": "Opción de un diputado que no vota ni a favor ni en contra. Cuando se exige mayoría simple, las abstenciones facilitan que se apruebe una propuesta porque no se suman al «no»; cuando se exige mayoría absoluta, abstenerse tiene el mismo efecto práctico que votar en contra.",
+  "ejemplo": "En una segunda votación de investidura, 171 síes, 170 noes y 9 abstenciones permiten investir al candidato.",
+  "relacionados": [
+    "mayoria-simple",
+    "mayoria-absoluta",
+    "investidura",
+    "abstencion-electoral"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 79.2 y 99.3",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 79.1",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

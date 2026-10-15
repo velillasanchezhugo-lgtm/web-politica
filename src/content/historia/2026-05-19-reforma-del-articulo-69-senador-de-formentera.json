@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-19-reforma-del-articulo-69-senador-de-formentera",
+  "fecha": "2026-05-19",
+  "titulo": "Reforma del artículo 69.3: senador propio para Formentera",
+  "categorias": [
+    "reformas-institucionales",
+    "territorial"
+  ],
+  "resumen": "Cuarta reforma de la Constitución, que separó la agrupación Ibiza-Formentera en dos circunscripciones para la elección de senadores, de modo que Formentera elige un senador propio.",
+  "contexto": "La iniciativa procedía del Parlamento de las Illes Balears, que la registró en el Congreso en octubre de 2018; se trasladó de legislatura en legislatura hasta su tramitación en la XV Legislatura.",
+  "consecuencias": [
+    {
+      "texto": "El Congreso la aprobó el 26 de marzo de 2026 con 312 votos a favor, 33 en contra y 5 abstenciones, y el Senado el 22 de abril con 258 a favor y 2 en contra; no se solicitó referéndum.",
+      "tipo": "hecho",
+      "fecha": "2026-04-22",
+      "fuentes": [
+        {
+          "titulo": "Cuarta reforma constitucional (artículo 69.3)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/cuarta-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Rey sancionó la reforma el 19 de mayo de 2026 y el BOE la publicó el 20 de mayo.",
+      "tipo": "hecho",
+      "fecha": "2026-05-20",
+      "fuentes": [
+        {
+          "titulo": "Cuarta reforma constitucional (artículo 69.3)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/cuarta-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Cuarta reforma constitucional (artículo 69.3)",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/w/cuarta-reforma-constitucional",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reforma del apartado 3 del artículo 69 de la Constitución Española, a los efectos de que la isla de Formentera elija un senador propio, de 19 de mayo de 2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881",
+      "fecha_documento": "2026-05-20",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

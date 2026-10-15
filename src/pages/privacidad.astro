@@ -1,0 +1,21 @@
+---
+import Page from '../layouts/Page.astro';
+import Pendiente from '../components/Pendiente.astro';
+import { TITULAR } from '../config/titular';
+import { ADS, ANALYTICS } from '../config/site';
+---
+<Page title="Política de privacidad" description="Qué datos tratamos, para qué, con qué base legal y cómo ejercer tus derechos." updated="2026-10-15">
+  <div class="notice warn small">Plantilla pendiente de completar con los datos del titular y de revisar por un profesional jurídico. Debe reflejar la configuración real en el momento de publicar.</div>
+  <h2>Responsable</h2>
+  <p><Pendiente v={TITULAR.nombre_o_razon_social} />, NIF <Pendiente v={TITULAR.nif} />, <Pendiente v={TITULAR.domicilio} />. Contacto de privacidad: <Pendiente v={TITULAR.email_privacidad} />.</p>
+  <h2>Qué datos tratamos</h2>
+  <ul>
+    <li><strong>Herramientas (comparador, simulador, calculadora, buscador):</strong> funcionan en tu navegador. No enviamos a nuestro servidor ni a terceros qué partidos comparas, qué temas consultas, qué buscas ni qué escenarios simulas. Nunca inferimos ni guardamos opiniones políticas.</li>
+    <li><strong>Registros técnicos del alojamiento:</strong> el proveedor de alojamiento (<Pendiente v={TITULAR.hosting} />) puede registrar direcciones IP y peticiones por seguridad. Base legal: interés legítimo (art. 6.1.f RGPD).</li>
+    <li><strong>Medición de audiencia:</strong> {ANALYTICS.script ? 'usamos una herramienta de medición agregada sin cookies que no identifica a personas. Solo se cuentan visitas por página, sin registrar las selecciones de las herramientas.' : 'actualmente no usamos ninguna herramienta de medición.'}</li>
+    <li><strong>Publicidad:</strong> {ADS.enabled ? 'Google AdSense trata datos para mostrar y medir anuncios. En el Espacio Económico Europeo se pide tu consentimiento mediante una plataforma de gestión del consentimiento certificada por Google; puedes aceptarlo, rechazarlo o configurarlo, y cambiar de opinión desde «Gestionar privacidad» en el pie de página.' : 'la publicidad está desactivada. Cuando se active, esta sección describirá el tratamiento de Google AdSense y el mecanismo de consentimiento.'}</li>
+    <li><strong>Correos que nos envíes:</strong> los usamos solo para responder. Base legal: tu consentimiento al escribirnos. Se conservan el tiempo necesario para atender la consulta.</li>
+  </ul>
+  <h2>Tus derechos</h2>
+  <p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <Pendiente v={TITULAR.email_privacidad} />. También puedes reclamar ante la <a href="https://www.aepd.es/" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+</Page>

@@ -1,0 +1,44 @@
+{
+  "id": "pp-empleo-1",
+  "partido": "pp",
+  "tema": "empleo",
+  "eleccion": "generales-2026",
+  "titulo": "Bancos de horas, flexibilidad horaria y subsidio condicionado a aceptar ofertas adecuadas",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 defiende sistemas de bancos de horas y la flexibilización del horario laboral «allá donde sea posible», reducir el absentismo, condicionar el subsidio por desempleo a no rechazar de forma reiterada e injustificada ofertas adecuadas y elevar de 50 a 250 trabajadores los umbrales regulatorios asociados al tamaño de las empresas.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La legislación laboral y de Seguridad Social es estatal (art. 149.1.7.ª y 17.ª CE); la ejecución de las políticas activas de empleo corresponde en gran parte a las comunidades autónomas."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Mercado laboral: defender a los que trabajan», pp. 37-38; «250 son los nuevos 50», pp. 38-39",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

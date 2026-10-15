@@ -1,0 +1,23 @@
+{
+  "termino": "Competencia exclusiva y competencia compartida",
+  "definicion": "Una competencia es exclusiva cuando una sola administración regula y gestiona una materia, como el Estado en defensa o relaciones internacionales. Es compartida cuando se reparte: por ejemplo, el Estado fija las bases de la sanidad y las comunidades autónomas las desarrollan y gestionan, o el Estado dicta la legislación laboral y las comunidades la ejecutan.",
+  "relacionados": [
+    "comunidad-autonoma",
+    "tribunal-constitucional"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148 y 149",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

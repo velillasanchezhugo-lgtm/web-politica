@@ -1,0 +1,44 @@
+{
+  "id": "pp-ue-exterior-1",
+  "partido": "pp",
+  "tema": "ue-exterior",
+  "eleccion": "generales-2026",
+  "titulo": "Cumplir los compromisos de gasto en defensa de la OTAN con aval del Congreso",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 plantea cumplir los compromisos de inversión en defensa asumidos en la OTAN «con el aval del Congreso de los Diputados», reforzar el pilar europeo de la Alianza y la industria europea de defensa, avanzar hacia una mayor integración política y económica de la UE, condicionar nuevas ampliaciones a reformas internas y apoyar el acuerdo UE-Mercosur.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Relaciones internacionales y defensa son competencia exclusiva del Estado (art. 149.1.3.ª y 4.ª CE); la política comercial común corresponde a la UE."
+  },
+  "financiacion": {
+    "nota": "El partido no publica cifra de gasto ni calendario para alcanzar los compromisos de la OTAN."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Política internacional», pp. 44-46 y 49",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

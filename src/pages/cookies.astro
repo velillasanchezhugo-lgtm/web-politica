@@ -1,0 +1,15 @@
+---
+import Page from '../layouts/Page.astro';
+import { ADS, ANALYTICS } from '../config/site';
+---
+<Page title="Política de cookies" description="Qué cookies y tecnologías similares usa la web y cómo gestionarlas." updated="2026-10-15">
+  <div class="notice warn small">Plantilla pendiente de revisión jurídica. Debe actualizarse con la lista real de cookies cuando se active la publicidad.</div>
+  <h2>Sin publicidad activada</h2>
+  <p>La web no instala cookies propias. Las herramientas guardan su estado en la dirección de la página (lo que va detrás de <code>#</code>), que no se envía a ningún servidor. {ANALYTICS.script ? 'La medición de audiencia que usamos no utiliza cookies.' : ''}</p>
+  <h2>Con publicidad activada</h2>
+  {ADS.enabled ? (
+    <p>Google AdSense y sus socios pueden usar cookies y tecnologías similares para mostrar anuncios, limitar su frecuencia, medirlos y, si lo consientes, personalizarlos. Antes de que se usen cookies no necesarias se muestra un mensaje de consentimiento gestionado por una plataforma certificada en el marco TCF de IAB Europe, con opciones para <strong>aceptar</strong>, <strong>rechazar</strong> o <strong>configurar</strong> al mismo nivel. Puedes cambiar tu elección en cualquier momento con el enlace «Gestionar privacidad» del pie de página. Información de Google: <a href="https://policies.google.com/technologies/ads?hl=es" rel="noopener">cómo usa Google las cookies en publicidad</a>.</p>
+  ) : <p>La publicidad está desactivada en esta versión de la web.</p>}
+  <h2>Cómo bloquearlas</h2>
+  <p>También puedes bloquear o borrar cookies desde la configuración de tu navegador. La web seguirá funcionando.</p>
+</Page>

@@ -1,0 +1,33 @@
+{
+  "termino": "Mesa del Congreso",
+  "definicion": "Órgano rector del Congreso, formado por la Presidencia, cuatro Vicepresidencias y cuatro Secretarías. Organiza el trabajo de la cámara y, por ejemplo, admite a trámite iniciativas como la moción de censura. Se elige en la sesión constitutiva.",
+  "relacionados": [
+    "junta-de-portavoces",
+    "grupo-parlamentario",
+    "mocion-de-censura"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 30 y 176",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 72.2",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

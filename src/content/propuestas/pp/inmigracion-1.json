@@ -1,0 +1,45 @@
+{
+  "id": "pp-inmigracion-1",
+  "partido": "pp",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Nuevo modelo migratorio: vías legales ligadas al empleo, arraigo excepcional y residencia condicionada a cotizar",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 propone establecer vías legales de entrada que primen a quienes cubren necesidades del mercado laboral y son «culturalmente cercanos», desvincular el empadronamiento del acceso de inmigrantes en situación irregular a prestaciones no contributivas, condicionar la residencia de larga duración a cotizar y a conocer el idioma y la cultura, devolver al arraigo y la reagrupación familiar su «carácter excepcional» y repatriar de inmediato a quienes entren ilegalmente o cometan delitos. Pide además que el Estado asuma la atención de menores no acompañados en Canarias y Ceuta.",
+  "que_cambiaria": "Requeriría modificar la Ley Orgánica 4/2000 de extranjería y su reglamento en lo relativo al arraigo, la reagrupación y la residencia de larga duración.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Inmigración, extranjería y control de fronteras son competencia exclusiva del Estado (art. 149.1.2.ª CE), en el marco de la normativa de la UE y Schengen; las comunidades prestan servicios a menores no acompañados."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Libertad y Seguridad», pp. 21-22",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

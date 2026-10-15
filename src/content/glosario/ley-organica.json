@@ -1,0 +1,34 @@
+{
+  "termino": "Ley orgánica",
+  "definicion": "Ley que regula materias que la Constitución considera especialmente importantes, como los derechos fundamentales, los Estatutos de Autonomía o el régimen electoral. Para aprobarla, modificarla o derogarla hace falta mayoría absoluta del Congreso (176) en una votación final sobre el conjunto del texto.",
+  "ejemplo": "La ley electoral (LOREG) es una ley orgánica: la Ley Orgánica 2/2026 la modificó para dar un senador propio a Formentera.",
+  "relacionados": [
+    "ley-ordinaria",
+    "mayoria-absoluta",
+    "proyecto-y-proposicion-de-ley"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 81",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 131 y 132",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

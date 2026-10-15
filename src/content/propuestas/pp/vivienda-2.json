@@ -1,0 +1,44 @@
+{
+  "id": "pp-vivienda-2",
+  "partido": "pp",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Desalojo inmediato en casos de ocupación e impago y prohibición de empadronar a «okupas»",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 propone endurecer las penas por ocupación de viviendas, impedir que los ocupantes ilegales se empadronen y hacer «inmediato» el desalojo en casos de ocupación e incumplimiento contractual («inquiocupación»), con el objetivo declarado de devolver seguridad jurídica a la propiedad.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "local"
+    ],
+    "nota": "La legislación penal y procesal es estatal (art. 149.1.6.ª CE); el padrón lo gestionan los ayuntamientos conforme a la Ley de Bases de Régimen Local."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«La vivienda: un bien accesible», p. 26",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "2011-09-27-reforma-del-articulo-135-de-la-constitucion",
+  "fecha": "2011-09-27",
+  "titulo": "Reforma del artículo 135: estabilidad presupuestaria",
+  "categorias": [
+    "reformas-institucionales",
+    "economia-sociedad"
+  ],
+  "resumen": "Segunda reforma de la Constitución, acordada por PSOE y PP, que incorporó el principio de estabilidad presupuestaria y la prioridad absoluta del pago de la deuda pública.",
+  "contexto": "Los grupos Socialista y Popular presentaron la proposición el 26 de agosto de 2011 y la tramitaron por urgencia y lectura única. Según su exposición de motivos, recogida por el Congreso, la reforma respondía al contexto de crisis económica y al Pacto de Estabilidad y Crecimiento de la zona euro.",
+  "consecuencias": [
+    {
+      "texto": "El Congreso aprobó la reforma el 2 de septiembre de 2011 con 316 votos a favor y 5 en contra, y el Senado el 7 de septiembre con 233 a favor y 3 en contra; no se solicitó referéndum.",
+      "tipo": "hecho",
+      "fecha": "2011-09-07",
+      "fuentes": [
+        {
+          "titulo": "Segunda reforma constitucional (artículo 135)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/segunda-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El nuevo artículo 135 prohíbe al Estado y a las comunidades autónomas incurrir en un déficit estructural superior a los márgenes de la UE, exige equilibrio presupuestario a las entidades locales y da prioridad absoluta al pago de intereses y capital de la deuda pública.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Reforma del artículo 135 de la Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-15210",
+          "localizacion": "Artículo 135, apartados 2 y 3",
+          "fecha_documento": "2011-09-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La reforma remitió a una ley orgánica, aprobada como Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera; los límites de déficit estructural del artículo 135.2 entrarían en vigor a partir de 2020.",
+      "tipo": "hecho",
+      "fecha": "2012-04-27",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-5730",
+          "fecha_documento": "2012-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Reforma del artículo 135 de la Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-15210",
+          "localizacion": "Disposición adicional única, apartado 3",
+          "fecha_documento": "2011-09-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Segunda reforma constitucional (artículo 135)",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/w/segunda-reforma-constitucional",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reforma del artículo 135 de la Constitución Española, de 27 de septiembre de 2011",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-15210",
+      "fecha_documento": "2011-09-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

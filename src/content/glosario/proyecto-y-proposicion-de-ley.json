@@ -1,0 +1,34 @@
+{
+  "termino": "Proyecto de ley y proposición de ley",
+  "definicion": "Un proyecto de ley es una iniciativa legislativa del Gobierno, aprobada en Consejo de Ministros. Una proposición de ley es la que presentan el Congreso (un grupo o 15 diputados), el Senado, los parlamentos autonómicos o la ciudadanía con al menos 500.000 firmas.",
+  "relacionados": [
+    "ley-ordinaria",
+    "ley-organica",
+    "enmienda-a-la-totalidad",
+    "consejo-de-ministros"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 87 a 89",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 108 y 126",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

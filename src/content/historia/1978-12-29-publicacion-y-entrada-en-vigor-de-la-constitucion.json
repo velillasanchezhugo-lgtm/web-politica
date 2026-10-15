@@ -1,0 +1,80 @@
+{
+  "id": "1978-12-29-publicacion-y-entrada-en-vigor-de-la-constitucion",
+  "fecha": "1978-12-29",
+  "titulo": "Publicación y entrada en vigor de la Constitución",
+  "categorias": [
+    "reformas-institucionales",
+    "territorial"
+  ],
+  "resumen": "El BOE publicó la Constitución el 29 de diciembre de 1978, día en que entró en vigor. Ese mismo día se publicaron también sus versiones en las demás lenguas de España.",
+  "contexto": "La Constitución define España como un Estado social y democrático de Derecho cuya forma política es la Monarquía parlamentaria, reconoce derechos fundamentales y garantiza el derecho a la autonomía de las nacionalidades y regiones. Sustituyó al conjunto de Leyes Fundamentales del franquismo.",
+  "consecuencias": [
+    {
+      "texto": "La disposición final establece que la Constitución entra en vigor el mismo día de la publicación de su texto oficial en el BOE.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+          "localizacion": "Disposición final",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La disposición derogatoria derogó expresamente, entre otras, la Ley para la Reforma Política y las Leyes Fundamentales del régimen anterior.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+          "localizacion": "Disposición derogatoria",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Título VIII abrió el proceso de creación de comunidades autónomas mediante estatutos de autonomía.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+          "localizacion": "Título VIII",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Elaboración y aprobación de la Constitución",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/elaboracionyaprobacion",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

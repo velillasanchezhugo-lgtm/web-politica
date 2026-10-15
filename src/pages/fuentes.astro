@@ -1,0 +1,36 @@
+---
+import Page from '../layouts/Page.astro';
+import { publicados, ETIQUETAS } from '../lib/content';
+
+// Reúne todas las fuentes citadas en el contenido publicado, agrupadas por emisor.
+const cols = ['partidos', 'propuestas', 'temas', 'escenarios', 'historia', 'glosario', 'escanos', 'circunscripciones', 'calendario', 'guia'] as const;
+const all: any[] = [];
+const walk = (o: any) => {
+  if (Array.isArray(o)) return o.forEach(walk);
+  if (o && typeof o === 'object') {
+    if (typeof o.url === 'string' && typeof o.emisor === 'string' && typeof o.titulo === 'string') all.push(o);
+    else Object.values(o).forEach(walk);
+  }
+};
+for (const c of cols) for (const e of await publicados(c as any)) walk((e as any).data);
+const porUrl = new Map<string, any>();
+for (const f of all) if (!porUrl.has(f.url)) porUrl.set(f.url, f);
+const grupos = new Map<string, any[]>();
+for (const f of porUrl.values()) {
+  const k = f.tipo as string;
+  grupos.set(k, [...(grupos.get(k) ?? []), f]);
+}
+const orden = ['oficial', 'organismo_independiente', 'partido', 'academica', 'medio', 'otra'];
+---
+<Page title="Fuentes" description="Todas las fuentes citadas en la web, agrupadas por tipo: oficiales, organismos independientes, partidos, académicas y medios." updated="2026-10-15">
+  <p>Lista generada automáticamente con las {porUrl.size} fuentes distintas que citan los contenidos publicados. Cada página indica qué fuente respalda cada afirmación. <a href="/metodologia/">Jerarquía de fuentes</a>.</p>
+  {orden.filter((k) => grupos.has(k)).map((k) => {
+    const lista = grupos.get(k)!.sort((a, b) => a.emisor.localeCompare(b.emisor, 'es') || a.titulo.localeCompare(b.titulo, 'es'));
+    return (
+      <details>
+        <summary>{ETIQUETAS.tipoFuente[k as keyof typeof ETIQUETAS.tipoFuente]} ({lista.length})</summary>
+        <ul class="small">{lista.map((f) => <li><a href={f.url} rel="noopener nofollow" target="_blank">{f.titulo}</a> <span class="muted">— {f.emisor}</span></li>)}</ul>
+      </details>
+    );
+  })}
+</Page>

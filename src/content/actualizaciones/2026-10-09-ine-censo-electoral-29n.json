@@ -1,0 +1,18 @@
+{
+  "fecha": "2026-10-09",
+  "titulo": "El INE cifra en 38.728.356 los electores llamados a votar el 29-N",
+  "descripcion": "Según la Oficina del Censo Electoral (INE), pueden votar el 29 de noviembre 38.728.356 electores: 35.958.711 residen en España y 2.769.645 en el extranjero. De los residentes en España, 1.615.127 votarán por primera vez en unas generales. El censo se puede consultar del 12 al 19 de octubre y las tarjetas censales se envían a partir del 2 de noviembre.",
+  "enlace_interno": "/guia/calendario-electoral/",
+  "fuentes": [
+    {
+      "titulo": "Nota de prensa: Elecciones a Cortes Generales de 29 de noviembre de 2026",
+      "emisor": "Instituto Nacional de Estadística",
+      "tipo": "oficial",
+      "url": "https://www.ine.es/dyngs/Prensa/es/EG2026.htm",
+      "localizacion": "Titulares y apartado «Elecciones Generales de 29 de noviembre de 2026»",
+      "fecha_documento": "2026-10-09",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "tipo": "dato_oficial"
+}

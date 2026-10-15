@@ -1,0 +1,33 @@
+{
+  "termino": "Diputación Permanente",
+  "definicion": "Órgano de cada cámara, con un mínimo de 21 miembros de los grupos en proporción a su tamaño, que vela por los poderes de la cámara cuando no está reunida. Si las Cortes se disuelven, asume entre otras funciones la convalidación de los decretos-leyes hasta que se constituyen las nuevas cámaras.",
+  "relacionados": [
+    "decreto-ley",
+    "convalidacion",
+    "disolucion"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 78",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 56 y 57",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

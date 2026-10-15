@@ -1,0 +1,44 @@
+{
+  "id": "pp-sanidad-1",
+  "partido": "pp",
+  "tema": "sanidad",
+  "eleccion": "generales-2026",
+  "titulo": "Ampliar plantillas sanitarias y reducir las guardias de 24 horas",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 defiende una planificación de recursos humanos sanitarios a varias décadas que empiece por ampliar plantillas y permita después reducir las guardias de 24 horas, mejorar la estabilidad laboral (también en el medio rural), reducir la carga burocrática de los profesionales y garantizar la libertad de elección del paciente «viva donde viva», junto con un sistema de cuidados paliativos mejor dotado.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "El Estado fija las bases y la coordinación general de la sanidad (art. 149.1.16.ª CE); la gestión de los servicios de salud y de sus plantillas corresponde a las comunidades autónomas."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Una sanidad que trata, cura y previene», pp. 32-33",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

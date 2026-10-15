@@ -1,0 +1,23 @@
+{
+  "termino": "Grupo Mixto",
+  "definicion": "Grupo parlamentario en el que quedan los diputados que no se integran en ningún otro grupo dentro del plazo previsto. Reúne a menudo a formaciones pequeñas que no alcanzan los requisitos para tener grupo propio.",
+  "relacionados": [
+    "grupo-parlamentario",
+    "junta-de-portavoces"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 25 a 27",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

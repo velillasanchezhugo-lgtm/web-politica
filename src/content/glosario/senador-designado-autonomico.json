@@ -1,0 +1,41 @@
+{
+  "termino": "Senador designado por la comunidad autónoma",
+  "definicion": "Senador que no se elige en las urnas, sino que lo designa el parlamento de una comunidad autónoma: uno por comunidad y otro más por cada millón de habitantes. Por eso el número total de senadores no es fijo.",
+  "relacionados": [
+    "senado",
+    "comunidad-autonoma",
+    "escano"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 69.5",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículo 165.4",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "29N: guía básica sobre las elecciones generales y el proceso electoral",
+      "emisor": "La Moncloa (Ministerio del Interior)",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/guia-dudas-elecciones-generales-29n.aspx",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "termino": "Escaño",
+  "definicion": "Puesto de diputado o senador en una cámara. El Congreso tiene 350 escaños; en 2026 se eligen además 209 senadores, a los que se suman los designados por las comunidades autónomas.",
+  "relacionados": [
+    "circunscripcion",
+    "dhondt",
+    "senador-designado-autonomico"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 162 y 165",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículo 3 y anexo",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

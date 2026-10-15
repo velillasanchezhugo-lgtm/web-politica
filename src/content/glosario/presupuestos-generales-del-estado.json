@@ -1,0 +1,24 @@
+{
+  "termino": "Presupuestos Generales del Estado",
+  "definicion": "Ley anual que recoge todos los gastos e ingresos del sector público estatal. La elabora el Gobierno, que debe presentarla al Congreso al menos tres meses antes de que terminen los del año anterior, y la examinan, enmiendan y aprueban las Cortes Generales.",
+  "relacionados": [
+    "prorroga-presupuestaria",
+    "enmienda-a-la-totalidad",
+    "gobierno-en-funciones"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 134",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

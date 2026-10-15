@@ -5,7 +5,8 @@ import SourceList from '../components/SourceList.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { publicados, fechaLarga } from '../lib/content';
 
-const conjuntos = (await publicados('escanos')).filter((e) => e.data.origen === 'resultado_oficial');
+// Más reciente primero: el primer conjunto es el que se carga por defecto.
+const conjuntos = (await publicados('escanos')).filter((e) => e.data.origen === 'resultado_oficial').sort((a, b) => b.data.id.localeCompare(a.data.id));
 const partidos = await publicados('partidos');
 const fichas = new Set(partidos.map((p) => p.data.id));
 
@@ -156,8 +157,7 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
     const manual = origen === 'manual' || modificado;
     const ficha = f.ficha ? ` <a class="small" href="/partidos/${f.ficha}/#pactos" target="_blank" rel="noopener">posición declarada</a>` : '';
     const rep = f.rep ?? { si: 0, no: 0, abstencion: 0, ausente: f.escanos };
-    return `<div class="sim-fila" data-i="${i}">
-      <span class="sim-color" style="background:${f.color ?? 'var(--ink-3)'}" aria-hidden="true"></span>
+    return `<div class="sim-fila" data-i="${i}" style="border-left-color:${f.color ?? 'var(--ink-3)'}">
       <div class="sim-nombre">
         <label class="visually-hidden" for="n${i}">Nombre del grupo ${i + 1}</label>
         ${manual ? `<input id="n${i}" data-k="nombre" value="${esc(f.nombre)}" maxlength="60" />` : `<span id="n${i}"><strong>${esc(f.nombre)}</strong>${ficha}</span>`}
@@ -336,17 +336,16 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
 
 <style is:global>
   .sim-filas { display: grid; gap: 0.5rem; }
-  .sim-fila { display: grid; grid-template-columns: 0.6rem 1fr auto auto; gap: 0.35rem 0.75rem; align-items: end; padding: 0.6rem 0; border-bottom: 1px solid var(--line); }
-  .sim-fila .sim-del { grid-column: 4; }
-  .sim-color { align-self: stretch; border-radius: 3px; }
+  .sim-fila { display: grid; grid-template-columns: 1fr auto auto auto; gap: 0.35rem 0.75rem; align-items: end; padding: 0.6rem 0 0.6rem 0.75rem; border-bottom: 1px solid var(--line); border-left: 5px solid var(--ink-3); }
   .sim-nombre { align-self: center; }
   .sim-nombre input { width: 100%; }
-  .sim-rep { grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .sim-rep { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .sim-rep input { width: 4.5rem; }
   @media (max-width: 40rem) {
-    .sim-fila { grid-template-columns: 0.5rem 1fr 1fr; }
-    .sim-nombre { grid-column: 2 / -1; }
-    .sim-fila .sim-del { grid-column: 2 / -1; justify-self: start; }
+    .sim-fila { grid-template-columns: auto 1fr; }
+    .sim-nombre { grid-column: 1 / -1; }
+    .sim-fila select { width: 100%; }
+    .sim-fila .sim-del { grid-column: 1 / -1; justify-self: start; }
   }
   .sim-res { margin: 1.5rem 0; }
   .sim-bar { position: relative; display: flex; height: 2.2rem; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--paper-2); }

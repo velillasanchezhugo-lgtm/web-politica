@@ -1,0 +1,63 @@
+{
+  "id": "pp-vivienda-1",
+  "partido": "pp",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Objetivo de un millón de viviendas y silencio positivo en licencias de obra nueva",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "El PP plantea impulsar la construcción de «un millón de viviendas». Su Ponencia de 2025 propone ampliar el suelo edificable, reducir impuestos (especialmente a jóvenes), facilitar el acceso a la hipoteca, movilizar suelo público e implantar el silencio administrativo positivo en las licencias de nueva construcción y rehabilitación, salvo en inmuebles con protección ambiental, patrimonial o histórica.",
+  "que_cambiaria": "La ley estatal de suelo (art. 11.4 del TRLSRU) exige hoy acto expreso con silencio negativo para las obras de edificación de nueva planta; el silencio positivo requeriría modificar esa norma y la legislación urbanística autonómica.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "Vivienda y urbanismo son competencias autonómicas (art. 148.1.3.ª CE) y las licencias son municipales; el Estado interviene mediante legislación civil, de suelo, fiscal y planes de financiación."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado; el argumentario no fija plazo para el millón de viviendas.",
+  "fuentes": [
+    {
+      "titulo": "Hablemos Claro: «Orden, seguridad y prosperidad» (hoja de argumentario de campaña, 11 de octubre)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2026/10/2026-10-10-HC-ORDEN-SEGURIDAD-Y-PROSPERIDAD.pdf",
+      "localizacion": "Apartado «Su fracaso en vivienda acaba el 29-N»",
+      "fecha_documento": "2026-10-10",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«La vivienda: un bien accesible», pp. 25-26",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto Legislativo 7/2015, texto refundido de la Ley de Suelo y Rehabilitación Urbana (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11723",
+      "localizacion": "Artículo 11.3 y 11.4",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

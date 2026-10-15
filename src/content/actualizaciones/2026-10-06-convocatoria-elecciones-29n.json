@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-10-06",
+  "titulo": "El BOE publica la convocatoria de elecciones generales para el 29 de noviembre",
+  "descripcion": "El Real Decreto 806/2026, de 5 de octubre, disuelve el Congreso y el Senado elegidos el 23 de julio de 2023 y convoca elecciones para el domingo 29 de noviembre de 2026. La campaña irá del 13 al 27 de noviembre y las nuevas Cámaras se constituirán el 23 de diciembre. Respecto a 2023, Madrid pasa de 37 a 38 diputados y Cádiz de 9 a 8.",
+  "enlace_interno": "/guia/calendario-electoral/",
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículos 1 a 5 y anexo",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 400/2023, de 29 de mayo, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-12663",
+      "localizacion": "Anexo",
+      "fecha_documento": "2023-05-30",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "tipo": "dato_oficial"
+}

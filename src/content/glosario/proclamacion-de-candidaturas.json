@@ -1,0 +1,24 @@
+{
+  "termino": "Proclamación de candidaturas",
+  "definicion": "Acto por el que las juntas electorales confirman qué candidaturas presentadas cumplen los requisitos y pueden concurrir. Se realiza el vigésimo séptimo día posterior a la convocatoria y puede recurrirse ante los tribunales.",
+  "relacionados": [
+    "campana-electoral",
+    "coalicion-electoral",
+    "agrupacion-de-electores"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 47.3, 49 y 169.4",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "termino": "Tribunal Constitucional",
+  "definicion": "Órgano que interpreta la Constitución y resuelve, entre otros, los recursos de inconstitucionalidad contra leyes, los recursos de amparo y los conflictos de competencias entre el Estado y las comunidades autónomas. Tiene 12 miembros nombrados por nueve años: cuatro a propuesta del Congreso, cuatro del Senado, dos del Gobierno y dos del Consejo General del Poder Judicial.",
+  "relacionados": [
+    "competencia-exclusiva-y-compartida",
+    "cortes-generales"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 159 a 161",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

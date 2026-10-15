@@ -1,0 +1,32 @@
+{
+  "termino": "ERTA (electores residentes temporalmente ausentes)",
+  "definicion": "Electores inscritos en el censo de residentes en España que estarán temporalmente en el extranjero durante el proceso electoral. Para votar deben inscribirse como no residentes en el consulado y solicitar allí la documentación; después envían el voto por correo a su mesa en España.",
+  "ejemplo": "Para el 29-N, la solicitud ERTA se presenta en el consulado no más tarde del 31 de octubre de 2026.",
+  "relacionados": [
+    "cera",
+    "voto-por-correo",
+    "censo-electoral"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículo 74",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Elecciones a las Cortes Generales de 29 de noviembre de 2026",
+      "emisor": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+      "tipo": "oficial",
+      "url": "https://www.exteriores.gob.es/es/Paginas/Elecciones.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

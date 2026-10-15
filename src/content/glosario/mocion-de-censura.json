@@ -1,0 +1,42 @@
+{
+  "termino": "Moción de censura",
+  "definicion": "Mecanismo por el que el Congreso puede retirar su confianza al Gobierno y sustituir al presidente sin elecciones. Debe presentarla al menos la décima parte de los diputados con un candidato alternativo (por eso se llama «constructiva») y aprobarse por mayoría absoluta. Si prospera, el candidato queda investido.",
+  "ejemplo": "Tras la moción de censura votada el 31 de mayo y el 1 de junio de 2018, el Real Decreto 354/2018 nombró presidente a Pedro Sánchez Pérez-Castejón.",
+  "relacionados": [
+    "cuestion-de-confianza",
+    "mayoria-absoluta",
+    "investidura"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 113 y 114.2",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 175 a 179",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 354/2018, de 1 de junio, por el que se nombra Presidente del Gobierno a don Pedro Sánchez Pérez-Castejón",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-7400",
+      "fecha_documento": "2018-06-01",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

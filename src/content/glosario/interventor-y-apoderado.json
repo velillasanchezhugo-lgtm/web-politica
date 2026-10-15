@@ -1,0 +1,23 @@
+{
+  "termino": "Interventor y apoderado",
+  "definicion": "Personas que nombran las candidaturas para vigilar el proceso. El apoderado representa a la candidatura en los locales y operaciones electorales; el interventor (hasta dos por candidatura en cada mesa) se sienta en la mesa, puede votar en ella y participa en el control de la votación y el recuento.",
+  "relacionados": [
+    "mesa-electoral",
+    "escrutinio"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 76 a 79",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

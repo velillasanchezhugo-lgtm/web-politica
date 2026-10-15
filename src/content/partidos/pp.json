@@ -1,0 +1,621 @@
+{
+  "id": "pp",
+  "nombre": "Partido Popular",
+  "siglas": "PP",
+  "naturaleza": "partido",
+  "ambito": "estatal",
+  "color_grafico": "#1D84CE",
+  "web_oficial": "https://www.pp.es/",
+  "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
+  "resumen": "El Partido Popular es un partido de ámbito estatal fundado en 1989 a partir de Alianza Popular y presidido desde 2022 por Alberto Núñez Feijóo. Fue la candidatura más votada en las generales de 2023 (137 escaños), pero su candidato no obtuvo la investidura, y en la XV legislatura ha sido el principal grupo de la oposición. Para el 29 de noviembre de 2026 ha anunciado a Feijóo como candidato a la Presidencia del Gobierno y una coalición con UPN en Navarra.",
+  "historia": [
+    {
+      "texto": "Según el propio partido, el Partido Popular se refundó en 1989 a partir de Alianza Popular, formación creada en 1976 bajo el impulso de Manuel Fraga; José María Aznar fue elegido presidente del partido en el X Congreso Nacional de 1990.",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Historia",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/historia/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El PP gobernó España con José María Aznar como presidente del Gobierno tras ganar las elecciones generales de 1996, y de nuevo con Mariano Rajoy tras las generales de 2011, en las que obtuvo 186 escaños.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Historia",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/historia/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Alberto Núñez Feijóo fue elegido presidente del partido en el XX Congreso Nacional Extraordinario, celebrado en Sevilla el 2 de abril de 2022.",
+      "tipo": "hecho",
+      "fecha": "2022-04-02",
+      "fuentes": [
+        {
+          "titulo": "Historia",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/historia/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En julio de 2025 el PP celebró su XXI Congreso Nacional, en el que aprobó unos nuevos Estatutos y una Ponencia Política que fija sus líneas programáticas.",
+      "tipo": "hecho",
+      "fecha": "2025-07",
+      "fuentes": [
+        {
+          "titulo": "21 Congreso PP: documentos (Estatutos 2025, Ponencia Política 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/21-congreso-nacional/",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las generales de 23 de julio de 2023 el PP fue la candidatura más votada (8.160.837 votos y 137 diputados).",
+      "tipo": "hecho",
+      "fecha": "2023-07-23",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Presidente del partido",
+      "nombre": "Alberto Núñez Feijóo",
+      "desde": "2022-04-02",
+      "fuentes": [
+        {
+          "titulo": "Estructura (Comité de Dirección)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/estructura/",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Historia",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/historia/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretario general",
+      "nombre": "Miguel Tellado Filgueira",
+      "desde": "2025-07",
+      "fuentes": [
+        {
+          "titulo": "Estructura (Comité de Dirección)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/estructura/",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ester Muñoz entra en el «núcleo duro» de Feijóo como nueva portavoz del PP en el Congreso",
+          "emisor": "Diario de León",
+          "tipo": "medio",
+          "url": "https://www.diariodeleon.es/leon/250702/2052917/ester-munoz-entra-nucleo-duro-feijoo-nueva-portavoz-pp-congreso.html",
+          "fecha_documento": "2025-07-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz del Grupo Parlamentario Popular en el Congreso (XV legislatura) y portavoz de campaña",
+      "nombre": "Ester Muñoz de la Iglesia",
+      "desde": "2025-07",
+      "fuentes": [
+        {
+          "titulo": "Ester Muñoz entra en el «núcleo duro» de Feijóo como nueva portavoz del PP en el Congreso",
+          "emisor": "Diario de León",
+          "tipo": "medio",
+          "url": "https://www.diariodeleon.es/leon/250702/2052917/ester-munoz-entra-nucleo-duro-feijoo-nueva-portavoz-pp-congreso.html",
+          "fecha_documento": "2025-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo elige a la leonesa Ester Muñoz como portavoz de campaña",
+          "emisor": "Diario de León",
+          "tipo": "medio",
+          "url": "https://www.diariodeleon.es/nacional/261008/2099663/elecciones-generales-leon-2026-feijoo-elige-leonesa-ester-munoz-portavoz-campana.html",
+          "fecha_documento": "2026-10-08",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Comité de campaña - Elecciones 29N",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2026/10/COMITE-CAMPANA.pdf",
+          "fecha_documento": "2026-10-08",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz nacional del partido",
+      "nombre": "Borja Sémper Pascual",
+      "fuentes": [
+        {
+          "titulo": "Estructura (Comité de Dirección)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/estructura/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Con candidaturas propias en la mayoría de circunscripciones; en Navarra, dentro de la coalición «Unión del Pueblo Navarro en coalición con el Partido Popular» (principio de acuerdo de 13-10-2026, pendiente de constar ante la Junta Electoral)",
+    "candidato_presidencia": "Alberto Núñez Feijóo",
+    "detalle": [
+      {
+        "texto": "El PP comunicó el 13 de octubre de 2026 un principio de acuerdo con UPN para concurrir juntos en Navarra bajo la denominación «Unión del Pueblo Navarro en coalición con el Partido Popular», con Alberto Núñez Feijóo como candidato de la coalición a la Presidencia del Gobierno.",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "PP y UPN, juntos por Navarra y por España (comunicado sobre el principio de acuerdo de coalición)",
+            "emisor": "Partido Popular",
+            "tipo": "partido",
+            "url": "https://www.pp.es/wp-content/uploads/2026/10/26.10.13-COMUNICADO-PREACUERDO-PP-UPN.pdf",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+            "emisor": "Noticias de Navarra",
+            "tipo": "medio",
+            "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según Noticias de Navarra, el Consejo Político de UPN ratificó el acuerdo con un 93,5 % de apoyo; por parte del PP, la Junta Directiva Nacional había delegado en Feijóo la firma de este tipo de pactos. El acuerdo reserva a UPN la cabeza de lista al Congreso por Navarra y prevé que los electos designados por UPN se integren en el Grupo Mixto.",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+            "emisor": "Noticias de Navarra",
+            "tipo": "medio",
+            "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Feijóo acuerda con UPN una coalición de ambos partidos en Navarra para presentarse juntos a las elecciones del 29-N",
+            "emisor": "El Español",
+            "tipo": "medio",
+            "url": "https://www.elespanol.com/espana/politica/20261013/feijoo-acuerda-upn-coalicion-ambos-partidos-navarra-presentarse-juntos-elecciones/1003744417920_0.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según La Comarca, el Comité Ejecutivo del Partido Aragonés (PAR) ratificó el 8 de octubre de 2026 su apoyo al PP para el 29-N, con una posible presencia «testimonial» de miembros del PAR en las listas populares. No consta todavía la forma jurídica (coalición o integración en listas).",
+        "tipo": "hecho",
+        "fecha": "2026-10-08",
+        "fuentes": [
+          {
+            "titulo": "El PAR acuerda unirse a las listas del PP para el 29-N",
+            "emisor": "La Comarca",
+            "tipo": "medio",
+            "url": "https://www.lacomarca.net/el-par-acuerda-unirse-a-las-listas-del-pp-para-el-29-n-queremos-ofrecerles-a-nuestro-votantes-una-opcion-de-centro-moderada-y-aragonesista/",
+            "fecha_documento": "2026-10-09",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según el calendario de la Junta Electoral Central, las coaliciones debían comunicarse entre el 7 y el 16 de octubre y las candidaturas se presentan del 21 al 26 de octubre, se publican en el BOE el 28 de octubre y las proclamadas, el 3 de noviembre; a 15 de octubre no hay candidaturas presentadas ni relación oficial de coaliciones publicada.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Calendario electoral. Elecciones Generales 2026 (Cortes Generales)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+            "localizacion": "Apartado «Candidaturas», p. 4",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Elecciones Generales, 29 de noviembre de 2026 (elección en curso): apartado Candidaturas",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/eleccionesEnCurso/Elecciones_generales_2026?apartado=candidaturas",
+            "localizacion": "Sin relación de coaliciones publicada a 15-10-2026",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "El PP designó el 8 de octubre de 2026 su comité de campaña, con Miguel Tellado como director de campaña y Alma Ezcurra como responsable del programa electoral.",
+        "tipo": "hecho",
+        "fecha": "2026-10-08",
+        "fuentes": [
+          {
+            "titulo": "Comité de campaña - Elecciones 29N",
+            "emisor": "Partido Popular",
+            "tipo": "partido",
+            "url": "https://www.pp.es/wp-content/uploads/2026/10/COMITE-CAMPANA.pdf",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Feijóo elige a la leonesa Ester Muñoz como portavoz de campaña",
+            "emisor": "Diario de León",
+            "tipo": "medio",
+            "url": "https://www.diariodeleon.es/nacional/261008/2099663/elecciones-generales-leon-2026-feijoo-elige-leonesa-ester-munoz-portavoz-campana.html",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido de centroderecha que combina posiciones liberales en economía (rebajas de impuestos, menos regulación), conservadoras en materia institucional y de seguridad, y defensa de la unidad nacional dentro del Estado autonómico. Es miembro del Partido Popular Europeo.",
+    "autodefinicion": {
+      "texto": "La Ponencia Política de 2025 define al PP como «un partido de centro-reformista que aspira a ser la casa común de liberales, democristianos y conservadores».",
+      "tipo": "declaracion",
+      "fecha": "2025-07",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política Partido Popular 2025",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+          "localizacion": "«Principios y valores», p. 8",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [
+      {
+        "texto": "En la encuesta de expertos Chapel Hill (CHES 2024) el PP obtiene una puntuación media de 7,19 en la escala de ideología general de 0 (extrema izquierda) a 10 (extrema derecha) y está clasificado en la familia «Conservatives».",
+        "tipo": "interpretacion",
+        "fecha": "2025-02",
+        "fuentes": [
+          {
+            "titulo": "2024 Chapel Hill Expert Survey (CHES), conjunto de datos CHES_2024_final_v2 y codebook (Rovny, Bakker, Hooghe et al., Electoral Studies 97, 2025)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://www.chesdata.eu/ches-europe",
+            "localizacion": "Variables lrgen (escala 0-10) y family; partido PP, party_id 502",
+            "fecha_documento": "2025-02",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "La Ponencia de 2025 se declara a favor del Estado autonómico frente a la «demagogia recentralizadora» y de una mayor integración europea; la clasificación CHES refleja el juicio agregado de politólogos, no una medida objetiva."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Partido Popular (PP)",
+      "votos": 8160837,
+      "porcentaje": 33.06,
+      "escanos_congreso": 137,
+      "escanos_senado": 120,
+      "nota": "Porcentaje calculado sobre votos válidos (24.688.087) del Cuadro I. Senado: senadores elegidos por sufragio directo según la relación de proclamados; no incluye senadores de designación autonómica. En Navarra el PP concurrió por separado de UPN (57.134 votos, 1 escaño).",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "eleccion": "europeas-2024",
+      "candidatura": "Partido Popular",
+      "votos": 5996627,
+      "porcentaje": 34.21,
+      "nota": "22 de 61 escaños en el Parlamento Europeo. Porcentaje calculado sobre votos válidos (17.527.438).",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (total estatal)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Ha gobernado España en dos etapas: 1996-2004 (José María Aznar) y 2011-2018 (Mariano Rajoy).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Historia",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/historia/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La investidura de Alberto Núñez Feijóo fracasó: obtuvo 172 votos a favor y 178 en contra el 27 de septiembre de 2023, y 172 a favor, 177 en contra y un voto nulo el 29 de septiembre. Votaron a favor PP, Vox, UPN y Coalición Canaria.",
+      "tipo": "hecho",
+      "fecha": "2023-09-29",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 5 (27-09-2023): votación de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "localizacion": "p. 48",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 6 (29-09-2023): segunda votación de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-6.PDF",
+          "localizacion": "p. 24",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Alberto Núñez Feijóo no consigue superar la investidura",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/segunda-votacion-debate-investidura-alberto-nunez-feijoo/",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El PP votó en contra de la investidura de Pedro Sánchez, aprobada el 16 de noviembre de 2023 con 179 votos a favor y 171 en contra (PP, Vox y UPN).",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16-11-2023): votación de investidura de Pedro Sánchez Pérez-Castejón",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "p. 50",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Pedro Sánchez, investido presidente con 179 votos",
+          "emisor": "Diari de Tarragona",
+          "tipo": "medio",
+          "url": "https://www.diaridetarragona.com/internacional/175840/pedro-sanchez-investido-presidente-con-179-votos-al17582244.html",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El PP votó en contra de la ley de amnistía, aprobada definitivamente por el Congreso el 30 de mayo de 2024 por 177 votos a favor y 172 en contra (PP, Vox, UPN y Coalición Canaria).",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "Ley de amnistía: cambios, enmiendas y votaciones en el Congreso",
+          "emisor": "Maldita.es",
+          "tipo": "medio",
+          "url": "https://maldita.es/malditateexplica/20240530/cambios-enmiendas-ley-amnistia-votacion-congreso/",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El tortuoso camino de la ley de amnistía hasta su aprobación",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2024/05/30/tortuoso-camino-ley-amnistia-aprobacion-8297795.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 el PP votó en contra de la convalidación de los reales decretos-ley de vivienda 26/2026 y 27/2026, que el Congreso derogó; el primero cayó por 178 votos en contra (PP, Vox, Junts y UPN) y 172 a favor.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Congreso rechaza el decreto de medidas de vivienda con los votos de PP, Vox, Junts y UPN",
+          "emisor": "Europa Press (reproducido por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/america/agencias/2026/10/02/el-congreso-rechaza-el-decreto-de-medidas-de-vivienda-con-los-votos-de-pp-vox-junts-y-upn/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Los votos de PP, Vox y Junts tumban los dos decretos ley de vivienda aprobados el martes en el Consejo de Ministros",
+          "emisor": "Civio",
+          "tipo": "medio",
+          "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/02/decretos-ley-vivienda-derogacion-congreso/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "En Navarra, PP y UPN concurrieron juntos a las elecciones generales durante décadas (con integración orgánica entre 1991 y 2008), hasta que en 2023 se presentaron por separado tras la ruptura derivada de la votación de la reforma laboral.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+            "emisor": "Noticias de Navarra",
+            "tipo": "medio",
+            "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según El Independiente, en 2026 el PP cerró pactos de gobierno con Vox en Extremadura, Aragón y Castilla y León.",
+        "tipo": "hecho",
+        "fecha": "2026-06-20",
+        "fuentes": [
+          {
+            "titulo": "Fuera complejos: Feijóo normaliza un Gobierno de coalición con Abascal",
+            "emisor": "El Independiente",
+            "tipo": "medio",
+            "url": "https://www.elindependiente.com/espana/2026/06/20/fuera-complejos-feijoo-normaliza-un-gobierno-de-coalicion-con-abascal/",
+            "fecha_documento": "2026-06-20",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "En junio de 2026, Feijóo declaró en El Hormiguero (Antena 3): «Quiero gobernar en solitario […] Ahora bien, yo voy a aceptar, cómo no, el resultado de las urnas», y añadió que, si no le dan los números, «nos sentaremos y haremos una coalición de gobierno de acuerdo con los principios básicos de nuestros partidos».",
+        "tipo": "declaracion",
+        "fecha": "2026-06-17",
+        "fuentes": [
+          {
+            "titulo": "Fuera complejos: Feijóo normaliza un Gobierno de coalición con Abascal",
+            "emisor": "El Independiente",
+            "tipo": "medio",
+            "url": "https://www.elindependiente.com/espana/2026/06/20/fuera-complejos-feijoo-normaliza-un-gobierno-de-coalicion-con-abascal/",
+            "fecha_documento": "2026-06-20",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Feijóo abre la puerta a un Gobierno de coalición con Vox: «Nos sentaremos y negociaremos, pero con líneas rojas»",
+            "emisor": "Vozpópuli",
+            "tipo": "medio",
+            "url": "https://www.vozpopuli.com/espana/feijoo-abre-la-puerta-a-un-gobierno-de-coalicion-con-vox-nos-sentaremos-y-haremos-una-coalicion-de-gobierno-pero-con-lineas-rojas.html",
+            "fecha_documento": "2026-06-18",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "La Ponencia Política de 2025 rechaza «cordones arbitrarios» y fija que «la defensa del Estado, la Nación y el Orden Constitucional» serán «objetivo irrenunciable de cualquier pacto de gobierno».",
+        "tipo": "declaracion",
+        "fecha": "2025-07",
+        "fuentes": [
+          {
+            "titulo": "Ponencia Política Partido Popular 2025",
+            "emisor": "Partido Popular",
+            "tipo": "partido",
+            "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+            "localizacion": "«La política», p. 16",
+            "fecha_documento": "2025-07",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según Europa Press, en junio de 2026 el PP votó en el Congreso contra una moción de Vox que pedía aplicar la «prioridad nacional» en el acceso a vivienda protegida y ayudas al alquiler.",
+        "tipo": "hecho",
+        "fecha": "2026-06-18",
+        "fuentes": [
+          {
+            "titulo": "El PP rechaza en el Congreso la propuesta de Vox de exigir la prioridad nacional en ayudas para vivienda",
+            "emisor": "Europa Press (reproducido por Bolsamanía)",
+            "tipo": "medio",
+            "url": "https://www.bolsamania.com/noticias/empresas/economia--el-pp-rechaza-en-el-congreso-la-propuesta-de-vox-de-exigir-la-prioridad-nacional-en-ayudas-para-vivienda--22776272.html",
+            "fecha_documento": "2026-06-18",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "url": "https://www.pp.es/actualidad/documentos/",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Ponencia Política del XXI Congreso (julio de 2025) con medidas identificables por áreas",
+      "Compromisos de campaña publicados en octubre de 2026: revalorización de pensiones con el IPC, IVA del 0 % en productos básicos, deflactación del IRPF, objetivo de un millón de viviendas",
+      "Acuerdo de coalición con UPN en Navarra (13-10-2026)"
+    ],
+    "sin_desarrollar": [
+      "Coste y financiación de las rebajas fiscales anunciadas",
+      "Calendario y instrumentos del objetivo de un millón de viviendas"
+    ],
+    "pendiente": [
+      "Programa electoral 2026 (en elaboración bajo la coordinación de Alma Ezcurra)",
+      "Listas electorales (presentación del 21 al 26 de octubre)",
+      "Forma definitiva de la concurrencia con el PAR en Aragón"
+    ]
+  },
+  "rol_gobierno": "opcion_presidencia",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Comprobar el 16-17 de octubre la relación oficial de coaliciones de la JEC (UPN-PP y posible acuerdo con el PAR). Color de gráfico convencional, a validar por diseño."
+  }
+}

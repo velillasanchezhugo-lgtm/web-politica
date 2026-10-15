@@ -1,0 +1,46 @@
+{
+  "id": "pp-economia-1",
+  "partido": "pp",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "Rebajas fiscales: IVA del 0 % en productos básicos, menos impuestos a combustibles y luz y deflactación del IRPF",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "En su argumentario de campaña de octubre de 2026, el PP afirma que Feijóo aplicará un IVA del 0 % a los productos básicos, una reducción de la fiscalidad de los combustibles y la luz y la deflactación del IRPF para que la inflación no eleve la carga fiscal sobre los salarios. Según el partido, el objetivo es compensar la subida de precios.",
+  "que_cambiaria": "Reduciría los tipos de IVA aplicables a determinados bienes y ajustaría a la inflación la tarifa y mínimos del IRPF; el documento no detalla qué productos ni qué porcentajes.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Hacienda general es competencia del Estado (art. 149.1.14.ª CE). El IVA está armonizado en la normativa de la UE; el IRPF tiene un tramo autonómico, por lo que una deflactación estatal afectaría al tramo estatal."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "detalle": "Medida anunciada en una hoja de argumentario de campaña, no en un programa electoral; queda pendiente su concreción en el programa de 2026.",
+  "fuentes": [
+    {
+      "titulo": "Hablemos Claro: «Su cohete, nuestro bolsillo» (hoja de argumentario de campaña, 15 de octubre)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2026/10/2026-10-14-HC-SU-COHETE-NUESTRO-BOLSILLO.pdf",
+      "localizacion": "Apartado «Con Sánchez vivimos peor» y «Pensiones: el Gobierno miente»",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

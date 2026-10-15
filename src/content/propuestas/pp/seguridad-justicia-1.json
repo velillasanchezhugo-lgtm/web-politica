@@ -1,0 +1,44 @@
+{
+  "id": "pp-seguridad-justicia-1",
+  "partido": "pp",
+  "tema": "seguridad-justicia",
+  "eleccion": "generales-2026",
+  "titulo": "Que los jueces elijan a los vocales judiciales del CGPJ y reforma del indulto",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 defiende modificar el sistema de elección del Consejo General del Poder Judicial «para que los jueces elijan a los jueces», limitar durante dos años el regreso a la jurisdicción de jueces y fiscales que hayan ocupado cargos políticos, reformar el indulto para prohibirlo en delitos de terrorismo, corrupción, contra la integridad territorial y contra menores, y exigir mayoría de dos tercios del Congreso cuando el beneficiario sea un cargo político. También propone endurecer las penas por malversación y multirreincidencia.",
+  "que_cambiaria": "Supondría reformar la Ley Orgánica del Poder Judicial, la ley reguladora del indulto y el Código Penal.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Administración de Justicia y legislación penal son competencias del Estado (art. 149.1.5.ª y 6.ª CE); el derecho de gracia se ejerce «con arreglo a la ley» (art. 62.i CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Las instituciones y los poderes del Estado», pp. 18-19; «Libertad y Seguridad», p. 21",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

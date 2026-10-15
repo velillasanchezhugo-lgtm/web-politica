@@ -1,0 +1,24 @@
+{
+  "termino": "Ley ordinaria",
+  "definicion": "Ley que regula cualquier materia no reservada a la ley orgánica. Se aprueba por mayoría simple en el Congreso; si el Senado la veta, el Congreso puede superar el veto por mayoría absoluta o, pasados dos meses, por mayoría simple.",
+  "relacionados": [
+    "ley-organica",
+    "mayoria-simple",
+    "proyecto-y-proposicion-de-ley"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 79.2 y 90",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

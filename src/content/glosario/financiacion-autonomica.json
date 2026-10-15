@@ -1,0 +1,33 @@
+{
+  "termino": "Financiación autonómica",
+  "definicion": "Sistema por el que las comunidades autónomas obtienen recursos para sus competencias: impuestos cedidos total o parcialmente por el Estado, tributos propios, transferencias y operaciones de crédito, entre otros. Lo regulan la Constitución, la LOFCA y los Estatutos, salvo los regímenes forales del País Vasco y Navarra.",
+  "relacionados": [
+    "comunidad-autonoma",
+    "regimen-foral",
+    "presupuestos-generales-del-estado"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 156 a 158",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166",
+      "localizacion": "Artículos 1 y 2",
+      "fecha_documento": "1980-09-22",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

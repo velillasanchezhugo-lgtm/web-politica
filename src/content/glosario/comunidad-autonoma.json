@@ -1,0 +1,25 @@
+{
+  "termino": "Comunidad autónoma",
+  "definicion": "Entidad territorial con autonomía política, sus propias instituciones (parlamento y gobierno) y las competencias que asume en su Estatuto de Autonomía. La Constitución reconoce el derecho a la autonomía de las nacionalidades y regiones y organiza el Estado en municipios, provincias y comunidades autónomas.",
+  "relacionados": [
+    "competencia-exclusiva-y-compartida",
+    "financiacion-autonomica",
+    "articulo-155",
+    "regimen-foral"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 2, 137 y 143",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

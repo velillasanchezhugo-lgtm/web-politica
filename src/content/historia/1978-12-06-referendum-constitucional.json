@@ -1,0 +1,54 @@
+{
+  "id": "1978-12-06-referendum-constitucional",
+  "fecha": "1978-12-06",
+  "titulo": "Referéndum de ratificación de la Constitución",
+  "categorias": [
+    "reformas-institucionales"
+  ],
+  "resumen": "El 6 de diciembre de 1978 el electorado ratificó en referéndum el proyecto de Constitución aprobado por las Cortes el 31 de octubre.",
+  "contexto": "El texto se elaboró a partir del trabajo de una ponencia de siete diputados de distintos grupos, creada en agosto de 1977, y se debatió en el Congreso, el Senado y una Comisión Mixta. El 31 de octubre de 1978 ambas Cámaras aprobaron el dictamen final: en el Congreso, con 325 votos a favor, 6 en contra y 14 abstenciones; en el Senado, con 226 a favor, 5 en contra y 8 abstenciones.",
+  "consecuencias": [
+    {
+      "texto": "Según el Congreso, el proyecto fue aprobado por el 87,78 % de los votantes, que representaban el 58,97 % del censo electoral.",
+      "tipo": "hecho",
+      "fecha": "1978-12-06",
+      "fuentes": [
+        {
+          "titulo": "Elaboración y aprobación de la Constitución",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/elaboracionyaprobacion",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Rey sancionó la Constitución en sesión conjunta de las Cortes el 27 de diciembre de 1978.",
+      "tipo": "hecho",
+      "fecha": "1978-12-27",
+      "fuentes": [
+        {
+          "titulo": "Elaboración y aprobación de la Constitución",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/elaboracionyaprobacion",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Elaboración y aprobación de la Constitución",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/elaboracionyaprobacion",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

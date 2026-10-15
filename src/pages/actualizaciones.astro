@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import Quick from '../components/Quick.astro';
+import { getCollection } from 'astro:content';
+import { fechaLarga } from '../lib/content';
+const items = (await getCollection('actualizaciones')).sort((a, b) => b.data.fecha.localeCompare(a.data.fecha));
+const tipos = { contenido: 'Contenido', correccion: 'Corrección', dato_oficial: 'Dato oficial' } as const;
+---
+<Base title="Registro de actualizaciones" description="Qué hemos añadido, corregido o actualizado y cuándo. Fechas reales de cada cambio, sin renovaciones automáticas." crumbs={[{ label: 'Actualizaciones' }]}>
+  <div class="wrap read">
+    <h1>Registro de actualizaciones</h1>
+    <Quick items={['Cada entrada tiene la fecha real del cambio. No renovamos fechas para aparentar actualidad.', 'Las correcciones se señalan como tales. Ver la política de correcciones.']} />
+    <ol class="upd" role="list">
+      {items.map((u) => (
+        <li>
+          <p class="small muted" style="margin:0"><time datetime={u.data.fecha}>{fechaLarga(u.data.fecha)}</time> · <span class={`badge ${u.data.tipo === 'correccion' ? 'warn' : 'neutral'}`}>{tipos[u.data.tipo]}</span></p>
+          <h2>{u.data.enlace_interno ? <a href={u.data.enlace_interno}>{u.data.titulo}</a> : u.data.titulo}</h2>
+          <p>{u.data.descripcion}</p>
+          {u.data.fuentes.length > 0 && <p class="src-inline">Fuente: {u.data.fuentes.map((f, i) => <>{i > 0 && '; '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}</a></>)}</p>}
+        </li>
+      ))}
+    </ol>
+    {items.length === 0 && <p class="muted">Sin entradas.</p>}
+  </div>
+</Base>
+<style>
+  .upd { list-style: none; padding: 0; }
+  .upd li { border-bottom: 1px solid var(--line); padding: 1rem 0; }
+  .upd h2 { font-size: 1.15rem; margin: 0.3rem 0; }
+</style>

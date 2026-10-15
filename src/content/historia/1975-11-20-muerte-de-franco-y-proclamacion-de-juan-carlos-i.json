@@ -1,0 +1,87 @@
+{
+  "id": "1975-11-20-muerte-de-franco-y-proclamacion-de-juan-carlos-i",
+  "fecha": "1975-11-20",
+  "titulo": "Muerte de Franco y proclamación de Juan Carlos I como Rey",
+  "categorias": [
+    "elecciones-gobiernos",
+    "reformas-institucionales"
+  ],
+  "resumen": "El jefe del Estado, Francisco Franco, murió el 20 de noviembre de 1975. Dos días después, el 22 de noviembre, Juan Carlos de Borbón fue proclamado Rey ante las Cortes.",
+  "contexto": "El mismo 20 de noviembre, el Consejo de Regencia asumió provisionalmente los poderes de la Jefatura del Estado en nombre del sucesor, conforme a la Ley de Sucesión, y declaró luto nacional. La proclamación del nuevo Rey se produjo dentro del marco institucional de la dictadura; el desmantelamiento de ese marco se abordaría en los meses siguientes.",
+  "consecuencias": [
+    {
+      "texto": "El Decreto 2940/1975 concedió un indulto general con motivo de la proclamación del Rey, aplicable a hechos cometidos antes del 22 de noviembre de 1975.",
+      "tipo": "hecho",
+      "fecha": "1975-11-25",
+      "fuentes": [
+        {
+          "titulo": "Decreto 2940/1975, de 25 de noviembre, de indulto general",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1975-24188",
+          "localizacion": "Artículo primero",
+          "fecha_documento": "1975-11-26",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según la biografía oficial de la Casa Real, en su primer mensaje ante las Cortes el Rey expresó como ideas básicas de su reinado restablecer la democracia y ser el Rey de todos los españoles.",
+      "tipo": "declaracion",
+      "fecha": "1975-11-22",
+      "fuentes": [
+        {
+          "titulo": "Biografía de Su Majestad el Rey Don Juan Carlos",
+          "emisor": "Casa de S.M. el Rey",
+          "tipo": "oficial",
+          "url": "https://www.casareal.es/ES/FamiliaReal/rey/Paginas/rey_biografia.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 3 de julio de 1976 el Rey nombró presidente del Gobierno a Adolfo Suárez, cuyo Gobierno se comprometió a celebrar elecciones democráticas antes del 30 de junio de 1977.",
+      "tipo": "hecho",
+      "fecha": "1976-07-03",
+      "fuentes": [
+        {
+          "titulo": "Las Cortes Constituyentes. Ley para la Reforma Política y elecciones generales de 15 de junio de 1977",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Decreto 2939/1975, de 20 de noviembre, por el que se declara Luto Nacional y se disponen las honras fúnebres con motivo del fallecimiento del Jefe del Estado",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1975-23879",
+      "fecha_documento": "1975-11-20",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Decreto 2940/1975, de 25 de noviembre, por el que se concede indulto general con motivo de la proclamación de Su Majestad don Juan Carlos de Borbón como Rey de España",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1975-24188",
+      "fecha_documento": "1975-11-26",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Biografía de Su Majestad el Rey Don Juan Carlos",
+      "emisor": "Casa de S.M. el Rey",
+      "tipo": "oficial",
+      "url": "https://www.casareal.es/ES/FamiliaReal/rey/Paginas/rey_biografia.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

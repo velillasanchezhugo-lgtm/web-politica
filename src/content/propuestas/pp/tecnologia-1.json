@@ -1,0 +1,44 @@
+{
+  "id": "pp-tecnologia-1",
+  "partido": "pp",
+  "tema": "tecnologia",
+  "eleccion": "generales-2026",
+  "titulo": "Limitar el acceso de menores a redes sociales y no frenar la IA con «regulaciones excesivas»",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 considera necesario someter a mayor control el acceso de los menores a internet y redes sociales y, «si es preciso», restringirlo; a la vez, defiende que el avance de la inteligencia artificial no se entorpezca con «regulaciones excesivas» y que se refuerce la conexión entre empresas y centros de investigación.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "La regulación de servicios digitales e inteligencia artificial combina normativa de la UE y legislación estatal; las telecomunicaciones son competencia estatal (art. 149.1.21.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«La infancia», p. 29; «Apoyar a los que arriesgan», p. 35",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

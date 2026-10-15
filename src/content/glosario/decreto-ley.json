@@ -1,0 +1,24 @@
+{
+  "termino": "Decreto-ley",
+  "definicion": "Norma con rango de ley que el Gobierno puede dictar en casos de «extraordinaria y urgente necesidad». Se aplica desde su publicación, pero el Congreso debe convalidarla o derogarla en 30 días. No puede afectar a las instituciones básicas del Estado, a los derechos del Título I, al régimen de las comunidades autónomas ni al derecho electoral general.",
+  "relacionados": [
+    "convalidacion",
+    "consejo-de-ministros",
+    "diputacion-permanente"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 86",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

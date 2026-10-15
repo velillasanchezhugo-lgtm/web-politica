@@ -1,0 +1,42 @@
+{
+  "termino": "Artículo 155",
+  "definicion": "Precepto de la Constitución que permite al Gobierno, si una comunidad autónoma incumple gravemente sus obligaciones o atenta gravemente contra el interés general y no atiende un requerimiento previo, adoptar las medidas necesarias para obligarla. Necesita la aprobación del Senado por mayoría absoluta.",
+  "ejemplo": "El 27 de octubre de 2017 el Pleno del Senado aprobó por mayoría absoluta las medidas que pidió el Gobierno respecto de la Generalitat de Cataluña.",
+  "relacionados": [
+    "senado",
+    "comunidad-autonoma",
+    "mayoria-absoluta"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 155",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Senado (texto refundido, consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-10830",
+      "localizacion": "Artículo 189",
+      "fecha_documento": "1994-05-03",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 27 de octubre de 2017, de la Presidencia del Senado, por la que se publica el Acuerdo del Pleno del Senado por el que se aprueban las medidas requeridas por el Gobierno, al amparo del artículo 155 de la Constitución",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12327",
+      "fecha_documento": "2017-10-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "termino": "Mayoría absoluta",
+  "definicion": "Más de la mitad de todos los miembros de una cámara, voten o no. En el Congreso son 176 de 350 diputados. La exigen, entre otras, la primera votación de investidura, la moción de censura y la votación final de las leyes orgánicas.",
+  "ejemplo": "Con 175 votos a favor y ningún voto en contra no se alcanza la mayoría absoluta del Congreso.",
+  "relacionados": [
+    "mayoria-simple",
+    "investidura",
+    "mocion-de-censura",
+    "ley-organica"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 81.2, 99.3 y 113.1",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

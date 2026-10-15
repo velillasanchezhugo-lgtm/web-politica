@@ -1,0 +1,43 @@
+{
+  "id": "pp-economia-2",
+  "partido": "pp",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "Reforma tributaria con «impuestos bajos» y «derecho al error» del contribuyente",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia Política de 2025 plantea una reforma fiscal para un sistema «más sencillo» y «más justo», con impuestos bajos en especial para rentas modestas, jóvenes, familias y clases medias, e incorporar al ordenamiento tributario el «derecho al error» para reducir las consecuencias de errores en las declaraciones. También propone suprimir tres normas por cada nueva regulación.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación tributaria general es competencia del Estado (art. 149.1.14.ª CE); las comunidades tienen capacidad normativa sobre tributos cedidos."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Gastar bien y aliviar la carga fiscal», p. 42; «No al exceso de burocracia», p. 35",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

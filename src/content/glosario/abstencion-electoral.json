@@ -1,0 +1,33 @@
+{
+  "termino": "Abstención (en unas elecciones)",
+  "definicion": "No acudir a votar. En España votar no es obligatorio y nadie puede ser obligado a votar ni a revelar su voto. La abstención no se suma a ninguna candidatura ni cuenta para la barrera del 3 %.",
+  "relacionados": [
+    "voto-en-blanco",
+    "voto-nulo",
+    "barrera-electoral",
+    "abstencion-parlamentaria"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 5 y 163.1",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "29N: guía básica sobre las elecciones generales y el proceso electoral",
+      "emisor": "La Moncloa (Ministerio del Interior)",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/guia-dudas-elecciones-generales-29n.aspx",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

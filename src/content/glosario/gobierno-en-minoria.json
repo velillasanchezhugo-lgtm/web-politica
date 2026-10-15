@@ -1,0 +1,25 @@
+{
+  "termino": "Gobierno en minoría",
+  "definicion": "Gobierno cuyos partidos no suman por sí solos la mayoría absoluta del Congreso (176 escaños). Puede ser investido en la segunda votación con mayoría simple, pero necesita apoyos de otros grupos, votación a votación, para aprobar leyes, Presupuestos o convalidar decretos-leyes.",
+  "relacionados": [
+    "mayoria-absoluta",
+    "acuerdo-de-investidura",
+    "coalicion-de-gobierno"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 81, 86, 99.3 y 134",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Término descriptivo de uso común, sin definición legal propia; se apoya en los preceptos citados."
+  }
+}

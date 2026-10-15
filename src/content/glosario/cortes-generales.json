@@ -1,0 +1,24 @@
+{
+  "termino": "Cortes Generales",
+  "definicion": "Parlamento de España, formado por el Congreso de los Diputados y el Senado. Representan al pueblo español, ejercen la potestad legislativa, aprueban los Presupuestos y controlan al Gobierno.",
+  "relacionados": [
+    "congreso-de-los-diputados",
+    "senado",
+    "legislatura"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 66",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

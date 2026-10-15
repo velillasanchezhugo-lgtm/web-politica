@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-10-02",
+  "titulo": "El Congreso deroga los decretos-leyes de vivienda 26/2026 y 27/2026",
+  "descripcion": "En la sesión del 2 de octubre, el Congreso de los Diputados acuerda derogar, conforme al artículo 86.2 de la Constitución, dos decretos-leyes del 29 de septiembre. El Real Decreto-ley 26/2026 trataba sobre la función social de la vivienda y la oferta de vivienda asequible; el 27/2026, sobre la estabilidad de los contratos de alquiler de vivienda habitual. El BOE publica ambos acuerdos ese mismo día (núm. 245).",
+  "fuentes": [
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026, de 29 de septiembre",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "localizacion": "Texto íntegro",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026, de 29 de septiembre",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+      "localizacion": "Texto íntegro",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "tipo": "dato_oficial"
+}

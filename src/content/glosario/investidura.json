@@ -1,0 +1,36 @@
+{
+  "termino": "Investidura",
+  "definicion": "Votación en la que el Congreso de los Diputados otorga su confianza al candidato a presidente del Gobierno propuesto por el Rey. En la primera votación necesita mayoría absoluta (176 de 350) y, si no la logra, en otra votación 48 horas después le basta la mayoría simple.",
+  "ejemplo": "Si un candidato obtiene 171 votos a favor y 170 en contra, no es investido en la primera votación, pero sí en la segunda.",
+  "relacionados": [
+    "mayoria-absoluta",
+    "mayoria-simple",
+    "acuerdo-de-investidura",
+    "disolucion",
+    "gobierno-en-funciones"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 99",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 170 a 172",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-06-disolucion-de-las-cortes-y-convocatoria-electoral",
+  "fecha": "2026-10-06",
+  "titulo": "Disolución de las Cortes y convocatoria de elecciones para el 29 de noviembre de 2026",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "El Real Decreto 806/2026, de 5 de octubre, publicado en el BOE del 6 de octubre, disolvió el Congreso y el Senado elegidos el 23 de julio de 2023 y convocó elecciones generales para el domingo 29 de noviembre de 2026.",
+  "contexto": "La disolución se acordó a propuesta del presidente del Gobierno, previa deliberación del Consejo de Ministros, conforme al artículo 115 de la Constitución y al artículo 42.1 de la LOREG. Pone fin a la XV Legislatura.",
+  "consecuencias": [
+    {
+      "texto": "La campaña electoral durará quince días, del viernes 13 al viernes 27 de noviembre de 2026.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículo 4",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las Cámaras resultantes celebrarán sus sesiones constitutivas el 23 de diciembre de 2026.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículo 5",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

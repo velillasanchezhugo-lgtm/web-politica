@@ -1,0 +1,64 @@
+---
+import Page from '../layouts/Page.astro';
+---
+<Page title="Metodología editorial" description="Cómo seleccionamos partidos, verificamos datos, clasificamos la información y tratamos lo que no encontramos." updated="2026-10-15">
+  <h2>Principios</h2>
+  <ul>
+    <li><strong>Sin propaganda.</strong> No recomendamos el voto, no puntuamos partidos y no calculamos afinidades.</li>
+    <li><strong>Misma vara para todos.</strong> Cada partido tiene la misma estructura de ficha y se verifica con los mismos criterios.</li>
+    <li><strong>Neutralidad no es equidistancia.</strong> No damos por ciertas afirmaciones falsas ni igualamos hechos distintos para parecer equilibrados.</li>
+    <li><strong>Todo con fuente y fecha.</strong> Cada afirmación factual relevante enlaza a una fuente accesible e indica cuándo la consultamos.</li>
+    <li><strong>Lo que falta se dice.</strong> Si no encontramos algo, escribimos «No localizado en las fuentes consultadas» o «Pendiente de publicación». La ausencia de información no equivale a estar en contra.</li>
+  </ul>
+
+  <h2>Tipos de información</h2>
+  <p>Cada dato lleva una etiqueta visible:</p>
+  <ul>
+    <li><span class="badge hecho">Hecho comprobado</span> Algo verificable en una fuente fiable (una ley en el BOE, un resultado oficial, una votación).</li>
+    <li><span class="badge declaracion">Declaración atribuida</span> Lo que alguien dijo, con nombre, fecha y fuente. Que un partido lo afirme no demuestra que sea cierto ni que su efecto esté acreditado.</li>
+    <li><span class="badge interpretacion">Análisis o interpretación</span> Valoración de un autor identificado o de nuestra redacción, con sus fundamentos.</li>
+  </ul>
+  <p>Las propuestas se clasifican además por su estado: <em>compromiso en el programa 2026</em>, <em>posición declarada</em> (documentos, declaraciones o votos recientes), <em>iniciativa presentada</em> o <em>medida ya aprobada</em>. <strong>Nunca presentamos programas de elecciones anteriores como compromisos para 2026.</strong></p>
+  <p>En los costes distinguimos el <em>coste declarado por el partido</em> de la <em>estimación independiente</em> de un organismo o estudio identificado.</p>
+  <p>En «¿Qué podría pasar si gobernara…?» separamos <em>objetivo declarado</em>, <em>efecto estimado por una fuente identificada</em> e <em>hipótesis editorial condicionada</em>. No afirmamos efectos seguros de una victoria electoral ni inventamos cantidades o probabilidades.</p>
+
+  <h2 id="cobertura">Criterio de cobertura de partidos</h2>
+  <p>Tienen ficha completa:</p>
+  <ol>
+    <li>Las candidaturas que obtuvieron al menos un escaño en el Congreso en las elecciones generales del 23 de julio de 2023.</li>
+    <li>Los partidos que formaban parte de una de esas candidaturas, tienen representación propia en el Congreso y concurren en 2026 por separado.</li>
+    <li>Las formaciones de ámbito estatal con representación en el Parlamento Europeo elegida en 2024.</li>
+  </ol>
+  <p>Distinguimos <strong>partido</strong>, <strong>coalición electoral</strong> (la alianza que presenta una lista conjunta) y <strong>grupo parlamentario</strong> (la agrupación de diputados en la Cámara). Los resultados se registran por candidatura, tal como figuran en el BOE, sin contar dos veces la misma lista. El criterio se revisará cuando el BOE publique las candidaturas proclamadas y puede ampliarse con nuevas formaciones relevantes; cualquier cambio se anotará en el <a href="/actualizaciones/">registro</a>.</p>
+
+  <h2>Jerarquía de fuentes</h2>
+  <ol>
+    <li>Fuentes oficiales: BOE, Congreso, Senado, Junta Electoral Central, Ministerio del Interior, Tribunal Constitucional.</li>
+    <li>Estadística y organismos independientes: INE, Eurostat, Banco de España, AIReF, Seguridad Social.</li>
+    <li>Documentos oficiales de los partidos (programas, ponencias, resoluciones).</li>
+    <li>Investigación académica y análisis con metodología explícita.</li>
+    <li>Medios de comunicación solventes, como apoyo para contexto y declaraciones.</li>
+  </ol>
+  <p>No usamos enciclopedias colaborativas ni agregadores sin autoría como fuente citada. Resumimos con palabras propias, enlazamos los documentos completos y respetamos los derechos de autor.</p>
+
+  <h2>Proceso editorial</h2>
+  <ol>
+    <li><strong>Borrador:</strong> se redacta la entrada con sus fuentes.</li>
+    <li><strong>Revisado:</strong> se comprueba cada afirmación contra la fuente original.</li>
+    <li><strong>Publicado:</strong> solo entonces aparece en la web.</li>
+    <li><strong>Desactualizado:</strong> si un dato cambia, se marca con aviso hasta que se sustituye.</li>
+  </ol>
+  <p>Los procesos automáticos pueden avisar de cambios o preparar borradores, pero no publican afirmaciones políticas sin revisión humana. No ofrecemos actualización «en tiempo real»: cada página indica su fecha de revisión.</p>
+  <p>La primera versión del contenido se compiló con ayuda de herramientas de inteligencia artificial que localizaron y resumieron fuentes. Por eso cada afirmación enlaza a su fuente y es revisable.</p>
+
+  <h2>Herramientas</h2>
+  <ul>
+    <li><strong>Comparador:</strong> orden alfabético por defecto, sin puntuaciones. Tu selección solo queda en el enlace (fragmento <code>#…</code>), que no se envía a nuestro servidor.</li>
+    <li><strong>Simulador:</strong> aplica las reglas de los arts. 99 y 113 de la Constitución. Indica siempre el origen de los escaños (resultado oficial o datos del usuario) y no convierte porcentajes nacionales en escaños.</li>
+    <li><strong>Calculadora D’Hondt:</strong> aplica el art. 163 de la LOREG a una sola circunscripción.</li>
+  </ul>
+  <p>Encuestas: no publicamos proyecciones propias. Si en el futuro se recogen encuestas, se identificará la empresa, el medio, las fechas de campo, la muestra y la metodología territorial de su estimación de escaños.</p>
+
+  <h2>Después de las elecciones</h2>
+  <p>Seguiremos la formación de Gobierno, los acuerdos que se firmen y su tramitación legislativa. Una promesa solo se calificará como cumplida o incumplida cuando haya pasado el plazo comprometido y existan datos para evaluarla; mientras tanto figurará como «en tramitación», «sin iniciar» o «no evaluable todavía».</p>
+</Page>

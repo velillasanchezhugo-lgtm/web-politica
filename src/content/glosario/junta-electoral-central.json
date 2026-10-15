@@ -1,0 +1,25 @@
+{
+  "termino": "Junta Electoral Central",
+  "definicion": "Órgano permanente de la Administración electoral, con sede en Madrid, que garantiza la transparencia, objetividad e igualdad del proceso electoral. La forman ocho magistrados del Tribunal Supremo y cinco catedráticos de Derecho, Ciencias Políticas o Sociología, y dicta instrucciones para interpretar la ley electoral.",
+  "ejemplo": "La Instrucción 5/2023 de la Junta Electoral Central exige identificarse al entregar el voto por correo en Correos.",
+  "relacionados": [
+    "mesa-electoral",
+    "escrutinio",
+    "proclamacion-de-candidaturas"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 8 y 9",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

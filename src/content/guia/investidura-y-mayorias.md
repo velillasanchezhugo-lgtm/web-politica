@@ -1,6 +1,6 @@
 ---
 titulo: "Investidura, mayorías y cómo se gobierna"
-descripcion: "Ganar las elecciones no es lo mismo que gobernar. Cómo se elige al presidente, qué mayorías hacen falta para leyes y Presupuestos, y qué son la moción de censura y la cuestión de confianza."
+descripcion: "Ganar no es gobernar: cómo se elige al presidente, qué mayorías piden leyes y Presupuestos, y qué son la moción de censura y la cuestión de confianza."
 orden: 6
 resumen:
   - "El presidente del Gobierno lo elige el Congreso: necesita 176 votos a favor en la primera votación o más síes que noes en la segunda, 48 horas después."

@@ -1,0 +1,33 @@
+{
+  "termino": "Consejo de Ministros",
+  "definicion": "Órgano colegiado del Gobierno, formado por el presidente, los vicepresidentes y los ministros. Aprueba, entre otras cosas, los proyectos de ley, el proyecto de Presupuestos, los decretos-leyes y los reglamentos.",
+  "relacionados": [
+    "decreto-ley",
+    "proyecto-y-proposicion-de-ley",
+    "gobierno-en-funciones"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 98.1",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "localizacion": "Artículo 5",
+      "fecha_documento": "1997-11-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

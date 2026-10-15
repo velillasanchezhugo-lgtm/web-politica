@@ -1,0 +1,24 @@
+{
+  "termino": "Junta de Portavoces",
+  "definicion": "Órgano formado por los portavoces de los grupos parlamentarios bajo la presidencia del Congreso. Sus decisiones se toman por voto ponderado, es decir, cada portavoz pesa tanto como diputados tiene su grupo.",
+  "relacionados": [
+    "grupo-parlamentario",
+    "mesa-del-congreso",
+    "grupo-mixto"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 39",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

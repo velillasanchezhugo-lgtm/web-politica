@@ -1,0 +1,23 @@
+---
+import Page from '../layouts/Page.astro';
+import Pendiente from '../components/Pendiente.astro';
+import { TITULAR } from '../config/titular';
+---
+<Page title="Política de correcciones" description="Cómo pedir una corrección, en qué plazo respondemos y cómo señalamos los cambios." updated="2026-10-15">
+  <h2>Cómo pedir una corrección</h2>
+  <p>Escríbenos a <Pendiente v={TITULAR.email_correcciones} /> indicando:</p>
+  <ol>
+    <li>La dirección de la página.</li>
+    <li>La afirmación que crees errónea.</li>
+    <li>Si es posible, una fuente que la contradiga.</li>
+  </ol>
+  <p>Atendemos por igual las peticiones de lectores, partidos, instituciones y medios. Que una petición venga de un partido no basta para cambiar un dato: necesitamos una fuente verificable.</p>
+  <h2>Qué hacemos</h2>
+  <ul>
+    <li><strong>Errores factuales:</strong> los corregimos lo antes posible y añadimos una entrada de tipo «Corrección» en el <a href="/actualizaciones/">registro de actualizaciones</a>, explicando qué decía antes y qué dice ahora.</li>
+    <li><strong>Datos que han cambiado:</strong> marcamos el contenido como desactualizado hasta sustituirlo.</li>
+    <li><strong>Erratas menores</strong> que no cambian el sentido: se corrigen sin anotación.</li>
+  </ul>
+  <p>No borramos correcciones ni modificamos fechas para ocultar cambios.</p>
+  <p class="small muted">Plazo orientativo de respuesta: <Pendiente v="PENDIENTE: el titular debe fijar un plazo que pueda cumplir (p. ej., 72 horas laborables)" />.</p>
+</Page>

@@ -1,0 +1,24 @@
+{
+  "termino": "Voto nulo",
+  "definicion": "Voto que no es válido y no cuenta para el reparto ni para la barrera: papeleta o sobre no oficial, papeleta sin sobre, papeletas de candidaturas distintas en el mismo sobre, nombres tachados o añadidos, cualquier anotación voluntaria o, en el Senado, más cruces de las permitidas.",
+  "relacionados": [
+    "voto-en-blanco",
+    "lista-cerrada-y-bloqueada",
+    "abstencion-electoral"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículo 96",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

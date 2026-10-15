@@ -1,0 +1,33 @@
+{
+  "termino": "Escrutinio",
+  "definicion": "Recuento de los votos. Primero lo hace cada mesa en público al cerrar la votación (escrutinio de mesa) y después las juntas electorales provinciales revisan las actas y proclaman a los electos (escrutinio general).",
+  "ejemplo": "Según el Ministerio del Interior, el escrutinio general del 29-N se hará del 4 al 7 de diciembre de 2026.",
+  "relacionados": [
+    "mesa-electoral",
+    "junta-electoral-central",
+    "voto-nulo"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 95 a 97 y 108",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "29N: guía básica sobre las elecciones generales y el proceso electoral",
+      "emisor": "La Moncloa (Ministerio del Interior)",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/guia-dudas-elecciones-generales-29n.aspx",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

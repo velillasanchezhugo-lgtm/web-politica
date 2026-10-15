@@ -1,0 +1,21 @@
+---
+import Page from '../layouts/Page.astro';
+import { ADS } from '../config/site';
+---
+<Page title="Financiación y publicidad" description="Cómo se financia la web, qué publicidad mostramos, dónde y con qué límites." updated="2026-10-15">
+  <h2>Cómo nos financiamos</h2>
+  <p>La web se financia con publicidad programática de Google AdSense. No recibimos dinero de partidos, fundaciones vinculadas, candidaturas ni administraciones públicas, ni publicamos contenido patrocinado.</p>
+  <p>Estado actual: {ADS.enabled ? 'la publicidad está activada.' : 'la publicidad está desactivada. Se activará solo cuando estén completos la configuración de la cuenta, el mensaje de consentimiento y estas páginas legales.'}</p>
+  <h2>Reglas de la publicidad</h2>
+  <ul>
+    <li>Cada anuncio lleva la etiqueta «Publicidad» y tiene un espacio reservado para que el contenido no salte al cargarse.</li>
+    <li>No colocamos anuncios dentro de las herramientas (comparador, simulador, calculadora), junto a botones o controles, ni entre una afirmación y su fuente.</li>
+    <li>Pocos anuncios por página, para que se pueda leer y usar todo con comodidad.</li>
+    <li>No pedimos ni incentivamos clics y no compramos tráfico.</li>
+    <li>La publicidad no influye en el contenido. Los anunciantes no eligen ni revisan lo que publicamos.</li>
+  </ul>
+  <h2>Publicidad electoral</h2>
+  <p>Los anuncios los selecciona Google. Si apareciera publicidad de partidos o candidaturas, no supone ningún respaldo por nuestra parte. Puedes avisarnos desde <a href="/contacto/">contacto</a> si un anuncio te parece engañoso o incompatible con estas reglas.</p>
+  <h2>Tus datos y la publicidad</h2>
+  <p>No usamos los partidos que comparas, los temas que consultas ni tus simulaciones para crear perfiles publicitarios ni para ningún otro fin. Esas selecciones se quedan en tu navegador. Más información en <a href="/privacidad/">privacidad</a> y <a href="/cookies/">cookies</a>.</p>
+</Page>

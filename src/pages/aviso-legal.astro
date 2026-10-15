@@ -1,0 +1,24 @@
+---
+import Page from '../layouts/Page.astro';
+import Pendiente from '../components/Pendiente.astro';
+import { TITULAR } from '../config/titular';
+import { SITE } from '../config/site';
+---
+<Page title="Aviso legal" description="Datos del titular de la web y condiciones de uso." updated="2026-10-15">
+  <div class="notice warn small">Plantilla pendiente de completar con los datos del titular y de revisar por un profesional jurídico antes de publicar la web.</div>
+  <h2>Titular</h2>
+  <p>En cumplimiento del artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE):</p>
+  <ul>
+    <li>Titular: <Pendiente v={TITULAR.nombre_o_razon_social} /></li>
+    <li>NIF: <Pendiente v={TITULAR.nif} /></li>
+    <li>Domicilio: <Pendiente v={TITULAR.domicilio} /></li>
+    <li>Correo electrónico: <Pendiente v={TITULAR.email_contacto} /></li>
+    <li>Datos registrales: <Pendiente v={TITULAR.registro_mercantil} /></li>
+  </ul>
+  <h2>Naturaleza del sitio</h2>
+  <p>{SITE.nombre} es un medio informativo independiente. No es una web oficial. Los trámites electorales se realizan exclusivamente en los canales oficiales que enlazamos.</p>
+  <h2>Propiedad intelectual</h2>
+  <p>Los textos, el diseño y el código son de su titular salvo que se indique otra cosa. Los documentos oficiales y de partidos se citan y enlazan; no se reproducen íntegramente. Puedes citar nuestros contenidos con enlace a la página original.</p>
+  <h2>Responsabilidad</h2>
+  <p>Trabajamos para que la información sea exacta y esté actualizada, e indicamos la fecha de revisión de cada contenido. Si encuentras un error, aplica nuestra <a href="/correcciones/">política de correcciones</a>. No respondemos del contenido de las webs externas enlazadas.</p>
+</Page>

@@ -1,0 +1,7 @@
+---
+import { esPendiente } from '../config/titular';
+interface Props { v: string }
+const { v } = Astro.props;
+---
+{esPendiente(v) ? <mark class="pend">[{v}]</mark> : <span>{v}</span>}
+<style>.pend { background: var(--warn-bg); color: var(--warn); padding: 0 0.2rem; border-radius: 3px; font-weight: 600; }</style>

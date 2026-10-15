@@ -1,0 +1,32 @@
+{
+  "termino": "Régimen foral",
+  "definicion": "Régimen especial que la Constitución reconoce a los «territorios forales» por sus derechos históricos. En lo financiero, el País Vasco se rige por el sistema tradicional de concierto económico y Navarra por el convenio económico, que regula su actividad financiera y tributaria y sus aportaciones a las cargas generales del Estado.",
+  "relacionados": [
+    "financiacion-autonomica",
+    "comunidad-autonoma"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Disposición adicional primera",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166",
+      "localizacion": "Disposiciones adicionales primera y segunda",
+      "fecha_documento": "1980-09-22",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

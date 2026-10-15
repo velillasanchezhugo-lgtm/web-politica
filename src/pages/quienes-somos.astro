@@ -1,0 +1,24 @@
+---
+import Page from '../layouts/Page.astro';
+import Pendiente from '../components/Pendiente.astro';
+import { TITULAR } from '../config/titular';
+import { SITE } from '../config/site';
+---
+<Page title="Quiénes somos" description={`Quién está detrás de ${SITE.nombre}, para qué existe y qué no es.`} updated="2026-10-15">
+  <p><strong>{SITE.nombre}</strong> es un proyecto editorial independiente para ayudar a cualquier persona a entender los partidos, comparar sus propuestas y conocer cómo funciona el sistema político español, con vistas a las elecciones generales del 29 de noviembre de 2026.</p>
+  <h2>Qué no somos</h2>
+  <ul>
+    <li>No somos una web oficial ni tenemos relación con el Gobierno, las Cortes, la Junta Electoral o el Ministerio del Interior.</li>
+    <li>No pertenecemos a ningún partido, fundación o candidatura, ni recibimos dinero de ellos.</li>
+    <li>No recomendamos el voto ni calculamos afinidades.</li>
+  </ul>
+  <h2>Responsables</h2>
+  <ul>
+    <li>Titular: <Pendiente v={TITULAR.nombre_o_razon_social} /></li>
+    <li>Responsable de los contenidos: <Pendiente v={TITULAR.responsable_editorial} /></li>
+    <li>Contacto: <Pendiente v={TITULAR.email_contacto} /></li>
+  </ul>
+  <p>No presentamos firmas, expertos ni credenciales que no existan. Cuando una persona revise o firme un contenido, figurará con su nombre real y su función.</p>
+  <h2>Cómo se elabora el contenido</h2>
+  <p>La primera versión de esta web se preparó con ayuda de herramientas de inteligencia artificial para buscar, leer y resumir fuentes oficiales y documentos de los partidos. Cada afirmación enlaza a la fuente de la que procede para que pueda comprobarse. La revisión y la responsabilidad editorial corresponden a las personas responsables indicadas arriba. Detalles en la <a href="/metodologia/">metodología</a>.</p>
+</Page>

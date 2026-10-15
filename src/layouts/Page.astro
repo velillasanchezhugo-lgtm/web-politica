@@ -1,0 +1,13 @@
+---
+import Base from './Base.astro';
+interface Props { title: string; description: string; crumb?: string; updated: string }
+const { title, description, crumb, updated } = Astro.props;
+import { fechaLarga } from '../lib/content';
+---
+<Base title={title} description={description} crumbs={[{ label: crumb ?? title }]}>
+  <article class="wrap read prose">
+    <h1>{title}</h1>
+    <slot />
+    <p class="small muted" style="margin-top:2rem">Texto actualizado el {fechaLarga(updated)}.</p>
+  </article>
+</Base>

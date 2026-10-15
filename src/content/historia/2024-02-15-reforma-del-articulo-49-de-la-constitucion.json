@@ -1,0 +1,64 @@
+{
+  "id": "2024-02-15-reforma-del-articulo-49-de-la-constitucion",
+  "fecha": "2024-02-15",
+  "titulo": "Reforma del artículo 49: personas con discapacidad",
+  "categorias": [
+    "reformas-institucionales",
+    "legislacion"
+  ],
+  "resumen": "Tercera reforma de la Constitución, que sustituyó el término «disminuidos» por «personas con discapacidad» y actualizó el contenido del artículo 49.",
+  "contexto": "La proposición fue presentada conjuntamente por los grupos Popular y Socialista el 29 de diciembre de 2023 y tramitada por urgencia y lectura única. Según el preámbulo de la reforma, recogido por el Congreso, su objetivo era que el lenguaje y el contenido del artículo reflejaran los valores de protección de las personas con discapacidad y la normativa internacional.",
+  "consecuencias": [
+    {
+      "texto": "El Congreso la aprobó el 18 de enero de 2024 con 312 votos a favor y 32 en contra, y el Senado el 25 de enero con 254 a favor y 3 en contra; no se solicitó referéndum.",
+      "tipo": "hecho",
+      "fecha": "2024-01-25",
+      "fuentes": [
+        {
+          "titulo": "Tercera reforma constitucional (artículo 49)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/tercera-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El nuevo artículo 49 establece que las personas con discapacidad ejercen los derechos del Título I en condiciones de libertad e igualdad reales y efectivas.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Reforma del artículo 49 de la Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-3099",
+          "localizacion": "Artículo 49.1",
+          "fecha_documento": "2024-02-17",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Tercera reforma constitucional (artículo 49)",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/w/tercera-reforma-constitucional",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reforma del artículo 49 de la Constitución Española, de 15 de febrero de 2024",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-3099",
+      "fecha_documento": "2024-02-17",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

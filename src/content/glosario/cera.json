@@ -1,0 +1,41 @@
+{
+  "termino": "CERA (censo de electores residentes ausentes)",
+  "definicion": "Censo de los españoles que viven de forma estable en el extranjero. Desde la Ley Orgánica 12/2022 ya no tienen que «rogar» el voto: reciben de oficio la documentación y pueden votar en urna en el consulado o enviar su voto por correo al consulado.",
+  "ejemplo": "Para el 29-N, los electores CERA pueden votar en urna del 21 al 26 de noviembre o enviar el voto por correo al consulado hasta el 24 de noviembre.",
+  "relacionados": [
+    "censo-electoral",
+    "erta",
+    "voto-por-correo"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 31.2 y 75",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 12/2022, de 30 de septiembre, de reforma de la LOREG para la regulación del ejercicio del voto por los españoles que viven en el extranjero",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-16018",
+      "localizacion": "Preámbulo",
+      "fecha_documento": "2022-09-30",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Elecciones a las Cortes Generales de 29 de noviembre de 2026",
+      "emisor": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+      "tipo": "oficial",
+      "url": "https://www.exteriores.gob.es/es/Paginas/Elecciones.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

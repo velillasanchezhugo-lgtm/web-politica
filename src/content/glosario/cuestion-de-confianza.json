@@ -1,0 +1,33 @@
+{
+  "termino": "Cuestión de confianza",
+  "definicion": "Votación que plantea el propio presidente del Gobierno, tras deliberarlo con el Consejo de Ministros, para comprobar si el Congreso apoya su programa o una declaración de política general. Se gana por mayoría simple; si se pierde, el Gobierno dimite y se abre una nueva investidura.",
+  "relacionados": [
+    "mocion-de-censura",
+    "mayoria-simple",
+    "investidura"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 112 y 114.1",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículos 173 y 174",
+      "fecha_documento": "1982-02-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "termino": "Método D'Hondt",
+  "definicion": "Fórmula para repartir los escaños del Congreso en cada circunscripción: los votos de cada candidatura que supera el 3 % se dividen entre 1, 2, 3… hasta el número de escaños, y los escaños se asignan a los cocientes más altos. Si dos cocientes empatan, gana la candidatura con más votos en total.",
+  "ejemplo": "Con 5 escaños y votos A 42.000, B 30.000 y C 16.000, los cocientes más altos son 42.000 (A), 30.000 (B), 21.000 (A), 16.000 (C) y 15.000 (B): A 2, B 2 y C 1 (cifras inventadas).",
+  "relacionados": [
+    "barrera-electoral",
+    "circunscripcion",
+    "escano",
+    "lista-cerrada-y-bloqueada"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículo 163",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

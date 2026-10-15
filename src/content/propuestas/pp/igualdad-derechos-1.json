@@ -1,0 +1,44 @@
+{
+  "id": "pp-igualdad-derechos-1",
+  "partido": "pp",
+  "tema": "igualdad-derechos",
+  "eleccion": "generales-2026",
+  "titulo": "Prisión permanente revisable para reincidentes en violencia machista y revisión de la autodeterminación de género",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 propone endurecer las penas por violencia machista y contra menores y aplicar la prisión permanente revisable a los reincidentes, mejorar la regulación de los delitos sexuales tras la ley conocida como «solo sí es sí», y considera que la autodeterminación de género vigente provoca «inseguridad jurídica»; defiende que el sexo biológico ordene las categorías deportivas femeninas. Afirma que combatirá la LGTBIfobia y rechaza el uso del burka y el nicab.",
+  "que_cambiaria": "Implicaría reformar el Código Penal y la legislación vigente sobre autodeterminación de género.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación penal corresponde al Estado (art. 149.1.6.ª CE), así como las condiciones básicas de igualdad en el ejercicio de derechos (art. 149.1.1.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Ni trabas ni culpas: Igualdad real», pp. 30-32",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

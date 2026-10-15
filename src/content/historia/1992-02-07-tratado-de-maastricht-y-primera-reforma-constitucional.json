@@ -1,0 +1,86 @@
+{
+  "id": "1992-02-07-tratado-de-maastricht-y-primera-reforma-constitucional",
+  "fecha": "1992-02-07",
+  "fecha_fin": "1992-08-27",
+  "titulo": "Tratado de Maastricht y primera reforma de la Constitución",
+  "categorias": [
+    "europa",
+    "reformas-institucionales"
+  ],
+  "resumen": "El 7 de febrero de 1992 se firmó en Maastricht el Tratado de la Unión Europea. Para ratificarlo, España reformó por primera vez su Constitución el 27 de agosto de 1992, añadiendo el sufragio pasivo de los extranjeros en las elecciones municipales (artículo 13.2).",
+  "contexto": "El Tratado reconocía a los ciudadanos de la Unión residentes en otro Estado miembro el derecho a ser electores y elegibles en las elecciones municipales. El Gobierno pidió al Tribunal Constitucional, por la vía del artículo 95.2, que se pronunciara sobre la compatibilidad de esa previsión con la Constitución, que entonces solo permitía el sufragio activo de los extranjeros.",
+  "consecuencias": [
+    {
+      "texto": "En su Declaración 1/1992, de 1 de julio, el Tribunal Constitucional concluyó que la previsión del Tratado era contraria al artículo 13.2 en lo relativo al sufragio pasivo y que debía seguirse el procedimiento de reforma del artículo 167.",
+      "tipo": "hecho",
+      "fecha": "1992-07-01",
+      "fuentes": [
+        {
+          "titulo": "Primera reforma constitucional (artículo 13.2)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/primera-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La proposición de reforma, presentada conjuntamente por todos los grupos parlamentarios del Congreso, se aprobó en el Pleno el 22 de julio de 1992 con 332 votos a favor de 332 emitidos y el Senado la aprobó el 30 de julio sin cambios.",
+      "tipo": "hecho",
+      "fecha": "1992-07-30",
+      "fuentes": [
+        {
+          "titulo": "Primera reforma constitucional (artículo 13.2)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/primera-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La reforma consistió en añadir la expresión «y pasivo» al artículo 13.2 y se publicó en el BOE el 28 de agosto de 1992.",
+      "tipo": "hecho",
+      "fecha": "1992-08-28",
+      "fuentes": [
+        {
+          "titulo": "Primera reforma constitucional (artículo 13.2)",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/w/primera-reforma-constitucional",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Reforma del artículo 13, apartado 2, de la Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1992-20403",
+          "fecha_documento": "1992-08-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Primera reforma constitucional (artículo 13.2)",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/w/primera-reforma-constitucional",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reforma del artículo 13, apartado 2, de la Constitución Española, de 27 de agosto de 1992",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1992-20403",
+      "fecha_documento": "1992-08-28",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

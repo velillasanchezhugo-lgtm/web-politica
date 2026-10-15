@@ -1,0 +1,75 @@
+{
+  "id": "1977-06-15-primeras-elecciones-generales-democraticas",
+  "fecha": "1977-06-15",
+  "titulo": "Elecciones generales de 15 de junio de 1977",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "Primeras elecciones generales por sufragio universal celebradas al amparo de la Ley para la Reforma Política. Unión de Centro Democrático (UCD), encabezada por Adolfo Suárez, fue la candidatura con más votos y escaños, sin mayoría absoluta.",
+  "contexto": "Las elecciones se convocaron por el Real Decreto 679/1977 al amparo de la Ley para la Reforma Política. Concurrieron 586 candidaturas y la participación fue del 79 % del electorado, según el Congreso. Las Cortes elegidas asumieron la tarea de elaborar una Constitución.",
+  "consecuencias": [
+    {
+      "texto": "Según los datos de la Junta Electoral Central recogidos por el Congreso, UCD obtuvo 165 de los 350 escaños del Congreso (34,52 % de los votos), el PSOE 103, Alianza Popular 16 y el PCE 12; Socialistes de Catalunya (PSC-PSOE) obtuvo 15 escaños y el PSUC 8, como candidaturas propias.",
+      "tipo": "hecho",
+      "fecha": "1977-06-15",
+      "fuentes": [
+        {
+          "titulo": "Las Cortes Constituyentes. Ley para la Reforma Política y elecciones generales de 15 de junio de 1977",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El BOE publicó el 5 de julio de 1977 los reales decretos con la composición del nuevo Gobierno de Adolfo Suárez.",
+      "tipo": "hecho",
+      "fecha": "1977-07-05",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: Legislatura Constituyente",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/Legislatura%20Constituyente.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Legislatura Constituyente comenzó oficialmente el 22 de julio de 1977 con la sesión conjunta del Congreso y el Senado.",
+      "tipo": "hecho",
+      "fecha": "1977-07-22",
+      "fuentes": [
+        {
+          "titulo": "Las Cortes Constituyentes. Ley para la Reforma Política y elecciones generales de 15 de junio de 1977",
+          "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+          "tipo": "oficial",
+          "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Las Cortes Constituyentes. Ley para la Reforma Política y elecciones generales de 15 de junio de 1977",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: Legislatura Constituyente",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/Legislatura%20Constituyente.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "termino": "Gobierno en funciones",
+  "definicion": "Gobierno que ha cesado (tras unas elecciones, por pérdida de la confianza del Congreso, o por dimisión o fallecimiento del presidente) y sigue actuando hasta que toma posesión el nuevo. Se limita al despacho ordinario de los asuntos y no puede, por ejemplo, aprobar el proyecto de Presupuestos, presentar proyectos de ley ni proponer la disolución.",
+  "relacionados": [
+    "investidura",
+    "disolucion",
+    "presupuestos-generales-del-estado"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 101",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "localizacion": "Artículo 21",
+      "fecha_documento": "1997-11-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

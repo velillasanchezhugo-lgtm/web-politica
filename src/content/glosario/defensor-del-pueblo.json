@@ -1,0 +1,31 @@
+{
+  "termino": "Defensor del Pueblo",
+  "definicion": "Alto comisionado de las Cortes Generales para defender los derechos del Título I de la Constitución, que puede supervisar la actuación de la Administración. Lo eligen las Cortes por cinco años: hace falta una mayoría de tres quintos en el Congreso y, después, la ratificación del Senado.",
+  "relacionados": [
+    "cortes-generales"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 54",
+      "fecha_documento": "1978-12-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+      "localizacion": "Artículos 1 y 2",
+      "fecha_documento": "1981-04-06",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

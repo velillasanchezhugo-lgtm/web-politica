@@ -1,0 +1,60 @@
+{
+  "id": "pp-pensiones-1",
+  "partido": "pp",
+  "tema": "pensiones",
+  "eleccion": "generales-2026",
+  "titulo": "Revalorizar las pensiones con el IPC y garantizar el sistema público",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Feijóo se comprometió el 13 de octubre de 2026 a revalorizar las pensiones con el IPC para quienes ya las cobran y a garantizar la viabilidad del sistema público para quienes aún no las perciben, mejorando la productividad y reduciendo gasto que considera «superfluo». El argumentario de campaña del 15 de octubre repite que «Feijóo revalorizará las pensiones con el IPC».",
+  "que_cambiaria": "La revalorización anual con el IPC medio ya figura en el artículo 58 de la Ley General de la Seguridad Social; el compromiso supone mantener ese criterio.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación básica y el régimen económico de la Seguridad Social son competencia exclusiva del Estado (art. 149.1.17.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica estimación del coste ni de la financiación a medio plazo del sistema."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Feijóo garantiza el sistema público de pensiones y su revalorización con el IPC",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/actualidad/articulos/feijoo-garantiza-el-sistema-publico-de-pensiones-y-su-revalorizacion-con-el-ipc-el-desahucio-mas-importante-de-espana-es-el-de-pedro-sanchez/",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Hablemos Claro: «Su cohete, nuestro bolsillo» (hoja de argumentario de campaña, 15 de octubre)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2026/10/2026-10-14-HC-SU-COHETE-NUESTRO-BOLSILLO.pdf",
+      "localizacion": "Apartado «Con Sánchez vivimos peor» y «Pensiones: el Gobierno miente»",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto Legislativo 8/2015, Ley General de la Seguridad Social (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "localizacion": "Artículo 58",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "pp-energia-medioambiente-1",
+  "partido": "pp",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Prórroga de las centrales nucleares y Pacto Nacional del Agua",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 apoya prorrogar la vida de las centrales nucleares como complemento de las renovables, desde la «neutralidad tecnológica», y critica el calendario de cierre vigente; plantea una transición climática «ordenada, realista y justa» que no encarezca el coste de la vida y considera «inaplazable» un Pacto Nacional del Agua acordado con todas las comunidades autónomas.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Las bases del régimen energético son estatales (art. 149.1.25.ª CE); el Estado legisla y concede los aprovechamientos de aguas que discurren por más de una comunidad (art. 149.1.22.ª CE); los objetivos climáticos se enmarcan en la normativa de la UE."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Infraestructuras, energía y agua», pp. 39-40",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

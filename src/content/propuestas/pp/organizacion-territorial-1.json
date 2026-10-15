@@ -1,0 +1,45 @@
+{
+  "id": "pp-organizacion-territorial-1",
+  "partido": "pp",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Recuperar el delito de sedición, tipificar el referéndum ilegal y financiación autonómica multilateral",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 propone recuperar el delito de sedición y tipificar en el Código Penal la convocatoria de referéndums ilegales, preservar como no negociables las competencias exclusivas del Estado, aprobar un nuevo sistema de financiación autonómica acordado en el Consejo de Política Fiscal y Financiera con análisis de la AIReF y sin acuerdos bilaterales, y mantener el reconocimiento de las singularidades forales.",
+  "que_cambiaria": "Requeriría una reforma del Código Penal mediante ley orgánica y un nuevo acuerdo y ley de financiación autonómica.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "Legislación penal y Hacienda general son estatales (art. 149.1.6.ª y 14.ª CE); la autorización de referendos es competencia exclusiva del Estado (art. 149.1.32.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«La Nación», pp. 12-14",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

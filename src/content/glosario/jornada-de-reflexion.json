@@ -1,0 +1,30 @@
+{
+  "termino": "Jornada de reflexión",
+  "definicion": "Día anterior a la votación, en el que ya no se puede hacer campaña electoral porque esta termina a las cero horas de ese día. Para el 29-N es el sábado 28 de noviembre de 2026.",
+  "relacionados": [
+    "campana-electoral"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículos 51.3 y 53",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "¿Cómo solicitar el voto por correo en las elecciones generales del 29 de noviembre?",
+      "emisor": "La Moncloa (Ministerio del Interior)",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/voto-por-correo-elecciones-generales-29n.aspx",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

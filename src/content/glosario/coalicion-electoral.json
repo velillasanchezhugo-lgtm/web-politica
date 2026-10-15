@@ -1,0 +1,25 @@
+{
+  "termino": "Coalición electoral",
+  "definicion": "Acuerdo entre partidos o federaciones para presentarse juntos a unas elecciones con una misma candidatura. Debe comunicarse a la junta electoral en los diez días siguientes a la convocatoria; los partidos coaligados no pueden presentar además listas propias en la misma circunscripción.",
+  "ejemplo": "Una coalición electoral no es lo mismo que un grupo parlamentario ni que un Gobierno de coalición.",
+  "relacionados": [
+    "coalicion-de-gobierno",
+    "agrupacion-de-electores",
+    "grupo-parlamentario"
+  ],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "localizacion": "Artículo 44",
+      "fecha_documento": "1985-06-19",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

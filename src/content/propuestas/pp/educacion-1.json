@@ -1,0 +1,44 @@
+{
+  "id": "pp-educacion-1",
+  "partido": "pp",
+  "tema": "educacion",
+  "eleccion": "generales-2026",
+  "titulo": "Contenidos comunes exigentes y prueba de acceso a la universidad común en exigencia",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "La Ponencia de 2025 propone fijar nuevos estándares nacionales de excelencia con contenidos esenciales comunes en toda España, eliminar en diez años la brecha con la OCDE en matemáticas y comprensión lectora, establecer una prueba de acceso a la universidad común «en exigencia y criterios de calificación», proteger la enseñanza concertada y garantizar el derecho a recibir enseñanza en español en todas las etapas.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "El Estado regula las enseñanzas mínimas y los títulos (art. 149.1.30.ª CE); las comunidades gestionan el sistema educativo y la organización de la prueba de acceso."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ponencia Política Partido Popular 2025 (XXI Congreso Nacional)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2025/07/POLITICA_PARTIDOPOPULAR_2025.pdf",
+      "localizacion": "«Educación: libertad, calidad y responsabilidad», pp. 26-28; «El español es la lengua común», p. 15",
+      "fecha_documento": "2025-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148, 149 y 62",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

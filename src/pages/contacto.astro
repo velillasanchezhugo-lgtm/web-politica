@@ -1,0 +1,14 @@
+---
+import Page from '../layouts/Page.astro';
+import Pendiente from '../components/Pendiente.astro';
+import { TITULAR } from '../config/titular';
+---
+<Page title="Contacto" description="Cómo contactar con la redacción: correcciones, sugerencias y protección de datos." updated="2026-10-15">
+  <ul>
+    <li>Contacto general: <Pendiente v={TITULAR.email_contacto} /></li>
+    <li>Correcciones: <Pendiente v={TITULAR.email_correcciones} /> (ver <a href="/correcciones/">política de correcciones</a>)</li>
+    <li>Protección de datos: <Pendiente v={TITULAR.email_privacidad} /></li>
+    <li>Dirección postal: <Pendiente v={TITULAR.domicilio} /></li>
+  </ul>
+  <p>No usamos un formulario para no recoger datos innecesarios. Si escribes, usaremos tu correo solo para responderte.</p>
+</Page>
