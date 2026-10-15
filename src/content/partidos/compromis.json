@@ -434,7 +434,7 @@
   "rol_gobierno": "influencia_parlamentaria",
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "revisado",
-    "notas": "Comprobar el 16-17 de octubre si Compromís ha registrado coalición ante la Junta Electoral y con qué denominación; actualizar candidatura_2026. Naturaleza «coalicion_electoral» elegida por aproximación (coalición permanente no inscrita en el Registro de Partidos). Color de gráfico convencional, a validar por diseño."
+    "estado_editorial": "publicado",
+    "notas": "Comprobar el 16-17 de octubre si Compromís ha registrado coalición ante la Junta Electoral y con qué denominación; actualizar candidatura_2026. Naturaleza «coalicion_electoral» elegida por aproximación (coalición permanente no inscrita en el Registro de Partidos). Color de gráfico convencional, a validar por diseño. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

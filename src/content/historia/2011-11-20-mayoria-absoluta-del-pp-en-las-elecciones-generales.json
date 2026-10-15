@@ -5,8 +5,8 @@
   "categorias": [
     "elecciones-gobiernos"
   ],
-  "resumen": "En las elecciones anticipadas del 20 de noviembre de 2011, celebradas en plena crisis económica, el PP obtuvo mayoría absoluta y Mariano Rajoy fue investido presidente el 20 de diciembre.",
-  "contexto": "El presidente José Luis Rodríguez Zapatero, del PSOE, había adelantado las elecciones. El PSOE presentó como candidato a Alfredo Pérez Rubalcaba.",
+  "resumen": "En las elecciones generales del 20 de noviembre de 2011 el PP obtuvo mayoría absoluta y Mariano Rajoy fue investido presidente el 20 de diciembre.",
+  "contexto": "Las elecciones cerraron la etapa de José Luis Rodríguez Zapatero (PSOE), presidente desde 2004 y reelegido tras las elecciones de 2008.",
   "consecuencias": [
     {
       "texto": "Según la Junta Electoral Central, la candidatura del PP obtuvo 170 escaños, que con sus listas en coalición PP-PAR (8), PP-EU (6) y UPN-PP (2) sumaron 186, por encima de la mayoría absoluta de 176; el PSOE obtuvo 96 y el PSC-PSOE 14 (110 en conjunto).",
@@ -55,11 +55,17 @@
       "tipo": "oficial",
       "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/XLegislatura.aspx",
       "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: IX Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/IXLegislatura.aspx",
+      "fecha_consulta": "2026-10-15"
     }
   ],
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "borrador",
-    "notas": "El candidato del PSOE y el adelanto electoral no se han contrastado con fuente abierta en esta sesión; revisar antes de publicar."
+    "estado_editorial": "publicado"
   }
 }
