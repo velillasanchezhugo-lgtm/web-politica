@@ -1,0 +1,45 @@
+{
+  "id": "frente-amplio-tecnologia-1",
+  "partido": "frente-amplio",
+  "tema": "tecnologia",
+  "eleccion": "generales-2026",
+  "titulo": "Regulación de plataformas e inteligencia artificial, algoritmos abiertos y soberanía digital pública",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar propone reglas claras para las plataformas digitales, abrir el código de los algoritmos en el ámbito laboral, regulaciones que protejan a los trabajadores afectados por la IA generativa, tecnologías libres y abiertas, infraestructuras digitales públicas, un sistema fiscal que grave la economía digital, y garantías de neutralidad de la red y protección de datos, con alternativas digitales europeas.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Telecomunicaciones y legislación laboral son competencias estatales (art. 149.1.21.ª y 7.ª CE); buena parte de la regulación digital (protección de datos, IA, servicios digitales) es normativa de la UE directamente aplicable."
+  },
+  "financiacion": {
+    "nota": "El documento no cuantifica coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 5.3 (pág. 24) y apartado 5.8 «Una democracia moderna ante los retos tecnológicos y la esfera digital» (págs. 35-37)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.7.ª y 21.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

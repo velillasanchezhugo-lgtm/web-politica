@@ -2,12 +2,14 @@
 import Base from '../../layouts/Base.astro';
 import Quick from '../../components/Quick.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { publicados, alfa, ETIQUETAS, fechaLarga, ultimaRevision } from '../../lib/content';
+import { getCollection } from 'astro:content';
+import { publicados, alfa, ETIQUETAS, fechaLarga, ultimaRevision, esPublico } from '../../lib/content';
 
 const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
 const estatales = partidos.filter((p) => p.data.ambito === 'estatal');
 const territoriales = partidos.filter((p) => p.data.ambito === 'territorial');
 const rev = ultimaRevision(partidos);
+const enRevision = (await getCollection('partidos')).filter((p) => !esPublico(p.data)).map((p) => p.data.nombre).sort(alfa);
 ---
 <Base title="Partidos que se presentan a las elecciones generales de 2026" description="Directorio de partidos y coaliciones estatales y territoriales: historia, liderazgo, candidatura, propuestas por temas y pactos, con fuentes y fecha de revisión." crumbs={[{ label: 'Partidos' }]}>
   <div class="wrap">
@@ -20,6 +22,7 @@ const rev = ultimaRevision(partidos);
     <p class="small"><a href="/metodologia/#cobertura">Criterio de cobertura completo</a> · <a href="/candidaturas/">Candidaturas por circunscripción</a>{rev && <> · Última revisión: {fechaLarga(rev)}</>}</p>
 
     {partidos.length === 0 && <div class="notice info">Todavía no hay fichas publicadas.</div>}
+    {enRevision.length > 0 && <p class="notice small">Fichas en revisión editorial, que se publicarán cuando todos sus datos estén verificados: {enRevision.join(', ')}.</p>}
 
     <div class="filter no-print" role="group" aria-label="Filtrar por ámbito">
       <div class="chip-group">

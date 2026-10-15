@@ -4,7 +4,7 @@
   "siglas": "VOX",
   "naturaleza": "partido",
   "ambito": "estatal",
-  "color_grafico": "#63BE21",
+  "color_grafico": "#5AB031",
   "web_oficial": "https://www.voxespana.es/",
   "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
   "resumen": "Vox es un partido de ámbito estatal fundado en 2013 y presidido por Santiago Abascal. Entró en el Congreso en 2019 y fue la tercera fuerza en las generales de 2023, con 33 diputados. Ha formado gobiernos autonómicos de coalición con el PP y para el 29 de noviembre de 2026 ha fijado como ejes de campaña la «prioridad nacional», la «remigración» y la «desregulación».",
@@ -260,10 +260,10 @@
       "eleccion": "generales-2023",
       "candidatura": "VOX (VOX)",
       "votos": 3057000,
-      "porcentaje": 12.48,
+      "porcentaje": 12.38,
       "escanos_congreso": 33,
       "escanos_senado": 0,
-      "nota": "Porcentaje sobre votos a candidaturas (24.487.414), según la JEC; sobre votos válidos sería el 12,38 %.",
+      "nota": "Porcentaje sobre votos válidos (24.688.087), mismo criterio que la colección de escaños; sobre votos a candidaturas, criterio del cuadro de la JEC, es el 12,48 %.",
       "fuentes": [
         {
           "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
@@ -288,8 +288,8 @@
       "eleccion": "europeas-2024",
       "candidatura": "VOX",
       "votos": 1688255,
-      "porcentaje": 9.7,
-      "nota": "6 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos a candidaturas (17.402.783); sobre votos válidos sería el 9,63 %.",
+      "porcentaje": 9.63,
+      "nota": "6 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos válidos (17.527.438); sobre votos a candidaturas sería el 9,70 %.",
       "fuentes": [
         {
           "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
@@ -526,6 +526,6 @@
   "revision": {
     "fecha_revision": "2026-10-15",
     "estado_editorial": "publicado",
-    "notas": "La web oficial voxespana.es devolvió error 403 (bloqueo) durante la consulta: verificar en ella si existe programa 2026, añadir autodefinición desde los estatutos y confirmar cargos. Color de gráfico convencional, a validar por diseño. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
+    "notas": "La web oficial voxespana.es devolvió error 403 (bloqueo) durante la consulta: verificar en ella si existe programa 2026, añadir autodefinición desde los estatutos y confirmar cargos. Color de gráfico alineado con src/content/escanos/generales-2023.json. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

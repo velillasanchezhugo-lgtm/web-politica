@@ -1,0 +1,45 @@
+{
+  "id": "eh-bildu-vivienda-1",
+  "partido": "eh-bildu",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Apoyo a los decretos de vivienda y paso a medidas estructurales (contratos indefinidos, control de precios)",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "EH Bildu votó a favor de los dos decretos de vivienda y los presentó como «un punto de partida, no de llegada». Reclama medidas estructurales: contratos de alquiler indefinidos, protección permanente frente a los desahucios, prohibición de la compra especulativa y una regulación estructural de los precios, y pide que Araba, Bizkaia, Gipuzkoa y Navarra se declaren zonas tensionadas.",
+  "que_cambiaria": "Supondría pasar de la prórroga extraordinaria y temporal de contratos a una duración indefinida y a un control de precios general, frente a la regulación vigente de la Ley 12/2023.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "Los contratos de arrendamiento y su duración son legislación civil estatal (art. 149.1.8.ª CE); la declaración de zonas de mercado tensionado la hacen las administraciones competentes en vivienda (CCAA) conforme a la Ley 12/2023; los ayuntamientos intervienen en urbanismo y vivienda pública."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "EH Bildu apoyará los dos decretos de vivienda y reclama dar el salto a las medidas estructurales: «Es un punto de partida, no de llegada»",
+      "emisor": "EH Bildu",
+      "tipo": "partido",
+      "url": "https://ehbildu.eus/es/noticias/eh-bildu-apoyara-los-dos-decretos-de-vivienda-y-reclama-dar-el-salto-a-las-medidas-estructurales-es-un-punto-de-partida-no-de-llegada",
+      "fecha_documento": "2026-09-30",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

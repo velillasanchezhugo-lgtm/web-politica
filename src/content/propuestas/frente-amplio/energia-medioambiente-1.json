@@ -1,0 +1,46 @@
+{
+  "id": "frente-amplio-energia-medioambiente-1",
+  "partido": "frente-amplio",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Transición basada en renovables y un «Estado Climático de Derecho»",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar propone avanzar hacia un «Estado Climático de Derecho» en el que el enfoque climático esté presente de forma integral en las políticas públicas, con una producción energética e industrial basada en las energías renovables, a las que califica de únicas tecnologías con futuro, y un reparto justo de los costes de la transición.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Las bases del régimen energético y la legislación básica de medio ambiente son estatales (art. 149.1.25.ª y 23.ª CE); las comunidades autónomas pueden establecer normas adicionales de protección y la UE fija objetivos climáticos vinculantes."
+  },
+  "financiacion": {
+    "nota": "El documento no cuantifica coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 1 (pág. 4) y apartado 5.2 «Responder a la crisis ecológica desde el ecosocialismo» (págs. 21-23)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.23.ª y 25.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

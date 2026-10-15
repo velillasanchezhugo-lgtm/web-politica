@@ -1,0 +1,76 @@
+{
+  "id": "pnv-vivienda-1",
+  "partido": "pnv",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Apoyo crítico al decreto de función social de la vivienda y rechazo a la prórroga automática de alquileres",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "posicion_vigente",
+  "resumen": "El PNV votó a favor de convalidar el Real Decreto-ley 26/2026 (protección de personas vulnerables, alquiler de temporada, compra por fondos) y en contra del 27/2026, que establecía la renovación automática de los contratos, al considerarlo un «ataque al pequeño propietario» que retraería la oferta. Tras la reaprobación de ambos textos el 6 de octubre (RDL 29/2026 y 28/2026), anunció que mantendrá el mismo sentido de voto.",
+  "que_cambiaria": "Si se convalidara el RDL 29/2026 se ampliaría la protección frente a desahucios de hogares vulnerables y se regularía el alquiler de temporada; el PNV se opone a la renovación automática de contratos prevista en el RDL 28/2026.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La legislación civil sobre arrendamientos es estatal (art. 149.1.8.ª CE); la vivienda es competencia autonómica según los estatutos de autonomía. La convalidación de decretos-leyes tras la disolución corresponde a la Diputación Permanente del Congreso."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "Votación pendiente en la Diputación Permanente a fecha de consulta",
+  "fuentes": [
+    {
+      "titulo": "El Grupo Vasco apoya por «responsabilidad y coherencia» el decreto de vivienda que protege a las personas vulnerables y mejora la situación de los pequeños propietarios, y reitera su rechazo al segundo",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58552/el-grupo-vasco-apoya-por-responsabilidad-y-coheren/",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026 (BOE-A-2026-20526)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026 (BOE-A-2026-20527)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual (BOE-A-2026-20822)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
+      "fecha_documento": "2026-10-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible (BOE-A-2026-20823)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
+      "fecha_documento": "2026-10-07",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

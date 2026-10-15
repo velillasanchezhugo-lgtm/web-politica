@@ -1,0 +1,54 @@
+{
+  "id": "frente-amplio-vivienda-2",
+  "partido": "frente-amplio",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Ampliar la intervención y la regulación del mercado de la vivienda",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Ada Colau, candidata de Frente Amplio, calificó de insuficientes los decretos de vivienda del Gobierno, pidió ampliar los límites de la intervención y la regulación del mercado y afirmó que el PSOE lleva «fallando décadas» en vivienda. El documento político 2025 de Movimiento Sumar defiende una regulación activa del mercado de compraventa y alquiler y una política pública de vivienda asequible.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "El Estado regula el contrato de arrendamiento y la fiscalidad (art. 149.1.8.ª y 14.ª CE); la política de vivienda es competencia autonómica (art. 148.1.3.ª CE) y los ayuntamientos gestionan suelo y vivienda pública."
+  },
+  "financiacion": {
+    "nota": "No se ha publicado coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Declaración de la candidata y posición general de uno de los partidos integrantes; sin medidas concretas cuantificadas.",
+  "fuentes": [
+    {
+      "titulo": "Colau dice que le \"deben mucho\" a Maricarmen y asegura que el PSOE lleva \"fallando décadas\" en materia de vivienda",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/nacional/noticia-colau-dice-le-deben-mucho-maricarmen-asegura-psoe-lleva-fallando-decadas-materia-vivienda-20261008094705.html",
+      "fecha_documento": "2026-10-08",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 5.5.3 «Disputa política» (pág. 28)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 148.1.3.ª y 149.1.8.ª y 14.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

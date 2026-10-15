@@ -4,7 +4,7 @@
   "siglas": "PP",
   "naturaleza": "partido",
   "ambito": "estatal",
-  "color_grafico": "#1D84CE",
+  "color_grafico": "#1D5FAF",
   "web_oficial": "https://www.pp.es/",
   "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
   "resumen": "El Partido Popular es un partido de ámbito estatal fundado en 1989 a partir de Alianza Popular y presidido desde 2022 por Alberto Núñez Feijóo. Fue la candidatura más votada en las generales de 2023 (137 escaños), pero su candidato no obtuvo la investidura, y en la XV legislatura ha sido el principal grupo de la oposición. Para el 29 de noviembre de 2026 ha anunciado a Feijóo como candidato a la Presidencia del Gobierno y una coalición con UPN en Navarra.",
@@ -333,10 +333,10 @@
       "eleccion": "generales-2023",
       "candidatura": "Partido Popular (PP)",
       "votos": 8160837,
-      "porcentaje": 33.33,
+      "porcentaje": 33.06,
       "escanos_congreso": 137,
       "escanos_senado": 120,
-      "nota": "Porcentaje sobre votos a candidaturas (24.487.414), según el cuadro de la JEC; sobre votos válidos sería el 33,06 %. Senado: senadores elegidos por sufragio directo; no incluye senadores de designación autonómica. En Navarra el PP concurrió por separado de UPN (57.134 votos, 1 escaño).",
+      "nota": "Porcentaje sobre votos válidos (24.688.087), mismo criterio que la colección de escaños; sobre votos a candidaturas, criterio del cuadro de la JEC, es el 33,33 %. Senado: senadores elegidos por sufragio directo; no incluye senadores de designación autonómica. En Navarra el PP concurrió por separado de UPN (57.134 votos, 1 escaño).",
       "fuentes": [
         {
           "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
@@ -361,8 +361,8 @@
       "eleccion": "europeas-2024",
       "candidatura": "Partido Popular",
       "votos": 5996627,
-      "porcentaje": 34.46,
-      "nota": "22 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos a candidaturas (17.402.783); sobre votos válidos (17.527.438) sería el 34,21 %.",
+      "porcentaje": 34.21,
+      "nota": "22 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos válidos (17.527.438); sobre votos a candidaturas sería el 34,46 %.",
       "fuentes": [
         {
           "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
@@ -624,6 +624,6 @@
   "revision": {
     "fecha_revision": "2026-10-15",
     "estado_editorial": "publicado",
-    "notas": "Comprobar el 16-17 de octubre la relación oficial de coaliciones de la JEC (UPN-PP y posible acuerdo con el PAR). Color de gráfico convencional, a validar por diseño. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
+    "notas": "Comprobar el 16-17 de octubre la relación oficial de coaliciones de la JEC (UPN-PP y posible acuerdo con el PAR). Color de gráfico alineado con src/content/escanos/generales-2023.json. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

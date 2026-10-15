@@ -1,0 +1,52 @@
+{
+  "id": "pnv-vivienda-2",
+  "partido": "pnv",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Reformar la ley del suelo, regular el alquiler de temporada y dar seguridad al pequeño propietario",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "La portavoz Maribel Vaquero defiende modificar la ley del suelo y regular el alquiler de temporada, que a su juicio quedó fuera de la Ley de Vivienda de 2023, y aumentar la oferta construyendo más vivienda y dando seguridad jurídica a los propietarios, que según el PNV aportan el 81 % del alquiler en Euskadi. Critica que la ley de 2023 abriera la puerta a que el Estado legisle sobre vivienda en Euskadi.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "El régimen del suelo tiene una parte estatal (texto refundido de la Ley de Suelo y Rehabilitación Urbana) y otra autonómica y municipal (urbanismo); los arrendamientos son legislación civil estatal; la vivienda es competencia autonómica."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+      "fecha_documento": "2026-10-10",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Vaquero: «La izquierda abertzale debería hacer autocrítica, apoyaron una Ley de Vivienda que dejó un agujero negro con consecuencias en el mercado»",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58581/vaquero-la-izquierda-abertzale-deberia-hacer-autoc/",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Grupo Vasco apoya por «responsabilidad y coherencia» el decreto de vivienda que protege a las personas vulnerables y mejora la situación de los pequeños propietarios, y reitera su rechazo al segundo",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58552/el-grupo-vasco-apoya-por-responsabilidad-y-coheren/",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

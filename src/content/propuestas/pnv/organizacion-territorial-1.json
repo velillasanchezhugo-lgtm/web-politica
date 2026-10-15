@@ -1,0 +1,52 @@
+{
+  "id": "pnv-organizacion-territorial-1",
+  "partido": "pnv",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Reconocimiento nacional de Euskadi, nuevas transferencias y bilateralidad",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "El PNV plantea seguir «ahondando en el autogobierno» mediante el cumplimiento del acuerdo de investidura firmado con el PSOE en 2023: negociar el reconocimiento nacional de Euskadi y un sistema de garantías basado en la bilateralidad y la foralidad, completar las transferencias pendientes del Estatuto de Gernika y vigilar la «centralización» de las leyes estatales. Atribuye a ese acuerdo 14 transferencias en la XV legislatura.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "Las transferencias se acuerdan en comisión mixta Estado-Comunidad Autónoma y se aprueban por real decreto; un nuevo estatus requeriría reforma del Estatuto de Gernika (aprobación por el Parlamento Vasco y las Cortes Generales mediante ley orgánica y referéndum). El acuerdo invoca la disposición adicional primera de la Constitución (derechos históricos de los territorios forales)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "El acuerdo de 2023 fijaba dos años para las transferencias; para 2026 no se ha publicado calendario",
+  "fuentes": [
+    {
+      "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+      "fecha_documento": "2026-10-10",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Consulta el texto íntegro del acuerdo de investidura entre el PNV y el PSOE",
+      "emisor": "Deia",
+      "tipo": "medio",
+      "url": "https://www.deia.eus/politica/2023/11/10/consulta-texto-integro-acuerdo-investidura-7493783.html",
+      "fecha_documento": "2023-11-10",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Aitor Esteban, tras la convocatoria electoral: «Madrid tendrá sus batallas, pero Euskadi tiene que defender sus intereses»",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58542/aitor-esteban-tras-la-convocatoria-electoral-madri/",
+      "fecha_documento": "2026-10-05",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "El acuerdo citado es de 2023: se recoge como contexto de una posición reiterada en octubre de 2026, no como compromiso programático de 2026."
+  }
+}

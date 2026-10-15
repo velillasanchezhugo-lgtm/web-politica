@@ -1,0 +1,37 @@
+{
+  "id": "eh-bildu-vivienda-2",
+  "partido": "eh-bildu",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Promoción de vivienda pública en alquiler «a gran escala» e intervención en el mercado",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "El programa de vivienda de EH Bildu (mayo de 2026) propone actuar en tres ejes: intervenir en el mercado para frenar la especulación y controlar precios, endurecer la regulación del uso de las viviendas para garantizar su función social, y dar un salto hacia un parque público de alquiler a gran escala, priorizando suelo urbano ya urbanizado y reorientando presupuestos hacia vivienda pública.",
+  "competencia": {
+    "administraciones": [
+      "ccaa",
+      "local",
+      "estado"
+    ],
+    "nota": "El documento se dirige sobre todo a las instituciones vascas y navarras, que tienen competencia en vivienda y urbanismo; el control de rentas y la fiscalidad dependen además de normas estatales y, en el País Vasco y Navarra, de la capacidad tributaria foral."
+  },
+  "financiacion": {
+    "nota": "El documento no cuantifica el coste total ni detalla su financiación, más allá de reorientar presupuestos y una fiscalidad progresiva."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Vivienda. Programa transformador para hacer frente a la emergencia de vivienda",
+      "emisor": "EH Bildu",
+      "tipo": "partido",
+      "url": "https://ehbildu.eus/media/dokumentuak/etxebizitza-eraldaketaprograma-cas.pdf",
+      "localizacion": "Apartados 2.2 y 2.3",
+      "fecha_documento": "2026-05",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

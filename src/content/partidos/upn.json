@@ -5,7 +5,7 @@
   "naturaleza": "partido",
   "ambito": "territorial",
   "territorio": "Navarra",
-  "color_grafico": "#2B4C9B",
+  "color_grafico": "#4A5D8F",
   "web_oficial": "https://www.upn.org/",
   "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
   "resumen": "Unión del Pueblo Navarro es un partido de ámbito navarro fundado en 1979 que defiende el régimen foral de Navarra dentro de España. En las generales de 2023 obtuvo un diputado y un senador concurriendo en solitario. Para el 29 de noviembre de 2026 ha acordado concurrir en Navarra dentro de la coalición «Unión del Pueblo Navarro en coalición con el Partido Popular», cuyo candidato a la Presidencia del Gobierno es Alberto Núñez Feijóo.",
@@ -285,7 +285,7 @@
       "porcentaje": 0.21,
       "escanos_congreso": 1,
       "escanos_senado": 1,
-      "nota": "Concurrió solo en Navarra y por separado del PP. Porcentaje estatal sobre votos a candidaturas, según la JEC.",
+      "nota": "Concurrió solo en Navarra y por separado del PP. Porcentaje estatal sobre votos válidos (0,21 % también sobre votos a candidaturas).",
       "fuentes": [
         {
           "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
@@ -524,7 +524,7 @@
   "rol_gobierno": "influencia_parlamentaria",
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "revisado",
-    "notas": "Confirmar en la JEC (16-17 de octubre) la constitución de la coalición UPN-PP. No se ha verificado con fuente fechada quién ocupa la secretaría general de UPN. Color de gráfico convencional, a validar por diseño."
+    "estado_editorial": "publicado",
+    "notas": "Confirmar en la JEC (16-17 de octubre) la constitución de la coalición UPN-PP. No se ha verificado con fuente fechada quién ocupa la secretaría general de UPN. Color de gráfico alineado con src/content/escanos/generales-2023.json. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

@@ -1,0 +1,46 @@
+{
+  "id": "frente-amplio-inmigracion-1",
+  "partido": "frente-amplio",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Regularización de personas en situación irregular y derecho de voto de residentes extranjeros",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar apuesta por procesos de regularización para todas las personas en situación administrativa irregular, apoyó la ILP «Regularización», defiende vías legales y seguras de migración y asilo, el derecho de voto de las personas migrantes y refugiadas y cambios en el acceso a la nacionalidad, y rechaza una respuesta securitaria o militar a la migración.",
+  "que_cambiaria": "El voto de los extranjeros en elecciones generales requeriría reformar el art. 13.2 de la Constitución; en abril de 2026 el Gobierno aprobó una regularización extraordinaria por real decreto (RD 316/2026).",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Inmigración, extranjería, asilo y nacionalidad son competencia exclusiva del Estado (art. 149.1.2.ª CE); el derecho de sufragio de extranjeros está limitado por el art. 13.2 CE, y la UE fija el marco común de asilo y fronteras."
+  },
+  "financiacion": {
+    "nota": "El documento no cuantifica coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 5.10 «Derecho a migrar» (pág. 42)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 13.2 y 149.1.2.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

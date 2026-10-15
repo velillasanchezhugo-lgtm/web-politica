@@ -1,0 +1,34 @@
+{
+  "id": "eh-bildu-empleo-1",
+  "partido": "eh-bildu",
+  "tema": "empleo",
+  "eleccion": "generales-2026",
+  "titulo": "Subida del salario mínimo, salarios mínimos propios y recuperación de la indemnización por despido",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "En la sesión de control de 16-9-2026, Mertxe Aizpurua planteó: subir el SMI en 2027 por encima de la inflación y fijar por ley el 60 % del salario medio como referencia; permitir salarios mínimos propios para territorios como Euskal Herria; recuperar indemnizaciones por despido «justas y suficientes»; acabar con las horas extra no pagadas con recargos y registro horario efectivo; y retomar la reducción de jornada.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación laboral y la fijación del SMI son competencia exclusiva del Estado (art. 149.1.7.ª CE); un SMI territorial requeriría cambiar el Estatuto de los Trabajadores."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "EH Bildu exige a Sánchez un paquete laboral ambicioso para recuperar salarios y derechos",
+      "emisor": "EH Bildu",
+      "tipo": "partido",
+      "url": "https://ehbildu.eus/herriak/kongresua-senatua/es/noticias/eh-bildu-exige-a-sanchez-un-paquete-laboral-ambicioso-para-recuperar-salarios-y-derechos-a-los-reaccionarios-se-les-para-con-mas-derechos-para-la-clase-trabajadora",
+      "fecha_documento": "2026-09-16",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

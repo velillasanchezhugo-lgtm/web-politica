@@ -1,0 +1,45 @@
+{
+  "id": "frente-amplio-ue-exterior-1",
+  "partido": "frente-amplio",
+  "tema": "ue-exterior",
+  "eleccion": "generales-2026",
+  "titulo": "Política exterior pacifista: no al aumento del gasto militar, defensa del derecho internacional en Palestina y Ucrania",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar se define como fuerza pacifista que aboga por no depender de organizaciones militaristas y sostiene que las soluciones no pueden venir del aumento del gasto militar. Pide que España defienda el derecho internacional ante el «genocidio en Palestina» y la invasión rusa de Ucrania, recuerda sus obligaciones respecto al Sáhara Occidental y se declara europeísta, partidaria de una autonomía estratégica de la UE y de reformar la ONU.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Relaciones internacionales y defensa son competencias exclusivas del Estado (art. 149.1.3.ª y 4.ª CE), dirigidas por el Gobierno (art. 97 CE); la política exterior y de seguridad común de la UE se decide por unanimidad en el Consejo."
+  },
+  "financiacion": {
+    "nota": "No se publica una cifra alternativa de gasto en defensa."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 3, principios (pág. 15) y apartado 5.11.3 «Disputa política» (págs. 44-45)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 97 y 149.1.3.ª y 4.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

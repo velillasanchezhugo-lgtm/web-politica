@@ -1,0 +1,452 @@
+{
+  "id": "pnv",
+  "nombre": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco",
+  "siglas": "EAJ-PNV",
+  "naturaleza": "partido",
+  "ambito": "territorial",
+  "territorio": "País Vasco (Araba, Bizkaia y Gipuzkoa); también organizado en Navarra e Iparralde",
+  "color_grafico": "#2E8B57",
+  "web_oficial": "https://www.eaj-pnv.eus/es/",
+  "criterio_inclusion": "Obtuvo representación en el Congreso (5 escaños) y en el Senado (4 escaños) en las elecciones generales de 2023 y ha anunciado que concurrirá a las de 29 de noviembre de 2026.",
+  "resumen": "Partido nacionalista vasco fundado en 1895, inscrito como partido político desde 1977. Encabeza el Gobierno Vasco (con el lehendakari Imanol Pradales, en coalición con el PSE-EE) y tuvo 5 diputados en el Congreso en la XV legislatura, donde apoyó la investidura de Pedro Sánchez en 2023 tras un acuerdo con el PSOE centrado en el autogobierno vasco. Concurre a las generales solo en las tres circunscripciones de la comunidad autónoma vasca.",
+  "historia": [
+    {
+      "texto": "Según la Gran Enciclopèdia Catalana, el partido fue creado en 1895 por Sabino de Arana Goiri; inicialmente limitado a Bizkaia, se extendió a comienzos del siglo XX al resto de provincias vascas.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Partit Nacionalista Basc (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0049203",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Figura en el Registro de Partidos Políticos del Ministerio del Interior como partido político, con fecha de inscripción 22 de marzo de 1977.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Registro de Partidos Políticos: consulta por denominación",
+          "emisor": "Ministerio del Interior",
+          "tipo": "oficial",
+          "url": "https://servicio.mir.es/nfrontal/webpartido_politico.html",
+          "localizacion": "Denominación «Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco (EAJ-PNV)»; tipo de formación: partido político; inscripción 22/03/1977",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Tras la aprobación del Estatuto de Gernika, Carlos Garaikoetxea (PNV) presidió en 1980 el primer Gobierno Vasco; el PNV pasó a la oposición por primera vez en 2009, tras un acuerdo postelectoral entre PSE y PP, y recuperó la presidencia en 2012 con Iñigo Urkullu.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Partit Nacionalista Basc (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0049203",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las elecciones al Parlamento Vasco de 21 de abril de 2024 el PNV fue la fuerza más votada y empató a 27 escaños con EH Bildu; Imanol Pradales fue investido lehendakari con un gobierno de coalición PNV-PSE y nombrado por Real Decreto 586/2024.",
+      "tipo": "hecho",
+      "fecha": "2024-06-21",
+      "fuentes": [
+        {
+          "titulo": "Partit Nacionalista Basc (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0049203",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 586/2024, de 21 de junio, por el que se nombra Presidente del Gobierno Vasco a don Imanol Pradales Gil (BOE-A-2024-12645)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12645",
+          "fecha_documento": "2024-06-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Aitor Esteban, hasta entonces portavoz en el Congreso, sustituyó a Andoni Ortuzar como presidente del Euzkadi Buru Batzar en 2025; Maribel Vaquero asumió entonces la portavocía del Grupo Vasco.",
+      "tipo": "hecho",
+      "fecha": "2025",
+      "fuentes": [
+        {
+          "titulo": "Partit Nacionalista Basc (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0049203",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+          "emisor": "EAJ-PNV",
+          "tipo": "partido",
+          "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+          "fecha_documento": "2026-10-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Presidente del Euzkadi Buru Batzar (dirección nacional)",
+      "nombre": "Aitor Esteban Bravo",
+      "desde": "2025",
+      "fuentes": [
+        {
+          "titulo": "Organización interna: Euzkadi Buru Batzar",
+          "emisor": "EAJ-PNV",
+          "tipo": "partido",
+          "url": "https://www.eaj-pnv.eus/es/euskadi-buru-batzarra/",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Partit Nacionalista Basc (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0049203",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+          "emisor": "EAJ-PNV",
+          "tipo": "partido",
+          "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+          "fecha_documento": "2026-10-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz del Grupo Parlamentario Vasco (EAJ-PNV) en el Congreso (XV legislatura)",
+      "nombre": "Maribel Vaquero",
+      "desde": "2025-04",
+      "fuentes": [
+        {
+          "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+          "emisor": "EAJ-PNV",
+          "tipo": "partido",
+          "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+          "fecha_documento": "2026-10-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Lehendakari (presidente del Gobierno Vasco)",
+      "nombre": "Imanol Pradales Gil",
+      "desde": "2024-06",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 586/2024, de 21 de junio, por el que se nombra Presidente del Gobierno Vasco a don Imanol Pradales Gil (BOE-A-2024-12645)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12645",
+          "fecha_documento": "2024-06-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "En solitario en Araba, Bizkaia y Gipuzkoa (listas en elaboración)",
+    "detalle": [
+      {
+        "texto": "El Euzkadi Buru Batzar remitió el 7 de octubre de 2026 a las organizaciones territoriales una propuesta de candidatos, ordenada alfabéticamente, para el Congreso y el Senado por Araba, Bizkaia y Gipuzkoa; la afiliación vota en dos vueltas y una Asamblea Nacional Extraordinaria aprobará las listas definitivas el 17 de octubre de 2026.",
+        "tipo": "hecho",
+        "fecha": "2026-10-07",
+        "fuentes": [
+          {
+            "titulo": "El EBB inicia el proceso para la confección de las listas con que EAJ-PNV concurrirá a las Elecciones Generales del 29-N",
+            "emisor": "EAJ-PNV",
+            "tipo": "partido",
+            "url": "https://www.eaj-pnv.eus/es/noticias/58553/el-ebb-inicia-el-proceso-para-la-confeccion-de-las/",
+            "fecha_documento": "2026-10-07",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según esa propuesta, Maribel Vaquero figura entre los candidatos al Congreso por Gipuzkoa; el orden de las listas no se había fijado a 15 de octubre de 2026.",
+        "tipo": "hecho",
+        "fecha": "2026-10-07",
+        "fuentes": [
+          {
+            "titulo": "El EBB inicia el proceso para la confección de las listas con que EAJ-PNV concurrirá a las Elecciones Generales del 29-N",
+            "emisor": "EAJ-PNV",
+            "tipo": "partido",
+            "url": "https://www.eaj-pnv.eus/es/noticias/58553/el-ebb-inicia-el-proceso-para-la-confeccion-de-las/",
+            "fecha_documento": "2026-10-07",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido nacionalista vasco que reivindica el reconocimiento nacional de Euskadi y la ampliación del autogobierno por vías negociadas, con un perfil que combina la defensa del Concierto Económico y de la industria vasca con políticas sociales; en el Congreso ha actuado como formación bisagra que negocia con gobiernos de distinto color.",
+    "autodefinicion": {
+      "texto": "EAJ-PNV se define como «Partido vasco, democrático, participativo, plural, aconfesional y humanista», reconoce a Euzkadi como patria «a ambos lados del Pirineo» y considera el euskera lengua nacional vasca.",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Historia e ideología",
+          "emisor": "EAJ-PNV",
+          "tipo": "partido",
+          "url": "https://www.eaj-pnv.eus/es/historia-e-ideologia/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [],
+    "matices": "No se ha localizado en esta revisión una clasificación académica verificable (por ejemplo, encuestas a expertos) que ubique al partido en el eje izquierda-derecha; se deja pendiente. Su posición sobre el Gobierno estatal es declaradamente condicional: rechaza apoyar un Gobierno en el que esté Vox."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco (EAJ-PNV)",
+      "votos": 277289,
+      "porcentaje": 1.12,
+      "escanos_congreso": 5,
+      "escanos_senado": 4,
+      "nota": "Porcentaje calculado por la redacción sobre 24.688.087 votos válidos (Cuadro I de la resolución). Escaños al Congreso: 2 en Bizkaia, 2 en Gipuzkoa y 1 en Araba. Senadores electos: 3 por Bizkaia y 1 por Gipuzkoa.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (págs. 122205-122206) y relación de senadores electos (págs. 122238-122241)",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Preside el Gobierno Vasco desde junio de 2024 con Imanol Pradales como lehendakari.",
+      "tipo": "hecho",
+      "fecha": "2024-06-21",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 586/2024, de 21 de junio, por el que se nombra Presidente del Gobierno Vasco a don Imanol Pradales Gil (BOE-A-2024-12645)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12645",
+          "fecha_documento": "2024-06-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En la investidura de Alberto Núñez Feijóo (27-9-2023) el portavoz Aitor Esteban anunció el voto en contra del PNV por la dependencia del candidato de Vox; en la de Pedro Sánchez (16-11-2023) el PNV votó a favor. En la investidura fallida de Alberto Núñez Feijóo (27-9-2023) el resultado fue de 172 votos a favor y 178 en contra; en la de Pedro Sánchez (16-11-2023), de 179 a favor y 171 en contra.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 5 (27 de septiembre de 2023): debate de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "localizacion": "Págs. 8-10, intervención del señor Esteban Bravo",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16 de noviembre de 2023): debate de investidura de Pedro Sánchez",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "Pág. 2 (resultado) y págs. 13-21",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Votó a favor de la Ley Orgánica de amnistía en su aprobación definitiva en el Congreso (30-5-2024; 177 votos a favor y 172 en contra).",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "El Congreso aprueba de forma definitiva la ley de Amnistía",
+          "emisor": "Deia",
+          "tipo": "medio",
+          "url": "https://www.deia.eus/politica/2024/05/30/congreso-aprueba-forma-definitiva-ley-8297867.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña (BOE-A-2024-11776)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+          "fecha_documento": "2024-06-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 votó a favor de convalidar el Real Decreto-ley 26/2026 (función social de la vivienda), derogado por 172 votos a favor y 178 en contra, y en contra del Real Decreto-ley 27/2026 (estabilidad de los arrendamientos), derogado por 166 a favor y 184 en contra.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+          "emisor": "Diario de Avisos (Europa Press)",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026 (BOE-A-2026-20526)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026 (BOE-A-2026-20527)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según el balance del propio Grupo Vasco, durante la XV legislatura se transfirieron 14 competencias a Euskadi (entre ellas la gestión de prestaciones por desempleo y de autorizaciones de trabajo de extranjeros) y se acordó que el Estado financie el 50 % del gasto en dependencia a partir de 2027.",
+      "tipo": "declaracion",
+      "fecha": "2026-10-10",
+      "fuentes": [
+        {
+          "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+          "emisor": "EAJ-PNV",
+          "tipo": "partido",
+          "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+          "fecha_documento": "2026-10-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "El 10 de noviembre de 2023 PSOE y EAJ-PNV firmaron un acuerdo por el que el PNV votaría a favor de la investidura de Pedro Sánchez; incluía negociar el reconocimiento nacional de Euskadi y un sistema de garantías basado en la bilateralidad, completar en dos años las transferencias pendientes, crear una comisión bilateral Gobierno-Gobierno Vasco y que el Estado abone el 50 % del nivel básico de la dependencia.",
+        "tipo": "hecho",
+        "fecha": "2023-11-10",
+        "fuentes": [
+          {
+            "titulo": "Consulta el texto íntegro del acuerdo de investidura entre el PNV y el PSOE",
+            "emisor": "Deia",
+            "tipo": "medio",
+            "url": "https://www.deia.eus/politica/2023/11/10/consulta-texto-integro-acuerdo-investidura-7493783.html",
+            "fecha_documento": "2023-11-10",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16 de noviembre de 2023): debate de investidura de Pedro Sánchez",
+            "emisor": "Congreso de los Diputados",
+            "tipo": "oficial",
+            "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+            "localizacion": "Pág. 21, intervención del señor Esteban Bravo",
+            "fecha_documento": "2023-11-16",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "El PNV cifra en más del 75 % el grado de cumplimiento de ese acuerdo de investidura al cierre de la legislatura.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-10",
+        "fuentes": [
+          {
+            "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+            "emisor": "EAJ-PNV",
+            "tipo": "partido",
+            "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+            "fecha_documento": "2026-10-10",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Maribel Vaquero afirmó que los diputados del PNV no respaldarán un Gobierno en el que pueda estar Vox y que «mientras el PP vaya de la mano de Vox, ahí no vamos a estar».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Vaquero: «La izquierda abertzale debería hacer autocrítica, apoyaron una Ley de Vivienda que dejó un agujero negro con consecuencias en el mercado»",
+            "emisor": "EAJ-PNV",
+            "tipo": "partido",
+            "url": "https://www.eaj-pnv.eus/es/noticias/58581/vaquero-la-izquierda-abertzale-deberia-hacer-autoc/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Aitor Esteban sostiene que los diputados vascos no están «para defender bloques» sino los intereses de Euskadi, y que el PNV no debe «hacer de secundarios de nadie».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-08",
+        "fuentes": [
+          {
+            "titulo": "Aitor Esteban, tras la convocatoria electoral: «Madrid tendrá sus batallas, pero Euskadi tiene que defender sus intereses»",
+            "emisor": "EAJ-PNV",
+            "tipo": "partido",
+            "url": "https://www.eaj-pnv.eus/es/noticias/58542/aitor-esteban-tras-la-convocatoria-electoral-madri/",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Aitor Esteban: «En Madrid no tenemos que hacer de secundarios de nadie, sino de protagonistas de Euskadi»",
+            "emisor": "EAJ-PNV",
+            "tipo": "partido",
+            "url": "https://www.eaj-pnv.eus/es/noticias/58562/aitor-esteban-en-madrid-no-tenemos-que-hacer-de-se/",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Votaciones de la XV legislatura (investiduras, amnistía, decretos de vivienda de 2-10-2026)",
+      "Propuesta inicial de candidatos (7-10-2026)",
+      "Posición sobre los decretos de vivienda reaprobados el 6-10-2026"
+    ],
+    "sin_desarrollar": [
+      "Propuestas sobre reconocimiento nacional y nuevo estatus: se enuncian, sin texto articulado para la legislatura 2026"
+    ],
+    "pendiente": [
+      "Programa electoral 2026",
+      "Orden definitivo de las listas (Asamblea Nacional de 17-10-2026) y su presentación oficial"
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Discrepancia menor: la Gran Enciclopèdia Catalana fecha el relevo de Esteban el 30-3-2025 y el PNV habla de abril de 2025; se indica solo el año."
+  }
+}

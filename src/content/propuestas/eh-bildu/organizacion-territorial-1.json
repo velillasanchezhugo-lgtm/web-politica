@@ -1,0 +1,44 @@
+{
+  "id": "eh-bildu-organizacion-territorial-1",
+  "partido": "eh-bildu",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Derecho a decidir y avance gradual del autogobierno hacia un Estado vasco",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Los estatutos de EH Bildu fijan como base ideológica que Euskal Herria es una nación con derecho a decidir libremente su futuro y aspiran a un Estado vasco que reúna los siete territorios; plantean ir incrementando el autogobierno según los ritmos de cada ámbito. En su III Congreso (2025) Otegi defendió elevar el autogobierno «lo máximo posible» y que el Estado reconozca naciones con derecho a la autodeterminación.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La Constitución no reconoce un derecho de autodeterminación; una consulta vinculante o la secesión requerirían reforma constitucional. La ampliación del autogobierno puede hacerse por reforma estatutaria (ley orgánica) o transferencias."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "Sin calendario publicado",
+  "fuentes": [
+    {
+      "titulo": "Estatutos de la federación Euskal Herria Bildu (versión 2025)",
+      "emisor": "EH Bildu",
+      "tipo": "partido",
+      "url": "https://ehbildu.eus/dokumentuak/gardentasuna/Estatutos.pdf",
+      "localizacion": "Artículos 2 y 3",
+      "fecha_documento": "2025",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Arnaldo Otegi, proclamado secretario general de EH Bildu con el 94,44 % de los apoyos",
+      "emisor": "Orain",
+      "tipo": "medio",
+      "url": "https://orain.eus/es/politica/2025/02/08/arnaldo-otegi-proclamado-secretario-general-de-eh-bildu-con-94-44-de-apoyos/",
+      "fecha_documento": "2025-02-08",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "id": "salf",
+  "nombre": "Se Acabó La Fiesta",
+  "siglas": "SALF",
+  "naturaleza": "partido",
+  "ambito": "estatal",
+  "color_grafico": "#7A3E9D",
+  "criterio_inclusion": "Representación en el Parlamento Europeo (2024)",
+  "resumen": "Se Acabó La Fiesta (SALF) es la formación liderada por el eurodiputado Luis Pérez Fernández, conocido como Alvise. Concurrió por primera vez a las elecciones europeas de 2024 como agrupación de electores y obtuvo tres escaños; no tiene representación en el Congreso ni en el Senado. Ha anunciado que se presentará a las generales del 29 de noviembre de 2026 con Alvise como cabeza de lista por Madrid.",
+  "historia": [
+    {
+      "texto": "En las elecciones al Parlamento Europeo de 9 de junio de 2024 concurrió como «Agrupación de electores Se Acabó La Fiesta» y obtuvo 803.545 votos y 3 de los 61 escaños españoles.",
+      "tipo": "hecho",
+      "fecha": "2024-06-09",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (total estatal)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Junta Electoral Central proclamó eurodiputados electos por esta candidatura a Luis Pérez Fernández, Diego Adrián Solier Fernández y Nora Junco García.",
+      "tipo": "hecho",
+      "fecha": "2024-06-27",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la proclamación de candidatos electos al Parlamento Europeo",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13093",
+          "localizacion": "Relación de electos, núms. 18, 39 y 60",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según El Debate, después de 2024 la formación ha extendido su estructura territorial y ha concurrido o anunciado candidaturas en distintas comunidades autónomas.",
+      "tipo": "hecho",
+      "fecha": "2026-10-05",
+      "fuentes": [
+        {
+          "titulo": "Alvise será el cabeza de lista de Se Acabó la Fiesta por Madrid en las elecciones generales",
+          "emisor": "El Debate",
+          "tipo": "medio",
+          "url": "https://www.eldebate.com/espana/20261005/alvise-sera-cabeza-lista-acabo-fiesta-madrid-elecciones-generales_466300.html",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Líder de la formación y eurodiputado",
+      "nombre": "Luis Pérez Fernández («Alvise»)",
+      "fuentes": [
+        {
+          "titulo": "Alvise será el cabeza de lista de Se Acabó la Fiesta por Madrid en las elecciones generales",
+          "emisor": "El Debate",
+          "tipo": "medio",
+          "url": "https://www.eldebate.com/espana/20261005/alvise-sera-cabeza-lista-acabo-fiesta-madrid-elecciones-generales_466300.html",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la proclamación de candidatos electos al Parlamento Europeo",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13093",
+          "localizacion": "Relación de electos, núms. 18, 39 y 60",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "En solitario; la presencia en cada circunscripción depende de reunir las firmas exigidas",
+    "detalle": [
+      {
+        "texto": "Alvise anunció el 5 de octubre de 2026, en un vídeo en Telegram, que encabezará la candidatura de SALF por Madrid en las generales del 29 de noviembre, tras aprobarlo la ejecutiva de la formación.",
+        "tipo": "hecho",
+        "fecha": "2026-10-05",
+        "fuentes": [
+          {
+            "titulo": "Alvise será el cabeza de lista de Se Acabó la Fiesta por Madrid en las elecciones generales",
+            "emisor": "El Debate",
+            "tipo": "medio",
+            "url": "https://www.eldebate.com/espana/20261005/alvise-sera-cabeza-lista-acabo-fiesta-madrid-elecciones-generales_466300.html",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Al no tener representación en las Cortes, SALF está recogiendo firmas para poder presentar candidaturas; en Baleares, sus coordinadores fijaron como objetivo 1.300 firmas, equivalentes al 0,1 % del censo, antes del 26 de octubre.",
+        "tipo": "hecho",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Se Acabó La Fiesta suma firmas para presentarse por Baleares el 29N: «El primer objetivo es alcanzar las 1.300»",
+            "emisor": "Última Hora",
+            "tipo": "medio",
+            "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/14/2728255/acabo-fiesta-suma-firmas-para-presentarse-por-baleares-29n-primer-objetivo-alcanzar-1300.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según el calendario de la Junta Electoral Central, las candidaturas se presentan del 21 al 26 de octubre, se publican en el BOE el 28 de octubre y las proclamadas, el 3 de noviembre.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Calendario electoral. Elecciones Generales 2026 (Cortes Generales)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+            "localizacion": "Apartado «Candidaturas», p. 4",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Formación de reciente creación que, según El Debate, ha hecho de la presencia de su líder en redes sociales su principal herramienta de expansión. Sus coordinadores en Baleares citan como ejes la vivienda, el empleo, la seguridad y la inmigración, la sanidad y los jóvenes. Los expertos consultados por la encuesta Chapel Hill la sitúan en la familia de la derecha radical (ver clasificaciones externas).",
+    "clasificaciones_externas": [
+      {
+        "texto": "En la encuesta de expertos Chapel Hill (CHES 2024), SALF obtiene una puntuación media de 8,93 en la escala de ideología general de 0 (extrema izquierda) a 10 (extrema derecha), está clasificada en la familia «Radical Right» y su posición media sobre la integración europea es 2,8 en una escala de 1 (muy en contra) a 7 (muy a favor).",
+        "tipo": "interpretacion",
+        "fecha": "2025-02",
+        "fuentes": [
+          {
+            "titulo": "2024 Chapel Hill Expert Survey (CHES), conjunto de datos CHES_2024_final_v2 y codebook (Rovny, Bakker, Hooghe et al., Electoral Studies 97, 2025)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://www.chesdata.eu/ches-europe",
+            "localizacion": "Variables lrgen (escala 0-10), eu_position (1-7) y family; partido «Salf», party_id 552",
+            "fecha_documento": "2025-02",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "No se ha incluido autodefinición: las webs de la formación no fueron accesibles durante la consulta. La descripción del discurso es una síntesis editorial y debe contrastarse con documentos propios de SALF cuando estén disponibles."
+  },
+  "resultados": [
+    {
+      "eleccion": "europeas-2024",
+      "candidatura": "Agrupación de electores «Se Acabó La Fiesta» (SALF)",
+      "votos": 803545,
+      "porcentaje": 4.58,
+      "nota": "3 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos válidos (17.527.438); sobre votos a candidaturas (17.402.783) sería el 4,62 %. No concurrió a las generales de 2023.",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (total estatal)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "SALF no tiene ni ha tenido representación en el Congreso ni en el Senado; su representación institucional estatal procede de los tres escaños obtenidos en el Parlamento Europeo en 2024.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (total estatal)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Alvise será el cabeza de lista de Se Acabó la Fiesta por Madrid en las elecciones generales",
+          "emisor": "El Debate",
+          "tipo": "medio",
+          "url": "https://www.eldebate.com/espana/20261005/alvise-sera-cabeza-lista-acabo-fiesta-madrid-elecciones-generales_466300.html",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según El Debate, el Tribunal Supremo mantiene abiertas varias causas contra Alvise (investigaciones en curso, sin condena) y el Parlamento Europeo le retiró la inmunidad en abril y mayo de 2026 a petición del Supremo.",
+      "tipo": "hecho",
+      "fecha": "2026-10-05",
+      "fuentes": [
+        {
+          "titulo": "Alvise será el cabeza de lista de Se Acabó la Fiesta por Madrid en las elecciones generales",
+          "emisor": "El Debate",
+          "tipo": "medio",
+          "url": "https://www.eldebate.com/espana/20261005/alvise-sera-cabeza-lista-acabo-fiesta-madrid-elecciones-generales_466300.html",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [],
+    "posicion_actual": []
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Anuncio de candidatura a las generales con Alvise como cabeza de lista por Madrid"
+    ],
+    "sin_desarrollar": [
+      "Propuestas programáticas: solo se han localizado ejes genéricos citados por sus coordinadores en Baleares (vivienda, empleo, seguridad e inmigración, sanidad y jóvenes)"
+    ],
+    "pendiente": [
+      "Programa electoral 2026",
+      "Circunscripciones en las que logre reunir las firmas necesarias",
+      "Posición sobre acuerdos postelectorales"
+    ]
+  },
+  "rol_gobierno": "sin_representacion",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Webs de SALF inaccesibles (error TLS) durante la consulta. Verificar en el Registro de Partidos Políticos del Ministerio del Interior su inscripción como partido (en 2024 concurrió como agrupación de electores); se ha marcado naturaleza «partido» por las referencias de prensa a su ejecutiva y militancia. No se ha verificado si los tres eurodiputados siguen vinculados a SALF. No se han creado propuestas por falta de documentos programáticos fechados. Color de gráfico a validar por diseño. | 2026-10-15: revisado → revisado. Retenida: no se ha podido verificar su forma jurídica actual (partido inscrito o agrupación de electores) ni la vinculación actual de sus tres eurodiputados. Publicar cuando conste en el Registro de Partidos o en las candidaturas del BOE."
+  }
+}

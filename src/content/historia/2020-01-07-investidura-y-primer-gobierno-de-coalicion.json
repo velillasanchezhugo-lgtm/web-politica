@@ -1,0 +1,141 @@
+{
+  "id": "2020-01-07-investidura-y-primer-gobierno-de-coalicion",
+  "fecha": "2020-01-07",
+  "fecha_fin": "2020-01-13",
+  "titulo": "Investidura de Sánchez y Gobierno de coalición PSOE–Unidas Podemos",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "Pedro Sánchez fue investido el 7 de enero de 2020 en segunda votación, por 167 votos a favor y 165 en contra, y formó un Gobierno de coalición entre el PSOE y Unidas Podemos, cuyos miembros tomaron posesión el 13 de enero.",
+  "contexto": "El PSOE y Unidas Podemos anunciaron un preacuerdo de Gobierno de coalición el 12 de noviembre de 2019, dos días después de las elecciones. En la primera votación, el 5 de enero, Sánchez no alcanzó la mayoría absoluta.",
+  "consecuencias": [
+    {
+      "texto": "En la primera votación (5 de enero de 2020) el resultado fue de 166 votos a favor, 165 en contra y 18 abstenciones; en la segunda (7 de enero), 167 a favor, 165 en contra y 18 abstenciones.",
+      "tipo": "hecho",
+      "fecha": "2020-01-07",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 14 Legislatura, núm. 3",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L14/CONG/DS/PL/DSCD-14-PL-3.PDF",
+          "fecha_documento": "2020-01-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 14 Legislatura, núm. 4",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L14/CONG/DS/PL/DSCD-14-PL-4.PDF",
+          "fecha_documento": "2020-01-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Gobierno contó con cuatro vicepresidencias; la segunda correspondió a Pablo Iglesias, ministro de Derechos Sociales y Agenda 2030.",
+      "tipo": "hecho",
+      "fecha": "2020-01-13",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: XIV Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xiv_legislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 5/2020, de 12 de enero",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-413",
+          "fecha_documento": "2020-01-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El presidente Sánchez lo presentó como «el primer Gobierno de coalición de la historia de nuestra democracia».",
+      "tipo": "declaracion",
+      "fecha": "2020-01-12",
+      "fuentes": [
+        {
+          "titulo": "Declaración institucional del presidente del Gobierno para detallar la composición y objetivos del nuevo Gobierno",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2020/120120declaracion-institu.aspx",
+          "fecha_documento": "2020-01-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según elDiario.es, era la primera vez en ocho décadas que España tenía un Gobierno de coalición.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "El Gobierno de coalición echa a andar con su primer Consejo de Ministros",
+          "emisor": "elDiario.es",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/minuto-politico-gobierno-consejo-ministros_6_1081294_1003056.html",
+          "fecha_documento": "2020-01-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 14 Legislatura, núm. 3",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L14/CONG/DS/PL/DSCD-14-PL-3.PDF",
+      "fecha_documento": "2020-01-05",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 14 Legislatura, núm. 4",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L14/CONG/DS/PL/DSCD-14-PL-4.PDF",
+      "fecha_documento": "2020-01-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 1/2020, de 7 de enero, por el que se nombra Presidente del Gobierno a don Pedro Sánchez Pérez-Castejón",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-231",
+      "fecha_documento": "2020-01-08",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 5/2020, de 12 de enero, por el que se nombra Vicepresidente Segundo del Gobierno a don Pablo Iglesias Turrión",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-413",
+      "fecha_documento": "2020-01-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Acuerdo de coalición entre PSOE y Unidas Podemos (preacuerdo de 12 de noviembre de 2019)",
+      "emisor": "PSOE y Unidas Podemos (copia publicada por VilaWeb)",
+      "tipo": "partido",
+      "url": "https://imatges.vilaweb.cat/nacional/wp-content/uploads/2019/11/acuerdopsoepodemos.pdf",
+      "fecha_documento": "2019-11-12",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: XIV Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xiv_legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

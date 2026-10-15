@@ -1,0 +1,54 @@
+{
+  "id": "frente-amplio-igualdad-derechos-1",
+  "partido": "frente-amplio",
+  "tema": "igualdad-derechos",
+  "eleccion": "generales-2026",
+  "titulo": "Derecho a cuidar y ser cuidado: más políticas de conciliación, crianza y cuidados de larga duración",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar defiende un Estado del bienestar «corresponsable» con los cuidados, con un impulso de las políticas de conciliación, de apoyo a la crianza y de cuidados y apoyos de larga duración, al considerar los cuidados la principal causa de la brecha salarial entre mujeres y hombres. En su web también pide «crear una prestación universal por crianza».",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "Las prestaciones de la Seguridad Social y la legislación laboral son estatales (art. 149.1.7.ª y 17.ª CE); los servicios sociales y la dependencia los gestionan comunidades autónomas y ayuntamientos."
+  },
+  "financiacion": {
+    "nota": "No se publica cuantía, coste ni financiación de la prestación por crianza."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 5.5.3 «Disputa política» (pág. 28)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Movimiento Sumar (página de inicio)",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/",
+      "localizacion": "Bloque «Súmate y dona»",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.7.ª y 17.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

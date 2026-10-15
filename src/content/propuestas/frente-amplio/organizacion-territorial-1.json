@@ -1,0 +1,46 @@
+{
+  "id": "frente-amplio-organizacion-territorial-1",
+  "partido": "frente-amplio",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Modelo de Estado republicano, federal y plurinacional y nueva financiación autonómica",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar propone avanzar hacia una federalización que reconozca la plurinacionalidad, un nuevo modelo de financiación autonómica descentralizado también en lo fiscal, con instrumentos de financiación singulares, y una reforma constitucional que dé al Estado características republicanas, plurinacionales y federales.",
+  "que_cambiaria": "Supondría reformar la Constitución y la LOFCA; el documento no concreta el texto de la reforma.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La reforma constitucional exige las mayorías del Título X de la Constitución (art. 167 o, para la Corona y otros títulos, art. 168 CE); la financiación autonómica se regula por ley orgánica estatal (art. 157.3 CE) con participación de las comunidades autónomas."
+  },
+  "financiacion": {
+    "nota": "El documento no cuantifica coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 5.6 «Un modelo de estado republicano, federal y plurinacional» (págs. 30-32)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 157, 167 y 168",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

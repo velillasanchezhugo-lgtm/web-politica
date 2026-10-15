@@ -1,0 +1,598 @@
+{
+  "id": "frente-amplio",
+  "nombre": "Frente Amplio",
+  "siglas": "Frente Amplio",
+  "naturaleza": "coalicion_electoral",
+  "ambito": "estatal",
+  "color_grafico": "#C2185B",
+  "criterio_inclusion": "Coalición anunciada para el 29-N por cuatro partidos (Movimiento Sumar, Izquierda Unida, Más Madrid y Catalunya en Comú) que formaron parte de la coalición Sumar, con 31 diputados en 2023, y que tienen ministros en el Gobierno de coalición de la XV legislatura.",
+  "resumen": "Frente Amplio es la marca electoral anunciada por Movimiento Sumar, Izquierda Unida (IU), Más Madrid y Catalunya en Comú (Comuns) para las generales del 29 de noviembre de 2026, con la exalcaldesa de Barcelona Ada Colau como candidata a la Presidencia del Gobierno. Es la sucesora política de la coalición Sumar de 2023, pero no la misma candidatura: Podemos, que concurrió dentro de Sumar en 2023, ha rechazado integrarse, y la incorporación de otras fuerzas territoriales seguía en negociación a un día del cierre del plazo para comunicar coaliciones (16 de octubre).",
+  "historia": [
+    {
+      "texto": "En las generales de 2023 Movimiento Sumar concurrió en coalición con más de una docena de partidos, entre ellos Podemos, Izquierda Unida, Más Madrid y los Comuns; la coalición obtuvo 31 escaños y formó un grupo parlamentario propio en el Congreso.",
+      "tipo": "hecho",
+      "fecha": "2023-07-23",
+      "fuentes": [
+        {
+          "titulo": "Qué partidos componen el Grupo Parlamentario de Sumar en el Congreso y con cuántos miembros cuentan cada uno",
+          "emisor": "Newtral (Rosa Soto)",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/partidos-componen-grupo-sumar-congreso/20250624/",
+          "fecha_documento": "2025-06-24",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadros I y II (columna «Sumar (SUMAR)»); relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En noviembre de 2023 Sumar obtuvo cinco carteras en el Gobierno de coalición: Yolanda Díaz (vicepresidencia segunda y Trabajo), Mónica García (Sanidad, Más Madrid), Ernest Urtasun (Cultura, Comuns), Sira Rego (Juventud e Infancia, IU) y Pablo Bustinduy (Derechos Sociales, Consumo y Agenda 2030).",
+      "tipo": "hecho",
+      "fecha": "2023-11-20",
+      "fuentes": [
+        {
+          "titulo": "Mónica García, Ernest Urtasun, Pablo Bustinduy y Sira Rego: los ministros de Sumar de la vicepresidenta Yolanda Díaz",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/monica-garcia-ernest-urtasun-pablo-bustinduy-sira-rego-ministros-sumar-vicepresidenta-yolanda-diaz_1_10700056.html",
+          "fecha_documento": "2023-11-20",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 835/2023, de 20 de noviembre, por el que se nombran Ministros del Gobierno",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23543",
+          "fecha_documento": "2023-11-21",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 5 de diciembre de 2023 los cinco diputados de Podemos abandonaron el grupo de Sumar y pasaron al Grupo Mixto; en junio de 2025 también salió del grupo la diputada de Compromís Àgueda Micó (Més).",
+      "tipo": "hecho",
+      "fecha": "2023-12-05",
+      "fuentes": [
+        {
+          "titulo": "Podemos abandona Sumar en el Congreso y pasa al Grupo Mixto",
+          "emisor": "elDiario.es (Andrés Gil)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/decide-pasar-grupo-mixto_1_10745468.html",
+          "fecha_documento": "2023-12-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Qué partidos componen el Grupo Parlamentario de Sumar en el Congreso y con cuántos miembros cuentan cada uno",
+          "emisor": "Newtral (Rosa Soto)",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/partidos-componen-grupo-sumar-congreso/20250624/",
+          "fecha_documento": "2025-06-24",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "A comienzos de octubre de 2026 IU, Comuns, Más Madrid y Movimiento Sumar confirmaron que su nueva marca electoral sería Frente Amplio.",
+      "tipo": "hecho",
+      "fecha": "2026-10-04",
+      "fuentes": [
+        {
+          "titulo": "Los partidos de Sumar anunciarán su candidato el 17 de octubre y confirman que su nueva marca será Frente Amplio",
+          "emisor": "elDiario.es (Daniel Ríos)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/partidos-sumar-anunciaran-candidato-17-octubre-confirman-nueva-marca-sera-frente-amplio_1_13560979.html",
+          "fecha_documento": "2026-10-04",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 12 de octubre de 2026 los cuatro partidos acordaron proponer a Ada Colau como candidata a la Presidencia del Gobierno, y el 13 de octubre anunciaron que Emilio Delgado (Más Madrid) encabezaría la lista por Madrid.",
+      "tipo": "hecho",
+      "fecha": "2026-10-12",
+      "fuentes": [
+        {
+          "titulo": "Frente Amplio elige a Ada Colau como candidata a las elecciones del 29N y mantiene la puerta abierta a Podemos",
+          "emisor": "Telemadrid (redacción/agencias)",
+          "tipo": "medio",
+          "url": "https://www.telemadrid.es/noticias/nacional/Frente-Amplio-elige-a-Ada-Colau-como-candidata-a-las-elecciones-del-29N-y-mantiene-la-puerta-abierta-a-Podemos-0-2934006581--20261012081809.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Barbero reclama a Podemos que se reúna con Frente Amplio: \"Es el primer paso para poder llegar a un acuerdo\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-barbero-reclama-podemos-reuna-frente-amplio-primer-paso-poder-llegar-acuerdo-20261013204518.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Candidata a la Presidencia del Gobierno (propuesta por los cuatro partidos)",
+      "nombre": "Ada Colau",
+      "desde": "2026-10-12",
+      "fuentes": [
+        {
+          "titulo": "Frente Amplio elige a Ada Colau como candidata a las elecciones del 29N y mantiene la puerta abierta a Podemos",
+          "emisor": "Telemadrid (redacción/agencias)",
+          "tipo": "medio",
+          "url": "https://www.telemadrid.es/noticias/nacional/Frente-Amplio-elige-a-Ada-Colau-como-candidata-a-las-elecciones-del-29N-y-mantiene-la-puerta-abierta-a-Podemos-0-2934006581--20261012081809.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Barbero reclama a Podemos que se reúna con Frente Amplio: \"Es el primer paso para poder llegar a un acuerdo\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-barbero-reclama-podemos-reuna-frente-amplio-primer-paso-poder-llegar-acuerdo-20261013204518.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Cabeza de lista anunciado por Madrid",
+      "nombre": "Emilio Delgado",
+      "desde": "2026-10-13",
+      "fuentes": [
+        {
+          "titulo": "Barbero reclama a Podemos que se reúna con Frente Amplio: \"Es el primer paso para poder llegar a un acuerdo\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-barbero-reclama-podemos-reuna-frente-amplio-primer-paso-poder-llegar-acuerdo-20261013204518.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "La izquierda se encamina a negociaciones 'in extremis' sin disponer aún de un mapa claro de coaliciones",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-izquierda-encamina-negociaciones-in-extremis-disponer-aun-mapa-claro-coaliciones-20261014193905.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Coordinador federal de Izquierda Unida (partido integrante)",
+      "nombre": "Antonio Maíllo",
+      "fuentes": [
+        {
+          "titulo": "Maíllo dice que el acuerdo con Podemos \"está más cerca\" y asegura estar \"moderadamente optimista\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-maillo-dice-acuerdo-podemos-mas-cerca-asegura-estar-moderadamente-optimista-20261014235046.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Co-coordinadora de Movimiento Sumar (partido integrante)",
+      "nombre": "Verónica Martínez Barbero",
+      "fuentes": [
+        {
+          "titulo": "Barbero reclama a Podemos que se reúna con Frente Amplio: \"Es el primer paso para poder llegar a un acuerdo\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-barbero-reclama-podemos-reuna-frente-amplio-primer-paso-poder-llegar-acuerdo-20261013204518.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz de Más Madrid en la Asamblea de Madrid (partido integrante)",
+      "nombre": "Manuela Bergerot",
+      "fuentes": [
+        {
+          "titulo": "Más Madrid afirma que se han puesto \"todas las facilidades\" para que el nombre de Frente Amplio \"tenga todo el sentido\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/madrid/noticia-mas-madrid-afirma-puesto-todas-facilidades-nombre-frente-amplio-tenga-todo-sentido-20261014131807.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Coalición electoral anunciada por Movimiento Sumar, IU, Más Madrid y Catalunya en Comú, con alianzas territoriales en negociación (por ejemplo, Nueva Canarias-Frente Amplio en Canarias). A 15 de octubre no constaba aún su comunicación a la Junta Electoral.",
+    "candidato_presidencia": "Ada Colau",
+    "detalle": [
+      {
+        "texto": "Según la información publicada, los cuatro partidos acordaron el 12 de octubre de 2026 designar a Ada Colau como candidata a la Presidencia del Gobierno; la composición definitiva de la alianza no estaba cerrada y se mantenía abierta la incorporación de Podemos.",
+        "tipo": "hecho",
+        "fecha": "2026-10-12",
+        "fuentes": [
+          {
+            "titulo": "Frente Amplio elige a Ada Colau como candidata a las elecciones del 29N y mantiene la puerta abierta a Podemos",
+            "emisor": "Telemadrid (redacción/agencias)",
+            "tipo": "medio",
+            "url": "https://www.telemadrid.es/noticias/nacional/Frente-Amplio-elige-a-Ada-Colau-como-candidata-a-las-elecciones-del-29N-y-mantiene-la-puerta-abierta-a-Podemos-0-2934006581--20261012081809.html",
+            "fecha_documento": "2026-10-12",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Ada Colau, candidata de Frente Amplio a la presidencia del Gobierno",
+            "emisor": "Diari de Tarragona (agencias)",
+            "tipo": "medio",
+            "url": "https://www.diaridetarragona.com/catalunya/272983/ada-colau-candidata-frente-amplio-presidencia-gobierno.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Ada Colau declaró el 14 de octubre que su candidatura «no es definitiva» y que estaba dispuesta a dar un paso atrás, e incluso a cambiar la marca Frente Amplio, si ello facilitaba un acuerdo de unidad con Podemos y otras fuerzas.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Colau afirma que está dispuesta a apartarse como candidata si ayuda a un acuerdo para la unidad con Podemos",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-amp-colau-afirma-dispuesta-apartarse-candidata-si-ayuda-acuerdo-unidad-podemos-20261014095736.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Podemos ha rechazado integrarse en Frente Amplio y ha cerrado un acuerdo de colaboración con ERC en Cataluña; IU respondió que solo negociará con Podemos desde el conjunto de Frente Amplio.",
+        "tipo": "hecho",
+        "fecha": "2026-10-15",
+        "fuentes": [
+          {
+            "titulo": "La izquierda se encamina a negociaciones 'in extremis' sin disponer aún de un mapa claro de coaliciones",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-izquierda-encamina-negociaciones-in-extremis-disponer-aun-mapa-claro-coaliciones-20261014193905.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "IU rechaza negociar con Podemos fuera de Frente Amplio y deja claro que no acepta acuerdos \"troceados\" al 29N",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-iu-rechaza-negociar-podemos-fuera-frente-amplio-deja-claro-no-acepta-acuerdos-troceados-29n-20261015102013.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "En la Comunitat Valenciana, Aragón y Baleares, Compromís, Chunta Aragonesista y Ara Més buscaban liderar candidaturas de unidad y las negociaciones no se habían cerrado a dos días del fin del plazo; el BNG, según IU, no quiere participar en ninguna coalición.",
+        "tipo": "hecho",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "La izquierda se encamina a negociaciones 'in extremis' sin disponer aún de un mapa claro de coaliciones",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-izquierda-encamina-negociaciones-in-extremis-disponer-aun-mapa-claro-coaliciones-20261014193905.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Maíllo dice que el acuerdo con Podemos \"está más cerca\" y asegura estar \"moderadamente optimista\"",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-maillo-dice-acuerdo-podemos-mas-cerca-asegura-estar-moderadamente-optimista-20261014235046.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "En Canarias, Nueva Canarias, IUC y Movimiento Sumar preveían registrar la confluencia «Nueva Canarias-Frente Amplio», de momento sin Podemos.",
+        "tipo": "hecho",
+        "fecha": "2026-10-15",
+        "fuentes": [
+          {
+            "titulo": "La confluencia de izquierdas en Canarias se llamará Nueva Canarias-Frente Amplio, de momento sin Podemos",
+            "emisor": "elDiario.es / Canarias Ahora (Jennifer Jiménez)",
+            "tipo": "medio",
+            "url": "https://www.eldiario.es/canariasahora/politica/confluencia-izquierdas-canarias-llamara-nueva-canarias-frente-amplio-momento_1_13586962.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Las coaliciones debían comunicarse a la Junta Electoral entre el 7 y el 16 de octubre; las candidaturas se presentan del 21 al 26 de octubre y se proclaman el 2 de noviembre (BOE del 3 de noviembre).",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Calendario electoral. Elecciones Generales 2026 (Cortes Generales)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+            "localizacion": "Apartado «Candidaturas», pág. 4",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Alianza de partidos de izquierda situados a la izquierda del PSOE, con componentes ecologistas, feministas y federalistas/plurinacionales. Sus partidos han sido socios minoritarios del PSOE en el Gobierno de coalición de la XV legislatura.",
+    "autodefinicion": {
+      "texto": "Movimiento Sumar, uno de los cuatro partidos de la coalición, se define en su documento político de 2025 como una fuerza plurinacional, federal y republicana, además de pacifista y europeísta.",
+      "tipo": "declaracion",
+      "fecha": "2025-04",
+      "fuentes": [
+        {
+          "titulo": "Documento Político Asamblea 2025",
+          "emisor": "Movimiento Sumar",
+          "tipo": "partido",
+          "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+          "fecha_documento": "2025-04",
+          "fecha_consulta": "2026-10-15",
+          "localizacion": "Apartado 3, principios 6 y siguientes (págs. 14-15); apartado 5.11.3 (pág. 44)"
+        }
+      ]
+    },
+    "clasificaciones_externas": [
+      {
+        "texto": "La Chapel Hill Expert Survey 2024 clasificó a Sumar y a Izquierda Unida en la familia «Radical Left» (izquierda radical), con posiciones ideológicas generales medias de 2,3 (Sumar) y 1,7 (IU) en una escala de 0 (extrema izquierda) a 10 (extrema derecha).",
+        "tipo": "interpretacion",
+        "fecha": "2025-02",
+        "fuentes": [
+          {
+            "titulo": "Chapel Hill Expert Survey 2024 – Codebook (Rovny, Bakker, Hooghe, Jolly, Marks, Polk, Steenbergen y Vachudova)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://github.com/chesdata/chesdata.github.io/releases/download/ches-europe/CHES.2024.Codebook.pdf",
+            "localizacion": "Variables «family» (código 6 = Radical Left) y «lrgen»",
+            "fecha_documento": "2025-02",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "CHES 2024 – conjunto de datos (medias por partido)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://github.com/chesdata/chesdata.github.io/releases/download/ches-europe/CHES_2024_final_v2.csv",
+            "localizacion": "party_id 551 (Sumar): family = 6, lrgen = 2,31; party_id 504 (IU): family = 6, lrgen = 1,73",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "La clasificación de CHES se refiere a Sumar e IU en 2024, no a Frente Amplio como coalición. Frente Amplio no ha publicado aún estatutos ni programa conjunto; la autodefinición citada es la de Movimiento Sumar."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Sumar (coalición electoral predecesora; no es Frente Amplio)",
+      "votos": 3044996,
+      "porcentaje": 12.33,
+      "escanos_congreso": 31,
+      "escanos_senado": 0,
+      "nota": "Resultado de la coalición Sumar en 2023, agregada por la JEC en una sola columna (incluye listas como Sumar-En Comú Podem o Compromís-Sumar). Se muestra solo como antecedente: en aquella candidatura concurrieron también Podemos, Compromís, Chunta Aragonesista, Més per Mallorca y otras fuerzas que no forman parte de Frente Amplio. No es un resultado propio de Frente Amplio, que no ha concurrido nunca a unas elecciones. Porcentaje calculado por la redacción sobre 24.688.087 votos válidos.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadros I y II (columna «Sumar (SUMAR)»); relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Qué partidos componen el Grupo Parlamentario de Sumar en el Congreso y con cuántos miembros cuentan cada uno",
+          "emisor": "Newtral (Rosa Soto)",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/partidos-componen-grupo-sumar-congreso/20250624/",
+          "fecha_documento": "2025-06-24",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Los partidos de Frente Amplio formaron parte del Gobierno de coalición con el PSOE desde noviembre de 2023, con cinco ministerios.",
+      "tipo": "hecho",
+      "fecha": "2023-11-20",
+      "fuentes": [
+        {
+          "titulo": "Mónica García, Ernest Urtasun, Pablo Bustinduy y Sira Rego: los ministros de Sumar de la vicepresidenta Yolanda Díaz",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/monica-garcia-ernest-urtasun-pablo-bustinduy-sira-rego-ministros-sumar-vicepresidenta-yolanda-diaz_1_10700056.html",
+          "fecha_documento": "2023-11-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El grupo de Sumar apoyó la ley de amnistía, aprobada definitivamente por el Congreso el 30 de mayo de 2024 por 177 votos a 172.",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "El Congreso aprueba la ley de amnistía",
+          "emisor": "elDiario.es",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/congreso-aprueba-ley-amnistia_1_11407884.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG, PNV y Coalición Canaria",
+          "emisor": "Newtral",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/pactos-investidura-sanchez/20231111/",
+          "fecha_documento": "2023-11-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Movimiento Sumar presentó como logro propio los decretos de vivienda aprobados por el Consejo de Ministros el 29 de septiembre de 2026 (protección ante desahucios, prórroga de alquileres, regulación de alquileres de temporada y habitaciones, limitación de compras de fondos), que el Congreso derogó el 2 de octubre con los votos en contra de PP, Vox, Junts y UPN (PNV y CC, solo en el segundo).",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "Aprobamos en Consejo de Ministros los Decretos de Vivienda",
+          "emisor": "Movimiento Sumar",
+          "tipo": "partido",
+          "url": "https://movimientosumar.es/aprobamos-en-consejo-de-ministros-los-decretos-de-vivienda/",
+          "fecha_documento": "2026-09-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Los votos de PP, Vox y Junts tumban los dos decretos ley de vivienda aprobados el martes en el Consejo de Ministros",
+          "emisor": "Civio (Eva Belmonte)",
+          "tipo": "medio",
+          "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/02/decretos-ley-vivienda-derogacion-congreso/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto-ley 28/2026, aprobado tras la disolución, se adoptó a propuesta conjunta del ministro de Derechos Sociales, Consumo y Agenda 2030 (Pablo Bustinduy, de la cuota de Sumar), del ministro de la Presidencia y de la ministra de Vivienda.",
+      "tipo": "hecho",
+      "fecha": "2026-10-06",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
+          "localizacion": "Fórmula de aprobación previa al artículo único",
+          "fecha_documento": "2026-10-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Mónica García, Ernest Urtasun, Pablo Bustinduy y Sira Rego: los ministros de Sumar de la vicepresidenta Yolanda Díaz",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/monica-garcia-ernest-urtasun-pablo-bustinduy-sira-rego-ministros-sumar-vicepresidenta-yolanda-diaz_1_10700056.html",
+          "fecha_documento": "2023-11-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "El 24 de octubre de 2023 Sumar y el PSOE alcanzaron un acuerdo de Gobierno que contemplaba, entre otras medidas, la semana laboral de 37,5 horas, impuestos a la banca y a las grandes energéticas y la ampliación de los permisos retribuidos por nacimiento; con él, Sumar apoyó la investidura de Pedro Sánchez.",
+        "tipo": "hecho",
+        "fecha": "2023-10-24",
+        "fuentes": [
+          {
+            "titulo": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG, PNV y Coalición Canaria",
+            "emisor": "Newtral",
+            "tipo": "medio",
+            "url": "https://www.newtral.es/pactos-investidura-sanchez/20231111/",
+            "fecha_documento": "2023-11-11",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Los Comuns afirmaron que trabajan por una candidatura amplia «con el objetivo de revalidar el Gobierno de coalición progresista».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-12",
+        "fuentes": [
+          {
+            "titulo": "Comuns acusan a Rufián de dividir la izquierda tras el pacto ERC-Podemos e irán a las elecciones con Frente Amplio",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-comuns-acusan-rufian-dividir-izquierda-pacto-erc-podemos-iran-elecciones-frente-amplio-20261012141859.html",
+            "fecha_documento": "2026-10-12",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "El coordinador de IU, Antonio Maíllo, relató que antes de convocar las elecciones Pedro Sánchez les preguntó si estaban preparados y que le respondieron que no habría «ningún problema por nuestra izquierda».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-06",
+        "fuentes": [
+          {
+            "titulo": "Maíllo reafirma que no será candidato del Frente Amplio el 29N e invita a Podemos a sentarse a debatir sobre primarias",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/andalucia/noticia-maillo-reafirma-no-sera-candidato-frente-amplio-29n-invita-podemos-sentarse-debatir-primarias-20261006100728.html",
+            "fecha_documento": "2026-10-06",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Ada Colau mantiene, según sus palabras, «la puerta totalmente abierta y la mano totalmente tendida» a ERC, Podemos y otras formaciones, aunque calificó de «un poco desconcertante» el acuerdo entre ERC y Podemos.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Colau afirma que está dispuesta a apartarse como candidata si ayuda a un acuerdo para la unidad con Podemos",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-amp-colau-afirma-dispuesta-apartarse-candidata-si-ayuda-acuerdo-unidad-podemos-20261014095736.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "IU rechazó la oferta de Podemos de pactar solo con IU en diez comunidades y sostuvo que negociará únicamente desde el conjunto de Frente Amplio.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-15",
+        "fuentes": [
+          {
+            "titulo": "IU rechaza negociar con Podemos fuera de Frente Amplio y deja claro que no acepta acuerdos \"troceados\" al 29N",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-iu-rechaza-negociar-podemos-fuera-frente-amplio-deja-claro-no-acepta-acuerdos-troceados-29n-20261015102013.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Medidas de vivienda impulsadas desde el Gobierno (decretos-ley de 2026), con detalle normativo en el BOE."
+    ],
+    "sin_desarrollar": [
+      "Posiciones programáticas procedentes del documento político 2025 de Movimiento Sumar (reducción de jornada, modelo federal, regularización, clima), sin cifras ni calendario y sin confirmar como programa común de la coalición.",
+      "Colau habla de un «programa de mínimos» compartido por la izquierda, aún no publicado."
+    ],
+    "pendiente": [
+      "Programa conjunto de Frente Amplio (primer acto previsto el 17 de octubre de 2026).",
+      "Composición final de la coalición y alianzas territoriales (Compromís, CHA, Ara Més, Podemos) tras el plazo del 16 de octubre.",
+      "Listas por circunscripción (presentación del 21 al 26 de octubre)."
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "No se ha localizado web oficial de Frente Amplio ni la lista de coaliciones comunicadas a la JEC (el plazo terminaba el 16-10-2026). Revisar composición tras ese plazo. El dato de que Compromís no se integrará no se ha podido confirmar: a 14-15 de octubre seguía negociando."
+  }
+}

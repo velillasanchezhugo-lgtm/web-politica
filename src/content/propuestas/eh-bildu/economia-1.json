@@ -1,0 +1,34 @@
+{
+  "id": "eh-bildu-economia-1",
+  "partido": "eh-bildu",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "Fiscalidad foral contra la especulación inmobiliaria",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "EH Bildu registró en las Juntas Generales de Araba, Bizkaia y Gipuzkoa cambios en cuatro impuestos: eliminar la bonificación en Sociedades a quien alquile más de cinco viviendas, subir Transmisiones a partir de la tercera vivienda y a grandes tenedores, un recargo del 20 % en el IRPF a viviendas turísticas y a alquileres en zonas tensionadas por encima de los índices de referencia, y cambios en la base de Patrimonio.",
+  "competencia": {
+    "administraciones": [
+      "ccaa"
+    ],
+    "nota": "Régimen foral: en virtud del Concierto Económico, las Juntas Generales de cada territorio histórico regulan la mayor parte de estos impuestos; no es una competencia estatal en Araba, Bizkaia y Gipuzkoa (en Navarra rige el Convenio Económico)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica estimación de recaudación ni coste."
+  },
+  "calendario": "Iniciativas registradas en junio de 2026 en las Juntas Generales",
+  "fuentes": [
+    {
+      "titulo": "EH Bildu plantea un paquete de modificaciones fiscales para frenar la especulación con la vivienda",
+      "emisor": "EH Bildu",
+      "tipo": "partido",
+      "url": "https://ehbildu.eus/es/noticias/eh-bildu-plantea-un-paquete-de-modificaciones-fiscales-para-frenar-la-especulacion-con-la-vivienda",
+      "fecha_documento": "2026-06-23",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

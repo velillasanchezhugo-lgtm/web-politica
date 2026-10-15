@@ -1,0 +1,36 @@
+{
+  "id": "pnv-inmigracion-1",
+  "partido": "pnv",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Política migratoria integral y competencias en migración para Euskadi",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Según el balance de su grupo parlamentario, el PNV ha reclamado durante la legislatura una política integral de migraciones y que Euskadi asuma competencias en esta materia; destaca como logro el traspaso de la gestión de las autorizaciones de trabajo de personas extranjeras.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Inmigración y extranjería son competencia exclusiva del Estado (art. 149.1.2.ª CE) en el marco del Derecho de la UE; las comunidades autónomas gestionan la integración y, por traspaso, pueden asumir funciones ejecutivas como las autorizaciones iniciales de trabajo."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "El Grupo Vasco cierra la legislatura con más de 1.500 intervenciones, centenares de iniciativas y un objetivo para después del 29N",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58574/el-grupo-vasco-cierra-la-legislatura-con-mas-de-1-/",
+      "fecha_documento": "2026-10-10",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

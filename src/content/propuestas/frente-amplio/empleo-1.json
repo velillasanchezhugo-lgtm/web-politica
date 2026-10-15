@@ -1,0 +1,54 @@
+{
+  "id": "frente-amplio-empleo-1",
+  "partido": "frente-amplio",
+  "tema": "empleo",
+  "eleccion": "generales-2026",
+  "titulo": "Reducción de la jornada laboral",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Movimiento Sumar defiende reducir la jornada laboral, reforzar la negociación colectiva y el papel de los sindicatos, y crear fórmulas de democracia económica que incorporen a los trabajadores a las decisiones de las empresas. La reducción de la jornada a 37,5 horas semanales figuraba en el acuerdo de Gobierno PSOE-Sumar de 2023.",
+  "que_cambiaria": "Requeriría modificar el Estatuto de los Trabajadores; el documento no fija una cifra de horas.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La legislación laboral (incluida la jornada máxima del Estatuto de los Trabajadores) es estatal; su ejecución corresponde a las comunidades autónomas (art. 149.1.7.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El documento no cuantifica coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Posición de Movimiento Sumar, uno de los cuatro partidos que forman Frente Amplio, recogida en su documento político de 2025. Frente Amplio no ha publicado todavía un programa conjunto, por lo que no es un compromiso electoral de la coalición.",
+  "fuentes": [
+    {
+      "titulo": "Documento Político Asamblea 2025",
+      "emisor": "Movimiento Sumar",
+      "tipo": "partido",
+      "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+      "localizacion": "Apartado 5.3 «Democracia económica: laborismo y tiempo de vida» (pág. 24)",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG, PNV y Coalición Canaria",
+      "emisor": "Newtral",
+      "tipo": "medio",
+      "url": "https://www.newtral.es/pactos-investidura-sanchez/20231111/",
+      "fecha_documento": "2023-11-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.7.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

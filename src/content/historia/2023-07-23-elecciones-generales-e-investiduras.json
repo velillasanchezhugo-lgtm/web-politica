@@ -1,0 +1,121 @@
+{
+  "id": "2023-07-23-elecciones-generales-e-investiduras",
+  "fecha": "2023-07-23",
+  "fecha_fin": "2023-11-16",
+  "titulo": "Elecciones generales de 2023 e investidura de Pedro Sánchez",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "En las elecciones anticipadas del 23 de julio de 2023 el PP fue la candidatura con más escaños, pero Alberto Núñez Feijóo no logró la investidura. Pedro Sánchez fue investido el 16 de noviembre de 2023 por mayoría absoluta.",
+  "contexto": "El Real Decreto 400/2023, de 29 de mayo, disolvió las Cortes a propuesta del presidente del Gobierno, al amparo del artículo 115 de la Constitución, y convocó elecciones para el 23 de julio. Ninguna candidatura alcanzó la mayoría absoluta de 176 escaños.",
+  "consecuencias": [
+    {
+      "texto": "Según la Junta Electoral Central, el PP obtuvo 137 escaños; el PSOE, 121 (102 de su candidatura y 19 del PSC); Vox, 33; Sumar, 31; ERC y Junts, 7 cada uno; EH Bildu, 6; EAJ-PNV, 5; y BNG, Coalición Canaria y UPN, 1 cada uno.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II. Total estatal",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Feijóo no obtuvo la confianza: el 27 de septiembre de 2023 logró 172 votos a favor y 178 en contra, y el 29 de septiembre 172 a favor, 177 en contra y 1 voto nulo.",
+      "tipo": "hecho",
+      "fecha": "2023-09-29",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 15 Legislatura, núm. 5",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 15 Legislatura, núm. 6",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-6.PDF",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Sánchez fue investido en primera votación el 16 de noviembre de 2023 con 179 votos a favor y 171 en contra.",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 15 Legislatura, núm. 8",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 400/2023, de 29 de mayo, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-12663",
+      "fecha_documento": "2023-05-30",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+      "emisor": "Junta Electoral Central (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+      "localizacion": "Cuadro II. Total estatal",
+      "fecha_documento": "2023-09-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 15 Legislatura, núm. 5",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+      "fecha_documento": "2023-09-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 15 Legislatura, núm. 6",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-6.PDF",
+      "fecha_documento": "2023-09-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 15 Legislatura, núm. 8",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+      "fecha_documento": "2023-11-16",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: XV Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xv_legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

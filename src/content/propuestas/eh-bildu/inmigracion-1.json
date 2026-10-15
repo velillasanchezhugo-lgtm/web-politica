@@ -1,0 +1,36 @@
+{
+  "id": "eh-bildu-inmigracion-1",
+  "partido": "eh-bildu",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Política migratoria basada en derechos y competencias migratorias para Euskal Herria",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Ante la crisis de Ceuta, EH Bildu defendió una política migratoria basada en la solidaridad, la protección de las personas y el derecho internacional, y reclamó todas las competencias en migración para Euskal Herria «para poder decidir y desarrollar una respuesta propia». También pidió esclarecer el papel de Marruecos y rectificar la posición del Gobierno sobre el Sáhara Occidental.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue",
+      "ccaa"
+    ],
+    "nota": "Inmigración, extranjería y relaciones internacionales son competencia exclusiva del Estado (art. 149.1.2.ª y 3.ª CE), dentro del marco de la UE; las CCAA gestionan acogida e integración."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "EH Bildu denuncia el uso de la crisis de Ceuta para alimentar el racismo y la confrontación, exige aclarar el papel de Marruecos y reivindica otra política migratoria",
+      "emisor": "EH Bildu",
+      "tipo": "partido",
+      "url": "https://ehbildu.eus/herriak/kongresua-senatua/es/noticias/eh-bildu-denuncia-el-uso-de-la-crisis-de-ceuta-para-alimentar-el-racismo-y-la-confrontacion-exige-aclarar-el-papel-de-marruecos-reivindica-otra-politica-migratoria-las-cosas-pueden-hacerse-de-otra-manera",
+      "fecha_documento": "2026-09-03",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

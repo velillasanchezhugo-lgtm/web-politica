@@ -1,0 +1,72 @@
+{
+  "id": "2019-11-10-elecciones-generales-de-noviembre-de-2019",
+  "fecha": "2019-11-10",
+  "titulo": "Elecciones generales de noviembre de 2019",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "Segunda repetición electoral por falta de investidura. El PSOE volvió a ser la primera fuerza, Vox pasó a ser la tercera y Ciudadanos se redujo a 10 escaños.",
+  "contexto": "Fueron las cuartas elecciones generales en cuatro años (2015, 2016, abril y noviembre de 2019). Las convocó el Real Decreto 551/2019 en aplicación del artículo 99.5 de la Constitución.",
+  "consecuencias": [
+    {
+      "texto": "Según la Junta Electoral Central, el PSOE obtuvo 120 escaños (108 de su candidatura y 12 del PSC); el PP, 89 (87 y 2 de PP-Foro); Vox, 52; Unidas Podemos y sus confluencias, 35; ERC, 13; y Ciudadanos, 10.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 29 de noviembre de 2019, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 10 de noviembre de 2019",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2019/12/02/pdfs/BOE-A-2019-17344.pdf",
+          "localizacion": "Cuadro II. Total estatal",
+          "fecha_documento": "2019-12-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Parlamento de la XIV Legislatura se constituyó el 3 de diciembre de 2019.",
+      "tipo": "hecho",
+      "fecha": "2019-12-03",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: XIV Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xiv_legislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 551/2019, de 24 de septiembre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-13558",
+      "fecha_documento": "2019-09-24",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 29 de noviembre de 2019, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 10 de noviembre de 2019",
+      "emisor": "Junta Electoral Central (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2019/12/02/pdfs/BOE-A-2019-17344.pdf",
+      "localizacion": "Cuadro II. Total estatal",
+      "fecha_documento": "2019-12-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: XIV Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xiv_legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pnv-energia-medioambiente-1",
+  "partido": "pnv",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Enmiendas a la Ley de Aceleración Industrial europea para proteger la industria energética",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "La eurodiputada del PNV Oihane Agirregoitia presentó 62 enmiendas a la propuesta de Ley de Aceleración Industrial de la UE para reforzar cadenas de valor energéticas (eólica, redes, fotovoltaica, hidrógeno, baterías…), con criterios de origen europeo más exigentes y reciprocidad comercial; el PNV sostiene que la descarbonización industrial exige energía asequible y competitiva.",
+  "competencia": {
+    "administraciones": [
+      "ue",
+      "estado"
+    ],
+    "nota": "El reglamento se tramita en el Parlamento Europeo y el Consejo de la UE; la política energética nacional es competencia compartida Estado-CCAA (bases del régimen energético, art. 149.1.25.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "En tramitación en la comisión ITRE del Parlamento Europeo",
+  "fuentes": [
+    {
+      "titulo": "EAJ-PNV enmienda la Ley de Aceleración Industrial europea para reforzar la industria energética vasca en toda la cadena de valor",
+      "emisor": "EAJ-PNV",
+      "tipo": "partido",
+      "url": "https://www.eaj-pnv.eus/es/noticias/58586/eaj-pnv-enmienda-la-ley-de-aceleracion-industrial-/",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}
