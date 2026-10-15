@@ -1,0 +1,440 @@
+{
+  "id": "compromis",
+  "nombre": "Compromís",
+  "siglas": "Compromís",
+  "naturaleza": "coalicion_electoral",
+  "ambito": "territorial",
+  "territorio": "Comunitat Valenciana",
+  "color_grafico": "#F07D1A",
+  "web_oficial": "https://compromis.net/",
+  "criterio_inclusion": "Formación con diputados propios en el Congreso en la XV legislatura, elegidos en 2023 dentro de la candidatura de Sumar en la Comunitat Valenciana",
+  "resumen": "Compromís es una coalición valencianista de izquierdas y ecologista formada por Més-Compromís, Iniciativa del Poble Valencià y VerdsEquo. Gobernó la Generalitat Valenciana con el PSPV en el Botànic desde 2015 y en 2023 concurrió a las generales dentro de Sumar, con dos diputados propios (Àgueda Micó y Alberto Ibáñez). Para el 29 de noviembre de 2026 su ejecutiva ha anunciado que impulsará una candidatura valenciana propia, fuera del Frente Amplio, y negocia con otras fuerzas de izquierda; a 15 de octubre no hay cabeza de lista decidido.",
+  "historia": [
+    {
+      "texto": "Según su manifiesto fundacional, Compromís nació como coalición del Bloc Nacionalista Valencià, Iniciativa del Poble Valencià y Els Verds-EE, «des del valencianisme progressista, l'esquerra moderna i l'ecologisme polític».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Manifest fundacional",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/info/manifest/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Actualmente la integran Més-Compromís, Iniciativa del Poble Valencià y VerdsEquo del País Valencià, según la propia formación.",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Qui som",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/info/qui-som/",
+          "fecha_documento": "2021",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Compromís gobernó la Generalitat Valenciana en el pacto del Botànic con el PSPV (y Unides Podem en la segunda legislatura) desde 2015; su principal dirigente, Mónica Oltra, dejó la vicepresidencia en junio de 2022 tras ser imputada.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "El 2023 serà l'any del tercer Botànic?",
+          "emisor": "VilaWeb",
+          "tipo": "medio",
+          "url": "https://www.vilaweb.cat/noticies/2023-any-tercer-botanic-analisi/",
+          "fecha_documento": "2023-01-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En junio de 2023 Compromís pactó con Sumar concurrir conjuntamente a las generales: designaría el primer y segundo puesto por Valencia y tendría voz y agenda propias dentro del grupo de Sumar; el acuerdo fue avalado por Més-Compromís (90 %), Iniciativa (82,83 %) y Verds Equo (100 %).",
+      "tipo": "hecho",
+      "fecha": "2023-06-09",
+      "fuentes": [
+        {
+          "titulo": "L'acord de Compromís amb Sumar: cap de llista a València i veu pròpia a Madrid",
+          "emisor": "VilaWeb",
+          "tipo": "medio",
+          "url": "https://www.vilaweb.cat/noticies/acord-compromis-sumar-cap-llista-valencia-veu-propia/",
+          "fecha_documento": "2023-06-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Tribunal de Cuentas señala que la situación jurídica de Coalició Compromís es la de una «coalición permanente», aunque no está inscrita como tal en el Registro de Partidos Políticos.",
+      "tipo": "hecho",
+      "fecha": "2024-06-27",
+      "fuentes": [
+        {
+          "titulo": "Informe de fiscalización de las cuentas del ejercicio 2020 de Coalició Compromís (aprobado por el Pleno del Tribunal de Cuentas el 27/06/2024; extracto publicado por Compromís)",
+          "emisor": "Tribunal de Cuentas",
+          "tipo": "oficial",
+          "url": "https://compromis.net/wp-content/uploads/2024/06/INFORME-TCU-2020-dragged.pdf",
+          "fecha_documento": "2024-06-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 6 de octubre de 2026 la ejecutiva de Compromís acordó impulsar para el 29-N una «candidatura valenciana, oberta i plural» y abrir un diálogo con «totes les forces polítiques transformadores del País Valencià».",
+      "tipo": "hecho",
+      "fecha": "2026-10-06",
+      "fuentes": [
+        {
+          "titulo": "Declaració de l'Executiva de Compromís per una candidatura arrelada de l'esquerra valenciana",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36698/declaracio-de-lexecutiva-de-compromis-per-una-candidatura-arrelada-de-lesquerra-valenciana/",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Diputada en el Congreso (XV legislatura)",
+      "nombre": "Àgueda Micó",
+      "fuentes": [
+        {
+          "titulo": "Compromís reclama la derogació de la Llei Mordassa davant les càrregues policials contra la protesta per la vivenda a València",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36696/compromis-reclama-la-derogacio-de-la-llei-mordassa-davant-les-carregues-policials-contra-la-protesta-per-la-vivenda-a-valencia/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Compromís exigeix al Govern que no amplie la capacitat de l'aeroport de Manises",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36641/compromis-exigeix-al-govern-que-no-amplie-la-capacitat-de-laeroport-de-manises/",
+          "fecha_documento": "2026-09-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Diputado en el Congreso (XV legislatura)",
+      "nombre": "Alberto Ibáñez",
+      "fuentes": [
+        {
+          "titulo": "Compromís exigeix al Govern posar en marxa ja mecanismes de compensació del deute sanitari de 1.117 milions",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36645/compromis-exigeix-al-govern-posar-en-marxa-ja-mecanismes-de-compensacio-del-deute-sanitari-de-1-117-milions/",
+          "fecha_documento": "2026-09-11",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Compromís exigeix concreció per al nou sistema de finançament",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36473/compromis-exigeix-concrecio-per-al-nou-sistema-de-financament/",
+          "fecha_documento": "2026-07-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Síndic (portavoz) del grupo Compromís en las Corts Valencianes",
+      "nombre": "Joan Baldoví",
+      "fuentes": [
+        {
+          "titulo": "Compromís proposa reduir un 25% els alts càrrecs de Pérez Llorca, acabar amb els privilegis de Mazón i destinar més de 200 milions extra als serveis públics",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36483/compromis-proposa-reduir-un-25-els-alts-carrecs-de-perez-llorca-acabar-amb-els-privilegis-de-mazon-i-destinar-mes-de-200-milions-extra-als-serveis-publics/",
+          "fecha_documento": "2026-07-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Candidatura valenciana propia, fuera del Frente Amplio, en negociación con otras fuerzas de izquierda (Esquerra Unida, Podem…) a 15-10-2026; formato y nombre pendientes",
+    "detalle": [
+      {
+        "texto": "La ejecutiva de Compromís anunció su voluntad de impulsar una candidatura valenciana «que aspire a ser el referent de tota l'esquerra valenciana», con un programa centrado en vivienda, salarios, servicios públicos, financiación justa, infraestructuras y lengua.",
+        "tipo": "hecho",
+        "fecha": "2026-10-06",
+        "fuentes": [
+          {
+            "titulo": "Declaració de l'Executiva de Compromís per una candidatura arrelada de l'esquerra valenciana",
+            "emisor": "Compromís",
+            "tipo": "partido",
+            "url": "https://compromis.net/36698/declaracio-de-lexecutiva-de-compromis-per-una-candidatura-arrelada-de-lesquerra-valenciana/",
+            "fecha_documento": "2026-10-06",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "La mesa nacional de Iniciativa-Compromís propuso por unanimidad al diputado Alberto Ibáñez como cabeza de lista al Congreso; se trata de una propuesta de uno de los partidos de la coalición, no de una designación del conjunto de Compromís.",
+        "tipo": "hecho",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Iniciativa-Compromís proposa Alberto Ibáñez per a encapçalar la candidatura al congrés espanyol",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/iniciativa-compromis-alberto-ibanez-candidatura-congres-espanyol/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "A dos días del fin del plazo para registrar coaliciones (16 de octubre), Compromís mantenía conversaciones con Esquerra Unida y Podem sin acuerdo cerrado; Esquerra Unida expresó reticencias a concurrir bajo las siglas de Compromís.",
+        "tipo": "hecho",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Iniciativa-Compromís proposa Alberto Ibáñez per a encapçalar la candidatura al congrés espanyol",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/iniciativa-compromis-alberto-ibanez-candidatura-congres-espanyol/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según VilaWeb, la desconfianza de Compromís y Més Madrid reduce el alcance del Frente Amplio impulsado por Sumar, IU, Más Madrid y los Comuns.",
+        "tipo": "interpretacion",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Cicatrius, recels i trinxeres: qui és qui en la samfaina del front d'esquerres espanyol",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/recels-trinxeres-front-esquerres-rufian-colau-eleccions-espanyoles/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Coalición valencianista, de izquierdas y ecologista. Centra su agenda en la financiación de la Comunitat Valenciana, los servicios públicos, la vivienda, las infraestructuras ferroviarias y la lengua; en la XV legislatura apoyó al Gobierno de coalición PSOE-Sumar desde el espacio de Sumar.",
+    "autodefinicion": {
+      "texto": "Según su manifiesto fundacional, Compromís se presenta «des del valencianisme progressista, l'esquerra moderna i l'ecologisme polític» como «tercer espai polític»; Més-Compromís se describe como «l'organització unitària del valencianisme d'esquerres des d'una visió feminista, ecologista, diversa i antifeixista».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Manifest fundacional",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/info/manifest/",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Qui som",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/info/qui-som/",
+          "fecha_documento": "2021",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [],
+    "matices": "No es un partido único: es una coalición permanente de tres partidos (Més-Compromís, Iniciativa y VerdsEquo) con dirección colegiada; el Tribunal de Cuentas indica que no figura inscrita como tal en el Registro de Partidos. Se ha usado el valor «coalicion_electoral» del esquema por ser el más próximo. Sus partidos integrantes mantienen discrepancias internas sobre la candidatura de 2026 (por ejemplo, sobre el uso de la marca Compromís en la papeleta)."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Sumar (en las provincias de Valencia y Alicante, con la denominación «Compromís-Sumar: Sumem per guanyar»)",
+      "nota": "Compromís no concurrió con candidatura propia: sus votos están incluidos en el total de Sumar (3.044.996 votos y 31 escaños en el Congreso según la JEC), por lo que no se atribuye un recuento separado. La lista «Compromís-Sumar: Sumem per guanyar» obtuvo 4 escaños (3 en Valencia y 1 en Alicante); de ellos, 2 correspondieron a Compromís: Àgueda Micó y Alberto Ibáñez, primer y segundo puesto por Valencia, reservados a Compromís por el acuerdo con Sumar.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II; relación de diputados proclamados electos (Alicante/Alacant y Valencia/València)",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "L'acord de Compromís amb Sumar: cap de llista a València i veu pròpia a Madrid",
+          "emisor": "VilaWeb",
+          "tipo": "medio",
+          "url": "https://www.vilaweb.cat/noticies/acord-compromis-sumar-cap-llista-valencia-veu-propia/",
+          "fecha_documento": "2023-06-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Compromís formó parte del Gobierno valenciano del Botànic (PSPV, Compromís y, en la segunda legislatura, Unides Podem) desde 2015; en la legislatura actual está en la oposición en las Corts Valencianes frente al Consell del PP presidido por Juanfran Pérez Llorca.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "El 2023 serà l'any del tercer Botànic?",
+          "emisor": "VilaWeb",
+          "tipo": "medio",
+          "url": "https://www.vilaweb.cat/noticies/2023-any-tercer-botanic-analisi/",
+          "fecha_documento": "2023-01-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Compromís exigeix a Pérez Llorca acceptar la transferència de la sanitat penitenciària després de 23 anys de bloqueig",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36649/compromis-exigeix-a-perez-llorca-acceptar-la-transferencia-de-la-sanitat-penitenciara-despres-de-23-anys-de-bloqueig/",
+          "fecha_documento": "2026-09-14",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Espinosa: «La retallada en prevenció d'incendis del Consell del PP no s'apanya amb la incorporació d'un centenar d'efectius sense formació en ple agost»",
+          "emisor": "Compromís",
+          "tipo": "partido",
+          "url": "https://compromis.net/36591/espinosa-la-retallada-en-prevencio-dincendis-del-consell-del-pp-no-sapanya-amb-la-incorporacio-dun-centenar-defectius-sense-formacio-en-ple-agost/",
+          "fecha_documento": "2026-08-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los diputados de Compromís formaban parte de los 31 escaños de Sumar que votaron a favor de la investidura de Pedro Sánchez el 16 de noviembre de 2023.",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Pedro Sánchez, investido presidente con 179 votos",
+          "emisor": "Diari de Tarragona",
+          "tipo": "medio",
+          "url": "https://www.diaridetarragona.com/internacional/175840/pedro-sanchez-investido-presidente-con-179-votos-al17582244.html",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Relación de diputados proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 Compromís votó a favor de convalidar los Reales Decretos-ley 26/2026 y 27/2026 de vivienda, que fueron derogados.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso tumba los dos decretos de vivienda del Gobierno",
+          "emisor": "Diario de Avisos (con información de Europa Press)",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "Pacto del Botànic con el PSPV (2015, renovado en 2019 con Unides Podem) para gobernar la Generalitat Valenciana.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "El 2023 serà l'any del tercer Botànic?",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/2023-any-tercer-botanic-analisi/",
+            "fecha_documento": "2023-01-01",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Acuerdo electoral con Sumar para las generales de 2023, con primer y segundo puesto por Valencia para Compromís y posibilidad de grupo propio si se lograban cinco diputados.",
+        "tipo": "hecho",
+        "fecha": "2023-06-09",
+        "fuentes": [
+          {
+            "titulo": "L'acord de Compromís amb Sumar: cap de llista a València i veu pròpia a Madrid",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/acord-compromis-sumar-cap-llista-valencia-veu-propia/",
+            "fecha_documento": "2023-06-09",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "La ejecutiva de Compromís sostiene que, ante «l'avanç de la dreta i l'extrema dreta», la izquierda valenciana puede «ser decisiva per a frenar la dreta i l'extrema dreta»; no ha detallado condiciones para una investidura tras el 29-N.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-06",
+        "fuentes": [
+          {
+            "titulo": "Declaració de l'Executiva de Compromís per una candidatura arrelada de l'esquerra valenciana",
+            "emisor": "Compromís",
+            "tipo": "partido",
+            "url": "https://compromis.net/36698/declaracio-de-lexecutiva-de-compromis-per-una-candidatura-arrelada-de-lesquerra-valenciana/",
+            "fecha_documento": "2026-10-06",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Demandas concretas en financiación (déficit asimétrico, condonación de deuda) y deuda sanitaria interterritorial (1.117 millones), presentadas como iniciativas en el Congreso.",
+      "Votos sobre los decretos de vivienda de octubre de 2026."
+    ],
+    "sin_desarrollar": [
+      "Formato, socios y nombre de la candidatura de 2026.",
+      "Posición sobre pactos postelectorales: solo declaraciones genéricas."
+    ],
+    "pendiente": [
+      "Registro de una eventual coalición ante la JEC (plazo hasta el 16 de octubre) y cabeza de lista.",
+      "Programa electoral 2026.",
+      "Clasificaciones ideológicas externas de fuente académica (no incorporadas)."
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Comprobar el 16-17 de octubre si Compromís ha registrado coalición ante la Junta Electoral y con qué denominación; actualizar candidatura_2026. Naturaleza «coalicion_electoral» elegida por aproximación (coalición permanente no inscrita en el Registro de Partidos). Color de gráfico convencional, a validar por diseño."
+  }
+}

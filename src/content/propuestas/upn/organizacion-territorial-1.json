@@ -1,0 +1,52 @@
+{
+  "id": "upn-organizacion-territorial-1",
+  "partido": "upn",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Blindar el régimen foral y el Convenio Económico y suprimir la disposición transitoria cuarta",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "En el acuerdo de coalición para el 29-N, UPN y PP se comprometen a «respetar y blindar el Régimen Foral», mantener el Convenio Económico como instrumento de financiación de Navarra, apoyar el Amejoramiento del Fuero y promover y votar la eliminación de la disposición transitoria cuarta de la Constitución (que regula una eventual incorporación de Navarra al régimen autonómico vasco) en una eventual reforma constitucional.",
+  "que_cambiaria": "La supresión de la disposición transitoria cuarta exigiría una reforma constitucional por el procedimiento del artículo 167 CE; el resto supone mantener el marco vigente.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "El régimen foral está amparado por la disposición adicional primera de la Constitución; la reforma constitucional corresponde a las Cortes Generales."
+  },
+  "financiacion": {
+    "nota": "No tiene coste directo declarado."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "El Consejo Político de UPN aprueba el acuerdo para concurrir con el PP a las elecciones generales",
+      "emisor": "Unión del Pueblo Navarro",
+      "tipo": "partido",
+      "url": "https://www.upn.org/el-consejo-politico-de-upn-aprueba-el-acuerdo-para-concurrir-con-el-pp-a-las-elecciones-generales/",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "PP y UPN, juntos por Navarra y por España (comunicado sobre el principio de acuerdo de coalición)",
+      "emisor": "Partido Popular",
+      "tipo": "partido",
+      "url": "https://www.pp.es/wp-content/uploads/2026/10/26.10.13-COMUNICADO-PREACUERDO-PP-UPN.pdf",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Disposición transitoria cuarta; disposición adicional primera; art. 149.1",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "psoe-igualdad-derechos-1",
+  "partido": "psoe",
+  "tema": "igualdad-derechos",
+  "eleccion": "generales-2026",
+  "titulo": "Ley de paridad: listas electorales «cremallera» y presencia equilibrada de mujeres y hombres",
+  "tipo_informacion": "documento_oficial",
+  "estado": "medida_aprobada",
+  "resumen": "La Ley Orgánica 2/2024, impulsada por el Gobierno de coalición, obliga a que las candidaturas electorales alternen mujeres y hombres («listas cremallera») y extiende el principio de presencia equilibrada (al menos un 40 % de cada sexo) a otros ámbitos, como el Consejo de Ministros y los consejos de administración de grandes empresas.",
+  "que_cambiaria": "Modificó la LOREG (art. 44 bis y otros), la Ley del Gobierno y la normativa societaria, sustituyendo la exigencia anterior de un mínimo del 40 % de cada sexo en las listas por la alternancia.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "El régimen electoral general se regula por ley orgánica estatal (art. 81 CE) y la regulación de condiciones básicas de igualdad es estatal (art. 149.1.1.ª CE)."
+  },
+  "financiacion": {
+    "nota": "Medida normativa sin coste presupuestario específico publicado."
+  },
+  "calendario": "En vigor; aplicable a las elecciones del 29-N de 2026.",
+  "detalle": "Medida aprobada en la XV legislatura; se recoge como acción de Gobierno, no como promesa electoral de 2026.",
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15936",
+      "localizacion": "Preámbulo (apartados sobre la LOREG, el Gobierno y las empresas)",
+      "fecha_documento": "2024-08-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 81 y 149.1.1.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

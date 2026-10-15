@@ -1,0 +1,51 @@
+{
+  "id": "upn-energia-medioambiente-1",
+  "partido": "upn",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Inversiones estatales en Navarra: segunda fase del Canal de Navarra y refuerzo de la red eléctrica",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "El acuerdo UPN-PP establece que, desde las responsabilidades de gobierno que ejerzan, se impulsará y garantizará la ejecución de inversiones del Estado en infraestructuras estratégicas de Navarra: la segunda fase del Canal de Navarra, el refuerzo de la red eléctrica, el tren de alta velocidad y su conexión con la «Y vasca» y el aeropuerto de Pamplona. UPN sostiene que el Canal mejorará el abastecimiento del 70 % de la población navarra y permitirá regar 59.000 hectáreas.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "Las obras hidráulicas y ferroviarias de interés general y las bases del régimen energético son competencias del Estado (art. 149.1.22.ª, 24.ª y 25.ª CE), en colaboración con la Comunidad Foral."
+  },
+  "financiacion": {
+    "nota": "El acuerdo no cuantifica las inversiones ni su calendario."
+  },
+  "calendario": "No publicado",
+  "detalle": "Los datos sobre el Canal de Navarra proceden de la página «Posición sobre temas» de UPN, sin fecha.",
+  "fuentes": [
+    {
+      "titulo": "El Consejo Político de UPN aprueba el acuerdo para concurrir con el PP a las elecciones generales",
+      "emisor": "Unión del Pueblo Navarro",
+      "tipo": "partido",
+      "url": "https://www.upn.org/el-consejo-politico-de-upn-aprueba-el-acuerdo-para-concurrir-con-el-pp-a-las-elecciones-generales/",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Posición sobre temas",
+      "emisor": "Unión del Pueblo Navarro",
+      "tipo": "partido",
+      "url": "https://www.upn.org/posicion-sobre-temas/",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Disposición transitoria cuarta; disposición adicional primera; art. 149.1",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

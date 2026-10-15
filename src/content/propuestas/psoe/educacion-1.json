@@ -1,0 +1,44 @@
+{
+  "id": "psoe-educacion-1",
+  "partido": "psoe",
+  "tema": "educacion",
+  "eleccion": "generales-2026",
+  "titulo": "Reducir cuatro puntos la tasa de abandono escolar de aquí a 2030",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Pedro Sánchez incluyó entre sus objetivos para 2030 que la tasa de abandono escolar baje cuatro puntos.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "El Estado dicta las normas básicas de la educación (art. 149.1.30.ª CE); las comunidades autónomas gestionan el sistema educativo y la mayor parte del gasto."
+  },
+  "financiacion": {
+    "nota": "No se publicó coste ni fuente de financiación."
+  },
+  "calendario": "Horizonte declarado: 2030",
+  "detalle": "Declaración de campaña del candidato; no figura aún en un programa electoral de 2026 publicado. No se especificó el indicador de abandono ni el año de referencia.",
+  "fuentes": [
+    {
+      "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.30.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

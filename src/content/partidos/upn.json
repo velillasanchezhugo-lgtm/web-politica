@@ -1,0 +1,530 @@
+{
+  "id": "upn",
+  "nombre": "Unión del Pueblo Navarro",
+  "siglas": "UPN",
+  "naturaleza": "partido",
+  "ambito": "territorial",
+  "territorio": "Navarra",
+  "color_grafico": "#2B4C9B",
+  "web_oficial": "https://www.upn.org/",
+  "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
+  "resumen": "Unión del Pueblo Navarro es un partido de ámbito navarro fundado en 1979 que defiende el régimen foral de Navarra dentro de España. En las generales de 2023 obtuvo un diputado y un senador concurriendo en solitario. Para el 29 de noviembre de 2026 ha acordado concurrir en Navarra dentro de la coalición «Unión del Pueblo Navarro en coalición con el Partido Popular», cuyo candidato a la Presidencia del Gobierno es Alberto Núñez Feijóo.",
+  "historia": [
+    {
+      "texto": "UPN se fundó en 1979 con el objetivo declarado de que Navarra mantuviera su régimen foral y su carácter de comunidad propia y diferenciada integrada en España; gobernó Navarra por primera vez en 1991 y, con Miguel Sanz como presidente, entre 1996 y 2015.",
+      "tipo": "declaracion",
+      "fecha": "1979",
+      "fuentes": [
+        {
+          "titulo": "Principios y valores: historia",
+          "emisor": "Unión del Pueblo Navarro",
+          "tipo": "partido",
+          "url": "https://www.upn.org/principios-y-valores/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "UPN concurrió a las generales junto al PP en Navarra desde 1989 (candidaturas UPN-PP) y, en 2019, dentro de Navarra Suma (NA+), que obtuvo 2 diputados en abril y 2 en noviembre de 2019.",
+      "tipo": "hecho",
+      "fecha": "2019",
+      "fuentes": [
+        {
+          "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+          "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En 2023 UPN y PP concurrieron por separado en Navarra tras la ruptura causada por el voto de los dos diputados de UPN contra la reforma laboral en el Congreso; UPN obtuvo 52.188 votos, un diputado y un senador.",
+      "tipo": "hecho",
+      "fecha": "2023-07-23",
+      "fuentes": [
+        {
+          "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Cristina Ibarrola fue elegida presidenta de UPN en el 13.º Congreso del partido, en abril de 2024, con el 81 % de los votos y en sustitución de Javier Esparza.",
+      "tipo": "hecho",
+      "fecha": "2024-04-28",
+      "fuentes": [
+        {
+          "titulo": "Congreso de UPN: arrastrados por la inercia",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2024/04/29/arrastrados-inercia-congreso-upn-ibarrola-toquero-8175437.html",
+          "fecha_documento": "2024-04-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ibarrola dice que UPN tiene que adaptarse al nuevo contexto político y fortalecer la marca",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2024/04/28/ibarrola-dice-upn-adaptarse-nuevo-8172107.html",
+          "fecha_documento": "2024-04-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Presidenta del partido",
+      "nombre": "Cristina Ibarrola",
+      "desde": "2024-04-28",
+      "fuentes": [
+        {
+          "titulo": "Congreso de UPN: arrastrados por la inercia",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2024/04/29/arrastrados-inercia-congreso-upn-ibarrola-toquero-8175437.html",
+          "fecha_documento": "2024-04-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ibarrola celebra el adelanto electoral y afirma que UPN lo afronta «con la misma ilusión que cientos de miles de navarros y españoles»",
+          "emisor": "Unión del Pueblo Navarro",
+          "tipo": "partido",
+          "url": "https://www.upn.org/ibarrola-celebra-el-adelanto-electoral-y-afirma-que-upn-lo-afronta-con-la-misma-ilusion-que-cientos-de-miles-de-navarros-y-espanoles/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Diputado en el Congreso (XV legislatura, Grupo Mixto) hasta la disolución",
+      "nombre": "Alberto Catalán Higueras",
+      "desde": "2023-08-08",
+      "fuentes": [
+        {
+          "titulo": "Datos abiertos del Congreso: Diputados de baja (XV legislatura)",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/es/opendata/diputados",
+          "localizacion": "Registro «Catalán Higueras, Alberto»: UPN, Navarra, Grupo Parlamentario Mixto, alta 08/08/2023, baja 06/10/2026",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Dentro de la coalición «Unión del Pueblo Navarro en coalición con el Partido Popular» (UPN-PP), solo en la circunscripción de Navarra (Congreso y Senado)",
+    "candidato_presidencia": "Alberto Núñez Feijóo (candidato de la coalición UPN-PP, presidente del PP)",
+    "detalle": [
+      {
+        "texto": "El Consejo Político de UPN aprobó el 13 de octubre de 2026, con un 93,5 % de apoyo, concurrir en coalición con el PP a las generales del 29 de noviembre bajo el nombre «Unión del Pueblo Navarro en coalición con el Partido Popular», con Alberto Núñez Feijóo como candidato a la Presidencia del Gobierno.",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "El Consejo Político de UPN aprueba el acuerdo para concurrir con el PP a las elecciones generales",
+            "emisor": "Unión del Pueblo Navarro",
+            "tipo": "partido",
+            "url": "https://www.upn.org/el-consejo-politico-de-upn-aprueba-el-acuerdo-para-concurrir-con-el-pp-a-las-elecciones-generales/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "PP y UPN, juntos por Navarra y por España (comunicado sobre el principio de acuerdo de coalición)",
+            "emisor": "Partido Popular",
+            "tipo": "partido",
+            "url": "https://www.pp.es/wp-content/uploads/2026/10/26.10.13-COMUNICADO-PREACUERDO-PP-UPN.pdf",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+            "emisor": "Noticias de Navarra",
+            "tipo": "medio",
+            "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "El acuerdo reserva a UPN la designación del cabeza de lista al Congreso por Navarra, del puesto 4 y de los suplentes 1 y 3, y de los puestos 1 y 3 al Senado; los electos designados por UPN se incorporarían al Grupo Mixto con libertad de voto.",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "El Consejo Político de UPN aprueba el acuerdo para concurrir con el PP a las elecciones generales",
+            "emisor": "Unión del Pueblo Navarro",
+            "tipo": "partido",
+            "url": "https://www.upn.org/el-consejo-politico-de-upn-aprueba-el-acuerdo-para-concurrir-con-el-pp-a-las-elecciones-generales/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+            "emisor": "Noticias de Navarra",
+            "tipo": "medio",
+            "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Los resultados de 2026 de esta candidatura deben registrarse una sola vez, como coalición UPN-PP, y no sumarse por separado a UPN y al PP.",
+        "tipo": "interpretacion",
+        "fuentes": [
+          {
+            "titulo": "El Consejo Político de UPN aprueba el acuerdo para concurrir con el PP a las elecciones generales",
+            "emisor": "Unión del Pueblo Navarro",
+            "tipo": "partido",
+            "url": "https://www.upn.org/el-consejo-politico-de-upn-aprueba-el-acuerdo-para-concurrir-con-el-pp-a-las-elecciones-generales/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "A 15 de octubre de 2026 la Junta Electoral Central no ha publicado relación de coaliciones; el plazo de comunicación terminaba el 16 de octubre y las candidaturas se presentan del 21 al 26 de octubre.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Elecciones Generales, 29 de noviembre de 2026 (elección en curso): apartado Candidaturas",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/eleccionesEnCurso/Elecciones_generales_2026?apartado=candidaturas",
+            "localizacion": "Sin relación de coaliciones publicada a 15-10-2026",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Calendario electoral. Elecciones Generales 2026 (Cortes Generales)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+            "localizacion": "Apartado «Candidaturas», p. 4",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido regionalista navarro de centroderecha cuya seña principal es la defensa del régimen foral y del Convenio Económico de Navarra dentro de España; colabora habitualmente con el PP en las elecciones generales.",
+    "autodefinicion": {
+      "texto": "UPN defiende «esa Navarra foral y española, diferenciada y dentro de España», y presenta la foralidad como «una vía de integración en España y expresión de sus derechos históricos, amparados por la Constitución Española».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Posición sobre temas: Reforma del Amejoramiento del Fuero",
+          "emisor": "Unión del Pueblo Navarro",
+          "tipo": "partido",
+          "url": "https://www.upn.org/posicion-sobre-temas/",
+          "localizacion": "Apartado «Reforma del Amejoramiento del Fuero»",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [
+      {
+        "texto": "En la encuesta de expertos Chapel Hill (CHES 2024) UPN obtiene una puntuación media de 7,63 en la escala de ideología general de 0 (extrema izquierda) a 10 (extrema derecha) y está clasificado en la familia «Regionalist».",
+        "tipo": "interpretacion",
+        "fecha": "2025-02",
+        "fuentes": [
+          {
+            "titulo": "2024 Chapel Hill Expert Survey (CHES), conjunto de datos CHES_2024_final_v2 y codebook (Rovny, Bakker, Hooghe et al., Electoral Studies 97, 2025)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://www.chesdata.eu/ches-europe",
+            "localizacion": "Variables lrgen (escala 0-10) y family; partido UPN, party_id 553",
+            "fecha_documento": "2025-02",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "La página «Organización» de upn.org seguía mostrando a Javier Esparza como presidente a 15-10-2026, aunque las noticias de la propia web identifican a Cristina Ibarrola como presidenta; se ha dado prioridad a la información fechada."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Unión del Pueblo Navarro (UPN)",
+      "votos": 52188,
+      "porcentaje": 0.21,
+      "escanos_congreso": 1,
+      "escanos_senado": 1,
+      "nota": "Concurrió solo en Navarra y por separado del PP. Porcentaje estatal sobre votos a candidaturas, según la JEC.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+          "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Ha gobernado la Comunidad Foral de Navarra, por primera vez tras las elecciones de 1991 y de forma continuada entre 1996 y 2015.",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Principios y valores: historia",
+          "emisor": "Unión del Pueblo Navarro",
+          "tipo": "partido",
+          "url": "https://www.upn.org/principios-y-valores/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Su diputado en la XV legislatura, Alberto Catalán, se integró en el Grupo Mixto (agosto de 2023 a octubre de 2026).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Datos abiertos del Congreso: Diputados de baja (XV legislatura)",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/es/opendata/diputados",
+          "localizacion": "Registro «Catalán Higueras, Alberto»: UPN, Navarra, Grupo Parlamentario Mixto, alta 08/08/2023, baja 06/10/2026",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "UPN votó a favor de la investidura de Alberto Núñez Feijóo (septiembre de 2023) y en contra de la de Pedro Sánchez (16 de noviembre de 2023).",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Alberto Núñez Feijóo no consigue superar la investidura",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/segunda-votacion-debate-investidura-alberto-nunez-feijoo/",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Pedro Sánchez, investido presidente con 179 votos",
+          "emisor": "Diari de Tarragona",
+          "tipo": "medio",
+          "url": "https://www.diaridetarragona.com/internacional/175840/pedro-sanchez-investido-presidente-con-179-votos-al17582244.html",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 6 (29-09-2023): segunda votación de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-6.PDF",
+          "localizacion": "p. 24",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16-11-2023): votación de investidura de Pedro Sánchez Pérez-Castejón",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "p. 50",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "UPN votó en contra de la ley de amnistía, aprobada definitivamente el 30 de mayo de 2024 por 177 votos a favor y 172 en contra.",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "Ley de amnistía: cambios, enmiendas y votaciones en el Congreso",
+          "emisor": "Maldita.es",
+          "tipo": "medio",
+          "url": "https://maldita.es/malditateexplica/20240530/cambios-enmiendas-ley-amnistia-votacion-congreso/",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El tortuoso camino de la ley de amnistía hasta su aprobación",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2024/05/30/tortuoso-camino-ley-amnistia-aprobacion-8297795.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 UPN votó en contra de la convalidación de los reales decretos-ley de vivienda 26/2026 y 27/2026, que el Congreso derogó.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso rechaza el decreto de medidas de vivienda con los votos de PP, Vox, Junts y UPN",
+          "emisor": "Europa Press (reproducido por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/america/agencias/2026/10/02/el-congreso-rechaza-el-decreto-de-medidas-de-vivienda-con-los-votos-de-pp-vox-junts-y-upn/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Los votos de PP, Vox y Junts tumban los dos decretos ley de vivienda aprobados el martes en el Consejo de Ministros",
+          "emisor": "Civio",
+          "tipo": "medio",
+          "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/02/decretos-ley-vivienda-derogacion-congreso/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "UPN y PP concurrieron juntos a las generales en Navarra desde 1989 hasta 2016 y dentro de Navarra Suma en 2019; en 2023 lo hicieron por separado.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+            "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "UPN ratifica con un 93,5% de apoyo su coalición con el PP para las elecciones del 29-N",
+            "emisor": "Noticias de Navarra",
+            "tipo": "medio",
+            "url": "https://www.noticiasdenavarra.com/politica/2026/10/13/upn-ratifica-93-5-apoyo-11646066.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Según el acuerdo de coalición, el objetivo es «aunar fuerzas» entre ambas formaciones de centroderecha para «contribuir desde Navarra a desalojar a Pedro Sánchez del Gobierno»; los electos de UPN tendrían libertad de voto en el Grupo Mixto para adoptar «el posicionamiento que mejor convenga a los intereses de Navarra».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "El Consejo Político de UPN aprueba el acuerdo para concurrir con el PP a las elecciones generales",
+            "emisor": "Unión del Pueblo Navarro",
+            "tipo": "partido",
+            "url": "https://www.upn.org/el-consejo-politico-de-upn-aprueba-el-acuerdo-para-concurrir-con-el-pp-a-las-elecciones-generales/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "PP y UPN, juntos por Navarra y por España (comunicado sobre el principio de acuerdo de coalición)",
+            "emisor": "Partido Popular",
+            "tipo": "partido",
+            "url": "https://www.pp.es/wp-content/uploads/2026/10/26.10.13-COMUNICADO-PREACUERDO-PP-UPN.pdf",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Cristina Ibarrola calificó el adelanto electoral de «fantástica noticia» y afirmó que «Navarra y España necesitan un cambio de rumbo urgente».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-05",
+        "fuentes": [
+          {
+            "titulo": "Ibarrola celebra el adelanto electoral y afirma que UPN lo afronta «con la misma ilusión que cientos de miles de navarros y españoles»",
+            "emisor": "Unión del Pueblo Navarro",
+            "tipo": "partido",
+            "url": "https://www.upn.org/ibarrola-celebra-el-adelanto-electoral-y-afirma-que-upn-lo-afronta-con-la-misma-ilusion-que-cientos-de-miles-de-navarros-y-espanoles/",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Acuerdo de coalición con el PP (13-10-2026): régimen foral, Convenio Económico, supresión de la disposición transitoria cuarta en una eventual reforma constitucional e inversiones estatales en Navarra"
+    ],
+    "sin_desarrollar": [
+      "Calendario y cuantía de las inversiones estatales comprometidas (Canal de Navarra, alta velocidad, aeropuerto, red eléctrica)"
+    ],
+    "pendiente": [
+      "Programa electoral de la coalición, que redactará una comisión de ambos partidos",
+      "Composición de las listas (cabeza de lista al Congreso designado por UPN)"
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Confirmar en la JEC (16-17 de octubre) la constitución de la coalición UPN-PP. No se ha verificado con fuente fechada quién ocupa la secretaría general de UPN. Color de gráfico convencional, a validar por diseño."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "compromis-sanidad-1",
+  "partido": "compromis",
+  "tema": "sanidad",
+  "eleccion": "generales-2026",
+  "titulo": "Mecanismo de compensación de la deuda sanitaria interterritorial",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Compromís presentó en el Congreso una iniciativa para que Hacienda y la Seguridad Social pongan en marcha un mecanismo que compense a la Generalitat Valenciana por la atención sanitaria prestada a residentes de otras comunidades y países, una deuda que, según la Sindicatura de Comptes citada por el partido, sumó 1.117 millones entre 2013 y 2024.",
+  "que_cambiaria": "Crearía o activaría un sistema de descuento y compensación entre administraciones por la asistencia sanitaria prestada a pacientes desplazados, en el marco del nuevo sistema de financiación.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La coordinación general de la sanidad y la financiación son estatales; la gestión sanitaria es autonómica."
+  },
+  "financiacion": {
+    "coste_declarado": "El partido cifra la deuda acumulada en 1.117 millones de euros (2013-2024).",
+    "nota": "No se ha abierto el informe de la Sindicatura de Comptes; la cifra se atribuye a Compromís."
+  },
+  "fuentes": [
+    {
+      "titulo": "Compromís exigeix al Govern posar en marxa ja mecanismes de compensació del deute sanitari de 1.117 milions",
+      "emisor": "Compromís",
+      "tipo": "partido",
+      "url": "https://compromis.net/36645/compromis-exigeix-al-govern-posar-en-marxa-ja-mecanismes-de-compensacio-del-deute-sanitari-de-1-117-milions/",
+      "fecha_documento": "2026-09-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículos 1 y 2",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados de 10 de febrero de 1982 (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 207",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "La iniciativa caduca con la disolución de las Cortes (art. 207 del Reglamento del Congreso)."
+  }
+}

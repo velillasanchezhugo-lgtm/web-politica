@@ -1,0 +1,34 @@
+{
+  "id": "compromis-seguridad-justicia-1",
+  "partido": "compromis",
+  "tema": "seguridad-justicia",
+  "eleccion": "generales-2026",
+  "titulo": "Derogación de la «ley mordaza»",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "La diputada Àgueda Micó pidió al Gobierno que aprovechara la Diputación Permanente para derogar la Ley Orgánica de protección de la seguridad ciudadana («ley mordaza»), tras las cargas policiales al final de una manifestación por la vivienda en València, por considerar que castiga y limita el derecho a la protesta.",
+  "que_cambiaria": "Derogaría o sustituiría la ley de seguridad ciudadana vigente.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La seguridad pública es competencia estatal y la regulación de derechos fundamentales requiere ley orgánica de las Cortes."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "fuentes": [
+    {
+      "titulo": "Compromís reclama la derogació de la Llei Mordassa davant les càrregues policials contra la protesta per la vivenda a València",
+      "emisor": "Compromís",
+      "tipo": "partido",
+      "url": "https://compromis.net/36696/compromis-reclama-la-derogacio-de-la-llei-mordassa-davant-les-carregues-policials-contra-la-protesta-per-la-vivenda-a-valencia/",
+      "fecha_documento": "2026-10-05",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

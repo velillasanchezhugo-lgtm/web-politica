@@ -1,0 +1,60 @@
+{
+  "id": "compromis-vivienda-1",
+  "partido": "compromis",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Apoyo a los decretos de vivienda y regulación estructural del alquiler",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "posicion_vigente",
+  "resumen": "Compromís votó a favor de los Reales Decretos-ley 26/2026 y 27/2026. Su eurodiputado Vicent Marzà defendió el límite del 2 % a la actualización de alquileres, la prórroga de contratos y la protección frente a desahucios como avances, y reclamó medidas «estructurals» como contratos de alquiler de larga duración sin fecha de finalización y fórmulas de regulación de precios existentes en otros países europeos.",
+  "que_cambiaria": "Los decretos fueron derogados el 2 de octubre de 2026; las medidas estructurales mencionadas requerirían reformar la Ley de Arrendamientos Urbanos.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "Legislación civil de arrendamientos: Estado (art. 149.1.8.ª CE); política de vivienda: comunidades autónomas; parque público y urbanismo: también ayuntamientos."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "fuentes": [
+    {
+      "titulo": "El Congreso tumba los dos decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (con información de Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Marzà: «Totes les reivindicacions del moviment per la vivenda, són possibles: ja s'estan fent a altres països UE»",
+      "emisor": "Compromís",
+      "tipo": "partido",
+      "url": "https://compromis.net/36688/marza-totes-les-reivindicacions-del-moviment-per-la-vivenda-son-possibles-ja-sestan-fent-a-altres-paisos-ue/",
+      "fecha_documento": "2026-10-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

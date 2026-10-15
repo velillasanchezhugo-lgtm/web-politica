@@ -1,0 +1,43 @@
+{
+  "id": "psoe-ue-exterior-2",
+  "partido": "psoe",
+  "tema": "ue-exterior",
+  "eleccion": "generales-2026",
+  "titulo": "Rechazo a destinar el 5 % del PIB a gasto en defensa",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Pedro Sánchez reivindicó en campaña que su Gobierno dijera «no al cinco por ciento en armamento» en favor del Estado del bienestar.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Defensa y Fuerzas Armadas y relaciones internacionales son competencias exclusivas del Estado (art. 149.1.3.ª y 4.ª CE); el gasto se fija en los Presupuestos Generales del Estado."
+  },
+  "financiacion": {
+    "nota": "No se publicó una cifra alternativa de gasto en defensa ni su encaje presupuestario."
+  },
+  "calendario": "No publicado",
+  "detalle": "Declaración de campaña del candidato; no figura aún en un programa electoral de 2026 publicado. La fuente no precisa qué porcentaje de gasto defiende el PSOE.",
+  "fuentes": [
+    {
+      "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.3.ª y 4.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "compromis-organizacion-territorial-1",
+  "partido": "compromis",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Nuevo sistema de financiación, déficit asimétrico y condonación de deuda para la Comunitat Valenciana",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Compromís, que considera infrafinanciada a la Comunitat Valenciana, valoró positivamente la posibilidad de fijar objetivos de déficit asimétricos entre comunidades y reclamó concretar el nuevo modelo de financiación, que según su diputado Alberto Ibáñez supondría un incremento anual de 3.669 millones para la Comunitat Valenciana, y mejorar la condonación de su deuda, que cifra en 11.000 millones.",
+  "que_cambiaria": "Sustituiría el sistema de financiación autonómica de régimen común vigente. El nuevo modelo fue aprobado por el Consejo de Política Fiscal y Financiera el 4 de septiembre de 2026 con el voto en contra de la mayoría de comunidades y quedó pendiente de las Cortes; con la disolución caducan los asuntos pendientes (art. 207 del Reglamento del Congreso).",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La financiación autonómica y los objetivos de estabilidad se fijan por el Estado (leyes orgánicas y Consejo de Política Fiscal y Financiera)."
+  },
+  "financiacion": {
+    "coste_declarado": "Compromís cita un incremento de 3.669 millones anuales para la Comunitat Valenciana con el nuevo modelo y una deuda de 11.000 millones cuya condonación debería mejorarse.",
+    "nota": "Las cifras proceden de la declaración del partido; no se ha localizado estimación independiente."
+  },
+  "fuentes": [
+    {
+      "titulo": "Compromís exigeix concreció per al nou sistema de finançament",
+      "emisor": "Compromís",
+      "tipo": "partido",
+      "url": "https://compromis.net/36473/compromis-exigeix-concrecio-per-al-nou-sistema-de-financament/",
+      "fecha_documento": "2026-07-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Hacienda aprueba la financiación autonómica pactada con ERC, con el único apoyo de Cataluña y Canarias",
+      "emisor": "Canal Sur",
+      "tipo": "medio",
+      "url": "https://www.canalsur.es/noticias/andalucia/hacienda-aprueba-financiacion-autonomica-pactada_1_1433639.html",
+      "fecha_documento": "2026-09-05",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados de 10 de febrero de 1982 (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 207",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

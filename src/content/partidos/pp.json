@@ -623,7 +623,7 @@
   "rol_gobierno": "opcion_presidencia",
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "revisado",
-    "notas": "Comprobar el 16-17 de octubre la relación oficial de coaliciones de la JEC (UPN-PP y posible acuerdo con el PAR). Color de gráfico convencional, a validar por diseño."
+    "estado_editorial": "publicado",
+    "notas": "Comprobar el 16-17 de octubre la relación oficial de coaliciones de la JEC (UPN-PP y posible acuerdo con el PAR). Color de gráfico convencional, a validar por diseño. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

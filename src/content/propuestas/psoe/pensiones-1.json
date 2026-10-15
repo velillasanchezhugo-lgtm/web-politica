@@ -1,0 +1,44 @@
+{
+  "id": "psoe-pensiones-1",
+  "partido": "psoe",
+  "tema": "pensiones",
+  "eleccion": "generales-2026",
+  "titulo": "Revalorizar las pensiones conforme al IPC otros cuatro años",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Pedro Sánchez se comprometió en un mitin en Zaragoza a «cuatro años más de pensiones actualizadas al IPC» y a «cero recortes» en el Estado del bienestar si sigue gobernando.",
+  "que_cambiaria": "Mantendría el criterio de revalorización vinculado al IPC ya aplicado por el Gobierno; la declaración no detalla cambios normativos.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación básica y el régimen económico de la Seguridad Social son competencia del Estado (art. 149.1.17.ª CE); la revalorización anual se fija por ley estatal."
+  },
+  "financiacion": {
+    "nota": "El candidato no publicó coste ni fuente de financiación en esta declaración."
+  },
+  "calendario": "No publicado",
+  "detalle": "Declaración de campaña del candidato; no figura aún en un programa electoral de 2026 publicado.",
+  "fuentes": [
+    {
+      "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.17.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

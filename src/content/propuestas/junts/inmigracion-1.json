@@ -1,0 +1,68 @@
+{
+  "id": "junts-inmigracion-1",
+  "partido": "junts",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Delegación a Cataluña de competencias en inmigración",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Junts volvió a registrar en el Congreso en agosto de 2026 su proposición de ley de delegación de competencias en inmigración a la Generalitat, para que Cataluña decida, según el partido, «quanta, quina i per quines vies» llega la inmigración, gestione la integración y ejecute expulsiones. Critica la regularización extraordinaria impulsada por el Gobierno y rechaza la «Catalunya dels 10 milions».",
+  "que_cambiaria": "La inmigración y la extranjería son competencia exclusiva del Estado (art. 149.1.2.ª CE); la delegación requeriría una ley orgánica del art. 150.2 CE. Una iniciativa anterior de PSOE y Junts fue rechazada el 23 de septiembre de 2025. Con la disolución de las Cortes, las iniciativas pendientes caducan (art. 207 del Reglamento del Congreso).",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "Competencia estatal exclusiva, delegable a una comunidad solo mediante ley orgánica (art. 150.2 CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "fuentes": [
+    {
+      "titulo": "Nogueras: «Catalunya ha de tenir el control de la immigració»",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/nogueras-catalunya-ha-de-tenir-el-control-de-la-immigracio/",
+      "fecha_documento": "2026-08-26",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Nogueras a Sánchez: «Vostè fa temps que està inhabilitat per continuar governant. Faci un pas al costat»",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/nogueras-a-sanchez-voste-fa-temps-que-esta-inhabilitat-per-continuar-governant-faci-un-pas-al-costat/",
+      "fecha_documento": "2026-09-03",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "BOCG. Congreso de los Diputados, serie B, núm. 195-2: Proposición de Ley Orgánica de delegación en la Comunidad Autónoma de Cataluña de competencias estatales en materia de inmigración (rechazada)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-195-2.PDF",
+      "fecha_documento": "2025-09-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículos 1 y 2",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados de 10 de febrero de 1982 (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 207",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

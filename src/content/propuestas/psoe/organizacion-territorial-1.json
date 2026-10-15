@@ -1,0 +1,59 @@
+{
+  "id": "psoe-organizacion-territorial-1",
+  "partido": "psoe",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Ley de amnistía por los hechos del procés",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "medida_aprobada",
+  "resumen": "El PSOE apoyó la Ley Orgánica 1/2024 de amnistía, que el Congreso aprobó definitivamente el 30 de mayo de 2024 por 177 votos a favor y 172 en contra, con el rechazo de PP, Vox, UPN y Coalición Canaria. La amnistía fue una de las condiciones de los acuerdos de investidura del PSOE con ERC y Junts en 2023.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación penal y procesal es competencia exclusiva del Estado (art. 149.1.6.ª CE); la ley se aprobó como ley orgánica de las Cortes Generales."
+  },
+  "financiacion": {
+    "nota": "Medida sin coste presupuestario directo publicado."
+  },
+  "calendario": "En vigor desde el 11 de junio de 2024.",
+  "detalle": "Votación de la XV legislatura; no es una propuesta para la próxima legislatura.",
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11776",
+      "fecha_documento": "2024-06-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso aprueba la ley de amnistía",
+      "emisor": "elDiario.es",
+      "tipo": "medio",
+      "url": "https://www.eldiario.es/politica/congreso-aprueba-ley-amnistia_1_11407884.html",
+      "fecha_documento": "2024-05-30",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG, PNV y Coalición Canaria",
+      "emisor": "Newtral",
+      "tipo": "medio",
+      "url": "https://www.newtral.es/pactos-investidura-sanchez/20231111/",
+      "fecha_documento": "2023-11-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.6.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

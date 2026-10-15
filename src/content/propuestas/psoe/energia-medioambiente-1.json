@@ -1,0 +1,46 @@
+{
+  "id": "psoe-energia-medioambiente-1",
+  "partido": "psoe",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Objetivo de que el 80 % de la energía proceda de fuentes renovables en 2030",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Entre sus objetivos para 2030, Pedro Sánchez citó en campaña que el 80 % de la energía provenga de fuentes renovables.",
+  "que_cambiaria": "No se concretó qué instrumentos normativos o planes se modificarían.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Las bases del régimen energético y la legislación básica de medio ambiente son estatales (art. 149.1.25.ª y 23.ª CE); las comunidades autónomas autorizan muchas instalaciones y desarrollan normas adicionales, y la UE fija objetivos y normas comunes en energía y clima."
+  },
+  "financiacion": {
+    "nota": "No se publicó coste ni fuente de financiación."
+  },
+  "calendario": "Horizonte declarado: 2030",
+  "detalle": "Declaración de campaña del candidato; no figura aún en un programa electoral de 2026 publicado. La fuente no precisa si el 80 % se refiere a la electricidad o a toda la energía.",
+  "fuentes": [
+    {
+      "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.23.ª y 25.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

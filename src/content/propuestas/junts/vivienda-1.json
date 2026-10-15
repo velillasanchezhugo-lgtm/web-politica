@@ -1,0 +1,52 @@
+{
+  "id": "junts-vivienda-1",
+  "partido": "junts",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Decreto alternativo de vivienda: incentivos fiscales y límites a grandes operadores",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Junts propone un decreto de vivienda que, según el partido, limitaría temporalmente la compra de viviendas por grandes operadores financieros e inmobiliarios y suspendería los desahucios en sus viviendas; permitiría desgravar el alquiler y la hipoteca, reduciría impuestos de las cuentas ahorro vivienda y el IVA de la vivienda, protegería a deudores hipotecarios cuyos créditos se venden a fondos y a personas mayores que dejan su vivienda. Cuando el propietario sea pequeño, defiende que la carga de proteger al inquilino vulnerable recaiga en la Administración.",
+  "que_cambiaria": "Alternativa a los Reales Decretos-ley 26/2026 y 27/2026, derogados el 2 de octubre de 2026; según El Español, sustituiría la prórroga obligatoria de contratos y el tope del 2 % por una prórroga voluntaria con incentivos fiscales.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "IVA, IRPF y legislación civil y procesal (arrendamientos, desahucios) son competencia estatal (art. 149.1.6.ª y 8.ª CE y normativa tributaria); la política de vivienda es competencia autonómica."
+  },
+  "financiacion": {
+    "nota": "Junts no publica el coste de las deducciones y rebajas fiscales propuestas ni su financiación."
+  },
+  "calendario": "Junts afirma que la propuesta está registrada desde abril de 2026 y que la entregó a Pedro Sánchez el 3 de septiembre de 2026.",
+  "fuentes": [
+    {
+      "titulo": "Junts demana consens per aprovar un decret d'habitatge que freni els desnonaments sense perjudicar els petits propietaris",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/junts-demana-consens-per-aprovar-un-decret-dhabitatge-que-freni-els-desnonaments-sense-perjudicar-els-petits-propietaris/",
+      "fecha_documento": "2026-09-28",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Nogueras: «No s'han atrevit amb els fons voltor i sí amb les famílies»",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/nogueras-no-shan-atrevit-amb-els-fons-voltor-i-si-amb-les-families/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "PP, Vox y Junts tumban los decretos de vivienda entre improperios de la izquierda y empujan a Sánchez a las urnas",
+      "emisor": "El Español",
+      "tipo": "medio",
+      "url": "https://www.elespanol.com/espana/politica/20261002/pp-vox-junts-tumban-primer-decreto-vivienda-empujan-sanchez-convocar-elecciones/1003744406439_0.html",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

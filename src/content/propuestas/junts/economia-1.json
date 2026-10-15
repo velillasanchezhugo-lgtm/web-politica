@@ -1,0 +1,43 @@
+{
+  "id": "junts-economia-1",
+  "partido": "junts",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "Menos cargas fiscales y administrativas para pymes y autónomos (VERIFACTU)",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Junts pide frenar lo que llama la «voracitat recaptatòria» del Gobierno y no imponer nuevas obligaciones a pymes y autónomos; reclama aplazar o simplificar el sistema de facturación VERIFACTU y aplicar la misma exigencia a grandes empresas y plataformas. Según el partido, el Senado aprobó en junio de 2026 una moción suya para volver a aplazar su despliegue. También anuncia una ley de apoyo a los autónomos, sin texto localizado.",
+  "que_cambiaria": "Afectaría a la implantación de los requisitos de los sistemas informáticos de facturación (VERIFACTU) previstos por la normativa tributaria estatal.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "La normativa tributaria y de facturación es estatal, en el marco de las directivas europeas de IVA."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "fuentes": [
+    {
+      "titulo": "Eduard Pujol acusa el Govern espanyol de «marejar i complicar la vida» a pimes i autònoms amb el VERIFACTU",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/eduard-pujol-acusa-el-govern-espanyol-de-marejar-i-complicar-la-vida-a-pimes-i-autonoms-amb-el-verifactu-i-reclama-que-aturi-la-seva-voracitat-recaptatoria-i-lasfixia-a-les/",
+      "fecha_documento": "2026-09-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Nogueras a Sánchez: «Vostè fa temps que està inhabilitat per continuar governant. Faci un pas al costat»",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/nogueras-a-sanchez-voste-fa-temps-que-esta-inhabilitat-per-continuar-governant-faci-un-pas-al-costat/",
+      "fecha_documento": "2026-09-03",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

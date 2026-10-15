@@ -1,0 +1,498 @@
+{
+  "id": "junts",
+  "nombre": "Junts per Catalunya",
+  "siglas": "JxCat / Junts",
+  "naturaleza": "partido",
+  "ambito": "territorial",
+  "territorio": "Cataluña",
+  "color_grafico": "#20B2AA",
+  "web_oficial": "https://junts.cat/",
+  "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
+  "resumen": "Junts per Catalunya es un partido independentista catalán presidido por Carles Puigdemont y con Jordi Turull como secretario general. En 2023 obtuvo 7 diputados, que fueron decisivos para la investidura de Pedro Sánchez tras el acuerdo de Bruselas con el PSOE; en octubre de 2025 dio por roto ese acuerdo y el 2 de octubre de 2026 votó en contra de los decretos de vivienda del Gobierno. Para el 29 de noviembre presenta a Míriam Nogueras como cabeza de lista por Barcelona y ha descartado investir a Sánchez o facilitar un gobierno del PP con Vox.",
+  "historia": [
+    {
+      "texto": "Junts per Catalunya celebró su congreso fundacional como partido entre julio y octubre de 2020, según el texto consolidado de su ponencia política, que define a Cataluña como nación con «dret irrenunciable a la seva autodeterminació».",
+      "tipo": "hecho",
+      "fecha": "2020",
+      "fuentes": [
+        {
+          "titulo": "Ponència política i estratègica. Text consolidat. Congrés juliol-octubre 2020",
+          "emisor": "Junts per Catalunya",
+          "tipo": "partido",
+          "url": "https://junts.cat/wp-content/uploads/2026/09/Ponencia-politica.pdf",
+          "fecha_documento": "2020",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Junts formó parte del Govern de coalición presidido por Pere Aragonès (ERC) hasta octubre de 2022, cuando el 55,73 % de su militancia votó a favor de salir del ejecutivo.",
+      "tipo": "hecho",
+      "fecha": "2022-10",
+      "fuentes": [
+        {
+          "titulo": "Los afiliados de Junts avalan romper con Sánchez con un 87% de apoyo",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/afiliados-junts-avalan-romper-sanchez-87-apoyo_1_5546088.html",
+          "fecha_documento": "2025-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las elecciones generales de 23 de julio de 2023 la candidatura de Junts obtuvo 395.429 votos y 7 escaños en el Congreso (3 por Barcelona, 2 por Girona, 1 por Lleida y 1 por Tarragona).",
+      "tipo": "hecho",
+      "fecha": "2023-07-23",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (continuación)",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Carles Puigdemont volvió a la presidencia del partido en el congreso de Calella (octubre de 2024), con el 90 % de los votos de la militancia a la única candidatura presentada; Jordi Turull continuó como secretario general.",
+      "tipo": "hecho",
+      "fecha": "2024-10-27",
+      "fuentes": [
+        {
+          "titulo": "L'equip de Puigdemont rep l'aval del 90% de Junts: qui és qui en la nova direcció?",
+          "emisor": "Nació Digital",
+          "tipo": "medio",
+          "url": "https://naciodigital.cat/politica/equip-puigdemont-qui-es-qui-en-nova-direccio-junts.html",
+          "fecha_documento": "2024-10-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las elecciones al Parlament de 2024 Junts obtuvo 35 diputados, por detrás de los 42 del PSC.",
+      "tipo": "hecho",
+      "fecha": "2024",
+      "fuentes": [
+        {
+          "titulo": "Com es va gestar l'acord d'ara fa un any entre ERC i el PSC per fer Illa president",
+          "emisor": "3CatInfo",
+          "tipo": "medio",
+          "url": "https://www.3cat.cat/3catinfo/com-es-va-gestar-lacord-dara-fa-un-any-entre-erc-i-el-psc-per-fer-illa-president/noticia/3365232/",
+          "fecha_documento": "2025-08-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 27 de octubre de 2025 la ejecutiva de Junts acordó por unanimidad dar por finalizado el acuerdo de investidura con el PSOE «ante los reiterados incumplimientos» y la militancia lo ratificó con el 86,98 % de los votos (participación del 66,29 %).",
+      "tipo": "hecho",
+      "fecha": "2025-10-30",
+      "fuentes": [
+        {
+          "titulo": "Los afiliados de Junts avalan romper con Sánchez con un 87% de apoyo",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/afiliados-junts-avalan-romper-sanchez-87-apoyo_1_5546088.html",
+          "fecha_documento": "2025-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Presidente",
+      "nombre": "Carles Puigdemont",
+      "desde": "2024-10-27",
+      "fuentes": [
+        {
+          "titulo": "L'equip de Puigdemont rep l'aval del 90% de Junts: qui és qui en la nova direcció?",
+          "emisor": "Nació Digital",
+          "tipo": "medio",
+          "url": "https://naciodigital.cat/politica/equip-puigdemont-qui-es-qui-en-nova-direccio-junts.html",
+          "fecha_documento": "2024-10-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Los afiliados de Junts avalan romper con Sánchez con un 87% de apoyo",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/afiliados-junts-avalan-romper-sanchez-87-apoyo_1_5546088.html",
+          "fecha_documento": "2025-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretario general",
+      "nombre": "Jordi Turull",
+      "fuentes": [
+        {
+          "titulo": "L'equip de Puigdemont rep l'aval del 90% de Junts: qui és qui en la nova direcció?",
+          "emisor": "Nació Digital",
+          "tipo": "medio",
+          "url": "https://naciodigital.cat/politica/equip-puigdemont-qui-es-qui-en-nova-direccio-junts.html",
+          "fecha_documento": "2024-10-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Junts también descarta investir a Sánchez",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/turull-descarta-investir-pedro-sanchez_1_5872106.html",
+          "fecha_documento": "2026-10-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz en el Congreso de los Diputados (XV legislatura)",
+      "nombre": "Míriam Nogueras",
+      "fuentes": [
+        {
+          "titulo": "Nogueras: «No s'han atrevit amb els fons voltor i sí amb les famílies»",
+          "emisor": "Junts per Catalunya",
+          "tipo": "partido",
+          "url": "https://junts.cat/actualitat/nogueras-no-shan-atrevit-amb-els-fons-voltor-i-si-amb-les-families/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Nogueras, Cruset, Madrenas i Gavín encapçalaran les llistes a les eleccions generals del 29N",
+          "emisor": "Junts per Catalunya",
+          "tipo": "partido",
+          "url": "https://junts.cat/actualitat/nogueras-cruset-madrenas-i-gavin-encapcalaran-les-llistes-a-les-eleccions-generals-del-29n/",
+          "fecha_documento": "2026-10-08",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz del partido",
+      "nombre": "Josep Rius",
+      "fuentes": [
+        {
+          "titulo": "Junts recorda a Illa que només es pot aplicar el 6% del PIB en educació si Catalunya disposa de concert econòmic",
+          "emisor": "Junts per Catalunya",
+          "tipo": "partido",
+          "url": "https://junts.cat/actualitat/junts-recorda-a-illa-que-nomes-es-pot-aplicar-el-6-del-pib-en-educacio-si-catalunya-disposa-de-concert-economic/",
+          "fecha_documento": "2026-09-21",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz en el Senado (XV legislatura)",
+      "nombre": "Eduard Pujol",
+      "fuentes": [
+        {
+          "titulo": "Eduard Pujol acusa el Govern espanyol de «marejar i complicar la vida» a pimes i autònoms amb el VERIFACTU",
+          "emisor": "Junts per Catalunya",
+          "tipo": "partido",
+          "url": "https://junts.cat/actualitat/eduard-pujol-acusa-el-govern-espanyol-de-marejar-i-complicar-la-vida-a-pimes-i-autonoms-amb-el-verifactu-i-reclama-que-aturi-la-seva-voracitat-recaptatoria-i-lasfixia-a-les/",
+          "fecha_documento": "2026-09-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Con candidatura propia en las cuatro circunscripciones catalanas; no consta coalición anunciada a 15-10-2026",
+    "detalle": [
+      {
+        "texto": "Junts anunció el 8 de octubre de 2026 que Míriam Nogueras (Barcelona), Marta Madrenas (Girona), Isidre Gavín (Lleida) y Josep Maria Cruset (Tarragona) encabezarán sus listas al Congreso, proclamados automáticamente al ser precandidaturas únicas en sus primarias.",
+        "tipo": "hecho",
+        "fecha": "2026-10-08",
+        "fuentes": [
+          {
+            "titulo": "Nogueras, Cruset, Madrenas i Gavín encapçalaran les llistes a les eleccions generals del 29N",
+            "emisor": "Junts per Catalunya",
+            "tipo": "partido",
+            "url": "https://junts.cat/actualitat/nogueras-cruset-madrenas-i-gavin-encapcalaran-les-llistes-a-les-eleccions-generals-del-29n/",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Míriam Nogueras encapçalarà la candidatura de Junts el 29 de novembre",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/miriam-nogueras-encapcalara-candidatura-junts-29-n/",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Las listas al Congreso y al Senado deben ser ratificadas por el Consell Nacional del partido el 17 de octubre de 2026; una eventual coalición requeriría aprobación del Consell Nacional y ratificación de la militancia.",
+        "tipo": "hecho",
+        "fecha": "2026-10-08",
+        "fuentes": [
+          {
+            "titulo": "Nogueras, Cruset, Madrenas i Gavín encapçalaran les llistes a les eleccions generals del 29N",
+            "emisor": "Junts per Catalunya",
+            "tipo": "partido",
+            "url": "https://junts.cat/actualitat/nogueras-cruset-madrenas-i-gavin-encapcalaran-les-llistes-a-les-eleccions-generals-del-29n/",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Míriam Nogueras serà la cap de llista de Junts el 29N, amb Cruset, Madrenas i Gavín",
+            "emisor": "ElNacional.cat",
+            "tipo": "medio",
+            "url": "https://www.elnacional.cat/ca/politica/miriam-nogueras-sera-cap-llista-junts-29n-cruset-madrenas-gavin_1707244_102.html",
+            "fecha_documento": "2026-10-08",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido independentista catalán. Defiende la autodeterminación y la independencia de Cataluña y, en la XV legislatura, ha combinado acuerdos puntuales con el PSOE (investidura de 2023, amnistía) con votos junto a PP y Vox en materias como la vivienda; en 2025-2026 ha reclamado para Cataluña competencias en inmigración, concierto económico y rebajas fiscales para pymes y autónomos.",
+    "autodefinicion": {
+      "texto": "En su ponencia política fundacional (2020), Junts afirma que «Catalunya és una nació i, com a tal, té el dret irrenunciable a la seva autodeterminació» y hace suyas cuatro corrientes «transversals»: feminismo, ecologismo, radicalidad democrática y europeísmo.",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Ponència política i estratègica. Text consolidat. Congrés juliol-octubre 2020",
+          "emisor": "Junts per Catalunya",
+          "tipo": "partido",
+          "url": "https://junts.cat/wp-content/uploads/2026/09/Ponencia-politica.pdf",
+          "fecha_documento": "2020",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [],
+    "matices": "La ponencia citada es de 2020; no se ha localizado en la web del partido una ponencia política posterior aprobada en el congreso de 2024. En la XV legislatura su discurso sobre inmigración ha sido calificado de «racista» por otros grupos (ERC, Podemos), extremo que Junts rechaza; se recoge como controversia, no como clasificación."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Junts per Catalunya-Junts (JUNTS)",
+      "votos": 395429,
+      "porcentaje": 1.6,
+      "escanos_congreso": 7,
+      "escanos_senado": 1,
+      "nota": "Votos y escaños del Congreso según el Cuadro II de la JEC. Porcentaje calculado por la redacción sobre los 24.688.087 votos válidos del Cuadro I. Senador electo: Joan Bagué (Girona).",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadros I y II; relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Los 7 diputados de Junts votaron a favor de la investidura de Pedro Sánchez el 16 de noviembre de 2023 (179 votos a favor y 171 en contra).",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Pedro Sánchez, investido presidente con 179 votos",
+          "emisor": "Diari de Tarragona",
+          "tipo": "medio",
+          "url": "https://www.diaridetarragona.com/internacional/175840/pedro-sanchez-investido-presidente-con-179-votos-al17582244.html",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Junts votó a favor de la ley de amnistía, aprobada definitivamente por el Congreso el 30 de mayo de 2024 con 177 votos a favor y 172 en contra (Ley Orgánica 1/2024).",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "El Congreso aprueba de forma definitiva la ley de Amnistía",
+          "emisor": "Deia",
+          "tipo": "medio",
+          "url": "https://www.deia.eus/politica/2024/05/30/congreso-aprueba-forma-definitiva-ley-8297867.amp.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+          "fecha_documento": "2024-06-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La proposición de ley orgánica de PSOE y Junts para delegar en Cataluña competencias estatales en inmigración fue rechazada en su toma en consideración el 23 de septiembre de 2025, con los votos en contra de PP, Vox y Podemos.",
+      "tipo": "hecho",
+      "fecha": "2025-09-23",
+      "fuentes": [
+        {
+          "titulo": "BOCG. Congreso de los Diputados, serie B, núm. 195-2: Proposición de Ley Orgánica de delegación en la Comunidad Autónoma de Cataluña de competencias estatales en materia de inmigración (rechazada)",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-195-2.PDF",
+          "fecha_documento": "2025-09-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El PP, Vox y Podemos tumban la delegación de competencias en inmigración",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/culpa-isla-veto-traspaso-inmigracion-pedagogia-hecho-evitarlo_1_5506062.html",
+          "fecha_documento": "2025-09-23",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 Junts votó en contra de convalidar los Reales Decretos-ley 26/2026 y 27/2026 de vivienda, junto a PP, Vox y UPN (y, en el segundo, también PNV y Coalición Canaria); ambos quedaron derogados.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso tumba los dos decretos de vivienda del Gobierno",
+          "emisor": "Diario de Avisos (con información de Europa Press)",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Congreso rechaza el decreto de medidas de vivienda con los votos de PP, Vox, Junts y UPN",
+          "emisor": "Infobae (Europa Press)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/america/agencias/2026/10/02/el-congreso-rechaza-el-decreto-de-medidas-de-vivienda-con-los-votos-de-pp-vox-junts-y-upn/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "Acuerdo PSOE-Junts de noviembre de 2023 («acuerdo de Bruselas»): voto de los diputados de Junts a la investidura de Sánchez, ley de amnistía, mecanismo internacional de verificación y negociación en la que Junts propondría un referéndum de autodeterminación (art. 92 CE) y una reforma de la LOFCA para ceder a Cataluña el 100 % de los tributos; el PSOE defendería el desarrollo del Estatut de 2006.",
+        "tipo": "hecho",
+        "fecha": "2023-11-09",
+        "fuentes": [
+          {
+            "titulo": "Acuerdo PSOE-Junts (documento difundido el 9 de noviembre de 2023; copia alojada por Newtral)",
+            "emisor": "PSOE y Junts per Catalunya",
+            "tipo": "partido",
+            "url": "https://www.newtral.es/wp-content/uploads/2023/11/231107-Acuerdo-PSOE-Junts.pdf",
+            "localizacion": "Apartado 3, Acuerdos",
+            "fecha_documento": "2023-11-09",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "El PSOE y Junts llegan a un acuerdo para la investidura de Pedro Sánchez que incluye elaborar una ley de amnistía",
+            "emisor": "Newtral",
+            "tipo": "medio",
+            "url": "https://www.newtral.es/psoe-junts-acuerdo-investidura-amnistia/20231109/",
+            "fecha_documento": "2023-11-09",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Junts dio por roto el acuerdo con el PSOE en octubre de 2025, alegando incumplimientos como la aplicación de la amnistía, la oficialidad del catalán en la UE o el traspaso de competencias en inmigración; anunció que votaría cada iniciativa sin negociar con el Gobierno, pero rechazó una moción de censura con el PP.",
+        "tipo": "hecho",
+        "fecha": "2025-10-30",
+        "fuentes": [
+          {
+            "titulo": "Los afiliados de Junts avalan romper con Sánchez con un 87% de apoyo",
+            "emisor": "Ara (edición en castellano)",
+            "tipo": "medio",
+            "url": "https://es.ara.cat/politica/afiliados-junts-avalan-romper-sanchez-87-apoyo_1_5546088.html",
+            "fecha_documento": "2025-10-30",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Jordi Turull descartó investir de nuevo a Pedro Sánchez tras el 29-N: «A Pedro Sánchez no le investiremos, porque hemos salido muy escaldados de esta persona».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-07",
+        "fuentes": [
+          {
+            "titulo": "Junts también descarta investir a Sánchez",
+            "emisor": "Ara (edición en castellano)",
+            "tipo": "medio",
+            "url": "https://es.ara.cat/politica/turull-descarta-investir-pedro-sanchez_1_5872106.html",
+            "fecha_documento": "2026-10-07",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Míriam Nogueras cerró la puerta a facilitar un gobierno del PP con Vox, según la información publicada por Ara.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-06",
+        "fuentes": [
+          {
+            "titulo": "Junts también descarta investir a Sánchez",
+            "emisor": "Ara (edición en castellano)",
+            "tipo": "medio",
+            "url": "https://es.ara.cat/politica/turull-descarta-investir-pedro-sanchez_1_5872106.html",
+            "fecha_documento": "2026-10-07",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Cabezas de lista en las cuatro circunscripciones catalanas, anunciados por el partido.",
+      "Propuesta alternativa de decreto de vivienda con medidas enumeradas (deducciones fiscales, límites a grandes operadores, protección de pequeños propietarios).",
+      "Proposición de ley de delegación de competencias en inmigración (registrada de nuevo en agosto de 2026)."
+    ],
+    "sin_desarrollar": [
+      "Concierto económico para Cataluña: reivindicado, sin texto articulado localizado de 2026.",
+      "Rebajas fiscales para pymes y autónomos: sin cuantificación publicada."
+    ],
+    "pendiente": [
+      "Programa electoral 2026.",
+      "Ratificación de listas por el Consell Nacional (17 de octubre) y publicación oficial en el BOE (28 de octubre).",
+      "Clasificaciones ideológicas externas de fuente académica (no incorporadas)."
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "La página «Qui som/Manifest» de junts.cat contiene un texto genérico (p. ej., «Regularem els preus del lloguer») que contradice sus posiciones públicas recientes; no se ha usado. Autodefinición tomada de la ponencia de 2020. Verificar con fuente primaria (3Cat/TV3) la declaración de Nogueras sobre PP-Vox. Color de gráfico convencional, a validar por diseño."
+  }
+}

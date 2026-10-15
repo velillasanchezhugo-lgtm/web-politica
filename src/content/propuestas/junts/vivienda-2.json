@@ -1,0 +1,58 @@
+{
+  "id": "junts-vivienda-2",
+  "partido": "junts",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Voto en contra de los decretos de vivienda del Gobierno (octubre de 2026)",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "posicion_vigente",
+  "resumen": "Junts votó en contra de convalidar el Real Decreto-ley 26/2026 (protección frente a desahucios, prórroga de contratos, medidas frente a la compra especulativa) y el 27/2026 (estabilidad de los contratos de alquiler). Nogueras sostuvo que el texto permitía a los fondos «seguir comprando, especulando y desahuciando» y que trasladaba el coste de proteger a los vulnerables a pequeños propietarios; pidió retirarlo y negociar uno nuevo.",
+  "que_cambiaria": "Los dos decretos quedaron derogados el 2 de octubre de 2026 (172-178 y 166-184).",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La convalidación de decretos-ley corresponde al Congreso (art. 86.2 CE)."
+  },
+  "financiacion": {
+    "nota": "No aplica."
+  },
+  "fuentes": [
+    {
+      "titulo": "Nogueras: «No s'han atrevit amb els fons voltor i sí amb les famílies»",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/nogueras-no-shan-atrevit-amb-els-fons-voltor-i-si-amb-les-families/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso tumba los dos decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (con información de Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

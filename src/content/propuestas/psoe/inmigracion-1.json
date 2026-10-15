@@ -1,0 +1,63 @@
+{
+  "id": "psoe-inmigracion-1",
+  "partido": "psoe",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Regularización extraordinaria de personas extranjeras en situación irregular (Real Decreto 316/2026)",
+  "tipo_informacion": "documento_oficial",
+  "estado": "medida_aprobada",
+  "resumen": "El Gobierno aprobó en abril de 2026 una reforma del reglamento de extranjería que abrió, hasta el 30 de junio de 2026, una autorización de residencia por arraigo extraordinario para personas que estaban en España antes del 1 de enero de 2026 y acreditaran cinco meses de permanencia, sin antecedentes penales, con habilitación provisional para trabajar desde la admisión a trámite. Pedro Sánchez defendió esta regularización en su mitin de Zaragoza del 14 de octubre de 2026.",
+  "que_cambiaria": "Añadió al Reglamento de extranjería (RD 1155/2024) dos autorizaciones extraordinarias de residencia por arraigo con plazo de solicitud cerrado el 30 de junio de 2026.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Inmigración y extranjería son competencia exclusiva del Estado (art. 149.1.2.ª CE). Las comunidades autónomas (o ayuntamientos) emiten informes de integración previstos en el reglamento; el marco europeo de migración y asilo condiciona la política estatal."
+  },
+  "financiacion": {
+    "nota": "El real decreto no cuantifica coste; no se ha localizado estimación independiente."
+  },
+  "calendario": "Plazo de solicitud cerrado el 30 de junio de 2026; según el Ministerio de Inclusión, citado por Maldita.es, se presentaron 1.174.978 solicitudes.",
+  "detalle": "Medida de Gobierno pactada con Podemos según elDiario.es (26-01-2026). No es un compromiso electoral nuevo.",
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+      "localizacion": "Preámbulo; disposiciones adicionales vigésima y vigesimoprimera",
+      "fecha_documento": "2026-04-15",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "La regularización extraordinaria de personas migrantes en España: preguntas y respuestas",
+      "emisor": "Maldita.es",
+      "tipo": "medio",
+      "url": "https://maldita.es/malditobulo/20260708/regularizacion-extraordinaria-inmigrantes-espana/",
+      "fecha_documento": "2026-07-08",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.2.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

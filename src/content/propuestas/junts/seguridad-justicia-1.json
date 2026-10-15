@@ -1,0 +1,60 @@
+{
+  "id": "junts-seguridad-justicia-1",
+  "partido": "junts",
+  "tema": "seguridad-justicia",
+  "eleccion": "generales-2026",
+  "titulo": "Aplicación completa de la ley de amnistía",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "medida_aprobada",
+  "resumen": "La ley de amnistía fue parte del acuerdo PSOE-Junts de 2023 y Junts votó a favor de su aprobación (Ley Orgánica 1/2024). En 2026 Junts sostiene que la ley no estará plenamente aplicada hasta que Carles Puigdemont y los exconsellers Toni Comín y Lluís Puig puedan volver a Cataluña, y celebró como una «esmena a la repressió» una decisión del Tribunal Constitucional de 22 de septiembre de 2026 sobre su aplicación.",
+  "que_cambiaria": "La ley está en vigor desde el 11 de junio de 2024; su aplicación a casos concretos depende de los tribunales.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Ley orgánica de las Cortes; aplicación por los órganos judiciales."
+  },
+  "financiacion": {
+    "nota": "Sin coste presupuestario declarado."
+  },
+  "fuentes": [
+    {
+      "titulo": "Acuerdo PSOE-Junts (documento difundido el 9 de noviembre de 2023; copia alojada por Newtral)",
+      "emisor": "PSOE y Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://www.newtral.es/wp-content/uploads/2023/11/231107-Acuerdo-PSOE-Junts.pdf",
+      "localizacion": "Apartado 3, Acuerdos",
+      "fecha_documento": "2023-11-09",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso aprueba de forma definitiva la ley de Amnistía",
+      "emisor": "Deia",
+      "tipo": "medio",
+      "url": "https://www.deia.eus/politica/2024/05/30/congreso-aprueba-forma-definitiva-ley-8297867.amp.html",
+      "fecha_documento": "2024-05-30",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+      "fecha_documento": "2024-06-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Turull valora positivament la decisió del TC sobre l'amnistia, però adverteix que «arriba tard»",
+      "emisor": "Junts per Catalunya",
+      "tipo": "partido",
+      "url": "https://junts.cat/actualitat/turull-valora-positivament-la-decisio-del-tc-sobre-lamnistia-pero-adverteix-que-arriba-tard-i-que-no-sera-completa-fins-que-el-president-puigdemont-i-els-consellers-comin-i/",
+      "fecha_documento": "2026-09-22",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "No se ha abierto la resolución del Tribunal Constitucional de 22-9-2026; se cita solo la valoración de Junts."
+  }
+}

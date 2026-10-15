@@ -1,0 +1,35 @@
+{
+  "id": "compromis-energia-medioambiente-1",
+  "partido": "compromis",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "No ampliar la capacidad del aeropuerto de València-Manises",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Compromís exige que el Gobierno no apruebe la ampliación de capacidad del aeropuerto de València-Manises sin evaluar sus consecuencias sobre l'Horta Sud y el área metropolitana (ruido, saturación de Metrovalencia y carreteras, presión turística sobre la vivienda) y pide destinar recursos al transporte público.",
+  "que_cambiaria": "Paralizaría la ampliación de capacidad prevista por Aena para el aeropuerto.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Los aeropuertos de interés general son competencia exclusiva del Estado y los gestiona Aena."
+  },
+  "financiacion": {
+    "nota": "No implica gasto declarado por el partido."
+  },
+  "fuentes": [
+    {
+      "titulo": "Compromís exigeix al Govern que no amplie la capacitat de l'aeroport de Manises",
+      "emisor": "Compromís",
+      "tipo": "partido",
+      "url": "https://compromis.net/36641/compromis-exigeix-al-govern-que-no-amplie-la-capacitat-de-laeroport-de-manises/",
+      "fecha_documento": "2026-09-09",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Tema asignado a energía-medio ambiente por su enfoque en impacto ambiental y territorial; reubicar si el editor lo prefiere."
+  }
+}

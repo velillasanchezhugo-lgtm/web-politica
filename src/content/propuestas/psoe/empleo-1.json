@@ -1,0 +1,45 @@
+{
+  "id": "psoe-empleo-1",
+  "partido": "psoe",
+  "tema": "empleo",
+  "eleccion": "generales-2026",
+  "titulo": "Objetivo de una tasa de paro de un solo dígito en 2030",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Pedro Sánchez fijó en campaña como objetivo para 2030 que la tasa de paro sea de un solo dígito, sin detallar las medidas para lograrlo.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "La legislación laboral es estatal y su ejecución corresponde a las comunidades autónomas (art. 149.1.7.ª CE), que gestionan las políticas activas de empleo; la UE coordina orientaciones de empleo."
+  },
+  "financiacion": {
+    "nota": "No se publicó coste ni fuente de financiación."
+  },
+  "calendario": "Horizonte declarado: 2030",
+  "detalle": "Declaración de campaña del candidato; no figura aún en un programa electoral de 2026 publicado.",
+  "fuentes": [
+    {
+      "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España \"firman la carta de defunción del Estado del Bienestar\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+      "fecha_documento": "2026-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.7.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

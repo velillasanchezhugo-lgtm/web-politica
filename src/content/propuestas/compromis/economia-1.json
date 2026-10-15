@@ -1,0 +1,44 @@
+{
+  "id": "compromis-economia-1",
+  "partido": "compromis",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "Rebaja del IVA de los servicios veterinarios al 10 %",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Compromís registró una proposición no de ley para rebajar al 10 % el IVA de los servicios veterinarios e incluir la medida en los Presupuestos Generales del Estado, con el argumento del bienestar animal, la lucha contra el abandono y el apoyo a las familias.",
+  "que_cambiaria": "Aplicaría a los servicios veterinarios el tipo reducido de IVA del 10 %.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "El IVA es un impuesto estatal armonizado por la normativa europea."
+  },
+  "financiacion": {
+    "nota": "El partido no publica el coste recaudatorio de la rebaja."
+  },
+  "fuentes": [
+    {
+      "titulo": "Compromís exigeix incorporar la baixada de l'IVA del veterinari al 10% en els Pressupostos Generals de l'Estat",
+      "emisor": "Compromís",
+      "tipo": "partido",
+      "url": "https://compromis.net/36587/compromis-exigeix-incorporar-la-baixada-de-liva-del-veterinari-al-10-en-els-pressupostos-generals-de-lestat/",
+      "fecha_documento": "2026-08-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados de 10 de febrero de 1982 (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 207",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "La PNL caduca con la disolución (art. 207 del Reglamento del Congreso)."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "psoe-vivienda-1",
+  "partido": "psoe",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Decreto-ley de vivienda tras la disolución: prórroga de alquileres, tope a la actualización de rentas y protección frente a desahucios",
+  "tipo_informacion": "documento_oficial",
+  "estado": "medida_aprobada",
+  "resumen": "El Gobierno presidido por Pedro Sánchez aprobó el 6 de octubre de 2026, ya disueltas las Cortes, el Real Decreto-ley 29/2026. Entre otras medidas, permite al inquilino pedir una prórroga extraordinaria de hasta dos años si su contrato vence antes del 31 de diciembre de 2028, impide subir la renta en la actualización anual hasta finales de 2027 cuando ya supera el índice de referencia (y la limita al 2 % en los demás casos, salvo nuevo pacto), crea una deducción en el IRPF del 10 % del alquiler para rentas bajas y obliga a la Administración a ofrecer alternativa habitacional o asumir la deuda en desahucios por impago de personas vulnerables.",
+  "que_cambiaria": "Recupera, con algunos cambios, medidas del Real Decreto-ley 26/2026, que el Congreso derogó el 2 de octubre de 2026 al no convalidarlo. Modifica la Ley de Arrendamientos Urbanos, la Ley 12/2023 por el derecho a la vivienda y la normativa del IRPF, entre otras.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "El decreto se dicta al amparo de las competencias estatales en legislación civil y procesal, condiciones básicas de igualdad, planificación económica y hacienda general (art. 149.1.1.ª, 6.ª, 8.ª, 13.ª y 14.ª CE). La vivienda es competencia exclusiva de las comunidades autónomas (art. 148.1.3.ª CE), que gestionan la política de vivienda pública junto con los ayuntamientos."
+  },
+  "financiacion": {
+    "nota": "El real decreto-ley no incluye una estimación de coste agregada; no se ha localizado una estimación independiente."
+  },
+  "calendario": "En vigor desde su publicación (BOE de 7 de octubre de 2026); debe ser convalidado por la Diputación Permanente del Congreso en el plazo de 30 días (art. 86 CE) o decaerá.",
+  "detalle": "Es una medida de Gobierno, no un compromiso electoral: el Ministerio de Vivienda está en manos del PSOE, pero el Gobierno es de coalición con Sumar. Su continuidad depende de la convalidación.",
+  "fuentes": [
+    {
+      "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
+      "localizacion": "Preámbulo; art. 5; disposiciones finales quinta, sexta y décima",
+      "fecha_documento": "2026-10-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 86, 148.1.3.ª y 149.1",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}
