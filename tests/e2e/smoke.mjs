@@ -42,6 +42,17 @@ async function pagina(viewport) {
   ok('simulador: investidura 2023 → 179/171, aprobada en primera votación, Gobierno en minoría (152)');
   await page.screenshot({ path: OUT + 'simulador-movil.png', fullPage: true });
 
+  // Votación real de referencia: Feijóo, 27-09-2023
+  await page.click('[data-ref="feijoo-2023"]');
+  const tf = await page.textContent('#resultado');
+  assert.match(tf, /Sí: 172/); assert.match(tf, /No: 178/);
+  assert.match(tf, /Segunda votación.*No alcanza/s);
+  assert.match(await page.textContent('#sim-origen'), /votación real/);
+  ok('simulador: votación de referencia de Feijóo (27-09-2023) → 172/178, no investido');
+  await page.click('[data-ref="sanchez-2023"]');
+  assert.match(await page.textContent('#resultado'), /Sí: 179/);
+  ok('simulador: votación de referencia de Sánchez (16-11-2023) → 179');
+
   // Validación: escaños negativos
   await page.fill('#e0', '-5');
   assert.match(await page.textContent('#resultado'), /Revisa los datos/);

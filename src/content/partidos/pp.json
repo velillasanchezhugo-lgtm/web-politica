@@ -333,10 +333,10 @@
       "eleccion": "generales-2023",
       "candidatura": "Partido Popular (PP)",
       "votos": 8160837,
-      "porcentaje": 33.06,
+      "porcentaje": 33.33,
       "escanos_congreso": 137,
       "escanos_senado": 120,
-      "nota": "Porcentaje calculado sobre votos válidos (24.688.087) del Cuadro I. Senado: senadores elegidos por sufragio directo según la relación de proclamados; no incluye senadores de designación autonómica. En Navarra el PP concurrió por separado de UPN (57.134 votos, 1 escaño).",
+      "nota": "Porcentaje sobre votos a candidaturas (24.487.414), según el cuadro de la JEC; sobre votos válidos sería el 33,06 %. Senado: senadores elegidos por sufragio directo; no incluye senadores de designación autonómica. En Navarra el PP concurrió por separado de UPN (57.134 votos, 1 escaño).",
       "fuentes": [
         {
           "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
@@ -346,6 +346,14 @@
           "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
           "fecha_documento": "2023-09-01",
           "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+          "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+          "fecha_consulta": "2026-10-15"
         }
       ]
     },
@@ -353,8 +361,8 @@
       "eleccion": "europeas-2024",
       "candidatura": "Partido Popular",
       "votos": 5996627,
-      "porcentaje": 34.21,
-      "nota": "22 de 61 escaños en el Parlamento Europeo. Porcentaje calculado sobre votos válidos (17.527.438).",
+      "porcentaje": 34.46,
+      "nota": "22 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos a candidaturas (17.402.783); sobre votos válidos (17.527.438) sería el 34,21 %.",
       "fuentes": [
         {
           "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",

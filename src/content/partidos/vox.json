@@ -1,0 +1,531 @@
+{
+  "id": "vox",
+  "nombre": "Vox",
+  "siglas": "VOX",
+  "naturaleza": "partido",
+  "ambito": "estatal",
+  "color_grafico": "#63BE21",
+  "web_oficial": "https://www.voxespana.es/",
+  "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
+  "resumen": "Vox es un partido de ámbito estatal fundado en 2013 y presidido por Santiago Abascal. Entró en el Congreso en 2019 y fue la tercera fuerza en las generales de 2023, con 33 diputados. Ha formado gobiernos autonómicos de coalición con el PP y para el 29 de noviembre de 2026 ha fijado como ejes de campaña la «prioridad nacional», la «remigración» y la «desregulación».",
+  "historia": [
+    {
+      "texto": "Vox se fundó en 2013, después de que Santiago Abascal abandonara el Partido Popular; entre sus promotores iniciales figuraban también Cristina Seguí, José Luis González Quirós, Ignacio Camuñas y José Antonio Ortega Lara, y semanas después se incorporó el exeurodiputado del PP Alejo Vidal-Quadras.",
+      "tipo": "hecho",
+      "fecha": "2013",
+      "fuentes": [
+        {
+          "titulo": "De Vidal-Quadras a Monasterio: así han abandonado Vox miembros «históricos» de su círculo fundacional",
+          "emisor": "Newtral",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/miembros-vox-abandonado/20241011/",
+          "fecha_documento": "2024-10-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Vox obtuvo representación en el Congreso por primera vez en las generales de abril de 2019 (2.688.092 votos y 24 escaños) y la amplió en noviembre de 2019 (3.656.979 votos y 52 escaños).",
+      "tipo": "hecho",
+      "fecha": "2019",
+      "fuentes": [
+        {
+          "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+          "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las generales de 23 de julio de 2023 obtuvo 3.057.000 votos y 33 diputados, y ningún senador elegido por sufragio directo.",
+      "tipo": "hecho",
+      "fecha": "2023-07-23",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+          "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En julio de 2024 Vox abandonó los cinco gobiernos autonómicos de coalición que compartía con el PP (Murcia, Castilla y León, Extremadura, Comunidad Valenciana y Aragón) y retiró su apoyo parlamentario al Gobierno balear, en desacuerdo con el reparto de menores migrantes aceptado por los presidentes autonómicos del PP.",
+      "tipo": "hecho",
+      "fecha": "2024-07-11",
+      "fuentes": [
+        {
+          "titulo": "Vox rompe todos los pactos con el PP en las autonomías",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/abascal-asume-ruptura-pp_1_5086033.amp.html",
+          "fecha_documento": "2024-07-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según El Independiente, en 2026 PP y Vox volvieron a cerrar pactos de gobierno en Extremadura, Aragón y Castilla y León.",
+      "tipo": "hecho",
+      "fecha": "2026-06-20",
+      "fuentes": [
+        {
+          "titulo": "Fuera complejos: Feijóo normaliza un Gobierno de coalición con Abascal",
+          "emisor": "El Independiente",
+          "tipo": "medio",
+          "url": "https://www.elindependiente.com/espana/2026/06/20/fuera-complejos-feijoo-normaliza-un-gobierno-de-coalicion-con-abascal/",
+          "fecha_documento": "2026-06-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Presidente del partido",
+      "nombre": "Santiago Abascal",
+      "fuentes": [
+        {
+          "titulo": "Vox acusa a Feijóo de «ataque mafioso» en una carta a sus afiliados y el PP responde que su «adversario» es Sánchez",
+          "emisor": "El Español",
+          "tipo": "medio",
+          "url": "https://www.elespanol.com/espana/politica/20260402/vox-acusa-feijoo-ataque-mafioso-carta-militantes-pp-responde-adversario-sanchez/1003744193298_0.html",
+          "fecha_documento": "2026-04-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Abascal reúne a la cúpula de Vox para diseñar el 29-N: «Unas elecciones existenciales»",
+          "emisor": "The Objective",
+          "tipo": "medio",
+          "url": "https://theobjective.com/espana/politica/2026-10-14/abascal-cupula-vox-29-n-elecciones/",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretario general",
+      "nombre": "Ignacio Garriga",
+      "fuentes": [
+        {
+          "titulo": "Vox acusa a Feijóo de «ataque mafioso» en una carta a sus afiliados y el PP responde que su «adversario» es Sánchez",
+          "emisor": "El Español",
+          "tipo": "medio",
+          "url": "https://www.elespanol.com/espana/politica/20260402/vox-acusa-feijoo-ataque-mafioso-carta-militantes-pp-responde-adversario-sanchez/1003744193298_0.html",
+          "fecha_documento": "2026-04-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Abascal renueva la Ejecutiva de Vox: Garriga será su «número dos» y mantiene a Ortega Smith como vocal",
+          "emisor": "Vozpópuli",
+          "tipo": "medio",
+          "url": "https://www.vozpopuli.com/espana/abascal-renueva-ejecutiva-vox-garriga-numero-dos-mantiene-ortega-smith-vocal.html",
+          "fecha_documento": "2024-01-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz del Grupo Parlamentario VOX en el Congreso (XV legislatura)",
+      "nombre": "Pepa Millán (María José Rodríguez de Millán Parro)",
+      "fuentes": [
+        {
+          "titulo": "Vox pide voto presencial y advierte del riesgo de «pucherazo» en las elecciones (información de EFE)",
+          "emisor": "Diario de León / EFE",
+          "tipo": "medio",
+          "url": "https://www.diariodeleon.es/nacional/261006/2099448/elecciones-generales-2026-vox-pide-voto-presencial-advierte-riesgo-pucherazo-elecciones.html",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Abascal renueva la Ejecutiva de Vox: Garriga será su «número dos» y mantiene a Ortega Smith como vocal",
+          "emisor": "Vozpópuli",
+          "tipo": "medio",
+          "url": "https://www.vozpopuli.com/espana/abascal-renueva-ejecutiva-vox-garriga-numero-dos-mantiene-ortega-smith-vocal.html",
+          "fecha_documento": "2024-01-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretario general del Grupo Parlamentario en el Congreso y responsable económico",
+      "nombre": "José María Figaredo",
+      "fuentes": [
+        {
+          "titulo": "Vox defiende una reforma hacia la privatización de las pensiones y da por muerto el sistema público actual",
+          "emisor": "elDiario.es",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/economia/vox-defiende-reforma-privatizacion-pensiones-da-muerto-sistema-publico-actual_1_13565422.html",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Abascal renueva la Ejecutiva de Vox: Garriga será su «número dos» y mantiene a Ortega Smith como vocal",
+          "emisor": "Vozpópuli",
+          "tipo": "medio",
+          "url": "https://www.vozpopuli.com/espana/abascal-renueva-ejecutiva-vox-garriga-numero-dos-mantiene-ortega-smith-vocal.html",
+          "fecha_documento": "2024-01-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "No consta coalición; a 15-10-2026 no se ha localizado anuncio de coalición electoral de Vox",
+    "detalle": [
+      {
+        "texto": "El 14 de octubre de 2026 Santiago Abascal reunió al Comité Ejecutivo Nacional y a los portavoces del partido para fijar la estrategia de las elecciones del 29 de noviembre, con tres ejes de campaña: prioridad nacional, desregulación y remigración.",
+        "tipo": "hecho",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Abascal reúne a la cúpula de Vox para diseñar el 29-N: «Unas elecciones existenciales»",
+            "emisor": "The Objective",
+            "tipo": "medio",
+            "url": "https://theobjective.com/espana/politica/2026-10-14/abascal-cupula-vox-29-n-elecciones/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "No se ha localizado en fuentes abiertas un anuncio formal del candidato de Vox a la Presidencia del Gobierno para 2026; la web oficial del partido no fue accesible durante la consulta.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Abascal reúne a la cúpula de Vox para diseñar el 29-N: «Unas elecciones existenciales»",
+            "emisor": "The Objective",
+            "tipo": "medio",
+            "url": "https://theobjective.com/espana/politica/2026-10-14/abascal-cupula-vox-29-n-elecciones/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según el calendario de la Junta Electoral Central, las candidaturas se presentan del 21 al 26 de octubre y se publican en el BOE el 28 de octubre; las proclamadas, el 3 de noviembre.",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Calendario electoral. Elecciones Generales 2026 (Cortes Generales)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+            "localizacion": "Apartado «Candidaturas», p. 4",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido de derecha que sitúa en el centro de su agenda la unidad de España, una política migratoria restrictiva («prioridad nacional», «remigración»), las rebajas fiscales y la reducción de regulación. Los expertos consultados por la encuesta Chapel Hill lo clasifican en la familia de la derecha radical (ver clasificaciones externas).",
+    "clasificaciones_externas": [
+      {
+        "texto": "En la encuesta de expertos Chapel Hill (CHES 2024), Vox obtiene una puntuación media de 9,38 en la escala de ideología general de 0 (extrema izquierda) a 10 (extrema derecha), está clasificado en la familia «Radical Right» y su posición media sobre la integración europea es 3,06 en una escala de 1 (muy en contra) a 7 (muy a favor).",
+        "tipo": "interpretacion",
+        "fecha": "2025-02",
+        "fuentes": [
+          {
+            "titulo": "2024 Chapel Hill Expert Survey (CHES), conjunto de datos CHES_2024_final_v2 y codebook (Rovny, Bakker, Hooghe et al., Electoral Studies 97, 2025)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://www.chesdata.eu/ches-europe",
+            "localizacion": "Variables lrgen (escala 0-10), eu_position (1-7) y family; partido Vox, party_id 527",
+            "fecha_documento": "2025-02",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "No se ha incluido autodefinición porque la web oficial del partido (estatutos y documentos) bloqueó el acceso durante la consulta; debe añadirse desde los estatutos de Vox. La clasificación CHES refleja el juicio agregado de politólogos, no una medida objetiva."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "VOX (VOX)",
+      "votos": 3057000,
+      "porcentaje": 12.48,
+      "escanos_congreso": 33,
+      "escanos_senado": 0,
+      "nota": "Porcentaje sobre votos a candidaturas (24.487.414), según la JEC; sobre votos válidos sería el 12,38 %.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (Congreso, total estatal) y relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resultados de las elecciones generales al Congreso y al Senado 1977-2023 (cuadros por elección)",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_ResultadosCongreso-Senado_1977-2023.xls",
+          "localizacion": "Hojas «Elecciones abril 2019», «Elecciones noviembre 2019» y «Elecciones 2023» (cuadros 15a y 15b); porcentajes calculados sobre votos a candidaturas",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "eleccion": "europeas-2024",
+      "candidatura": "VOX",
+      "votos": 1688255,
+      "porcentaje": 9.7,
+      "nota": "6 de 61 escaños en el Parlamento Europeo. Porcentaje calculado por la redacción sobre votos a candidaturas (17.402.783); sobre votos válidos sería el 9,63 %.",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (total estatal)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Entre 2023 y julio de 2024 Vox participó en gobiernos autonómicos de coalición con el PP, de los que salió en julio de 2024.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Vox rompe todos los pactos con el PP en las autonomías",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/abascal-asume-ruptura-pp_1_5086033.amp.html",
+          "fecha_documento": "2024-07-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Vox votó a favor de la investidura de Alberto Núñez Feijóo, que fracasó en septiembre de 2023 (172 votos a favor; 178 y 177 en contra en las dos votaciones).",
+      "tipo": "hecho",
+      "fecha": "2023-09-29",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 5 (27-09-2023): votación de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "localizacion": "p. 48",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 6 (29-09-2023): segunda votación de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-6.PDF",
+          "localizacion": "p. 24",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Alberto Núñez Feijóo no consigue superar la investidura",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/segunda-votacion-debate-investidura-alberto-nunez-feijoo/",
+          "fecha_documento": "2023-09-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Vox votó en contra de la investidura de Pedro Sánchez, aprobada el 16 de noviembre de 2023 con 179 votos a favor y 171 en contra (PP, Vox y UPN).",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16-11-2023): votación de investidura de Pedro Sánchez Pérez-Castejón",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "p. 50",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Pedro Sánchez, investido presidente con 179 votos",
+          "emisor": "Diari de Tarragona",
+          "tipo": "medio",
+          "url": "https://www.diaridetarragona.com/internacional/175840/pedro-sanchez-investido-presidente-con-179-votos-al17582244.html",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Vox votó en contra de la ley de amnistía, aprobada definitivamente el 30 de mayo de 2024 por 177 votos a favor y 172 en contra.",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "Ley de amnistía: cambios, enmiendas y votaciones en el Congreso",
+          "emisor": "Maldita.es",
+          "tipo": "medio",
+          "url": "https://maldita.es/malditateexplica/20240530/cambios-enmiendas-ley-amnistia-votacion-congreso/",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El tortuoso camino de la ley de amnistía hasta su aprobación",
+          "emisor": "Noticias de Navarra",
+          "tipo": "medio",
+          "url": "https://www.noticiasdenavarra.com/politica/2024/05/30/tortuoso-camino-ley-amnistia-aprobacion-8297795.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 Vox votó en contra de la convalidación de los reales decretos-ley de vivienda 26/2026 y 27/2026, que el Congreso derogó.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Los votos de PP, Vox y Junts tumban los dos decretos ley de vivienda aprobados el martes en el Consejo de Ministros",
+          "emisor": "Civio",
+          "tipo": "medio",
+          "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2026/10/02/decretos-ley-vivienda-derogacion-congreso/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Congreso rechaza el decreto de medidas de vivienda con los votos de PP, Vox, Junts y UPN",
+          "emisor": "Europa Press (reproducido por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/america/agencias/2026/10/02/el-congreso-rechaza-el-decreto-de-medidas-de-vivienda-con-los-votos-de-pp-vox-junts-y-upn/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "Vox compartió gobiernos autonómicos de coalición con el PP en Murcia, Castilla y León, Extremadura, Comunidad Valenciana y Aragón hasta julio de 2024, y apoyaba desde fuera al Gobierno del PP en Baleares.",
+        "tipo": "hecho",
+        "fecha": "2024-07-11",
+        "fuentes": [
+          {
+            "titulo": "Vox rompe todos los pactos con el PP en las autonomías",
+            "emisor": "Ara (edición en castellano)",
+            "tipo": "medio",
+            "url": "https://es.ara.cat/politica/abascal-asume-ruptura-pp_1_5086033.amp.html",
+            "fecha_documento": "2024-07-11",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según El Independiente, en 2026 Vox alcanzó nuevos acuerdos de gobierno con el PP en Extremadura, Aragón y Castilla y León.",
+        "tipo": "hecho",
+        "fecha": "2026-06-20",
+        "fuentes": [
+          {
+            "titulo": "Fuera complejos: Feijóo normaliza un Gobierno de coalición con Abascal",
+            "emisor": "El Independiente",
+            "tipo": "medio",
+            "url": "https://www.elindependiente.com/espana/2026/06/20/fuera-complejos-feijoo-normaliza-un-gobierno-de-coalicion-con-abascal/",
+            "fecha_documento": "2026-06-20",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Según Euronews, tras la convocatoria electoral Abascal recordó al PP sus condiciones para un eventual acuerdo de gobierno: «prioridad nacional», «remigración» y desregulación; Abascal afirmó que «hay que revertir la invasión migratoria».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-05",
+        "fuentes": [
+          {
+            "titulo": "Vox recuerda al PP sus condiciones para gobernar: remigración, desregulación y prioridad nacional",
+            "emisor": "Euronews (Rafael Salido)",
+            "tipo": "medio",
+            "url": "https://es.euronews.com/2026/10/05/vox-pp-condiciones-gobernar-espana-remigracion-desregularizacion-prioridad-nacional",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Abascal calificó el 29-N como «una elección existencial para el conjunto de los españoles» en la reunión de su dirección del 14 de octubre de 2026.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Abascal reúne a la cúpula de Vox para diseñar el 29-N: «Unas elecciones existenciales»",
+            "emisor": "The Objective",
+            "tipo": "medio",
+            "url": "https://theobjective.com/espana/politica/2026-10-14/abascal-cupula-vox-29-n-elecciones/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Proposiciones de ley presentadas en la XV legislatura (IRPF, extranjería, Código Penal, acceso a la universidad, zonas de bajas emisiones, entre otras)",
+      "Ejes de campaña declarados: prioridad nacional, remigración y desregulación"
+    ],
+    "sin_desarrollar": [
+      "Cuantificación del recorte de gasto que, según el partido, compensaría la rebaja del IRPF",
+      "Diseño concreto del modelo mixto de pensiones"
+    ],
+    "pendiente": [
+      "Programa electoral 2026 (no localizado; la web oficial no fue accesible)",
+      "Candidatura y cabeza de lista (presentación del 21 al 26 de octubre)"
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "La web oficial voxespana.es devolvió error 403 (bloqueo) durante la consulta: verificar en ella si existe programa 2026, añadir autodefinición desde los estatutos y confirmar cargos. Color de gráfico convencional, a validar por diseño."
+  }
+}

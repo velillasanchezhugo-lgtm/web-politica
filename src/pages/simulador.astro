@@ -24,11 +24,35 @@ const presets = conjuntos.map((c) => {
     nombre: g.candidaturas.length > 1 ? g.candidaturas.join(' + ') : g.nombre,
     escanos: g.escanos,
     color: g.color,
+    partido: g.partido,
     ficha: g.partido && fichas.has(g.partido) ? g.partido : undefined,
   })).sort((a, b) => b.escanos - a.escanos);
   return { id: c.data.id, nombre: c.data.nombre, total: c.data.total, filas, fuente: c.data.fuentes[0] };
 });
 const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
+
+// Votaciones reales, verificadas en el Diario de Sesiones (ver research/investidura-2023.md).
+// Solo se registra el sentido del voto; no se presupone quién habría entrado en el Gobierno.
+const referencias = presets.some((p) => p.id === 'generales-2023')
+  ? [
+      {
+        id: 'sanchez-2023',
+        nombre: 'Investidura de Pedro Sánchez, 16-11-2023 (179 sí, 171 no)',
+        preset: 'generales-2023',
+        si: ['psoe', 'frente-amplio', 'erc', 'junts', 'eh-bildu', 'pnv', 'bng', 'cc'],
+        no: ['pp', 'vox', 'upn'],
+        fuente: { titulo: 'Diario de Sesiones del Congreso, XV legislatura, núm. 8 (16-11-2023)', emisor: 'Congreso de los Diputados', tipo: 'oficial', url: 'https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF', fecha_documento: '2023-11-16', fecha_consulta: '2026-10-15' },
+      },
+      {
+        id: 'feijoo-2023',
+        nombre: 'Investidura de Alberto Núñez Feijóo, 1.ª votación, 27-09-2023 (172 sí, 178 no)',
+        preset: 'generales-2023',
+        si: ['pp', 'vox', 'upn', 'cc'],
+        no: ['psoe', 'frente-amplio', 'erc', 'junts', 'eh-bildu', 'pnv', 'bng'],
+        fuente: { titulo: 'Diario de Sesiones del Congreso, XV legislatura, núm. 5 (27-09-2023)', emisor: 'Congreso de los Diputados', tipo: 'oficial', url: 'https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF', fecha_documento: '2023-09-27', fecha_consulta: '2026-10-15' },
+      },
+    ]
+  : [];
 ---
 <Base title="Simulador de pactos e investidura" description="Explora coaliciones, apoyos externos, abstenciones y bloqueos con las reglas reales de investidura del Congreso: mayoría absoluta de 176 en primera votación y mayoría simple en la segunda." crumbs={[{ label: 'Simulador de pactos' }]}>
   <div class="wrap">
@@ -57,6 +81,17 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
           <p class="small muted" style="margin:.3rem 0 0">Lo mostraremos como «datos introducidos por el usuario a partir de…». No verificamos esa encuesta.</p>
         </div>
       </fieldset>
+
+      {referencias.length > 0 && (
+        <fieldset>
+          <legend>Opcional: cargar una votación real como referencia</legend>
+          <p class="small muted" style="margin-top:0">Sirve para comprobar las reglas con un caso conocido. Después puedes cambiar lo que quieras.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:.5rem">
+            {referencias.map((r) => <button type="button" class="btn secondary small" data-ref={r.id}>{r.nombre}</button>)}
+          </div>
+          <p class="src-inline" style="margin:.4rem 0 0">Fuentes: {referencias.map((r, i) => <>{i > 0 && '; '}<a href={r.fuente.url} rel="noopener nofollow" target="_blank">{r.fuente.titulo}</a></>)}</p>
+        </fieldset>
+      )}
 
       <fieldset>
         <legend>2. Tipo de votación</legend>
@@ -108,24 +143,28 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
       <SourceList fuentes={[
         { titulo: 'Constitución Española (texto consolidado), arts. 99, 113 y 114', emisor: 'Boletín Oficial del Estado', tipo: 'oficial', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229', fecha_consulta: '2026-10-15' },
         ...fuentes,
+        ...referencias.map((r) => r.fuente),
       ]} />
     </div>
   </div>
   <AdSlot slot="footer" />
-  <script type="application/json" id="sim-data" set:html={JSON.stringify({ presets })} />
+  <script type="application/json" id="sim-data" set:html={JSON.stringify({ presets, referencias })} />
 </Base>
 
 <script>
   import { validar, investidura, mocionCensura, situacionGobierno, mayoriaAbsoluta, MIEMBROS_CONGRESO } from '../lib/investidura.js';
 
-  type Pos = 'gob' | 'apoyo' | 'abstencion' | 'no' | 'ausente' | 'dividido';
-  type Fila = { nombre: string; escanos: number; pos: Pos; color?: string; ficha?: string; rep?: { si: number; no: number; abstencion: number; ausente: number } };
-  type Preset = { id: string; nombre: string; total: number; filas: { nombre: string; escanos: number; color: string; ficha?: string }[]; fuente: { url: string; emisor: string } };
-  const { presets } = JSON.parse(document.getElementById('sim-data')!.textContent!) as { presets: Preset[] };
+  type Pos = 'gob' | 'apoyo' | 'si' | 'abstencion' | 'no' | 'ausente' | 'dividido';
+  type Fila = { nombre: string; escanos: number; pos: Pos; color?: string; ficha?: string; partido?: string; rep?: { si: number; no: number; abstencion: number; ausente: number } };
+  type Preset = { id: string; nombre: string; total: number; filas: { nombre: string; escanos: number; color: string; ficha?: string; partido?: string }[]; fuente: { url: string; emisor: string } };
+  type Ref = { id: string; nombre: string; preset: string; si: string[]; no: string[]; fuente: { url: string; titulo: string } };
+  const { presets, referencias } = JSON.parse(document.getElementById('sim-data')!.textContent!) as { presets: Preset[]; referencias: Ref[] };
+  let referencia: Ref | null = null;
 
   const POS: [Pos, string][] = [
     ['gob', 'Gobierno (vota sí)'],
     ['apoyo', 'Apoyo externo (vota sí)'],
+    ['si', 'A favor (sin especificar)'],
     ['abstencion', 'Abstención'],
     ['no', 'En contra'],
     ['ausente', 'No vota / ausente'],
@@ -145,7 +184,7 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
     origen = p ? id : 'manual';
     modificado = false;
     filas = p
-      ? p.filas.map((f) => ({ nombre: f.nombre, escanos: f.escanos, color: f.color, ficha: f.ficha, pos: 'no' as Pos }))
+      ? p.filas.map((f) => ({ nombre: f.nombre, escanos: f.escanos, color: f.color, ficha: f.ficha, partido: f.partido, pos: 'no' as Pos }))
       : [
           { nombre: 'Grupo A', escanos: 0, pos: 'no' },
           { nombre: 'Grupo B', escanos: 0, pos: 'no' },
@@ -178,20 +217,20 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
   function origenTexto() {
     const p = presets.find((x) => x.id === origen);
     const enc = encuesta.value.trim();
-    if (p && !modificado) return `Escaños: resultado oficial (${p.nombre}). Fuente: ${p.fuente.emisor}.`;
+    if (p && !modificado) return `Escaños: resultado oficial (${p.nombre}). Fuente: ${p.fuente.emisor}.` + (referencia ? ` Posiciones: votación real «${referencia.nombre}» (${referencia.fuente.titulo}).` : '');
     const base = p ? ` a partir del resultado oficial ${p.nombre}, modificado` : '';
     return `Escaños: datos introducidos por el usuario${base}${enc ? `. Origen indicado por el usuario (no verificado): «${enc}»` : ''}. Posiciones de voto: hipotéticas.`;
   }
 
   function calcular() {
     const modo = (document.querySelector<HTMLInputElement>('input[name="modo"]:checked')!.value) as 'inv' | 'cen';
-    document.getElementById('sim-origen')!.textContent = origenTexto() + ' Escenario hipotético, no es una predicción ni un pacto.';
+    document.getElementById('sim-origen')!.textContent = origenTexto() + (referencia ? ' Reproducción de una votación pasada, no una predicción.' : ' Escenario hipotético, no es una predicción ni un pacto.');
     const lib = filas.map((f) => ({
       nombre: f.nombre,
       escanos: f.escanos,
       ...(f.pos === 'dividido'
         ? { reparto: f.rep ?? { si: 0, no: 0, abstencion: 0, ausente: f.escanos } }
-        : { posicion: (f.pos === 'gob' || f.pos === 'apoyo' ? 'si' : f.pos) as 'si' | 'no' | 'abstencion' | 'ausente' }),
+        : { posicion: (f.pos === 'gob' || f.pos === 'apoyo' || f.pos === 'si' ? 'si' : f.pos) as 'si' | 'no' | 'abstencion' | 'ausente' }),
     }));
     const v = validar(lib, MIEMBROS_CONGRESO);
     // Marca campos no válidos
@@ -281,6 +320,7 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
     const t = ev.target as HTMLInputElement | HTMLSelectElement;
     const row = t.closest<HTMLElement>('.sim-fila');
     if (!row) return;
+    referencia = null;
     const f = filas[Number(row.dataset.i)];
     if (t.dataset.k === 'nombre') f.nombre = t.value;
     if (t.dataset.k === 'escanos') {
@@ -296,6 +336,7 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
   cont.addEventListener('change', (ev) => {
     const t = ev.target as HTMLSelectElement;
     if (t.dataset.k !== 'pos') return;
+    referencia = null;
     const f = filas[Number(t.closest<HTMLElement>('.sim-fila')!.dataset.i)];
     f.pos = t.value as Pos;
     if (f.pos === 'dividido' && !f.rep) f.rep = { si: 0, no: 0, abstencion: 0, ausente: f.escanos };
@@ -310,12 +351,23 @@ const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
   });
   document.getElementById('add')!.addEventListener('click', () => {
     if (origen !== 'manual') modificado = true;
+    referencia = null;
     filas.push({ nombre: `Grupo ${filas.length + 1}`, escanos: 0, pos: 'no' });
     pintarFilas(); calcular(); serializar();
     (document.getElementById(`n${filas.length - 1}`) as HTMLInputElement)?.focus();
   });
-  document.getElementById('reset-pos')!.addEventListener('click', () => { filas.forEach((f) => { f.pos = 'no'; delete f.rep; }); pintarFilas(); calcular(); serializar(); });
-  document.querySelectorAll<HTMLInputElement>('input[name="origen"]').forEach((r) => r.addEventListener('change', () => { cargarPreset(r.value); pintarFilas(); calcular(); serializar(); }));
+  document.querySelectorAll<HTMLButtonElement>('[data-ref]').forEach((b) => b.addEventListener('click', () => {
+    const r = referencias.find((x) => x.id === b.dataset.ref);
+    if (!r) return;
+    cargarPreset(r.preset);
+    document.querySelectorAll<HTMLInputElement>('input[name="origen"]').forEach((x) => (x.checked = x.value === r.preset));
+    document.querySelector<HTMLInputElement>('input[name="modo"][value="inv"]')!.checked = true;
+    filas.forEach((f) => { f.pos = f.partido && r.si.includes(f.partido) ? 'si' : f.partido && r.no.includes(f.partido) ? 'no' : 'ausente'; });
+    referencia = r;
+    pintarFilas(); calcular(); serializar();
+  }));
+  document.getElementById('reset-pos')!.addEventListener('click', () => { referencia = null; filas.forEach((f) => { f.pos = 'no'; delete f.rep; }); pintarFilas(); calcular(); serializar(); });
+  document.querySelectorAll<HTMLInputElement>('input[name="origen"]').forEach((r) => r.addEventListener('change', () => { referencia = null; cargarPreset(r.value); pintarFilas(); calcular(); serializar(); }));
   document.querySelectorAll<HTMLInputElement>('input[name="modo"]').forEach((r) => r.addEventListener('change', () => { calcular(); serializar(); }));
   encuesta.addEventListener('input', () => { if (origen !== 'manual') { modificado = modificado || false; } calcular(); serializar(); });
   document.getElementById('share')!.addEventListener('click', async () => {
