@@ -1,0 +1,126 @@
+{
+  "id": "pensiones",
+  "nombre": "Pensiones",
+  "nombre_corto": "Pensiones",
+  "descripcion": "Pensiones contributivas y no contributivas de la Seguridad Social: cuantías, revalorización, edad de jubilación y sostenibilidad del sistema.",
+  "orden": 6,
+  "contexto": [
+    {
+      "texto": "La Seguridad Social pagó 10.547.417 pensiones contributivas a más de 9,5 millones de personas en la nómina de septiembre de 2026 (14.498,2 millones de euros). La pensión media del sistema fue de 1.374,6 euros al mes, un 4,6% más que un año antes, y la de jubilación, de 1.576,1 euros.",
+      "tipo": "hecho",
+      "fecha": "2026-09-25",
+      "fuentes": [
+        {
+          "titulo": "La pensión media del sistema de la Seguridad Social alcanza los 1.374,6 euros en septiembre, un 4,6% más alta que hace un año",
+          "emisor": "Seguridad Social (Revista de la Seguridad Social)",
+          "tipo": "oficial",
+          "url": "https://revista.seg-social.es/-/pensiones-septiembre-2026",
+          "fecha_documento": "2026-09-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las pensiones contributivas se revalorizaron con carácter general un 2,7% en 2026, equivalente a la media del IPC de los doce meses previos a diciembre de 2025. La subida se aprobó por el Real Decreto-ley 3/2026, después de que el Congreso no convalidara el Real Decreto-ley 16/2025, y el Congreso convalidó el nuevo decreto el 26 de febrero de 2026.",
+      "tipo": "hecho",
+      "fecha": "2026-02-04",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 3/2026, de 3 de febrero, para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+          "localizacion": "Exposición de motivos y artículos sobre revalorización",
+          "fecha_documento": "2026-02-04",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Congreso convalida el Real Decreto-ley de revalorización de las pensiones que beneficia a cerca de 13 millones de personas",
+          "emisor": "La Moncloa (Ministerio de Inclusión, Seguridad Social y Migraciones)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/paginas/2026/260226-convalidacion-revalorizacion-pensiones.aspx",
+          "fecha_documento": "2026-02-26",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Hasta que se apruebe una Ley de Presupuestos, la pensión máxima para las pensiones causadas en 2026 es de 3.359,60 euros al mes (47.034,40 euros al año), según el Real Decreto-ley 3/2026.",
+      "tipo": "hecho",
+      "fecha": "2026-02-04",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 3/2026, de 3 de febrero, para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+          "localizacion": "Exposición de motivos y artículos sobre revalorización",
+          "fecha_documento": "2026-02-04",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las pensiones fueron citadas como uno de los tres principales problemas de España por el 1,4% de los encuestados en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "La legislación básica y el régimen económico de la Seguridad Social son competencia exclusiva del Estado, sin perjuicio de que las comunidades autónomas ejecuten sus servicios (art. 149.1.17.ª de la Constitución). El artículo 50 encomienda a los poderes públicos garantizar pensiones adecuadas y actualizadas periódicamente.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 50 y 149.1.17.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El marco legal es la Ley General de la Seguridad Social (texto refundido aprobado por el Real Decreto Legislativo 8/2015), de aplicación general al amparo del artículo 149.1.17.ª. Su artículo 58 regula la revalorización anual de las pensiones contributivas según el IPC.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "localizacion": "Disposición final primera",
+          "fecha_documento": "2015-10-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto-ley 3/2026, de 3 de febrero, para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+          "localizacion": "Exposición de motivos y artículos sobre revalorización",
+          "fecha_documento": "2026-02-04",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

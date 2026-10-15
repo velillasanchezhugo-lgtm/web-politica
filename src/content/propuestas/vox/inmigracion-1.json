@@ -1,0 +1,53 @@
+{
+  "id": "vox-inmigracion-1",
+  "partido": "vox",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Suprimir el arraigo como vía de regularización de inmigrantes en situación irregular",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley orgánica de Vox (mayo de 2025) para reformar la Ley de Extranjería: elimina el arraigo como supuesto de autorización de residencia temporal por circunstancias excepcionales, exige carecer de antecedentes penales y cumplir obligaciones tributarias y de Seguridad Social para renovar la residencia, y amplía las causas de inadmisión y expulsión. Fue rechazada en su toma en consideración en septiembre de 2025.",
+  "que_cambiaria": "Modificaría el artículo 31 y otros de la Ley Orgánica 4/2000 sobre derechos y libertades de los extranjeros.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Inmigración y extranjería son competencia exclusiva del Estado (art. 149.1.2.ª CE), en el marco del Derecho de la UE."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 4/2000 para restringir la regularización de inmigrantes ilegales a través del arraigo (expediente 122/000191), BOCG Congreso, serie B, núm. 224-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-224-1.PDF",
+      "localizacion": "Exposición de motivos y artículo único (art. 31 y ss. LOEx)",
+      "fecha_documento": "2025-05-30",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

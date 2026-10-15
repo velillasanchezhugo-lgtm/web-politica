@@ -1,0 +1,136 @@
+{
+  "id": "vivienda",
+  "nombre": "Vivienda",
+  "nombre_corto": "Vivienda",
+  "descripcion": "Precio de compra y alquiler, acceso a la vivienda, vivienda pública y regulación del mercado del alquiler.",
+  "orden": 3,
+  "contexto": [
+    {
+      "texto": "El Índice de Precios de Vivienda del INE subió un 12,2% en tasa anual en el segundo trimestre de 2026 (12,9% en vivienda de segunda mano y 7,4% en vivienda nueva) y un 3,4% respecto al trimestre anterior.",
+      "tipo": "hecho",
+      "fecha": "2026-09-07",
+      "fuentes": [
+        {
+          "titulo": "Índice de Precios de Vivienda (IPV). Base 2025. Segundo trimestre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/IPV2T26.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-09-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los precios de la vivienda alquilada subieron un 3,5% en 2024, según el Índice de Precios de Vivienda en Alquiler del INE, publicado en mayo de 2026; en los contratos nuevos la subida fue del 8,8% y en los ya existentes del 2,8%. Es el último año disponible de esta estadística.",
+      "tipo": "hecho",
+      "fecha": "2026-05-11",
+      "fuentes": [
+        {
+          "titulo": "Índice de Precios de Vivienda en Alquiler (IPVA). Base 2015. Año 2024",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/IPVA2024.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-05-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La vivienda es el problema más citado: la mencionó el 55,7% de los encuestados (el 29,9% como primer problema) en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "La Constitución permite a las comunidades autónomas asumir la competencia en ordenación del territorio, urbanismo y vivienda (art. 148.1.3.ª). Según el preámbulo de la Ley 12/2023, todas las comunidades la tienen asumida en sus Estatutos y el Estado solo puede incidir en la política de vivienda a través de otros títulos competenciales.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 148.1.3.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+          "localizacion": "Preámbulo, apartado II",
+          "fecha_documento": "2023-05-24",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Ley 12/2023, por el derecho a la vivienda, es la norma estatal del sector. Se basa, entre otros títulos, en las condiciones básicas de igualdad (art. 149.1.1.ª), la legislación civil y mercantil sobre contratos (art. 149.1.6.ª y 8.ª) y las bases del crédito (art. 149.1.11.ª). Regula, entre otras cosas, la declaración de zonas de mercado residencial tensionado, que corresponde a las administraciones competentes en vivienda.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+          "localizacion": "Preámbulo, apartado II",
+          "fecha_documento": "2023-05-24",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La legislación civil es competencia del Estado, sin perjuicio de los derechos civiles forales o especiales allí donde existan (art. 149.1.8.ª). La Ley 12/2023 invoca esta competencia, junto con la mercantil, para los contratos vinculados al acceso a la vivienda.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1.8.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+          "localizacion": "Preámbulo, apartado II",
+          "fecha_documento": "2023-05-24",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

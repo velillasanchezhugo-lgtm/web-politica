@@ -1,0 +1,164 @@
+{
+  "id": "empleo",
+  "nombre": "Empleo, salarios y autónomos",
+  "nombre_corto": "Empleo",
+  "descripcion": "Paro, ocupación, contratos, salario mínimo, condiciones laborales y trabajo por cuenta propia.",
+  "orden": 2,
+  "contexto": [
+    {
+      "texto": "La tasa de paro fue del 9,87% en el segundo trimestre de 2026, 96 centésimas menos que en el trimestre anterior. Había 22.779.000 personas ocupadas y 2.495.300 paradas, según la Encuesta de Población Activa (EPA) del INE.",
+      "tipo": "hecho",
+      "fecha": "2026-07-28",
+      "fuentes": [
+        {
+          "titulo": "Encuesta de Población Activa (EPA). Segundo trimestre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/EPA2T26.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-07-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Seguridad Social registró una media de 22.437.553 afiliados en septiembre de 2026 (serie original), 739.888 más que un año antes (+3,41%). Los trabajadores autónomos sumaban 3.483.645, y el peso de los trabajadores con contrato temporal era del 12,5%, según el Ministerio de Inclusión, Seguridad Social y Migraciones.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El empleo logra el mejor septiembre de la historia después de sumar 92.327 afiliados en el último mes y 739.888 respecto a hace un año",
+          "emisor": "La Moncloa (Ministerio de Inclusión, Seguridad Social y Migraciones)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2026/021026-balance-afiliados-septiembre.aspx",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El salario mínimo interprofesional para 2026 es de 1.221 euros al mes (40,70 euros al día), con un mínimo de 17.094 euros en cómputo anual. Supone un aumento del 3,1% respecto a 2025 y se aplica con efectos desde el 1 de enero de 2026 (Real Decreto 126/2026, publicado en el BOE el 19 de febrero de 2026).",
+      "tipo": "hecho",
+      "fecha": "2026-02-19",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+          "localizacion": "Artículo 1 y disposición final",
+          "fecha_documento": "2026-02-19",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El salario medio anual fue de 29.540,26 euros por trabajador en 2024 (último año publicado), un 5,3% más que en 2023, según la Encuesta Anual de Estructura Salarial del INE.",
+      "tipo": "hecho",
+      "fecha": "2026-05-28",
+      "fuentes": [
+        {
+          "titulo": "Encuesta Anual de Estructura Salarial (EAES). Año 2024. Datos definitivos",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/EAES2024.htm",
+          "fecha_documento": "2026-05-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los «problemas relacionados con la calidad del empleo» fueron citados por el 19,4% de los encuestados y «el paro» por el 9,6% en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "La legislación laboral es competencia exclusiva del Estado, aunque su ejecución corresponde a las comunidades autónomas (art. 149.1.7.ª de la Constitución).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1.7.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Gobierno fija cada año el salario mínimo interprofesional por real decreto, tras consultar a sindicatos y patronal, conforme al artículo 27 del Estatuto de los Trabajadores. El Real Decreto 126/2026 se dicta al amparo del artículo 149.1.7.ª de la Constitución.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "localizacion": "Artículo 27",
+          "fecha_documento": "2015-10-23",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+          "localizacion": "Artículo 1 y disposición final",
+          "fecha_documento": "2026-02-19",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El trabajo por cuenta propia se regula en la Ley 20/2007, del Estatuto del trabajo autónomo. Los autónomos están encuadrados en el Régimen Especial de Trabajadores Autónomos de la Seguridad Social, cuya legislación básica y régimen económico corresponden al Estado (art. 149.1.17.ª).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 20/2007, de 11 de julio, del Estatuto del trabajo autónomo",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-13409",
+          "fecha_documento": "2007-07-11",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1.17.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "La pensión media del sistema de la Seguridad Social alcanza los 1.374,6 euros en septiembre, un 4,6% más alta que hace un año",
+          "emisor": "Seguridad Social (Revista de la Seguridad Social)",
+          "tipo": "oficial",
+          "url": "https://revista.seg-social.es/-/pensiones-septiembre-2026",
+          "fecha_documento": "2026-09-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

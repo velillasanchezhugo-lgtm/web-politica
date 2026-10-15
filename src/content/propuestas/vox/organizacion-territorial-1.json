@@ -1,0 +1,52 @@
+{
+  "id": "vox-organizacion-territorial-1",
+  "partido": "vox",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Ley orgánica «para garantizar la unidad de España»: ilegalización de partidos y prohibición de referendos territoriales",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley orgánica de Vox (noviembre de 2023) que permitiría declarar ilegal a un partido cuya actividad amenace con «quebrar la unidad de España» o que persiga la separación de una parte del territorio, prohibiría cualquier referéndum sobre la integridad territorial o la soberanía nacional e introduciría reformas en el Código Penal (entre ellas, la pena de pérdida de nacionalidad no de origen). Fue rechazada en su toma en consideración en febrero de 2024.",
+  "que_cambiaria": "Modificaría la Ley Orgánica 6/2002 de Partidos Políticos, el Código Penal, la Ley Orgánica 2/1980 de referéndum, la LOREG y la Ley de Bases de Régimen Local.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La autorización de referendos y la legislación penal son competencias exclusivas del Estado (art. 149.1.6.ª y 32.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley Orgánica para garantizar la unidad de España (expediente 122/000018), BOCG Congreso, serie B, núm. 31-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-31-1.PDF",
+      "localizacion": "Artículos primero a sexto",
+      "fecha_documento": "2023-11-17",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

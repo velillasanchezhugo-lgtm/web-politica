@@ -1,0 +1,52 @@
+{
+  "id": "vox-inmigracion-2",
+  "partido": "vox",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Expulsión de extranjeros condenados y pérdida de la nacionalidad adquirida por delinquir",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley orgánica de Vox (julio de 2026) para que cualquier pena impuesta a un extranjero condenado por sentencia firme se sustituya, como regla, por su expulsión, y para crear la pena de pérdida de la nacionalidad española para quienes, no siendo españoles de origen, sean condenados por cualquier delito. Caducó con la disolución de las Cortes.",
+  "que_cambiaria": "Modificaría el artículo 89 del Código Penal (sustitución de la pena por expulsión) y añadiría una nueva pena de pérdida de nacionalidad.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Legislación penal y nacionalidad son competencias exclusivas del Estado (art. 149.1.2.ª y 6.ª CE); el art. 11.2 CE prohíbe privar de la nacionalidad a los españoles de origen."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley Orgánica de modificación del Código Penal sobre expulsión de delincuentes extranjeros y pérdida de nacionalidad española no de origen (expediente 122/000296), BOCG Congreso, serie B, núm. 351-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-351-1.PDF",
+      "localizacion": "Artículo único (arts. 33, 39, 49 bis y 89 CP)",
+      "fecha_documento": "2026-07-17",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

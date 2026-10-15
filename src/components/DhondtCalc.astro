@@ -49,7 +49,7 @@ const opciones = circ ? [...circ.data.filas].sort((a, b) => a.nombre.localeCompa
     const ganadores = new Set(r.ganadores!.map((g) => g.nombre + '|' + g.divisor));
     const maxDiv = Math.min(num('dh-esc'), 8);
     let t = `<p>Votos válidos (candidaturas + blancos): <strong>${fmt(r.validos!)}</strong>. Barrera del 3 %: <strong>${fmt(Math.ceil(r.minimo!))}</strong> votos.${r.excluidas!.length ? ` No llegan: ${r.excluidas!.map(esc).join(', ')}.` : ''}</p>`;
-    t += `<div style="overflow-x:auto"><table><caption class="small muted" style="text-align:left">Cocientes (votos ÷ 1, 2, 3…). En negrita, los que obtienen escaño.${num('dh-esc') > 8 ? ' Se muestran los 8 primeros divisores.' : ''}</caption><thead><tr><th scope="col">Candidatura</th>${Array.from({ length: maxDiv }, (_, i) => `<th scope="col" class="num">÷${i + 1}</th>`).join('')}<th scope="col" class="num">Escaños</th></tr></thead><tbody>`;
+    t += `<div style="overflow-x:auto" tabindex="0" role="region" aria-label="Tabla de cocientes"><table><caption class="small muted" style="text-align:left">Cocientes (votos ÷ 1, 2, 3…). En negrita, los que obtienen escaño.${num('dh-esc') > 8 ? ' Se muestran los 8 primeros divisores.' : ''}</caption><thead><tr><th scope="col">Candidatura</th>${Array.from({ length: maxDiv }, (_, i) => `<th scope="col" class="num">÷${i + 1}</th>`).join('')}<th scope="col" class="num">Escaños</th></tr></thead><tbody>`;
     for (const c of cands) {
       const fuera = r.excluidas!.includes(c.nombre);
       t += `<tr${fuera ? ' class="muted"' : ''}><th scope="row">${esc(c.nombre)}${fuera ? ' <span class="badge warn">bajo el 3 %</span>' : ''}</th>`;

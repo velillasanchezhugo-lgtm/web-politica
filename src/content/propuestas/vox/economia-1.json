@@ -1,0 +1,54 @@
+{
+  "id": "vox-economia-1",
+  "partido": "vox",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "IRPF con mínimo exento de 22.000 euros y tipos del 15 % y el 25 %",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Vox presentó en abril de 2024 una proposición de ley que fija el mínimo del contribuyente del IRPF en 22.000 euros anuales, aplica un tipo del 15 % a las bases entre 22.000 y 70.000 euros y del 25 % por encima, y rebaja ambos tipos cuatro puntos por cada hijo hasta un mínimo del 0 %. La propia exposición de motivos estima una caída de la recaudación del tramo estatal de entre 12.000 y 18.000 millones de euros y propone compensarla con una «drástica reducción del gasto no esencial» (subvenciones, gasto político y transferencias a las comunidades autónomas).",
+  "que_cambiaria": "Sustituiría la escala progresiva estatal del IRPF de la Ley 35/2006 por dos tipos y elevaría el mínimo del contribuyente.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "Hacienda general es competencia del Estado (art. 149.1.14.ª CE); el IRPF tiene un tramo autonómico que la reforma no regula."
+  },
+  "financiacion": {
+    "coste_declarado": "Según la exposición de motivos, entre 12.000 y 18.000 millones de euros menos de recaudación en el tramo estatal, a compensar con recortes de gasto no esencial."
+  },
+  "calendario": "No publicado",
+  "detalle": "La iniciativa decayó sin llegar a debatirse en el Pleno, según los datos abiertos del Congreso; no es un compromiso del programa de 2026, que no se ha localizado.",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley de modificación de la Ley 35/2006, del IRPF (expediente 122/000084), BOCG Congreso, serie B, núm. 98-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-98-1.PDF",
+      "localizacion": "Exposición de motivos (apartados I-II) y artículo primero",
+      "fecha_documento": "2024-04-12",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

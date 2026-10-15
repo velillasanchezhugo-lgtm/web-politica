@@ -1,0 +1,52 @@
+{
+  "id": "vox-energia-medioambiente-1",
+  "partido": "vox",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Suprimir los impuestos a la producción eléctrica y a la generación nuclear",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley de Vox (abril de 2025) que suprime los títulos I y II de la Ley 15/2012 de medidas fiscales para la sostenibilidad energética: el impuesto sobre el valor de la producción de energía eléctrica y los impuestos sobre la producción de combustible nuclear gastado y residuos radiactivos y sobre su almacenamiento. Decayó sin debate.",
+  "que_cambiaria": "Derogaría los títulos I y II de la Ley 15/2012.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Hacienda general y bases del régimen energético son competencias estatales (art. 149.1.14.ª y 25.ª CE)."
+  },
+  "financiacion": {
+    "nota": "La proposición no cuantifica la pérdida de recaudación."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley de modificación de la Ley 15/2012, de medidas fiscales para la sostenibilidad energética (expediente 122/000177), BOCG Congreso, serie B, núm. 204-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-204-1.PDF",
+      "localizacion": "Artículo único",
+      "fecha_documento": "2025-04-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

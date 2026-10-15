@@ -1,0 +1,53 @@
+{
+  "id": "vox-empleo-1",
+  "partido": "vox",
+  "tema": "empleo",
+  "eleccion": "generales-2026",
+  "titulo": "Bonificación total de cuotas a autónomos con ingresos inferiores al SMI y aplazamiento de IVA e IRPF",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley de Vox (mayo de 2024) para modificar el Estatuto del trabajo autónomo: bonificación opcional del 100 % de las cuotas a la Seguridad Social cuando los ingresos reales sean inferiores al salario mínimo interprofesional (sin computar esos meses para el cese de actividad) y plazo de seis meses para pagar las liquidaciones de IRPF e IVA, con posibilidad de aplazar pagos sin intereses mientras Hacienda tenga pendiente una devolución de IVA.",
+  "que_cambiaria": "Modificaría la Ley 20/2007 del Estatuto del trabajo autónomo, la Ley 19/2021 y la Ley General de Subvenciones.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "Legislación laboral, Seguridad Social y Hacienda general son competencias del Estado (art. 149.1.7.ª, 14.ª y 17.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "detalle": "La iniciativa decayó sin debate en el Pleno, según los datos abiertos del Congreso.",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley para la protección de los trabajadores autónomos (expediente 122/000106), BOCG Congreso, serie B, núm. 118-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-118-1.PDF",
+      "localizacion": "Artículo primero (nuevos arts. 38 sexies y 40 de la Ley 20/2007)",
+      "fecha_documento": "2024-05-31",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "igualdad-derechos",
+  "nombre": "Igualdad y derechos",
+  "nombre_corto": "Igualdad",
+  "descripcion": "Igualdad entre mujeres y hombres, violencia de género, derechos LGTBI, discapacidad, libertades y no discriminación.",
+  "orden": 9,
+  "contexto": [
+    {
+      "texto": "En 2026, hasta el 9 de octubre, 42 mujeres fueron asesinadas por sus parejas o exparejas en España; desde 2003 la cifra asciende a 1.383, según la estadística provisional de la Delegación del Gobierno contra la Violencia de Género.",
+      "tipo": "hecho",
+      "fecha": "2026-10-09",
+      "fuentes": [
+        {
+          "titulo": "Mujeres víctimas mortales por violencia de género en España a manos de sus parejas o exparejas. Año 2026. Datos provisionales",
+          "emisor": "Ministerio de Igualdad. Delegación del Gobierno contra la Violencia de Género",
+          "tipo": "oficial",
+          "url": "https://violenciagenero.igualdad.gob.es/wp-content/uploads/VMortales_2026_10_09.pdf",
+          "fecha_documento": "2026-10-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En 2024 el salario medio anual de las mujeres fue de 26.904,90 euros y el de los hombres de 32.057,55; el salario femenino equivalió así al 83,9% del masculino, según el INE, que advierte de que la diferencia debe matizarse por variables como el tipo de contrato o de jornada, la ocupación y la antigüedad.",
+      "tipo": "hecho",
+      "fecha": "2026-05-28",
+      "fuentes": [
+        {
+          "titulo": "Encuesta Anual de Estructura Salarial (EAES). Año 2024. Datos definitivos",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/EAES2024.htm",
+          "fecha_documento": "2026-05-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las desigualdades, incluida la de género, fueron citadas como uno de los tres principales problemas de España por el 3,8% de los encuestados y la violencia de género por el 0,3% en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "El Estado regula las condiciones básicas que garantizan la igualdad de todos los españoles en el ejercicio de los derechos y deberes constitucionales (art. 149.1.1.ª de la Constitución). Los derechos fundamentales se desarrollan mediante leyes orgánicas (art. 81).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 14, 81 y 149.1.1.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las principales leyes estatales son la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, y la Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género. Las comunidades autónomas pueden asumir competencias en asistencia social (art. 148.1.20.ª).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+          "localizacion": "Disposición final primera",
+          "fecha_documento": "2007-03-22",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+          "fecha_documento": "2004-12-28",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 148.1.20.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

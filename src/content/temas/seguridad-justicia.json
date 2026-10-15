@@ -1,0 +1,111 @@
+{
+  "id": "seguridad-justicia",
+  "nombre": "Seguridad y justicia",
+  "nombre_corto": "Seguridad y justicia",
+  "descripcion": "Delincuencia, policías, prisiones, funcionamiento de los tribunales y reformas del sistema judicial.",
+  "orden": 8,
+  "contexto": [
+    {
+      "texto": "Entre enero y junio de 2026 se registraron 1.217.476 infracciones penales en España, un 0,5% más que en el mismo periodo de 2025, según el Balance de Criminalidad del Ministerio del Interior. De ellas, 245.936 fueron de cibercriminalidad (+0,6%).",
+      "tipo": "hecho",
+      "fecha": "2026-09",
+      "fuentes": [
+        {
+          "titulo": "Balance de criminalidad. 2026 - 2.º trimestre. Indicadores de seguridad por comunidades autónomas, tipología penal y periodos",
+          "emisor": "Ministerio del Interior. Portal Estadístico de Criminalidad",
+          "tipo": "oficial",
+          "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/Tabla.htm?path=%2FDatosBalanceAct%2Fl0%2F&file=09004.px&type=pcaxis&L=0",
+          "localizacion": "Total nacional, enero-junio 2026 frente a enero-junio 2025",
+          "fecha_documento": "2026-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En el mismo periodo, el Balance de Criminalidad registra 183 homicidios dolosos y asesinatos consumados (184 en enero-junio de 2025), 10.971 delitos contra la libertad sexual (+4,0%) y 298.475 hurtos (-3,8%).",
+      "tipo": "hecho",
+      "fecha": "2026-09",
+      "fuentes": [
+        {
+          "titulo": "Balance de criminalidad. 2026 - 2.º trimestre. Indicadores de seguridad por comunidades autónomas, tipología penal y periodos",
+          "emisor": "Ministerio del Interior. Portal Estadístico de Criminalidad",
+          "tipo": "oficial",
+          "url": "https://estadisticasdecriminalidad.ses.mir.es/sec/jaxiPx/Tabla.htm?path=%2FDatosBalanceAct%2Fl0%2F&file=09004.px&type=pcaxis&L=0",
+          "localizacion": "Total nacional, enero-junio 2026 frente a enero-junio 2025",
+          "fecha_documento": "2026-09",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La inseguridad ciudadana fue citada como uno de los tres principales problemas de España por el 4,3% de los encuestados, y la Administración de Justicia por el 1,3%, en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "La seguridad pública es competencia exclusiva del Estado, aunque las comunidades autónomas pueden crear policías propias según sus Estatutos y en el marco de una ley orgánica (art. 149.1.29.ª de la Constitución). Esa ley es la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad, que incluye entre ellos a los cuerpos de policía dependientes de las comunidades autónomas y de las corporaciones locales.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1.29.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+          "localizacion": "Preámbulo y artículo 2",
+          "fecha_documento": "1986-03-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Administración de Justicia y la legislación penal, penitenciaria y procesal son competencia exclusiva del Estado (art. 149.1.5.ª y 6.ª de la Constitución). El Poder Judicial se regula en la Ley Orgánica 6/1985.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1.5.ª y 6.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+          "fecha_documento": "1985-07-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

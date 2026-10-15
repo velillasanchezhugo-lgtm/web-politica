@@ -1,0 +1,110 @@
+{
+  "id": "ue-exterior",
+  "nombre": "Unión Europea y política exterior",
+  "nombre_corto": "UE y exterior",
+  "descripcion": "Papel de España en la UE, reglas fiscales europeas, fondos europeos, defensa, relaciones internacionales y cooperación.",
+  "orden": 12,
+  "contexto": [
+    {
+      "texto": "El 12 de junio de 2026, el Consejo de la UE autorizó a España a superar en 2025-2028 las tasas máximas de crecimiento del gasto neto de su plan fiscal, por el aumento del gasto en defensa (cláusula de salvaguardia nacional). La recomendación recoge que el gasto en defensa de las administraciones fue del 1,0% del PIB en 2025, según datos facilitados por España, y del 0,9% en 2024, según Eurostat.",
+      "tipo": "hecho",
+      "fecha": "2026-06-12",
+      "fuentes": [
+        {
+          "titulo": "Recomendación del Consejo, de 12 de junio de 2026, por la que se autoriza a España a desviarse de las tasas máximas de crecimiento del gasto neto establecidas por el Consejo en virtud del Reglamento (UE) 2024/1263 (activación de la cláusula de salvaguardia nacional)",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2026/3314/Z00001-00004.pdf",
+          "localizacion": "Considerandos 7 a 11 y apartado 1 (DO C de 18.6.2026)",
+          "fecha_documento": "2026-06-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según las proyecciones de la Comisión recogidas en esa recomendación, si se usara todo el margen autorizado, en 2028 el déficit y la deuda serían 1,1 y 1,5 puntos del PIB más altos que con la senda de gasto aprobada en enero de 2025.",
+      "tipo": "hecho",
+      "fecha": "2026-06-12",
+      "fuentes": [
+        {
+          "titulo": "Recomendación del Consejo, de 12 de junio de 2026, por la que se autoriza a España a desviarse de las tasas máximas de crecimiento del gasto neto establecidas por el Consejo en virtud del Reglamento (UE) 2024/1263 (activación de la cláusula de salvaguardia nacional)",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2026/3314/Z00001-00004.pdf",
+          "localizacion": "Considerandos 7 a 11 y apartado 1 (DO C de 18.6.2026)",
+          "fecha_documento": "2026-06-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Recomendación del Consejo de 21 de enero de 2025 por la que se aprueba el plan fiscal-estructural nacional a medio plazo de España",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=DOUE-Z-2025-70011",
+          "fecha_documento": "2025-02-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La política exterior fue citada como uno de los tres principales problemas de España por el 1,2% de los encuestados, y la «crisis con Marruecos, fronteras de Ceuta y Melilla» por el 6,5%, en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "Las relaciones internacionales y la defensa son competencia exclusiva del Estado (art. 149.1.3.ª y 4.ª de la Constitución). El artículo 93 permite autorizar mediante ley orgánica tratados que atribuyan a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 93 y 149.1.3.ª y 4.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las normas europeas condicionan la política nacional: por ejemplo, el Reglamento (UE) 2024/1263 regula la supervisión de las finanzas públicas de los Estados miembros, y la Constitución remite a los márgenes de déficit estructural y al valor de referencia de deuda establecidos por la UE (art. 135).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80630",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 135",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

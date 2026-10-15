@@ -25,8 +25,7 @@ const jsonld = {
         const prevL = i > 0 ? terminos[i - 1].data.termino[0].toLocaleUpperCase('es').normalize('NFD').replace(/\p{Diacritic}/gu, '') : '';
         return (
           <div class="gl-item" id={t.id} data-text={(t.data.termino + ' ' + t.data.definicion).toLowerCase()}>
-            {l !== prevL && <span id={`letra-${l}`}></span>}
-            <dt>{t.data.termino}</dt>
+            <dt id={l !== prevL ? `letra-${l}` : undefined}>{t.data.termino}</dt>
             <dd>
               <p>{t.data.definicion}</p>
               {t.data.ejemplo && <p class="small"><strong>Ejemplo:</strong> {t.data.ejemplo}</p>}

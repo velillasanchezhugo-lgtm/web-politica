@@ -1,0 +1,53 @@
+{
+  "id": "vox-educacion-1",
+  "partido": "vox",
+  "tema": "educacion",
+  "eleccion": "generales-2026",
+  "titulo": "Prueba única de acceso a la universidad en toda España",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley orgánica de Vox (julio de 2026) para que el acceso a la universidad requiera una prueba de contenido y estructura comunes en todo el territorio, celebrada simultáneamente en toda España, con características básicas fijadas por el Gobierno, y un procedimiento común de admisión. Caducó con la disolución de las Cortes en octubre de 2026.",
+  "que_cambiaria": "Modificaría el artículo 38 de la Ley Orgánica 2/2006 de Educación.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "El Estado regula las condiciones de obtención de títulos y las normas básicas de la educación (art. 149.1.30.ª CE); las comunidades y universidades organizan la prueba."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley Orgánica para la implantación de una prueba única de acceso a la universidad y de un procedimiento común de admisión al sistema universitario español (expediente 122/000293), BOCG Congreso, serie B, núm. 348-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-348-1.PDF",
+      "localizacion": "Artículo 1 (art. 38 LOE)",
+      "fecha_documento": "2026-07-03",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

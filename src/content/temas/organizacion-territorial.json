@@ -1,0 +1,110 @@
+{
+  "id": "organizacion-territorial",
+  "nombre": "Organización territorial",
+  "nombre_corto": "Territorio",
+  "descripcion": "Estado autonómico, reparto de competencias, financiación autonómica y local, y relaciones entre el Gobierno central y las comunidades.",
+  "orden": 11,
+  "contexto": [
+    {
+      "texto": "La deuda de las comunidades autónomas alcanzó 355.000 millones de euros (20,4% del PIB) en el segundo trimestre de 2026. Por comunidades, la Comunitat Valenciana tenía la ratio más alta (40%) y Navarra la más baja (8,4%), según el Banco de España.",
+      "tipo": "hecho",
+      "fecha": "2026-09-30",
+      "fuentes": [
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en el 101,4% del PIB en el segundo trimestre de 2026, 1,8 pp menos que hace un año",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-2026t2.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_documento": "2026-09-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las comunidades autónomas cerraron 2025 con un déficit del 0,3% del PIB (0,39% con el impacto de la DANA), frente al 0,18% de 2024, según el Ministerio de Hacienda.",
+      "tipo": "hecho",
+      "fecha": "2026-03-31",
+      "fuentes": [
+        {
+          "titulo": "España cierra 2025 con un déficit público del 2,2% del PIB y mejora por sexto año consecutivo el objetivo pactado con la UE",
+          "emisor": "La Moncloa (Ministerio de Hacienda)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/hacienda/paginas/2026/310326-cierre-deficit-2025.aspx",
+          "fecha_documento": "2026-03-31",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los estatutos de autonomía fueron citados como uno de los tres principales problemas de España por el 0,8% de los encuestados, y la independencia de Cataluña por el 0,2%, en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "El Estado se organiza territorialmente en municipios, provincias y comunidades autónomas, todos con autonomía para gestionar sus intereses (art. 137 de la Constitución). Los artículos 148 y 149 delimitan las materias que pueden asumir las comunidades y las que son exclusivas del Estado; las no atribuidas al Estado pueden corresponder a las comunidades según sus Estatutos (art. 149.3).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 137, 148 y 149",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La financiación de las comunidades autónomas se regula en la Ley Orgánica 8/1980 (LOFCA), que establece el Consejo de Política Fiscal y Financiera como órgano de coordinación con el Estado, y en la Ley 22/2009 para las comunidades de régimen común. El País Vasco (concierto económico) y Navarra (convenio económico) tienen regímenes forales amparados por la disposición adicional primera de la Constitución.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166",
+          "localizacion": "Artículos 1 y 3; disposiciones adicionales primera y segunda",
+          "fecha_documento": "1980-09-22",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-20375",
+          "fecha_documento": "2009-12-18",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Disposición adicional primera",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

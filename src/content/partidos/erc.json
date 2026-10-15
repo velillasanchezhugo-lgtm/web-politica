@@ -1,0 +1,532 @@
+{
+  "id": "erc",
+  "nombre": "Esquerra Republicana de Catalunya",
+  "siglas": "ERC",
+  "naturaleza": "partido",
+  "ambito": "territorial",
+  "territorio": "Cataluña (sus estatutos incluyen también la Comunitat Valenciana, Illes Balears y otros territorios de habla catalana como ámbito de actuación)",
+  "color_grafico": "#F5A623",
+  "web_oficial": "https://www.esquerra.cat/",
+  "criterio_inclusion": "Candidatura con escaños en el Congreso en las generales de 2023",
+  "resumen": "Esquerra Republicana de Catalunya (ERC) es un partido independentista y de izquierdas fundado en 1931, presidido por Oriol Junqueras. En las generales de 2023 obtuvo 7 diputados y apoyó la investidura de Pedro Sánchez tras un acuerdo con el PSOE que incluía la ley de amnistía, Rodalies y la financiación de Cataluña. Para el 29 de noviembre de 2026 ha anunciado a Gabriel Rufián como cabeza de lista al Congreso, una colaboración con Podemos en Cataluña y la reedición de su coalición con EH Bildu para el Senado.",
+  "historia": [
+    {
+      "texto": "Según sus estatutos, Esquerra Republicana de Catalunya es un partido político fundado en 1931.",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Estatuts d'Esquerra Republicana (2025)",
+          "emisor": "Esquerra Republicana de Catalunya",
+          "tipo": "partido",
+          "url": "https://esquerrabcn.tirabol.cat/documents/estatuts-2025.pdf",
+          "localizacion": "Títol preliminar, articles 1 a 3",
+          "fecha_documento": "2025",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "ERC presidió la Generalitat de Cataluña con Pere Aragonès hasta agosto de 2024, cuando Salvador Illa (PSC) fue investido con los votos de PSC, ERC y los Comuns tras perder ERC apoyo en tres elecciones consecutivas.",
+      "tipo": "hecho",
+      "fecha": "2024-08",
+      "fuentes": [
+        {
+          "titulo": "Com es va gestar l'acord d'ara fa un any entre ERC i el PSC per fer Illa president",
+          "emisor": "3CatInfo",
+          "tipo": "medio",
+          "url": "https://www.3cat.cat/3catinfo/com-es-va-gestar-lacord-dara-fa-un-any-entre-erc-i-el-psc-per-fer-illa-president/noticia/3365232/",
+          "fecha_documento": "2025-08-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Tras la crisis interna posterior a esos resultados, Oriol Junqueras recuperó la presidencia del partido el 14 de diciembre de 2024 con el 52 % de los votos de la militancia frente a la candidatura de Xavier Godàs; Elisenda Alamany pasó a ser secretaria general.",
+      "tipo": "hecho",
+      "fecha": "2024-12-14",
+      "fuentes": [
+        {
+          "titulo": "Junqueras s'imposa amb un ajustat 52% i torna a la presidència d'ERC",
+          "emisor": "Nació Digital",
+          "tipo": "medio",
+          "url": "https://naciodigital.cat/politica/junqueras-imposa-ajustat-52-torna-presidencia-erc.html",
+          "fecha_documento": "2024-12-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las elecciones generales de 23 de julio de 2023 la candidatura de ERC obtuvo 466.020 votos y 7 escaños en el Congreso (4 por Barcelona, 1 por Girona, 1 por Lleida y 1 por Tarragona).",
+      "tipo": "hecho",
+      "fecha": "2023-07-23",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (continuación)",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En noviembre de 2023 ERC firmó con el PSOE un acuerdo de legislatura que comprometía el voto de sus diputados a la investidura de Pedro Sánchez, la aprobación de una ley de amnistía, el impulso de la mesa de diálogo entre gobiernos y anexos sobre financiación de Cataluña y el traspaso de Rodalies.",
+      "tipo": "hecho",
+      "fecha": "2023-11-02",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo entre el PSOE y Esquerra Republicana de Catalunya para la segunda fase del proceso de diálogo, negociación y acuerdo (con anexos sobre financiación y Rodalies)",
+          "emisor": "PSOE y ERC (documento reproducido por La 7 Región de Murcia)",
+          "tipo": "partido",
+          "url": "https://www.la7tv.es/media/la7tv/files/2023/11/02/Acuerdo%20legislatura%20PSOE%20-%20ERC%20+%20Acuerdo.pdf",
+          "localizacion": "Apartado 3 y anexos",
+          "fecha_documento": "2023-11-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El PSOE anuncia su acuerdo con ERC para una ley de amnistía que «aún se está ultimando» con Junts",
+          "emisor": "Newtral",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/erc-proposicion-ley-amnistia-psoe/20231102/",
+          "fecha_documento": "2023-11-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Presidente",
+      "nombre": "Oriol Junqueras",
+      "desde": "2024-12-14",
+      "fuentes": [
+        {
+          "titulo": "Junqueras s'imposa amb un ajustat 52% i torna a la presidència d'ERC",
+          "emisor": "Nació Digital",
+          "tipo": "medio",
+          "url": "https://naciodigital.cat/politica/junqueras-imposa-ajustat-52-torna-presidencia-erc.html",
+          "fecha_documento": "2024-12-14",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Rufián se queda: liderará la lista de ERC al Congreso tras dejarse querer por el Frente Amplio",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/partidos/gabriel-rufian-encabezara-lista-erc-congreso-elecciones-generales.html",
+          "fecha_documento": "2026-10-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretaria general",
+      "nombre": "Elisenda Alamany",
+      "desde": "2024-12-14",
+      "fuentes": [
+        {
+          "titulo": "Junqueras s'imposa amb un ajustat 52% i torna a la presidència d'ERC",
+          "emisor": "Nació Digital",
+          "tipo": "medio",
+          "url": "https://naciodigital.cat/politica/junqueras-imposa-ajustat-52-torna-presidencia-erc.html",
+          "fecha_documento": "2024-12-14",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Alamany (ERC) rejects the Catalonia of 10 million and criticizes the Spanish economic model",
+          "emisor": "Ara (edición en inglés)",
+          "tipo": "medio",
+          "url": "https://en.ara.cat/politics/alamany-erc-rejects-the-catalonia-of-10-million-and-criticizes-the-spanish-economic-model-it-is-lazy-growth_25_5826930.html",
+          "fecha_documento": "2026-08-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz en el Congreso de los Diputados (XV legislatura)",
+      "nombre": "Gabriel Rufián",
+      "fuentes": [
+        {
+          "titulo": "Rufián se queda: liderará la lista de ERC al Congreso tras dejarse querer por el Frente Amplio",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/partidos/gabriel-rufian-encabezara-lista-erc-congreso-elecciones-generales.html",
+          "fecha_documento": "2026-10-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Portavoz adjunto del partido",
+      "nombre": "Isaac Albert",
+      "fuentes": [
+        {
+          "titulo": "Podem tindrà candidats a les llistes d'ERC a Barcelona i Tarragona que s'integraran al grup parlamentari d'ERC",
+          "emisor": "VilaWeb",
+          "tipo": "medio",
+          "url": "https://www.vilaweb.cat/noticies/podem-llistes-erc-barcelona-tarragona-isaac-albert/",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Con candidatura propia (ERC) al Congreso en Cataluña, con candidatos propuestos por Podemos en sus listas de Barcelona y Tarragona sin formar coalición; al Senado, en coalición con EH Bildu (según el partido; pendiente de constar en la Junta Electoral y en el BOE)",
+    "detalle": [
+      {
+        "texto": "La dirección de ERC anunció el 11 de octubre de 2026 que Gabriel Rufián volverá a encabezar la candidatura al Congreso por Barcelona; los órganos internos tienen previsto aprobar las listas al Congreso y al Senado el 20 de octubre.",
+        "tipo": "hecho",
+        "fecha": "2026-10-11",
+        "fuentes": [
+          {
+            "titulo": "Rufián se queda: liderará la lista de ERC al Congreso tras dejarse querer por el Frente Amplio",
+            "emisor": "Público",
+            "tipo": "medio",
+            "url": "https://www.publico.es/politica/partidos/gabriel-rufian-encabezara-lista-erc-congreso-elecciones-generales.html",
+            "fecha_documento": "2026-10-11",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Francesc-Marc Álvaro serà el cap de llista d'ERC al senat espanyol",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/francesc-marc-alvaro-cap-llista-erc-senat/",
+            "fecha_documento": "2026-10-11",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "ERC anunció que Francesc-Marc Álvaro, diputado en la XV legislatura, encabezará su lista al Senado por Barcelona y que ha renovado el acuerdo con EH Bildu para concurrir en coalición al Senado.",
+        "tipo": "hecho",
+        "fecha": "2026-10-11",
+        "fuentes": [
+          {
+            "titulo": "Francesc-Marc Álvaro serà el cap de llista d'ERC al senat espanyol",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/francesc-marc-alvaro-cap-llista-erc-senat/",
+            "fecha_documento": "2026-10-11",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según el portavoz adjunto Isaac Albert, Podemos no se presentará en Cataluña y tendrá candidatos en las listas de ERC por Barcelona y Tarragona, que se integrarían en el grupo parlamentario de ERC; Albert sostuvo que «no es una coalición» y que el programa será el de ERC.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Podem tindrà candidats a les llistes d'ERC a Barcelona i Tarragona que s'integraran al grup parlamentari d'ERC",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/podem-llistes-erc-barcelona-tarragona-isaac-albert/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Parte de la militancia criticó que el acuerdo con Podemos no se sometiera a consulta; el reglamento electoral de ERC prevé que los acuerdos preelectorales los apruebe el consejo nacional, que según la dirección se pronunciará al ratificar las listas.",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "El reglament electoral d'ERC diu que els acords pre-electorals els ha d'aprovar el consell nacional",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/el-reglament-electoral-derc-diu-que-els-acords-pre-electorals-els-ha-daprovar-el-consell-nacional/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido independentista catalán de izquierdas. Su objetivo estatutario es la independencia de los Països Catalans; en el Congreso de la XV legislatura ha actuado como socio parlamentario del Gobierno de coalición PSOE-Sumar, negociando apoyos a cambio de acuerdos sobre amnistía, financiación y traspasos.",
+    "autodefinicion": {
+      "texto": "Según el artículo 2 de sus estatutos, Esquerra Republicana tiene como objetivo «la independència dels Països Catalans i de l'Aran» y se define como «un partit republicà, democràtic, feminista i d'esquerra no dogmàtica».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Estatuts d'Esquerra Republicana (2025)",
+          "emisor": "Esquerra Republicana de Catalunya",
+          "tipo": "partido",
+          "url": "https://esquerrabcn.tirabol.cat/documents/estatuts-2025.pdf",
+          "localizacion": "Títol preliminar, articles 1 a 3",
+          "fecha_documento": "2025",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [],
+    "matices": "La marca electoral en Cataluña es Esquerra Republicana de Catalunya; los estatutos prevén otras denominaciones territoriales (ERPV en el País Valencià, Esquerra en Baleares y Arán). En el ciclo 2026 hay discrepancias internas públicas sobre la estrategia de alianzas de la izquierda (Rufián frente a parte de la dirección), recogidas en la prensa."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Esquerra Republicana de Catalunya (ERC); al Senado: Esquerra Republicana de Catalunya-Esquerres per la Independència",
+      "votos": 466020,
+      "porcentaje": 1.89,
+      "escanos_congreso": 7,
+      "escanos_senado": 3,
+      "nota": "Votos y escaños del Congreso según el Cuadro II de la JEC. Porcentaje calculado por la redacción sobre los 24.688.087 votos válidos del Cuadro I. Senadores electos: Joan Queralt (Barcelona), Sara Bailac (Lleida) y Jordi Gaseni (Tarragona), con la candidatura ERC-Esquerres per la Independència.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadros I y II; relación de senadores proclamados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Los 7 diputados de ERC votaron a favor de la investidura de Pedro Sánchez el 16 de noviembre de 2023, que salió adelante con 179 votos a favor y 171 en contra.",
+      "tipo": "hecho",
+      "fecha": "2023-11-16",
+      "fuentes": [
+        {
+          "titulo": "Pedro Sánchez, investido presidente con 179 votos",
+          "emisor": "Diari de Tarragona",
+          "tipo": "medio",
+          "url": "https://www.diaridetarragona.com/internacional/175840/pedro-sanchez-investido-presidente-con-179-votos-al17582244.html",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "ERC votó a favor de la ley de amnistía, aprobada definitivamente por el Congreso el 30 de mayo de 2024 con 177 votos a favor y 172 en contra y publicada como Ley Orgánica 1/2024.",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "El Congreso aprueba de forma definitiva la ley de Amnistía",
+          "emisor": "Deia",
+          "tipo": "medio",
+          "url": "https://www.deia.eus/politica/2024/05/30/congreso-aprueba-forma-definitiva-ley-8297867.amp.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+          "fecha_documento": "2024-06-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En agosto de 2024 ERC facilitó con sus votos en el Parlament la investidura de Salvador Illa (PSC) como presidente de la Generalitat, tras un acuerdo que incluía la «financiación singular» para Cataluña y el traspaso de Rodalies; la militancia lo avaló en una consulta muy ajustada.",
+      "tipo": "hecho",
+      "fecha": "2024-08-08",
+      "fuentes": [
+        {
+          "titulo": "Com es va gestar l'acord d'ara fa un any entre ERC i el PSC per fer Illa president",
+          "emisor": "3CatInfo",
+          "tipo": "medio",
+          "url": "https://www.3cat.cat/3catinfo/com-es-va-gestar-lacord-dara-fa-un-any-entre-erc-i-el-psc-per-fer-illa-president/noticia/3365232/",
+          "fecha_documento": "2025-08-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 ERC votó a favor de convalidar los Reales Decretos-ley 26/2026 y 27/2026 de vivienda; ambos fueron derogados al ser rechazados por el Congreso (172-178 y 166-184).",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso tumba los dos decretos de vivienda del Gobierno",
+          "emisor": "Diario de Avisos (con información de Europa Press)",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En el debate de 23 de septiembre de 2025 sobre la delegación a Cataluña de competencias en inmigración, el portavoz de ERC, Gabriel Rufián, defendió la iniciativa y reprochó a Podemos su voto en contra; la toma en consideración fue rechazada.",
+      "tipo": "hecho",
+      "fecha": "2025-09-23",
+      "fuentes": [
+        {
+          "titulo": "El PP, Vox y Podemos tumban la delegación de competencias en inmigración",
+          "emisor": "Ara (edición en castellano)",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/culpa-isla-veto-traspaso-inmigracion-pedagogia-hecho-evitarlo_1_5506062.html",
+          "fecha_documento": "2025-09-23",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "BOCG. Congreso de los Diputados, serie B, núm. 195-2: Proposición de Ley Orgánica de delegación en la Comunidad Autónoma de Cataluña de competencias estatales en materia de inmigración (rechazada)",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-195-2.PDF",
+          "fecha_documento": "2025-09-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "Acuerdo PSOE-ERC de 2 de noviembre de 2023 para la investidura de Pedro Sánchez: voto favorable de los diputados de ERC, ley de amnistía, continuidad de la mesa de diálogo entre gobiernos (incluido el debate sobre cómo refrendar los acuerdos) y anexos sobre financiación y traspaso integral de Rodalies.",
+        "tipo": "hecho",
+        "fecha": "2023-11-02",
+        "fuentes": [
+          {
+            "titulo": "Acuerdo entre el PSOE y Esquerra Republicana de Catalunya para la segunda fase del proceso de diálogo, negociación y acuerdo (con anexos sobre financiación y Rodalies)",
+            "emisor": "PSOE y ERC (documento reproducido por La 7 Región de Murcia)",
+            "tipo": "partido",
+            "url": "https://www.la7tv.es/media/la7tv/files/2023/11/02/Acuerdo%20legislatura%20PSOE%20-%20ERC%20+%20Acuerdo.pdf",
+            "localizacion": "Apartado 3 y anexos",
+            "fecha_documento": "2023-11-02",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "El PSOE anuncia su acuerdo con ERC para una ley de amnistía que «aún se está ultimando» con Junts",
+            "emisor": "Newtral",
+            "tipo": "medio",
+            "url": "https://www.newtral.es/erc-proposicion-ley-amnistia-psoe/20231102/",
+            "fecha_documento": "2023-11-02",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Acuerdo ERC-PSC de agosto de 2024 para la investidura de Salvador Illa en el Parlament, centrado en la financiación singular de Cataluña, Rodalies y vivienda.",
+        "tipo": "hecho",
+        "fecha": "2024-08-07",
+        "fuentes": [
+          {
+            "titulo": "Com es va gestar l'acord d'ara fa un any entre ERC i el PSC per fer Illa president",
+            "emisor": "3CatInfo",
+            "tipo": "medio",
+            "url": "https://www.3cat.cat/3catinfo/com-es-va-gestar-lacord-dara-fa-un-any-entre-erc-i-el-psc-per-fer-illa-president/noticia/3365232/",
+            "fecha_documento": "2025-08-07",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "En enero de 2026 ERC negoció con el Gobierno un nuevo modelo de financiación autonómica; el Consejo de Política Fiscal y Financiera lo aprobó el 4 de septiembre de 2026 solo con el apoyo de Cataluña y Canarias, y quedó pendiente de tramitación en las Cortes.",
+        "tipo": "hecho",
+        "fecha": "2026-09-04",
+        "fuentes": [
+          {
+            "titulo": "ERC guarantees special funding \"this week,\" but Junts warns that it will reject it if there is no agreement",
+            "emisor": "Ara (edición en inglés)",
+            "tipo": "medio",
+            "url": "https://en.ara.cat/politics/erc-guarantees-the-unique-funding-this-week-almost-5-billion-more-and-will-respect-the-ordinality_1_5610797.html",
+            "fecha_documento": "2026-01-07",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Hacienda aprueba la financiación autonómica pactada con ERC, con el único apoyo de Cataluña y Canarias",
+            "emisor": "Canal Sur",
+            "tipo": "medio",
+            "url": "https://www.canalsur.es/noticias/andalucia/hacienda-aprueba-financiacion-autonomica-pactada_1_1433639.html",
+            "fecha_documento": "2026-09-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "El portavoz adjunto Isaac Albert afirmó que ERC «no formarà mai» parte del Frente Amplio, que se presentará como Esquerra Republicana en Cataluña y que se coordinará con lo que llamó el «bloc demòcrata»; añadió que ERC no es «una força equidistant entre demòcrates i feixistes».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Podem tindrà candidats a les llistes d'ERC a Barcelona i Tarragona que s'integraran al grup parlamentari d'ERC",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/podem-llistes-erc-barcelona-tarragona-isaac-albert/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Gabriel Rufián defendió públicamente un acuerdo entre las izquierdas, también entre ERC y los Comuns en Cataluña, en contra de lo expresado por la dirección de su partido.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Podem tindrà candidats a les llistes d'ERC a Barcelona i Tarragona que s'integraran al grup parlamentari d'ERC",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/podem-llistes-erc-barcelona-tarragona-isaac-albert/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Cicatrius, recels i trinxeres: qui és qui en la samfaina del front d'esquerres espanyol",
+            "emisor": "VilaWeb",
+            "tipo": "medio",
+            "url": "https://www.vilaweb.cat/noticies/recels-trinxeres-front-esquerres-rufian-colau-eleccions-espanyoles/",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Cabeza de lista al Congreso por Barcelona (Gabriel Rufián) y al Senado por Barcelona (Francesc-Marc Álvaro), anunciados por el partido.",
+      "Resultados oficiales de 2023 y votos en la XV legislatura (investidura, amnistía, decretos de vivienda).",
+      "Acuerdos de investidura con el PSOE (2023) y con el PSC (2024) con textos o crónicas verificables."
+    ],
+    "sin_desarrollar": [
+      "No se ha localizado un documento programático de 2026; sus posiciones proceden de acuerdos, votaciones y declaraciones.",
+      "Condiciones concretas que ERC pondría a una investidura tras el 29-N: no localizadas en documentos oficiales."
+    ],
+    "pendiente": [
+      "Programa electoral 2026.",
+      "Aprobación de listas por los órganos de ERC (prevista el 20 de octubre) y publicación oficial de candidaturas en el BOE (28 de octubre).",
+      "Clasificaciones ideológicas externas de fuente académica (no incorporadas)."
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador",
+    "notas": "Web oficial (esquerra.cat) inaccesible desde la herramienta (bloqueo antibots): estatutos tomados del PDF de 2025 alojado en el servidor de la federación de Barcelona (tirabol.cat); comprobar contra la web oficial. Programa 2026 no comprobado en la web oficial por ese motivo. Comprobar tras el 16-10 la relación de coaliciones de la JEC (Senado con EH Bildu). Color de gráfico convencional, a validar por diseño."
+  }
+}

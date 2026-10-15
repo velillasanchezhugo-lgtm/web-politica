@@ -1,0 +1,203 @@
+{
+  "id": "economia",
+  "nombre": "Economía, impuestos y gasto público",
+  "nombre_corto": "Economía",
+  "descripcion": "Crecimiento, inflación, impuestos, presupuestos públicos, déficit y deuda, y las reglas fiscales que los condicionan.",
+  "orden": 1,
+  "contexto": [
+    {
+      "texto": "El PIB creció un 0,7% en el segundo trimestre de 2026 respecto al trimestre anterior, en términos de volumen, y un 2,6% en tasa interanual, según la Contabilidad Nacional Trimestral del INE.",
+      "tipo": "hecho",
+      "fecha": "2026-09-25",
+      "fuentes": [
+        {
+          "titulo": "Contabilidad Nacional Trimestral de España. Segundo trimestre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/CNTR2T26.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-09-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La tasa de variación anual del IPC fue del 4,9% en septiembre de 2026, seis décimas más que en agosto y la más alta desde febrero de 2023; la inflación subyacente se situó en el 3,1%, según el INE (dato publicado el 14 de octubre de 2026).",
+      "tipo": "hecho",
+      "fecha": "2026-10-14",
+      "fuentes": [
+        {
+          "titulo": "Índice de Precios de Consumo (IPC). Septiembre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/IPC0926.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La deuda de las Administraciones Públicas según el Protocolo de Déficit Excesivo fue del 101,4% del PIB en el segundo trimestre de 2026 (1.763 miles de millones de euros), 1,8 puntos menos que un año antes. El avance mensual de julio de 2026, sujeto a revisión, la sitúa en el 99,9% del PIB, según el Banco de España.",
+      "tipo": "hecho",
+      "fecha": "2026-09-30",
+      "fuentes": [
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en el 101,4% del PIB en el segundo trimestre de 2026, 1,8 pp menos que hace un año",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-2026t2.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_documento": "2026-09-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en julio de 2026 en el 99,9% del PIB (avance mensual)",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-julio26.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_documento": "2026-09-17",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El déficit del conjunto de las Administraciones Públicas cerró 2025 en el 2,18% del PIB (36.780 millones de euros) sin contar el impacto de las medidas por la DANA; incluyéndolo, fue del 2,39%, según los datos comunicados por el Ministerio de Hacienda el 31 de marzo de 2026. El objetivo acordado con la Comisión Europea para 2025 era del 2,5%.",
+      "tipo": "hecho",
+      "fecha": "2026-03-31",
+      "fuentes": [
+        {
+          "titulo": "España cierra 2025 con un déficit público del 2,2% del PIB y mejora por sexto año consecutivo el objetivo pactado con la UE",
+          "emisor": "La Moncloa (Ministerio de Hacienda)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/hacienda/paginas/2026/310326-cierre-deficit-2025.aspx",
+          "fecha_documento": "2026-03-31",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En 2026 siguen vigentes, prorrogados, los Presupuestos Generales del Estado de 2023 (Ley 31/2022). El Ministerio de Hacienda publica presupuestos prorrogados para 2024, 2025 y 2026, y el Real Decreto-ley 3/2026 confirma la prórroga automática por no haberse aprobado los de 2026.",
+      "tipo": "hecho",
+      "fecha": "2026-02-04",
+      "fuentes": [
+        {
+          "titulo": "Prórroga del Presupuesto para 2026",
+          "emisor": "Ministerio de Hacienda. Secretaría de Estado de Presupuestos y Gastos",
+          "tipo": "oficial",
+          "url": "https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/PGE/PGE2025Prorroga/Paginas/PGE2025Prorroga.aspx",
+          "fecha_documento": "2026-01-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Prórroga del Presupuesto para 2025",
+          "emisor": "Ministerio de Hacienda. Secretaría de Estado de Presupuestos y Gastos",
+          "tipo": "oficial",
+          "url": "https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/PGE/PGE2024Prorroga/Paginas/PGE2024Prorroga.aspx",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Prórroga del Presupuesto para 2024",
+          "emisor": "Ministerio de Hacienda. Secretaría de Estado de Presupuestos y Gastos",
+          "tipo": "oficial",
+          "url": "https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/PGE/PGE2023Prorroga/Paginas/PGE2023Prorroga.aspx",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto-ley 3/2026, de 3 de febrero, para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+          "localizacion": "Exposición de motivos y artículos sobre revalorización",
+          "fecha_documento": "2026-02-04",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "La Constitución atribuye al Estado la competencia exclusiva sobre las bases y la coordinación de la planificación general de la actividad económica, la Hacienda general y la Deuda del Estado, y el sistema monetario (art. 149.1.11.ª, 13.ª y 14.ª). Las comunidades autónomas tienen autonomía financiera y sus propios presupuestos e impuestos (arts. 156 y 157).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 149.1, 156 y 157",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El artículo 135 de la Constitución obliga a todas las administraciones a respetar el principio de estabilidad presupuestaria y remite a una ley orgánica, que es la Ley Orgánica 2/2012, de Estabilidad Presupuestaria y Sostenibilidad Financiera. Los Presupuestos Generales del Estado se prorrogan automáticamente si no se aprueban antes del inicio del ejercicio (art. 134.4).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 134.4 y 135",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+          "fecha_documento": "2012-04-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Prórroga del Presupuesto para 2026",
+          "emisor": "Ministerio de Hacienda. Secretaría de Estado de Presupuestos y Gastos",
+          "tipo": "oficial",
+          "url": "https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/PGE/PGE2025Prorroga/Paginas/PGE2025Prorroga.aspx",
+          "fecha_documento": "2026-01-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las reglas fiscales de la UE se rigen por el Reglamento (UE) 2024/1263, que gira en torno a planes fiscales-estructurales nacionales a medio plazo. El Consejo de la UE aprobó el plan de España el 21 de enero de 2025 y, el 12 de junio de 2026, autorizó a España a desviarse de su senda de gasto neto en 2025-2028 por el aumento del gasto en defensa (cláusula de salvaguardia nacional).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80630",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Recomendación del Consejo de 21 de enero de 2025 por la que se aprueba el plan fiscal-estructural nacional a medio plazo de España",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=DOUE-Z-2025-70011",
+          "fecha_documento": "2025-02-10",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Recomendación del Consejo, de 12 de junio de 2026, por la que se autoriza a España a desviarse de las tasas máximas de crecimiento del gasto neto establecidas por el Consejo en virtud del Reglamento (UE) 2024/1263 (activación de la cláusula de salvaguardia nacional)",
+          "emisor": "Diario Oficial de la Unión Europea (vía BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2026/3314/Z00001-00004.pdf",
+          "localizacion": "Considerandos 7 a 11 y apartado 1 (DO C de 18.6.2026)",
+          "fecha_documento": "2026-06-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

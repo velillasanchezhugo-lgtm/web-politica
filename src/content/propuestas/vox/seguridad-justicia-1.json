@@ -1,0 +1,52 @@
+{
+  "id": "vox-seguridad-justicia-1",
+  "partido": "vox",
+  "tema": "seguridad-justicia",
+  "eleccion": "generales-2026",
+  "titulo": "Rebajar la edad de responsabilidad penal de los menores a los 12 años",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley orgánica de Vox (marzo de 2025) para reformar la ley de responsabilidad penal del menor: rebaja de 14 a 12 años la edad mínima de responsabilidad penal y endurece las medidas de internamiento en régimen cerrado para delitos graves. Fue rechazada en su toma en consideración en noviembre de 2025.",
+  "que_cambiaria": "Modificaría la Ley Orgánica 5/2000, que hoy exige responsabilidad a los mayores de 14 años.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación penal es competencia exclusiva del Estado (art. 149.1.6.ª CE); la ejecución de medidas de menores corresponde a las comunidades autónomas."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 5/2000, reguladora de la responsabilidad penal de los menores (expediente 122/000175), BOCG Congreso, serie B, núm. 201-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-201-1.PDF",
+      "localizacion": "Exposición de motivos y articulado",
+      "fecha_documento": "2025-04-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

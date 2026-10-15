@@ -1,0 +1,44 @@
+{
+  "id": "erc-inmigracion-1",
+  "partido": "erc",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Delegación a Cataluña de competencias estatales en inmigración",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "En el debate de 23 de septiembre de 2025, Gabriel Rufián defendió la delegación a la Generalitat de competencias estatales en inmigración propuesta por PSOE y Junts, con el argumento de que las competencias serían para Cataluña y no para un partido, y advirtió de que bloquear la descentralización según quién la proponga era un «camino peligroso». Al mismo tiempo criticó como «racista» parte del discurso de Junts sobre inmigración.",
+  "que_cambiaria": "La proposición de ley orgánica fue rechazada en su toma en consideración; la inmigración sigue siendo competencia exclusiva del Estado (art. 149.1.2.ª CE).",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La delegación de competencias estatales a una comunidad requeriría una ley orgánica del artículo 150.2 de la Constitución."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "fuentes": [
+    {
+      "titulo": "El PP, Vox y Podemos tumban la delegación de competencias en inmigración",
+      "emisor": "Ara (edición en castellano)",
+      "tipo": "medio",
+      "url": "https://es.ara.cat/politica/culpa-isla-veto-traspaso-inmigracion-pedagogia-hecho-evitarlo_1_5506062.html",
+      "fecha_documento": "2025-09-23",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "BOCG. Congreso de los Diputados, serie B, núm. 195-2: Proposición de Ley Orgánica de delegación en la Comunidad Autónoma de Cataluña de competencias estatales en materia de inmigración (rechazada)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-195-2.PDF",
+      "fecha_documento": "2025-09-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador",
+    "notas": "Posición expresada en un debate parlamentario de 2025; no se ha localizado documento de ERC de 2026 sobre el tema."
+  }
+}

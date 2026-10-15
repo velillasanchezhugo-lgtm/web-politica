@@ -1,0 +1,54 @@
+{
+  "id": "vox-energia-medioambiente-2",
+  "partido": "vox",
+  "tema": "energia-medioambiente",
+  "eleccion": "generales-2026",
+  "titulo": "Eliminar la obligación de implantar zonas de bajas emisiones y la tasa de residuos",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley de Vox (noviembre de 2025) que suprime la obligación de los municipios de más de 50.000 habitantes (y otros supuestos) de establecer zonas de bajas emisiones, prevista en el artículo 14 de la Ley 7/2021 de cambio climático, y elimina la tasa municipal de residuos establecida en la Ley 7/2022. Caducó con la disolución de las Cortes.",
+  "que_cambiaria": "Suprimiría el artículo 14 de la Ley 7/2021 y modificaría la Ley 34/2007 de calidad del aire, la Ley de Tráfico y la Ley 7/2022 de residuos.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "local",
+      "ue"
+    ],
+    "nota": "El Estado dicta la legislación básica de medio ambiente (art. 149.1.23.ª CE); las ZBE y la tasa de residuos se aplican por los ayuntamientos; la tasa deriva de obligaciones de la normativa de la UE según la propia exposición de motivos."
+  },
+  "financiacion": {
+    "nota": "La proposición no cuantifica el impacto en las haciendas locales."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley relativa a revocar la implantación obligatoria de las Zonas de Bajas Emisiones y derogar la tasa de residuos (expediente 122/000232), BOCG Congreso, serie B, núm. 276-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-276-1.PDF",
+      "localizacion": "Exposición de motivos y artículos 1 a 5",
+      "fecha_documento": "2025-11-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

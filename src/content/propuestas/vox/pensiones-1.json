@@ -1,0 +1,43 @@
+{
+  "id": "vox-pensiones-1",
+  "partido": "vox",
+  "tema": "pensiones",
+  "eleccion": "generales-2026",
+  "titulo": "Sistema mixto de pensiones que combine reparto y capitalización individual",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "El responsable económico de Vox, José María Figaredo, afirmó en octubre de 2026 que el sistema público de pensiones «es un zombi» y «está quebrado», y defendió «una reforma estructural hacia un modelo mixto que combine el reparto con la capitalización individual, como han hecho con éxito otros países europeos». Según elDiario.es, que califica la propuesta de privatización parcial, el modelo implicaría pensiones individuales gestionadas mediante fondos.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación básica y el régimen económico de la Seguridad Social son competencia exclusiva del Estado (art. 149.1.17.ª CE)."
+  },
+  "financiacion": {
+    "nota": "Vox no ha publicado el coste de transición ni la financiación de un modelo mixto en las fuentes consultadas."
+  },
+  "calendario": "No publicado",
+  "detalle": "Declaración recogida por elDiario.es a partir de una entrevista en El Debate; la valoración «privatización» es del medio.",
+  "fuentes": [
+    {
+      "titulo": "Vox defiende una reforma hacia la privatización de las pensiones y da por muerto el sistema público actual",
+      "emisor": "elDiario.es",
+      "tipo": "medio",
+      "url": "https://www.eldiario.es/economia/vox-defiende-reforma-privatizacion-pensiones-da-muerto-sistema-publico-actual_1_13565422.html",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

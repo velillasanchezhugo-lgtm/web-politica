@@ -1,0 +1,140 @@
+{
+  "id": "inmigracion",
+  "nombre": "Inmigración",
+  "nombre_corto": "Inmigración",
+  "descripcion": "Entrada y residencia de personas extranjeras, regularización, asilo, integración, fronteras y nacionalidad.",
+  "orden": 7,
+  "contexto": [
+    {
+      "texto": "España tenía 49.801.559 habitantes a 1 de julio de 2026, según datos provisionales del INE. De ellos, 10.291.807 habían nacido en el extranjero y 7.437.543 tenían nacionalidad extranjera; la diferencia se debe a quienes han adquirido la nacionalidad española.",
+      "tipo": "hecho",
+      "fecha": "2026-08-06",
+      "fuentes": [
+        {
+          "titulo": "Estadística Continua de Población (ECP). 1 de julio de 2026. Datos provisionales",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/ECP2T26.htm",
+          "fecha_documento": "2026-08-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto 316/2026 abrió una regularización extraordinaria: permite pedir una autorización de residencia y trabajo de un año a quienes estuvieran en España antes del 1 de enero de 2026 y cumplan los requisitos. El plazo de solicitud terminó el 30 de junio de 2026. A 30 de septiembre de 2026 había 421.306 personas regularizadas por este proceso dadas de alta en la Seguridad Social.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Reglamento de la Ley Orgánica 4/2000, aprobado por el Real Decreto 1155/2024",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+          "localizacion": "Preámbulo y disposiciones adicionales vigésima y vigesimoprimera",
+          "fecha_documento": "2026-04-15",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El empleo logra el mejor septiembre de la historia después de sumar 92.327 afiliados en el último mes y 739.888 respecto a hace un año",
+          "emisor": "La Moncloa (Ministerio de Inclusión, Seguridad Social y Migraciones)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2026/021026-balance-afiliados-septiembre.aspx",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Seguridad Social registró una media de 3.635.979 afiliados extranjeros en septiembre de 2026, más del 16,2% del total y 547.637 más que un año antes, según el Ministerio de Inclusión, Seguridad Social y Migraciones.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El empleo logra el mejor septiembre de la historia después de sumar 92.327 afiliados en el último mes y 739.888 respecto a hace un año",
+          "emisor": "La Moncloa (Ministerio de Inclusión, Seguridad Social y Migraciones)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2026/021026-balance-afiliados-septiembre.aspx",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La inmigración fue citada como uno de los tres principales problemas de España por el 20,9% de los encuestados, el segundo más mencionado, en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "Nacionalidad, inmigración, emigración, extranjería y derecho de asilo son competencia exclusiva del Estado (art. 149.1.2.ª de la Constitución). La Ley Orgánica 4/2000 atribuye al Gobierno la definición, planificación, regulación y desarrollo de la política de inmigración, sin perjuicio de las competencias que puedan asumir las comunidades autónomas y las entidades locales.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 149.1.2.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+          "localizacion": "Artículo 2 bis.1",
+          "fecha_documento": "2000-01-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las comunidades autónomas intervienen en la integración: por ejemplo, el reglamento de extranjería, modificado por el Real Decreto 316/2026, encarga a sus órganos competentes (o a los ayuntamientos, si la comunidad así lo establece) el informe de integración social exigido en algunos trámites.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Reglamento de la Ley Orgánica 4/2000, aprobado por el Real Decreto 1155/2024",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+          "localizacion": "Preámbulo y disposiciones adicionales vigésima y vigesimoprimera",
+          "fecha_documento": "2026-04-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La normativa europea también condiciona la política migratoria: el preámbulo del Real Decreto 316/2026 cita la próxima entrada en vigor del Pacto Europeo de Migración y Asilo como uno de los motivos para modificar el reglamento de extranjería.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Reglamento de la Ley Orgánica 4/2000, aprobado por el Real Decreto 1155/2024",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+          "localizacion": "Preámbulo y disposiciones adicionales vigésima y vigesimoprimera",
+          "fecha_documento": "2026-04-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

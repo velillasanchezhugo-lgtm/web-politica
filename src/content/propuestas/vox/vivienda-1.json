@@ -1,0 +1,45 @@
+{
+  "id": "vox-vivienda-1",
+  "partido": "vox",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "«Prioridad nacional» en vivienda protegida, alquiler social y ayudas",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "En junio de 2026 Vox defendió en el Congreso una moción que pedía un sistema de acceso a vivienda protegida, alquiler social y ayudas a la vivienda «inspirado en el principio de prioridad nacional» y «la asignación prioritaria de los recursos públicos a los españoles», controles reforzados del padrón contra empadronamientos fraudulentos y «pisos patera», y la eliminación o reducción «significativa» de los impuestos a la compra de primera vivienda por jóvenes, familias y trabajadores españoles. Según Europa Press, la moción fue rechazada.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "La vivienda es competencia autonómica (art. 148.1.3.ª CE) y la adjudicación de vivienda protegida la regulan las comunidades; el padrón es municipal; el Estado legisla sobre extranjería y condiciones básicas de igualdad (art. 149.1.1.ª y 2.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "detalle": "Moción consecuencia de interpelación urgente dirigida a la ministra de Vivienda.",
+  "fuentes": [
+    {
+      "titulo": "El PP rechaza en el Congreso la propuesta de Vox de exigir la prioridad nacional en ayudas para vivienda",
+      "emisor": "Europa Press (reproducido por Bolsamanía)",
+      "tipo": "medio",
+      "url": "https://www.bolsamania.com/noticias/empresas/economia--el-pp-rechaza-en-el-congreso-la-propuesta-de-vox-de-exigir-la-prioridad-nacional-en-ayudas-para-vivienda--22776272.html",
+      "fecha_documento": "2026-06-18",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "vox-igualdad-derechos-1",
+  "partido": "vox",
+  "tema": "igualdad-derechos",
+  "eleccion": "generales-2026",
+  "titulo": "Prohibir el uso del burka y el nicab en el espacio público",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "iniciativa_presentada",
+  "resumen": "Proposición de ley orgánica de Vox (noviembre de 2025) que prohíbe el uso del nicab y el burka en el espacio público y en lugares privados de uso público, castiga con prisión de un año y seis meses a tres años a quien imponga su uso mediante violencia o coacción, y modifica la Ley de Extranjería. Fue rechazada en su toma en consideración en febrero de 2026.",
+  "que_cambiaria": "Añadiría un apartado 6 al artículo 172 ter del Código Penal y modificaría el artículo 53 de la Ley Orgánica 4/2000.",
+  "competencia": {
+    "administraciones": [
+      "estado"
+    ],
+    "nota": "La legislación penal y de seguridad pública es estatal (art. 149.1.6.ª y 29.ª CE)."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta medida."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Proposición de Ley Orgánica para la protección de la dignidad de las mujeres y la seguridad ciudadana en el espacio público (expediente 122/000237), BOCG Congreso, serie B, núm. 282-1",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-282-1.PDF",
+      "localizacion": "Artículo único y disposiciones finales primera y segunda",
+      "fecha_documento": "2025-11-21",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Datos abiertos del Congreso: Proposiciones de ley, XV legislatura (tramitación seguida)",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/es/opendata/iniciativas",
+      "localizacion": "Campos SITUACIONACTUAL y TRAMITACIONSEGUIDA",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 11, 122, 148 y 149",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

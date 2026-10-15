@@ -1,0 +1,62 @@
+{
+  "id": "erc-organizacion-territorial-1",
+  "partido": "erc",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Financiación singular para Cataluña y nuevo modelo de financiación autonómica",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "ERC defiende una financiación «singular» para Cataluña, que en sus negociaciones de 2024 planteó como un sistema similar al concierto vasco. En enero de 2026 negoció con el Gobierno un nuevo modelo de financiación autonómica que, según el partido, supondría unos 5.000 millones adicionales para Cataluña y respetaría el principio de ordinalidad.",
+  "que_cambiaria": "Sustituiría el sistema de financiación de régimen común vigente. El nuevo modelo fue aprobado por el Consejo de Política Fiscal y Financiera el 4 de septiembre de 2026 solo con los votos de Cataluña y Canarias y quedó pendiente de las Cortes; con la disolución, los asuntos pendientes del Congreso caducan (art. 207 del Reglamento del Congreso).",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La financiación de las comunidades autónomas de régimen común se regula por ley orgánica (LOFCA) y ley estatal; el Consejo de Política Fiscal y Financiera reúne al Ministerio de Hacienda y a las comunidades. La recaudación y gestión de tributos estatales por la Generalitat dependería de cambios legislativos estatales."
+  },
+  "financiacion": {
+    "coste_declarado": "Según ERC, unos 5.000 millones de euros adicionales anuales para Cataluña (enero de 2026). El ministro de Hacienda cifró el conjunto del nuevo modelo en casi 21.000 millones adicionales para todas las comunidades.",
+    "nota": "No se ha localizado estimación independiente (AIReF u otra) del impacto del modelo."
+  },
+  "calendario": "No publicado para la XVI legislatura.",
+  "fuentes": [
+    {
+      "titulo": "Com es va gestar l'acord d'ara fa un any entre ERC i el PSC per fer Illa president",
+      "emisor": "3CatInfo",
+      "tipo": "medio",
+      "url": "https://www.3cat.cat/3catinfo/com-es-va-gestar-lacord-dara-fa-un-any-entre-erc-i-el-psc-per-fer-illa-president/noticia/3365232/",
+      "fecha_documento": "2025-08-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "ERC guarantees special funding \"this week,\" but Junts warns that it will reject it if there is no agreement",
+      "emisor": "Ara (edición en inglés)",
+      "tipo": "medio",
+      "url": "https://en.ara.cat/politics/erc-guarantees-the-unique-funding-this-week-almost-5-billion-more-and-will-respect-the-ordinality_1_5610797.html",
+      "fecha_documento": "2026-01-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Hacienda aprueba la financiación autonómica pactada con ERC, con el único apoyo de Cataluña y Canarias",
+      "emisor": "Canal Sur",
+      "tipo": "medio",
+      "url": "https://www.canalsur.es/noticias/andalucia/hacienda-aprueba-financiacion-autonomica-pactada_1_1433639.html",
+      "fecha_documento": "2026-09-05",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Reglamento del Congreso de los Diputados de 10 de febrero de 1982 (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196",
+      "localizacion": "Artículo 207",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador",
+    "notas": "Cifra de 5.000 millones atribuida a ERC (Ara, 7-1-2026); verificar el texto del acuerdo del 8-1-2026 si se localiza en fuente oficial."
+  }
+}

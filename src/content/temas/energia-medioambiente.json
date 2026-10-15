@@ -1,0 +1,116 @@
+{
+  "id": "energia-medioambiente",
+  "nombre": "Energía y medioambiente",
+  "nombre_corto": "Energía",
+  "descripcion": "Mix eléctrico, precios de la energía, renovables, nuclear, cambio climático, agua y protección ambiental.",
+  "orden": 10,
+  "contexto": [
+    {
+      "texto": "Las energías renovables produjeron el 55,5% de toda la electricidad generada en España en 2025; con la aportación estimada del autoconsumo, la cuota sube al 56,6%, según el informe anual de Red Eléctrica publicado el 11 de marzo de 2026.",
+      "tipo": "hecho",
+      "fecha": "2026-03-11",
+      "fuentes": [
+        {
+          "titulo": "«El sistema eléctrico español en 2025»: Aumenta la demanda de electricidad, la generación y la potencia instalada",
+          "emisor": "Red Eléctrica (operador del sistema eléctrico)",
+          "tipo": "organismo_independiente",
+          "url": "https://www.ree.es/es/sala-de-prensa/actualidad/nota-de-prensa/2026/03/el-sistema-electrico-espanol-en-2025-aumenta-la-demanda-de-electricidad-la-generacion-y-la-potencia-instalada",
+          "fecha_documento": "2026-03-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Ley 7/2021, de cambio climático y transición energética, fija para 2030 un sistema eléctrico con al menos un 74% de generación renovable, un 42% de renovables en el consumo de energía final y una reducción de al menos el 23% de las emisiones de gases de efecto invernadero respecto a 1990.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+          "localizacion": "Artículo 3 y disposición final decimotercera",
+          "fecha_documento": "2021-05-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En septiembre de 2026, el grupo Vivienda del IPC subió un 1,1% en el mes por el incremento de los precios de la electricidad y de los combustibles líquidos, y el grupo Transporte elevó su tasa anual al 10,5%, principalmente por los precios de los combustibles y lubricantes, según el INE.",
+      "tipo": "hecho",
+      "fecha": "2026-10-14",
+      "fuentes": [
+        {
+          "titulo": "Índice de Precios de Consumo (IPC). Septiembre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/IPC0926.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El cambio climático fue citado como uno de los tres principales problemas de España por el 4,0% de los encuestados y la subida de las tarifas energéticas por el 2,0% en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "El Estado dicta las bases del régimen minero y energético, la legislación básica de protección del medio ambiente y las normas sobre aguas que pasan por más de una comunidad (art. 149.1.22.ª, 23.ª y 25.ª de la Constitución). Las comunidades autónomas pueden asumir la gestión de la protección del medio ambiente y establecer normas adicionales de protección (arts. 148.1.9.ª y 149.1.23.ª).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.9.ª y 149.1.22.ª, 23.ª y 25.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Ley 7/2021, de cambio climático y transición energética, se dicta al amparo, entre otros, del artículo 149.1.13.ª, 23.ª y 25.ª. El sistema eléctrico se regula en la Ley 24/2013, del Sector Eléctrico.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+          "localizacion": "Artículo 3 y disposición final decimotercera",
+          "fecha_documento": "2021-05-20",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley 24/2013, de 26 de diciembre, del Sector Eléctrico",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-13645",
+          "fecha_documento": "2013-12-26",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

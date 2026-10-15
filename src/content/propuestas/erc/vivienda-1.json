@@ -1,0 +1,60 @@
+{
+  "id": "erc-vivienda-1",
+  "partido": "erc",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Apoyo a los decretos de vivienda de 2026 (desahucios, prórroga y estabilidad de alquileres)",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "posicion_vigente",
+  "resumen": "ERC votó a favor de convalidar el Real Decreto-ley 26/2026 (protección frente a desahucios hasta 2030, prórroga de contratos y medidas frente a la compra especulativa) y el Real Decreto-ley 27/2026 (estabilidad de los contratos de alquiler de vivienda habitual). En el debate, Rufián acusó a Junts de defender intereses inmobiliarios.",
+  "que_cambiaria": "Ambos decretos fueron derogados el 2 de octubre de 2026 al no obtener la convalidación, por lo que no están vigentes.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "El arrendamiento urbano y el procedimiento de desahucio son legislación civil y procesal estatal; la vivienda es competencia autonómica según los estatutos, y los ayuntamientos gestionan suelo y parque público."
+  },
+  "financiacion": {
+    "nota": "No aplica coste declarado por ERC: se trata del voto a normas del Gobierno."
+  },
+  "fuentes": [
+    {
+      "titulo": "El Congreso tumba los dos decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (con información de Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Verificación: repasamos con datos y contexto las declaraciones de los diputados en el pleno de vivienda",
+      "emisor": "Newtral",
+      "tipo": "medio",
+      "url": "https://www.newtral.es/reales-decretos-vivienda-congreso/20261002/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador"
+  }
+}

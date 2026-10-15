@@ -1,0 +1,101 @@
+{
+  "id": "sanidad",
+  "nombre": "Sanidad",
+  "nombre_corto": "Sanidad",
+  "descripcion": "Sistema Nacional de Salud: listas de espera, atención primaria y hospitalaria, profesionales, medicamentos y salud pública.",
+  "orden": 4,
+  "contexto": [
+    {
+      "texto": "A 31 de diciembre de 2025 había 853.509 pacientes en lista de espera para una intervención quirúrgica no urgente en el Sistema Nacional de Salud (17,69 por cada 1.000 habitantes), con un tiempo medio de espera de 121 días; el 21,6% llevaba más de seis meses esperando. Es el último corte publicado por el Ministerio de Sanidad, que agrega los datos que facilitan las comunidades autónomas.",
+      "tipo": "hecho",
+      "fecha": "2025-12-31",
+      "fuentes": [
+        {
+          "titulo": "Sistema de Información sobre Listas de Espera en el SNS (SISLE-SNS). Situación a 31 de diciembre de 2025",
+          "emisor": "Ministerio de Sanidad",
+          "tipo": "oficial",
+          "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/docs/LISTAS_PUBLICACION_Dic_2025.pdf",
+          "localizacion": "Lista de espera quirúrgica: distribución por comunidades autónomas (total)",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La sanidad fue citada como uno de los tres principales problemas de España por el 14,4% de los encuestados en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las listas de espera difieren mucho entre comunidades: a 31 de diciembre de 2025, el porcentaje de pacientes que llevaban más de seis meses esperando una operación iba del 0,8% en Madrid al 32,2% en Andalucía y el 32,0% en Cataluña, según el Ministerio de Sanidad.",
+      "tipo": "hecho",
+      "fecha": "2025-12-31",
+      "fuentes": [
+        {
+          "titulo": "Sistema de Información sobre Listas de Espera en el SNS (SISLE-SNS). Situación a 31 de diciembre de 2025",
+          "emisor": "Ministerio de Sanidad",
+          "tipo": "oficial",
+          "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/docs/LISTAS_PUBLICACION_Dic_2025.pdf",
+          "localizacion": "Lista de espera quirúrgica: distribución por comunidades autónomas (total)",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "La Constitución atribuye al Estado la sanidad exterior, las bases y la coordinación general de la sanidad y la legislación sobre productos farmacéuticos (art. 149.1.16.ª). Las comunidades autónomas pueden asumir competencias en sanidad e higiene (art. 148.1.21.ª).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.21.ª y 149.1.16.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Ley 14/1986, General de Sanidad, es una norma básica dictada al amparo del artículo 149.1.16.ª. La Ley 16/2003, de cohesión y calidad del Sistema Nacional de Salud, regula el Consejo Interterritorial del Sistema Nacional de Salud como órgano permanente de coordinación, cooperación, comunicación e información de los servicios de salud entre ellos y con la Administración del Estado.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499",
+          "localizacion": "Artículo 2.1",
+          "fecha_documento": "1986-04-25",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-10715",
+          "localizacion": "Artículo 69.1 y disposición final primera",
+          "fecha_documento": "2003-05-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}

@@ -21,7 +21,7 @@ const total = filas.reduce((s, f) => s + f.diputados, 0);
     <div class="notice warn"><strong>Listas oficiales: pendiente de publicación.</strong> Cuando el BOE publique las candidaturas, enlazaremos aquí el documento oficial de cada circunscripción.</div>
     <h2>Diputados que elige cada circunscripción en 2026</h2>
     {filas.length ? (
-      <div style="overflow-x:auto">
+      <div style="overflow-x:auto" tabindex="0" role="region" aria-label="Tabla de diputados por circunscripción">
         <table>
           <caption class="small muted" style="text-align:left">Total: {total} diputados. Fuente: anexo del Real Decreto 806/2026.</caption>
           <thead><tr><th scope="col">Circunscripción</th><th scope="col">Comunidad</th><th scope="col" class="num">2026</th>{c23 && <th scope="col" class="num">2023</th>}</tr></thead>

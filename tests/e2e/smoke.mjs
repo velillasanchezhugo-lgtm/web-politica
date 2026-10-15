@@ -136,6 +136,26 @@ ok('páginas principales: 200, un solo h1 y sin scroll horizontal a 390 px');
   await page.screenshot({ path: OUT + 'inicio-escritorio.png' });
 }
 
+// --- Accesibilidad (axe-core, reglas WCAG 2.1 A/AA) ---
+{
+  const { readFileSync } = await import('node:fs');
+  const { createRequire } = await import('node:module');
+  const axeSrc = readFileSync(createRequire(import.meta.url).resolve('axe-core/axe.min.js'), 'utf8');
+  for (const ruta of ['/', '/simulador/', '/comparar/', '/guia/metodo-dhondt/', '/historia/', '/glosario/', '/candidaturas/', '/partidos/']) {
+    for (const scheme of ['light', 'dark']) {
+      const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, colorScheme: scheme });
+      const page = await ctx.newPage();
+      await page.goto(BASE + ruta);
+      await page.addScriptTag({ content: axeSrc });
+      const res = await page.evaluate(async () => await (window).axe.run(document, { runOnly: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] }));
+      const graves = res.violations.filter((v) => ['serious', 'critical'].includes(v.impact));
+      if (graves.length) errores.push(`axe ${ruta} (${scheme}): ` + graves.map((v) => `${v.id} [${v.nodes.length}] ${v.nodes[0]?.target}`).join('; '));
+      await ctx.close();
+    }
+  }
+  ok('accesibilidad: auditoría axe ejecutada (modo claro y oscuro)');
+}
+
 await browser.close();
 if (errores.length) { console.error('Errores de consola:\n' + errores.join('\n')); process.exit(1); }
 console.log('Todas las pruebas de humo superadas.');

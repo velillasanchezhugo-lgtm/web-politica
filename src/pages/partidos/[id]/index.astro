@@ -3,7 +3,6 @@ import Base from '../../../layouts/Base.astro';
 import Quick from '../../../components/Quick.astro';
 import Claim from '../../../components/Claim.astro';
 import SourceList from '../../../components/SourceList.astro';
-import Source from '../../../components/Source.astro';
 import Revision from '../../../components/Revision.astro';
 import PropuestaCard from '../../../components/PropuestaCard.astro';
 import TemaVacio from '../../../components/TemaVacio.astro';
@@ -133,7 +132,7 @@ const jsonld = {
         {d.resultados.length > 0 && (
           <>
             <h3>Resultados electorales</h3>
-            <div style="overflow-x:auto">
+            <div style="overflow-x:auto" tabindex="0" role="region" aria-label="Tabla de resultados electorales">
               <table>
                 <thead><tr><th scope="col">Elección</th><th scope="col">Candidatura</th><th scope="col" class="num">Votos</th><th scope="col" class="num">%</th><th scope="col" class="num">Congreso</th><th scope="col" class="num">Senado</th></tr></thead>
                 <tbody>

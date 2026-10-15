@@ -1,0 +1,100 @@
+{
+  "id": "educacion",
+  "nombre": "Educación",
+  "nombre_corto": "Educación",
+  "descripcion": "Enseñanza infantil, obligatoria, Bachillerato, Formación Profesional y universidad: currículos, profesorado, becas y abandono escolar.",
+  "orden": 5,
+  "contexto": [
+    {
+      "texto": "El abandono temprano de la educación y la formación (jóvenes de 18 a 24 años sin estudios secundarios de segunda etapa que no siguen formándose) fue del 12,8% en 2025, el dato anual más bajo de la serie: 15,9% en hombres y 9,5% en mujeres. La media de la UE fue del 9,4% en 2024, según el Ministerio de Educación, a partir de la EPA del INE.",
+      "tipo": "hecho",
+      "fecha": "2026-01-28",
+      "fuentes": [
+        {
+          "titulo": "El abandono educativo temprano sigue en descenso y marca su mínimo histórico con un 12,8%",
+          "emisor": "Ministerio de Educación, Formación Profesional y Deportes",
+          "tipo": "oficial",
+          "url": "https://www.educacionfpydeportes.gob.es/prensa/actualidad/2026/01/20260128-abandonotemprano.html",
+          "fecha_documento": "2026-01-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En el curso 2025-2026 se matricularon 8.249.174 estudiantes en enseñanzas no universitarias, un 0,8% menos que el curso anterior. La Formación Profesional alcanzó 1.211.062 matriculados y el profesorado sumó 806.178 docentes, según los datos de avance del Ministerio de Educación.",
+      "tipo": "hecho",
+      "fecha": "2026-07-31",
+      "fuentes": [
+        {
+          "titulo": "El alumnado de FP crece un 2,5% hasta superar los 1,2 millones de matriculados y marca un nuevo récord",
+          "emisor": "Ministerio de Educación, Formación Profesional y Deportes",
+          "tipo": "oficial",
+          "url": "https://www.educacionfpydeportes.gob.es/prensa/actualidad/2026/07/20260731-datosavance.html",
+          "fecha_documento": "2026-07-31",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La educación fue citada como uno de los tres principales problemas de España por el 8,7% de los encuestados en el Barómetro del CIS de octubre de 2026 (estudio 3582, 5.025 entrevistas realizadas del 1 al 6 de octubre), que pregunta por los tres principales problemas de España con respuesta espontánea.",
+      "tipo": "hecho",
+      "fecha": "2026-10",
+      "fuentes": [
+        {
+          "titulo": "Barómetro de octubre 2026. Avance de resultados (Estudio n.º 3582)",
+          "emisor": "Centro de Investigaciones Sociológicas (CIS)",
+          "tipo": "oficial",
+          "url": "https://www.cis.es/documents/d/guest/es3582mar_A-pdf",
+          "localizacion": "Pregunta 13R (principal problema de España; hasta tres respuestas espontáneas)",
+          "fecha_documento": "2026-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "texto": "Corresponde al Estado regular la obtención, expedición y homologación de títulos académicos y profesionales y dictar las normas básicas que desarrollan el derecho a la educación del artículo 27 (art. 149.1.30.ª de la Constitución).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 27 y 149.1.30.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La ley básica estatal es la Ley Orgánica 2/2006, de Educación, modificada por la Ley Orgánica 3/2020 (LOMLOE). Se dicta con carácter básico al amparo del artículo 149.1.1.ª, 18.ª y 30.ª de la Constitución, salvo los preceptos que la propia ley excluye.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+          "localizacion": "Disposición final quinta",
+          "fecha_documento": "2006-05-03",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17264",
+          "fecha_documento": "2020-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Todas las afirmaciones se han contrastado con las fuentes citadas, abiertas el 2026-10-15."
+  }
+}
