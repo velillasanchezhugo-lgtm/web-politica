@@ -1,0 +1,18 @@
+---
+import { ETIQUETAS, fechaLarga } from '../lib/content';
+interface Props { a: { texto: string; tipo: 'hecho' | 'declaracion' | 'interpretacion'; fecha?: string; fuentes: any[] }; showType?: boolean }
+const { a, showType = true } = Astro.props;
+---
+<div class="claim">
+  <p>
+    {showType && <span class={`badge ${a.tipo}`}>{ETIQUETAS.tipoAfirmacion[a.tipo]}</span>}{' '}
+    {a.texto}
+  </p>
+  <p class="src-inline">
+    {a.fecha && <>{fechaLarga(a.fecha)} · </>}
+    Fuente{a.fuentes.length > 1 ? 's' : ''}:{' '}
+    {a.fuentes.map((f, i) => (
+      <>{i > 0 && '; '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}{f.localizacion ? `, ${f.localizacion}` : ''}</a></>
+    ))}
+  </p>
+</div>

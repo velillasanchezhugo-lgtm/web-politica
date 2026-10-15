@@ -1,0 +1,9 @@
+---
+interface Props { programa: string; comprobado?: string }
+const { programa } = Astro.props;
+---
+<p class="muted small" style="margin:0">
+  {programa === 'pendiente_publicacion'
+    ? 'Programa 2026 pendiente de publicación. No se ha localizado una posición en las demás fuentes consultadas. La ausencia de información no equivale a estar en contra.'
+    : 'No localizado en las fuentes consultadas. La ausencia de información no equivale a estar en contra.'}
+</p>

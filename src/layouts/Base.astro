@@ -1,0 +1,190 @@
+---
+import '../styles/global.css';
+import { SITE, INDEXABLE, ADS, ANALYTICS } from '../config/site';
+import BrandMark from '../components/BrandMark.astro';
+
+interface Crumb { href?: string; label: string }
+interface Props {
+  title: string;
+  description: string;
+  /** Excluir de buscadores aunque el sitio sea indexable (p. ej. vistas previas). */
+  noindex?: boolean;
+  /** Tipo Open Graph */
+  ogType?: 'website' | 'article';
+  jsonld?: Record<string, unknown> | Record<string, unknown>[];
+  crumbs?: Crumb[];
+  /** Excluir esta página del índice del buscador interno */
+  nosearch?: boolean;
+}
+const { title, description, noindex = false, ogType = 'website', jsonld, crumbs, nosearch = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const fullTitle = Astro.url.pathname === '/' ? `${SITE.nombre}: ${SITE.lema}` : `${title} | ${SITE.nombre}`;
+const robots = !INDEXABLE || noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/partidos/', label: 'Partidos' },
+  { href: '/comparar/', label: 'Comparar' },
+  { href: '/temas/', label: 'Temas' },
+  { href: '/si-gobernara/', label: 'Si gobernara…' },
+  { href: '/simulador/', label: 'Simulador de pactos' },
+  { href: '/guia/', label: 'Cómo se vota' },
+  { href: '/historia/', label: 'Historia' },
+  { href: '/buscar/', label: 'Buscar' },
+];
+const ld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.nombre,
+    url: new URL('/', Astro.site).href,
+    inLanguage: 'es-ES',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: new URL('/buscar/', Astro.site).href + '?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  ...(crumbs?.length
+    ? [{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [{ label: 'Inicio', href: '/' }, ...crumbs].map((c, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: c.label,
+          ...(c.href ? { item: new URL(c.href, Astro.site).href } : {}),
+        })),
+      }]
+    : []),
+  ...(jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : []),
+];
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={robots} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#15171b" media="(prefers-color-scheme: dark)" />
+    <meta property="og:site_name" content={SITE.nombre} />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/og-default.png', Astro.site).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {ld.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
+    {ADS.enabled && (
+      // Etiqueta de AdSense. Con la mensajería de privacidad de Google (CMP certificada TCF)
+      // configurada en la cuenta, el propio script muestra el mensaje de consentimiento
+      // en el EEE antes de servir anuncios personalizados. Ver docs/PUBLICIDAD-Y-PRIVACIDAD.md
+      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS.client}`} crossorigin="anonymous"></script>
+    )}
+    {ANALYTICS.script && (
+      // Medición agregada sin cookies; no se envían eventos sobre partidos, temas ni simulaciones.
+      <script defer data-domain={ANALYTICS.domain || undefined} src={ANALYTICS.script}></script>
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="/" aria-label={`${SITE.nombre}, inicio`}>
+          <BrandMark />
+          <span>{SITE.nombre}</span>
+          {SITE.nombreProvisional && <small title="Nombre provisional">beta</small>}
+        </a>
+        <button class="btn secondary small menu-btn" type="button" aria-expanded="false" aria-controls="nav-principal">Menú</button>
+        <nav class="nav" id="nav-principal" aria-label="Principal">
+          <ul>
+            {nav.map((n) => (
+              <li><a href={n.href} aria-current={path === n.href || (n.href !== '/' && path.startsWith(n.href)) ? 'page' : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    {crumbs && (
+      <nav class="crumbs wrap" aria-label="Ruta de navegación">
+        <ol>
+          <li><a href="/">Inicio</a></li>
+          {crumbs.map((c) => <li>{c.href ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}</li>)}
+        </ol>
+      </nav>
+    )}
+    <main id="contenido" tabindex="-1" data-pagefind-body={nosearch ? undefined : ''}>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="cols">
+          <div>
+            <h2>{SITE.nombre}</h2>
+            <p>Información electoral independiente. No pertenecemos a ningún partido ni institución y no recomendamos el voto.</p>
+            <p class="small muted">Elecciones convocadas por el <a href={SITE.eleccion.decreto.url} rel="noopener">{SITE.eleccion.decreto.titulo}</a>.</p>
+          </div>
+          <div>
+            <h2>Transparencia</h2>
+            <ul>
+              <li><a href="/quienes-somos/">Quiénes somos</a></li>
+              <li><a href="/metodologia/">Metodología editorial</a></li>
+              <li><a href="/fuentes/">Fuentes</a></li>
+              <li><a href="/financiacion-y-publicidad/">Financiación y publicidad</a></li>
+              <li><a href="/correcciones/">Política de correcciones</a></li>
+              <li><a href="/actualizaciones/">Registro de actualizaciones</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Legal</h2>
+            <ul>
+              <li><a href="/contacto/">Contacto</a></li>
+              <li><a href="/privacidad/">Privacidad</a></li>
+              <li><a href="/cookies/">Cookies</a></li>
+              <li><a href="/aviso-legal/">Aviso legal</a></li>
+              {ADS.enabled && <li><button type="button" class="linkbtn" id="gestionar-privacidad">Gestionar privacidad</button></li>}
+            </ul>
+          </div>
+          <div>
+            <h2>Herramientas</h2>
+            <ul>
+              <li><a href="/comparar/">Comparador de propuestas</a></li>
+              <li><a href="/simulador/">Simulador de investidura</a></li>
+              <li><a href="/guia/metodo-dhondt/">Calculadora D’Hondt</a></li>
+              <li><a href="/candidaturas/">Candidaturas por circunscripción</a></li>
+              <li><a href="/glosario/">Glosario</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const btn = document.querySelector<HTMLButtonElement>('.menu-btn');
+      const nav = document.getElementById('nav-principal');
+      btn?.addEventListener('click', () => {
+        const open = nav?.classList.toggle('open') ?? false;
+        btn.setAttribute('aria-expanded', String(open));
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && nav?.classList.contains('open')) {
+          nav.classList.remove('open');
+          btn?.setAttribute('aria-expanded', 'false');
+          btn?.focus();
+        }
+      });
+      // Reabre el mensaje de consentimiento de la CMP de Google (si está configurada).
+      document.getElementById('gestionar-privacidad')?.addEventListener('click', () => {
+        const w = window as any;
+        w.googlefc = w.googlefc || {};
+        w.googlefc.callbackQueue = w.googlefc.callbackQueue || [];
+        w.googlefc.callbackQueue.push(() => w.googlefc.showRevocationMessage?.());
+      });
+    </script>
+  </body>
+</html>

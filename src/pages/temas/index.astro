@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import { publicados } from '../../lib/content';
+const temas = (await publicados('temas')).sort((a, b) => a.data.orden - b.data.orden);
+const propuestas = await publicados('propuestas');
+---
+<Base title="Temas: qué propone cada partido sobre vivienda, empleo, sanidad…" description="Los 13 grandes temas de las elecciones generales de 2026: situación actual con datos oficiales, quién tiene competencias y qué plantea cada partido, con fuentes." crumbs={[{ label: 'Temas' }]}>
+  <div class="wrap">
+    <h1>Temas</h1>
+    <Quick items={[
+      'Cada tema explica la situación actual con datos oficiales y qué administración decide.',
+      'Después recoge, en orden alfabético, lo que plantea cada partido y de qué tipo de fuente sale.',
+      'Para ver solo algunos partidos y temas a la vez, usa el comparador.',
+    ]} />
+    {temas.length === 0 && <div class="notice info">Los temas están en preparación.</div>}
+    <ul class="grid" role="list" style="list-style:none;padding:0">
+      {temas.map((t) => {
+        const n = new Set(propuestas.filter((p) => p.data.tema === t.id).map((p) => p.data.partido)).size;
+        return (
+          <li class="card">
+            <h2 style="margin:0 0 .3rem;font-size:1.15rem"><a href={`/temas/${t.id}/`}>{t.data.nombre}</a></h2>
+            <p class="small" style="margin:0 0 .4rem">{t.data.descripcion}</p>
+            <p class="small muted" style="margin:0">{n} {n === 1 ? 'partido con posición publicada' : 'partidos con posición publicada'}</p>
+          </li>
+        );
+      })}
+    </ul>
+    <p><a class="btn" href="/comparar/">Abrir el comparador</a></p>
+  </div>
+</Base>

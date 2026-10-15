@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import Claim from '../../components/Claim.astro';
+import Revision from '../../components/Revision.astro';
+import PropuestaCard from '../../components/PropuestaCard.astro';
+import TemaVacio from '../../components/TemaVacio.astro';
+import SourceList from '../../components/SourceList.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { publicados, alfa } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const temas = await publicados('temas');
+  return temas.map((t) => ({ params: { id: t.data.id }, props: { t } }));
+}
+const { t } = Astro.props;
+const d = t.data;
+const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
+const propuestas = (await publicados('propuestas')).filter((p) => p.data.tema === d.id);
+const conPosicion = partidos.filter((p) => propuestas.some((x) => x.data.partido === p.data.id));
+const todas = [...d.contexto, ...d.competencias].flatMap((a) => a.fuentes).concat(propuestas.flatMap((p) => p.data.fuentes));
+---
+<Base title={`${d.nombre}: qué proponen los partidos en las elecciones de 2026`} description={`${d.descripcion} Situación actual con datos oficiales, competencias y posiciones de cada partido con fuentes.`} crumbs={[{ href: '/temas/', label: 'Temas' }, { label: d.nombre_corto }]}>
+  <article class="wrap">
+    <h1>{d.nombre}</h1>
+    <Revision revision={d.revision} />
+    <div class="read">
+      <Quick items={[
+        d.descripcion,
+        `${conPosicion.length} de ${partidos.length} formaciones tienen una posición publicada en este tema en nuestras fuentes.`,
+        'Los partidos aparecen en orden alfabético. Ninguna posición se puntúa ni se valora como mejor o peor.',
+      ]} />
+      <p class="level-label">Explicación ampliada</p>
+      <h2>Situación actual</h2>
+      {d.contexto.length ? d.contexto.map((a) => <Claim a={a} />) : <p class="muted">Datos de contexto en preparación.</p>}
+      <h2>¿Quién decide?</h2>
+      {d.competencias.length ? d.competencias.map((a) => <Claim a={a} />) : <p class="muted">En preparación.</p>}
+    </div>
+    <AdSlot />
+    <h2>Qué plantea cada partido</h2>
+    <p class="small"><a href={`/comparar/#temas=${d.id}`}>Comparar solo algunos partidos en este tema →</a></p>
+    {partidos.map((p) => {
+      const items = propuestas.filter((x) => x.data.partido === p.data.id);
+      return (
+        <section class="tema-block" id={p.data.id}>
+          <h3><a href={`/partidos/${p.data.id}/`}>{p.data.nombre}</a></h3>
+          {items.length ? <div class="grid wide">{items.map((x) => <PropuestaCard p={x.data} headingLevel={4} />)}</div> : <TemaVacio programa={p.data.programa_2026.estado} />}
+        </section>
+      );
+    })}
+    <div class="read">
+      <p class="level-label">Fuentes y detalles</p>
+      <SourceList fuentes={todas} titulo="Todas las fuentes de este tema" />
+    </div>
+  </article>
+</Base>
+<style>
+  .tema-block { border-top: 1px solid var(--line); padding: 0.5rem 0 1rem; }
+</style>

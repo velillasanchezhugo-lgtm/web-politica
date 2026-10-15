@@ -1,0 +1,122 @@
+{
+  "id": "generales-2023",
+  "nombre": "Elecciones generales de 23 de julio de 2023: resultado oficial del Congreso",
+  "origen": "resultado_oficial",
+  "eleccion": "generales-2023",
+  "descripcion": "Votos y escaños de las candidaturas que obtuvieron representación en el Congreso de los Diputados el 23 de julio de 2023, según la Resolución de 30 de agosto de 2023 de la Presidencia de la Junta Electoral Central (BOE núm. 209, de 1 de septiembre de 2023, cuadro II), elaborada a partir de las actas de escrutinio general y de proclamación de electos. El porcentaje no figura en la resolución: lo calcula la redacción sobre los votos válidos (votos a candidaturas más votos en blanco) del cuadro I, 24.688.087, y se redondea a dos decimales. Se listan las candidaturas tal como las publica el BOE: el PSOE y el Partit dels Socialistes de Catalunya (PSC-PSOE) figuran como candidaturas distintas (el PSC concurre en las circunscripciones catalanas), y ambas se asocian a la ficha del PSOE; juntas suman 121 escaños. La fila «Sumar (SUMAR)» corresponde a la coalición electoral Sumar de 2023, predecesora de la formación de la ficha «frente-amplio»; no es la misma candidatura que concurre en 2026. No se incluyen las candidaturas sin escaño (cuadro III de la resolución).",
+  "total": 350,
+  "filas": [
+    {
+      "candidatura": "Partido Popular (PP)",
+      "partido": "pp",
+      "escanos": 137,
+      "votos": 8160837,
+      "porcentaje": 33.06,
+      "color": "#1D5FAF"
+    },
+    {
+      "candidatura": "Partido Socialista Obrero Español (PSOE)",
+      "partido": "psoe",
+      "escanos": 102,
+      "votos": 6600383,
+      "porcentaje": 26.74,
+      "color": "#E30613"
+    },
+    {
+      "candidatura": "VOX (VOX)",
+      "partido": "vox",
+      "escanos": 33,
+      "votos": 3057000,
+      "porcentaje": 12.38,
+      "color": "#5AB031"
+    },
+    {
+      "candidatura": "Sumar (SUMAR)",
+      "partido": "frente-amplio",
+      "escanos": 31,
+      "votos": 3044996,
+      "porcentaje": 12.33,
+      "color": "#D6246E"
+    },
+    {
+      "candidatura": "Partit dels Socialistes de Catalunya (PSC-PSOE) (PSC)",
+      "partido": "psoe",
+      "escanos": 19,
+      "votos": 1221335,
+      "porcentaje": 4.95,
+      "color": "#B5121B"
+    },
+    {
+      "candidatura": "Esquerra Republicana de Catalunya (ERC)",
+      "partido": "erc",
+      "escanos": 7,
+      "votos": 466020,
+      "porcentaje": 1.89,
+      "color": "#F2A900"
+    },
+    {
+      "candidatura": "Junts (JUNTS)",
+      "partido": "junts",
+      "escanos": 7,
+      "votos": 395429,
+      "porcentaje": 1.6,
+      "color": "#16A6A0"
+    },
+    {
+      "candidatura": "Euskal Herria Bildu (EH Bildu)",
+      "partido": "eh-bildu",
+      "escanos": 6,
+      "votos": 335129,
+      "porcentaje": 1.36,
+      "color": "#8DBF3F"
+    },
+    {
+      "candidatura": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco (EAJ-PNV)",
+      "partido": "pnv",
+      "escanos": 5,
+      "votos": 277289,
+      "porcentaje": 1.12,
+      "color": "#2E7D32"
+    },
+    {
+      "candidatura": "Bloque Nacionalista Galego (BNG)",
+      "partido": "bng",
+      "escanos": 1,
+      "votos": 153995,
+      "porcentaje": 0.62,
+      "color": "#6FA8DC"
+    },
+    {
+      "candidatura": "Coalición Canaria (CCa)",
+      "partido": "cc",
+      "escanos": 1,
+      "votos": 116363,
+      "porcentaje": 0.47,
+      "color": "#E6C200"
+    },
+    {
+      "candidatura": "Unión del Pueblo Navarro (UPN)",
+      "partido": "upn",
+      "escanos": 1,
+      "votos": 52188,
+      "porcentaje": 0.21,
+      "color": "#4A5D8F"
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado convocadas por Real Decreto 400/2023, de 29 de mayo, y celebradas el 23 de julio de 2023",
+      "emisor": "Boletín Oficial del Estado (Junta Electoral Central)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+      "localizacion": "Cuadro I (resumen general, total estatal) y cuadro II (candidaturas con escaño), págs. 122202-122208",
+      "fecha_documento": "2023-09-01",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Cifras de votos y escaños transcritas del BOE-A-2023-18907 (PDF abierto el 2026-10-15); porcentajes calculados por la redacción. Suma de escaños comprobada: 350."
+  }
+}

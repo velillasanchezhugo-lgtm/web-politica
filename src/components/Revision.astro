@@ -1,0 +1,12 @@
+---
+import { fechaLarga } from '../lib/content';
+interface Props { revision: { fecha_revision: string; estado_editorial: string; notas?: string } }
+const { revision } = Astro.props;
+---
+{revision.estado_editorial === 'desactualizado' && (
+  <div class="notice warn" role="note"><strong>Contenido desactualizado.</strong> Esta información pudo cambiar después de su última revisión. Estamos preparando una versión nueva.</div>
+)}
+{(revision.estado_editorial === 'borrador' || revision.estado_editorial === 'revisado') && (
+  <div class="notice bad" role="note"><strong>Vista previa interna:</strong> contenido en estado «{revision.estado_editorial}», no publicado.</div>
+)}
+<p class="small muted">Última revisión editorial: <time datetime={revision.fecha_revision}>{fechaLarga(revision.fecha_revision)}</time>.</p>

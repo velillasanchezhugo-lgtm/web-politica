@@ -1,0 +1,289 @@
+{
+  "eleccion": "generales-2026",
+  "filas": [
+    {
+      "nombre": "Albacete",
+      "comunidad": "Castilla-La Mancha",
+      "diputados": 4
+    },
+    {
+      "nombre": "Alicante/Alacant",
+      "comunidad": "Comunitat Valenciana",
+      "diputados": 12
+    },
+    {
+      "nombre": "Almería",
+      "comunidad": "Andalucía",
+      "diputados": 6
+    },
+    {
+      "nombre": "Araba/Álava",
+      "comunidad": "País Vasco",
+      "diputados": 4
+    },
+    {
+      "nombre": "Asturias",
+      "comunidad": "Principado de Asturias",
+      "diputados": 7
+    },
+    {
+      "nombre": "Ávila",
+      "comunidad": "Castilla y León",
+      "diputados": 3
+    },
+    {
+      "nombre": "Badajoz",
+      "comunidad": "Extremadura",
+      "diputados": 5
+    },
+    {
+      "nombre": "Balears (Illes)",
+      "comunidad": "Illes Balears",
+      "diputados": 8
+    },
+    {
+      "nombre": "Barcelona",
+      "comunidad": "Cataluña",
+      "diputados": 32
+    },
+    {
+      "nombre": "Bizkaia",
+      "comunidad": "País Vasco",
+      "diputados": 8
+    },
+    {
+      "nombre": "Burgos",
+      "comunidad": "Castilla y León",
+      "diputados": 4
+    },
+    {
+      "nombre": "Cáceres",
+      "comunidad": "Extremadura",
+      "diputados": 4
+    },
+    {
+      "nombre": "Cádiz",
+      "comunidad": "Andalucía",
+      "diputados": 8
+    },
+    {
+      "nombre": "Cantabria",
+      "comunidad": "Cantabria",
+      "diputados": 5
+    },
+    {
+      "nombre": "Castellón/Castelló",
+      "comunidad": "Comunitat Valenciana",
+      "diputados": 5
+    },
+    {
+      "nombre": "Ciudad Real",
+      "comunidad": "Castilla-La Mancha",
+      "diputados": 5
+    },
+    {
+      "nombre": "Córdoba",
+      "comunidad": "Andalucía",
+      "diputados": 6
+    },
+    {
+      "nombre": "Coruña (A)",
+      "comunidad": "Galicia",
+      "diputados": 8
+    },
+    {
+      "nombre": "Cuenca",
+      "comunidad": "Castilla-La Mancha",
+      "diputados": 3
+    },
+    {
+      "nombre": "Gipuzkoa",
+      "comunidad": "País Vasco",
+      "diputados": 6
+    },
+    {
+      "nombre": "Girona",
+      "comunidad": "Cataluña",
+      "diputados": 6
+    },
+    {
+      "nombre": "Granada",
+      "comunidad": "Andalucía",
+      "diputados": 7
+    },
+    {
+      "nombre": "Guadalajara",
+      "comunidad": "Castilla-La Mancha",
+      "diputados": 3
+    },
+    {
+      "nombre": "Huelva",
+      "comunidad": "Andalucía",
+      "diputados": 5
+    },
+    {
+      "nombre": "Huesca",
+      "comunidad": "Aragón",
+      "diputados": 3
+    },
+    {
+      "nombre": "Jaén",
+      "comunidad": "Andalucía",
+      "diputados": 5
+    },
+    {
+      "nombre": "León",
+      "comunidad": "Castilla y León",
+      "diputados": 4
+    },
+    {
+      "nombre": "Lleida",
+      "comunidad": "Cataluña",
+      "diputados": 4
+    },
+    {
+      "nombre": "Lugo",
+      "comunidad": "Galicia",
+      "diputados": 4
+    },
+    {
+      "nombre": "Madrid",
+      "comunidad": "Comunidad de Madrid",
+      "diputados": 38
+    },
+    {
+      "nombre": "Málaga",
+      "comunidad": "Andalucía",
+      "diputados": 11
+    },
+    {
+      "nombre": "Murcia",
+      "comunidad": "Región de Murcia",
+      "diputados": 10
+    },
+    {
+      "nombre": "Navarra",
+      "comunidad": "Comunidad Foral de Navarra",
+      "diputados": 5
+    },
+    {
+      "nombre": "Ourense",
+      "comunidad": "Galicia",
+      "diputados": 4
+    },
+    {
+      "nombre": "Palencia",
+      "comunidad": "Castilla y León",
+      "diputados": 3
+    },
+    {
+      "nombre": "Palmas (Las)",
+      "comunidad": "Canarias",
+      "diputados": 8
+    },
+    {
+      "nombre": "Pontevedra",
+      "comunidad": "Galicia",
+      "diputados": 7
+    },
+    {
+      "nombre": "Rioja (La)",
+      "comunidad": "La Rioja",
+      "diputados": 4
+    },
+    {
+      "nombre": "Salamanca",
+      "comunidad": "Castilla y León",
+      "diputados": 4
+    },
+    {
+      "nombre": "Santa Cruz de Tenerife",
+      "comunidad": "Canarias",
+      "diputados": 7
+    },
+    {
+      "nombre": "Segovia",
+      "comunidad": "Castilla y León",
+      "diputados": 3
+    },
+    {
+      "nombre": "Sevilla",
+      "comunidad": "Andalucía",
+      "diputados": 12
+    },
+    {
+      "nombre": "Soria",
+      "comunidad": "Castilla y León",
+      "diputados": 2
+    },
+    {
+      "nombre": "Tarragona",
+      "comunidad": "Cataluña",
+      "diputados": 6
+    },
+    {
+      "nombre": "Teruel",
+      "comunidad": "Aragón",
+      "diputados": 3
+    },
+    {
+      "nombre": "Toledo",
+      "comunidad": "Castilla-La Mancha",
+      "diputados": 6
+    },
+    {
+      "nombre": "Valencia/València",
+      "comunidad": "Comunitat Valenciana",
+      "diputados": 16
+    },
+    {
+      "nombre": "Valladolid",
+      "comunidad": "Castilla y León",
+      "diputados": 5
+    },
+    {
+      "nombre": "Zamora",
+      "comunidad": "Castilla y León",
+      "diputados": 3
+    },
+    {
+      "nombre": "Zaragoza",
+      "comunidad": "Aragón",
+      "diputados": 7
+    },
+    {
+      "nombre": "Ceuta",
+      "comunidad": "Ciudad Autónoma de Ceuta",
+      "diputados": 1
+    },
+    {
+      "nombre": "Melilla",
+      "comunidad": "Ciudad Autónoma de Melilla",
+      "diputados": 1
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículo 3.1 y anexo",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Relación de provincias por comunidades autónomas y sus códigos",
+      "emisor": "Instituto Nacional de Estadística",
+      "tipo": "oficial",
+      "url": "https://www.ine.es/daco/daco42/codmun/cod_ccaa_provincia.htm",
+      "localizacion": "Tabla CODAUTO / CPRO",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Número de diputados transcrito del anexo del real decreto de convocatoria (52 circunscripciones; suma comprobada: 350). Nombres de circunscripción tal como figuran en el anexo; comunidad autónoma asignada según la relación de provincias por comunidades autónomas del INE."
+  }
+}

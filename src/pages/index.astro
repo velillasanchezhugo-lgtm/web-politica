@@ -1,0 +1,126 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE } from '../config/site';
+import { publicados, fechaLarga, alfa } from '../lib/content';
+
+const actualizaciones = (await publicados('actualizaciones')).sort((a, b) => b.data.fecha.localeCompare(a.data.fecha)).slice(0, 6);
+const temas = (await publicados('temas')).sort((a, b) => a.data.orden - b.data.orden);
+const destacados = temas.filter((t) => ['vivienda', 'empleo', 'pensiones', 'sanidad', 'inmigracion', 'organizacion-territorial'].includes(t.data.id));
+const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
+const calendario = (await publicados('calendario'))[0];
+const proximos = calendario?.data.hitos
+  .filter((h) => (h.fecha_fin ?? h.fecha_inicio) >= new Date().toISOString().slice(0, 10))
+  .sort((a, b) => a.fecha_inicio.localeCompare(b.fecha_inicio))
+  .slice(0, 4);
+
+const accesos = [
+  { href: '/partidos/', t: 'Conocer los partidos', d: 'Quién es quién, qué propone y con quién ha pactado. Con fuentes.' },
+  { href: '/comparar/', t: 'Comparar propuestas', d: 'Elige de 2 a 4 partidos y los temas que te interesan.' },
+  { href: '/si-gobernara/', t: 'Explorar escenarios de Gobierno', d: 'Qué necesitaría cada opción para gobernar y qué límites tendría.' },
+  { href: '/simulador/', t: 'Simular una investidura', d: 'Prueba sumas con las reglas reales del Congreso.' },
+  { href: '/guia/', t: 'Entender cómo se vota', d: 'Circunscripciones, D’Hondt, voto por correo, investidura…' },
+  { href: '/historia/', t: 'Recorrer la historia política', d: 'De 1975 a hoy: elecciones, reformas, Europa y autonomías.' },
+];
+---
+<Base title={SITE.nombre} description={SITE.descripcion}>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Elecciones generales · domingo 29 de noviembre de 2026</p>
+      <h1>Entiende las elecciones antes de votar.</h1>
+      <p class="lead">Qué propone cada partido, cómo se reparten los escaños, qué hace falta para formar Gobierno y de dónde venimos. Con fuentes enlazadas, fechas reales y sin decirte a quién votar.</p>
+      <form action="/buscar/" method="get" role="search" class="hero-search">
+        <label for="q" class="visually-hidden">Buscar en la web</label>
+        <input id="q" name="q" type="search" placeholder="Busca un partido, un tema o un término (p. ej. «alquiler», «D’Hondt»)" />
+        <button class="btn" type="submit">Buscar</button>
+      </form>
+      <p class="small muted">Convocatoria: <a href={SITE.eleccion.decreto.url} rel="noopener">{SITE.eleccion.decreto.titulo}</a> (BOE de 6 de octubre de 2026).</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <h2 class="visually-hidden">Accesos principales</h2>
+    <ul class="grid accesos" role="list">
+      {accesos.map((a) => (
+        <li class="card acceso"><a href={a.href}><strong>{a.t}</strong><span>{a.d}</span></a></li>
+      ))}
+    </ul>
+
+    <div class="cols-2">
+      <section>
+        <h2>Temas destacados</h2>
+        {destacados.length ? (
+          <ul class="list-plain">
+            {destacados.map((t) => <li><a href={`/temas/${t.data.id}/`}>{t.data.nombre}</a> <span class="small muted">— {t.data.descripcion}</span></li>)}
+          </ul>
+        ) : <p class="muted">En preparación.</p>}
+        <p><a href="/temas/">Todos los temas</a></p>
+
+        {proximos && proximos.length > 0 && (
+          <>
+            <h2>Próximas fechas del calendario electoral</h2>
+            <ul class="list-plain">
+              {proximos.map((h) => <li><strong>{fechaLarga(h.fecha_inicio)}{h.fecha_fin && h.fecha_fin !== h.fecha_inicio && ` – ${fechaLarga(h.fecha_fin)}`}:</strong> {h.titulo}</li>)}
+            </ul>
+            <p><a href="/guia/calendario-electoral/">Calendario completo con fuentes</a></p>
+          </>
+        )}
+      </section>
+      <section>
+        <h2>Últimas actualizaciones verificadas</h2>
+        {actualizaciones.length ? (
+          <ul class="list-plain updates">
+            {actualizaciones.map((u) => (
+              <li>
+                <time datetime={u.data.fecha}>{fechaLarga(u.data.fecha)}</time>
+                <p style="margin:.1rem 0 0">{u.data.enlace_interno ? <a href={u.data.enlace_interno}>{u.data.titulo}</a> : u.data.titulo}</p>
+              </li>
+            ))}
+          </ul>
+        ) : <p class="muted">Sin actualizaciones registradas.</p>}
+        <p><a href="/actualizaciones/">Registro completo</a></p>
+      </section>
+    </div>
+
+    {partidos.length > 0 && (
+      <section>
+        <h2>Partidos y coaliciones <span class="small muted" style="font-family:var(--font-sans);font-weight:400">(orden alfabético)</span></h2>
+        <p class="party-pills">{partidos.map((p) => <a href={`/partidos/${p.data.id}/`}>{p.data.siglas}</a>)}</p>
+      </section>
+    )}
+
+    <section class="card principles">
+      <h2 style="margin-top:0">Cómo trabajamos</h2>
+      <ul>
+        <li>Cada dato relevante enlaza a su fuente y lleva fecha.</li>
+        <li>Separamos hechos, propuestas, declaraciones y análisis, y lo indicamos con etiquetas.</li>
+        <li>Si no encontramos algo, lo decimos: «No localizado en las fuentes consultadas».</li>
+        <li>No recomendamos el voto ni calculamos afinidades.</li>
+      </ul>
+      <p style="margin:0"><a href="/metodologia/">Metodología editorial</a> · <a href="/correcciones/">Correcciones</a> · <a href="/financiacion-y-publicidad/">Cómo nos financiamos</a></p>
+    </section>
+  </div>
+  <AdSlot slot="footer" />
+</Base>
+<style>
+  .hero { background: var(--paper-2); border-bottom: 1px solid var(--line); padding: 2rem 0 1.5rem; margin-bottom: 1.5rem; }
+  .eyebrow { font: 700 0.8rem/1.2 var(--font-sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 0; }
+  .lead { font-size: 1.15rem; max-width: 42rem; color: var(--ink-2); }
+  .hero-search { display: flex; gap: 0.5rem; max-width: 40rem; margin: 1.25rem 0 0.5rem; }
+  .hero-search input { flex: 1; min-width: 0; }
+  .accesos { list-style: none; padding: 0; }
+  .acceso { padding: 0; }
+  .acceso a { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem 1.1rem; text-decoration: none; height: 100%; border-radius: var(--radius); }
+  .acceso a:hover { background: var(--paper-2); color: var(--ink); }
+  .acceso strong { font-family: var(--font-serif); font-size: 1.15rem; }
+  .acceso strong::after { content: ' →'; color: var(--accent); }
+  .acceso span { color: var(--ink-2); font-size: 0.95rem; }
+  .cols-2 { display: grid; gap: 0 2.5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+  .list-plain { list-style: none; padding: 0; }
+  .list-plain li { padding: 0.45rem 0; border-bottom: 1px solid var(--line); }
+  .updates time { font-size: 0.85rem; color: var(--ink-3); }
+  .party-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .party-pills a { border: 1px solid var(--line); border-radius: 99px; padding: 0.35rem 0.8rem; text-decoration: none; font-weight: 600; }
+  .party-pills a:hover { border-color: var(--ink); }
+  .principles { margin-top: 2rem; background: var(--paper-2); }
+</style>

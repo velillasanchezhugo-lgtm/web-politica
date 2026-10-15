@@ -1,0 +1,357 @@
+---
+import Base from '../layouts/Base.astro';
+import Quick from '../components/Quick.astro';
+import SourceList from '../components/SourceList.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { publicados, fechaLarga } from '../lib/content';
+
+const conjuntos = (await publicados('escanos')).filter((e) => e.data.origen === 'resultado_oficial');
+const partidos = await publicados('partidos');
+const fichas = new Set(partidos.map((p) => p.data.id));
+
+// Para votar en el Congreso, las candidaturas que forman un mismo grupo (p. ej. PSOE y PSC) se agrupan.
+const presets = conjuntos.map((c) => {
+  const grupos = new Map<string, { nombre: string; escanos: number; color: string; partido?: string; candidaturas: string[] }>();
+  for (const f of c.data.filas) {
+    if (f.escanos === 0) continue;
+    const k = f.partido ?? f.candidatura;
+    const g = grupos.get(k);
+    if (g) { g.escanos += f.escanos; g.candidaturas.push(f.candidatura); }
+    else grupos.set(k, { nombre: f.candidatura, escanos: f.escanos, color: f.color, partido: f.partido, candidaturas: [f.candidatura] });
+  }
+  const filas = [...grupos.values()].map((g) => ({
+    nombre: g.candidaturas.length > 1 ? g.candidaturas.join(' + ') : g.nombre,
+    escanos: g.escanos,
+    color: g.color,
+    ficha: g.partido && fichas.has(g.partido) ? g.partido : undefined,
+  })).sort((a, b) => b.escanos - a.escanos);
+  return { id: c.data.id, nombre: c.data.nombre, total: c.data.total, filas, fuente: c.data.fuentes[0] };
+});
+const fuentes = conjuntos.flatMap((c) => c.data.fuentes);
+---
+<Base title="Simulador de pactos e investidura" description="Explora coaliciones, apoyos externos, abstenciones y bloqueos con las reglas reales de investidura del Congreso: mayoría absoluta de 176 en primera votación y mayoría simple en la segunda." crumbs={[{ label: 'Simulador de pactos' }]}>
+  <div class="wrap">
+    <h1>Simulador de pactos e investidura</h1>
+    <div class="read">
+      <Quick items={[
+        'Primera votación: el candidato necesita 176 votos a favor (mayoría absoluta de los 350 diputados).',
+        'Segunda votación, 48 horas después: basta con más votos a favor que en contra. Las abstenciones no suman a ningún lado.',
+        'Que una suma sea suficiente no significa que el pacto exista ni que sea probable. Todo lo que hagas aquí es un escenario hipotético.',
+      ]} />
+    </div>
+
+    <div class="notice warn" role="note" id="sim-banner"><strong>Simulación.</strong> <span id="sim-origen">Escaños: —</span></div>
+
+    <form id="sim" class="no-print" onsubmit="return false" novalidate>
+      <fieldset>
+        <legend>1. ¿De dónde salen los escaños?</legend>
+        <div class="chip-group" role="radiogroup">
+          {presets.map((p, i) => <label class="chip"><input type="radio" name="origen" value={p.id} checked={i === 0} /><span>Resultado oficial: {p.nombre}</span></label>)}
+          <label class="chip"><input type="radio" name="origen" value="manual" checked={presets.length === 0} /><span>Introducir escaños a mano</span></label>
+        </div>
+        <p class="small muted" style="margin:.6rem 0 0">Si modificas un resultado oficial, los datos pasan a considerarse «introducidos por ti». Esta web no convierte porcentajes de voto en escaños: una proyección necesita calcular circunscripción por circunscripción.</p>
+        <div id="encuesta-wrap" style="margin-top:.75rem">
+          <label for="encuesta">Si tus escaños vienen de una encuesta, indica cuál (opcional)</label><br />
+          <input id="encuesta" type="text" maxlength="120" placeholder="Ej.: nombre de la empresa, medio y fecha de campo" style="width:100%;max-width:32rem" />
+          <p class="small muted" style="margin:.3rem 0 0">Lo mostraremos como «datos introducidos por el usuario a partir de…». No verificamos esa encuesta.</p>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Tipo de votación</legend>
+        <div class="chip-group" role="radiogroup">
+          <label class="chip"><input type="radio" name="modo" value="inv" checked /><span>Investidura</span></label>
+          <label class="chip"><input type="radio" name="modo" value="cen" /><span>Moción de censura</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Escaños y posición de cada grupo</legend>
+        <p class="small muted" style="margin-top:0">«Gobierno» y «apoyo externo» votan a favor; la diferencia es que solo los primeros entrarían en el Consejo de Ministros.</p>
+        <div id="filas" class="sim-filas"></div>
+        <p style="display:flex;gap:.5rem;flex-wrap:wrap;margin:.75rem 0 0">
+          <button type="button" class="btn secondary small" id="add">Añadir grupo</button>
+          <button type="button" class="btn secondary small" id="reset-pos">Poner todas las posiciones en «en contra»</button>
+        </p>
+      </fieldset>
+    </form>
+
+    <section id="resultado" aria-live="polite" class="sim-res">
+      <noscript><p class="notice warn">El simulador necesita JavaScript. Las reglas están explicadas en la <a href="/guia/investidura-y-mayorias/">guía sobre investidura</a>.</p></noscript>
+    </section>
+
+    <p class="no-print" style="display:flex;gap:.5rem;flex-wrap:wrap;align-items:center">
+      <button type="button" class="btn secondary" id="share">Copiar enlace a este escenario</button>
+      <span class="small muted" id="share-msg" aria-live="polite"></span>
+    </p>
+
+    <div class="read">
+      <h2>Cuatro cosas que no son lo mismo</h2>
+      <dl>
+        <dt><strong>Suma aritméticamente suficiente</strong></dt>
+        <dd>Los escaños cuadran. Es lo único que calcula esta herramienta.</dd>
+        <dt><strong>Acuerdo declarado</strong></dt>
+        <dd>Los partidos han dicho públicamente que apoyarán o firmado un acuerdo. Consulta la sección «Pactos» de cada <a href="/partidos/">ficha de partido</a>, con fecha y fuente.</dd>
+        <dt><strong>Compatibilidad política analizada</strong></dt>
+        <dd>Análisis de si sus programas y vetos cruzados lo hacen viable. Lo publicamos identificado como análisis en <a href="/si-gobernara/">¿Qué podría pasar si gobernara…?</a></dd>
+        <dt><strong>Escenario hipotético</strong></dt>
+        <dd>Todo lo que construyes aquí. Los enlaces compartidos mantienen esta etiqueta.</dd>
+      </dl>
+      <h2>Reglas aplicadas</h2>
+      <ul>
+        <li><strong>Investidura (art. 99 de la Constitución):</strong> primera votación por mayoría absoluta (176); si no, segunda votación 48 horas después por mayoría simple. Si en dos meses desde la primera votación nadie la obtiene, se disuelven las Cortes y se repiten las elecciones.</li>
+        <li><strong>Moción de censura (arts. 113 y 114):</strong> una única votación; necesita 176 votos a favor e incluye un candidato alternativo, que queda investido si prospera.</li>
+        <li>La mayoría absoluta se calcula sobre los 350 miembros de la Cámara, aunque falte gente o haya abstenciones.</li>
+      </ul>
+      <p><a href="/guia/investidura-y-mayorias/">Explicación completa de investidura, mayorías y moción de censura</a></p>
+      <SourceList fuentes={[
+        { titulo: 'Constitución Española (texto consolidado), arts. 99, 113 y 114', emisor: 'Boletín Oficial del Estado', tipo: 'oficial', url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229', fecha_consulta: '2026-10-15' },
+        ...fuentes,
+      ]} />
+    </div>
+  </div>
+  <AdSlot slot="footer" />
+  <script type="application/json" id="sim-data" set:html={JSON.stringify({ presets })} />
+</Base>
+
+<script>
+  import { validar, investidura, mocionCensura, situacionGobierno, mayoriaAbsoluta, MIEMBROS_CONGRESO } from '../lib/investidura.js';
+
+  type Pos = 'gob' | 'apoyo' | 'abstencion' | 'no' | 'ausente' | 'dividido';
+  type Fila = { nombre: string; escanos: number; pos: Pos; color?: string; ficha?: string; rep?: { si: number; no: number; abstencion: number; ausente: number } };
+  type Preset = { id: string; nombre: string; total: number; filas: { nombre: string; escanos: number; color: string; ficha?: string }[]; fuente: { url: string; emisor: string } };
+  const { presets } = JSON.parse(document.getElementById('sim-data')!.textContent!) as { presets: Preset[] };
+
+  const POS: [Pos, string][] = [
+    ['gob', 'Gobierno (vota sí)'],
+    ['apoyo', 'Apoyo externo (vota sí)'],
+    ['abstencion', 'Abstención'],
+    ['no', 'En contra'],
+    ['ausente', 'No vota / ausente'],
+    ['dividido', 'Voto dividido…'],
+  ];
+  const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+
+  let origen = presets[0]?.id ?? 'manual';
+  let modificado = false;
+  let filas: Fila[] = [];
+  const cont = document.getElementById('filas')!;
+  const res = document.getElementById('resultado')!;
+  const encuesta = document.getElementById('encuesta') as HTMLInputElement;
+
+  function cargarPreset(id: string) {
+    const p = presets.find((x) => x.id === id);
+    origen = p ? id : 'manual';
+    modificado = false;
+    filas = p
+      ? p.filas.map((f) => ({ nombre: f.nombre, escanos: f.escanos, color: f.color, ficha: f.ficha, pos: 'no' as Pos }))
+      : [
+          { nombre: 'Grupo A', escanos: 0, pos: 'no' },
+          { nombre: 'Grupo B', escanos: 0, pos: 'no' },
+          { nombre: 'Grupo C', escanos: 0, pos: 'no' },
+        ];
+  }
+
+  function filaHTML(f: Fila, i: number) {
+    const manual = origen === 'manual' || modificado;
+    const ficha = f.ficha ? ` <a class="small" href="/partidos/${f.ficha}/#pactos" target="_blank" rel="noopener">posición declarada</a>` : '';
+    const rep = f.rep ?? { si: 0, no: 0, abstencion: 0, ausente: f.escanos };
+    return `<div class="sim-fila" data-i="${i}">
+      <span class="sim-color" style="background:${f.color ?? 'var(--ink-3)'}" aria-hidden="true"></span>
+      <div class="sim-nombre">
+        <label class="visually-hidden" for="n${i}">Nombre del grupo ${i + 1}</label>
+        ${manual ? `<input id="n${i}" data-k="nombre" value="${esc(f.nombre)}" maxlength="60" />` : `<span id="n${i}"><strong>${esc(f.nombre)}</strong>${ficha}</span>`}
+      </div>
+      <div><label class="small" for="e${i}">Escaños</label><br /><input id="e${i}" data-k="escanos" type="number" inputmode="numeric" min="0" max="350" step="1" value="${f.escanos}" /></div>
+      <div><label class="small" for="p${i}">Posición</label><br /><select id="p${i}" data-k="pos">${POS.map(([v, l]) => `<option value="${v}"${v === f.pos ? ' selected' : ''}>${l}</option>`).join('')}</select></div>
+      ${manual ? `<button type="button" class="btn secondary small sim-del" data-del="${i}" aria-label="Quitar ${esc(f.nombre)}">Quitar</button>` : ''}
+      ${f.pos === 'dividido' ? `<div class="sim-rep" role="group" aria-label="Reparto de votos de ${esc(f.nombre)}">
+        ${(['si', 'no', 'abstencion', 'ausente'] as const).map((k) => `<label class="small">${{ si: 'Sí', no: 'No', abstencion: 'Abst.', ausente: 'Ausentes' }[k]} <input data-rep="${k}" type="number" min="0" step="1" value="${rep[k]}" /></label>`).join('')}
+      </div>` : ''}
+    </div>`;
+  }
+
+  function pintarFilas() {
+    cont.innerHTML = filas.map(filaHTML).join('');
+  }
+
+  function origenTexto() {
+    const p = presets.find((x) => x.id === origen);
+    const enc = encuesta.value.trim();
+    if (p && !modificado) return `Escaños: resultado oficial (${p.nombre}). Fuente: ${p.fuente.emisor}.`;
+    const base = p ? ` a partir del resultado oficial ${p.nombre}, modificado` : '';
+    return `Escaños: datos introducidos por el usuario${base}${enc ? `. Origen indicado por el usuario (no verificado): «${enc}»` : ''}. Posiciones de voto: hipotéticas.`;
+  }
+
+  function calcular() {
+    const modo = (document.querySelector<HTMLInputElement>('input[name="modo"]:checked')!.value) as 'inv' | 'cen';
+    document.getElementById('sim-origen')!.textContent = origenTexto() + ' Escenario hipotético, no es una predicción ni un pacto.';
+    const lib = filas.map((f) => ({
+      nombre: f.nombre,
+      escanos: f.escanos,
+      ...(f.pos === 'dividido'
+        ? { reparto: f.rep ?? { si: 0, no: 0, abstencion: 0, ausente: f.escanos } }
+        : { posicion: (f.pos === 'gob' || f.pos === 'apoyo' ? 'si' : f.pos) as 'si' | 'no' | 'abstencion' | 'ausente' }),
+    }));
+    const v = validar(lib, MIEMBROS_CONGRESO);
+    // Marca campos no válidos
+    cont.querySelectorAll<HTMLInputElement>('input[data-k="escanos"]').forEach((inp, i) => {
+      const bad = !Number.isInteger(filas[i].escanos) || filas[i].escanos < 0;
+      inp.setAttribute('aria-invalid', String(bad));
+    });
+    if (v.errores.length) {
+      res.innerHTML = `<div class="notice bad" role="alert"><strong>Revisa los datos:</strong><ul>${v.errores.map((e) => `<li>${esc(e)}</li>`).join('')}</ul></div>`;
+      return;
+    }
+    const abs = mayoriaAbsoluta();
+    const gobEsc = filas.filter((f) => f.pos === 'gob').reduce((s, f) => s + f.escanos, 0);
+    const gob = situacionGobierno(gobEsc);
+    const avisos = v.avisos.map((a) => `<p class="notice info small">${esc(a)}</p>`).join('');
+    const barra = (si: number, no: number, ab: number, au: number) => `
+      <div class="sim-bar" role="img" aria-label="Sí ${si}, no ${no}, abstenciones ${ab}, ausentes ${au}">
+        <span style="width:${(si / 350) * 100}%" class="b-si"></span><span style="width:${(ab / 350) * 100}%" class="b-ab"></span><span style="width:${(au / 350) * 100}%" class="b-au"></span><span style="width:${(no / 350) * 100}%" class="b-no"></span>
+        <i style="left:${(abs / 350) * 100}%" title="176"></i>
+      </div>
+      <ul class="legend"><li><i class="b-si"></i>Sí: <strong>${si}</strong></li><li><i class="b-no"></i>No: <strong>${no}</strong></li><li><i class="b-ab"></i>Abstención: <strong>${ab}</strong></li><li><i class="b-au"></i>No votan: <strong>${au}</strong></li><li>Línea: mayoría absoluta (${abs})</li></ul>`;
+
+    let html = avisos;
+    if (modo === 'inv') {
+      const r = investidura(lib);
+      const { si, no, abstencion, ausente } = r.votos;
+      html += `<h2>Resultado de la simulación</h2>${barra(si, no, abstencion, ausente)}
+        <div class="grid">
+          <div class="card"><h3>Primera votación</h3><p><span class="badge ${r.primeraVotacion.aprobada ? 'ok' : 'bad'}">${r.primeraVotacion.aprobada ? 'Investidura aprobada' : 'No alcanza'}</span></p>
+            <p class="small">Necesita ${abs} votos a favor. Tiene ${si}.${r.primeraVotacion.aprobada ? '' : ` Faltan ${r.primeraVotacion.faltan}.`}</p></div>
+          <div class="card"><h3>Segunda votación (48 h después)</h3>${r.primeraVotacion.aprobada ? '<p class="small">No es necesaria.</p>' : `<p><span class="badge ${r.segundaVotacion.aprobada ? 'ok' : 'bad'}">${r.segundaVotacion.aprobada ? 'Investidura aprobada' : 'No alcanza'}</span></p><p class="small">Necesita más síes que noes: ${si} a favor frente a ${no} en contra.${r.segundaVotacion.aprobada ? '' : ' Con las mismas posiciones, el candidato no es investido. Se podrían proponer otros candidatos; si en dos meses nadie lo logra, se repiten las elecciones.'}</p>`}</div>
+          <div class="card"><h3>Después de la investidura</h3><p class="small">${gobEsc ? `Los grupos marcados como «Gobierno» suman <strong>${gobEsc}</strong> escaños: ${gob.mayoriaPropia ? 'tendrían mayoría absoluta propia.' : `sería un <strong>Gobierno en minoría</strong> (faltan ${gob.faltanParaMayoria} para 176). Necesitaría apoyos en cada votación: leyes, decretos-ley y presupuestos.`}` : 'No has marcado ningún grupo como «Gobierno». Marca quién entraría en el Gobierno para ver si tendría mayoría propia.'}</p>
+            <p class="small muted">Las leyes orgánicas exigen 176 votos en una votación final sobre el conjunto (art. 81 CE).</p></div>
+        </div>`;
+    } else {
+      const r = mocionCensura(lib);
+      const { si, no, abstencion, ausente } = r.votos;
+      html += `<h2>Resultado de la simulación</h2>${barra(si, no, abstencion, ausente)}
+        <div class="card"><h3>Moción de censura</h3><p><span class="badge ${r.aprobada ? 'ok' : 'bad'}">${r.aprobada ? 'Prosperaría' : 'No prosperaría'}</span></p>
+        <p class="small">Necesita ${abs} votos a favor en una única votación. Tiene ${si}.${r.aprobada ? ' El candidato incluido en la moción quedaría investido.' : ` Faltan ${r.faltan}. El Gobierno seguiría en funciones plenas.`}</p></div>`;
+    }
+    html += `<p class="notice small"><strong>Recuerda:</strong> esto es solo una <em>suma aritmética</em>. No indica que exista un acuerdo declarado ni que sea compatible políticamente. Consulta la posición declarada de cada partido en su ficha.</p>`;
+    res.innerHTML = html;
+  }
+
+  // --- Estado compartible en el fragmento de la URL ---
+  function serializar() {
+    const modo = document.querySelector<HTMLInputElement>('input[name="modo"]:checked')!.value;
+    const h = new URLSearchParams();
+    h.set('o', origen);
+    if (modificado) h.set('mod', '1');
+    h.set('m', modo);
+    if (encuesta.value.trim()) h.set('enc', encuesta.value.trim());
+    h.set('f', filas.map((f) => [encodeURIComponent(f.nombre), f.escanos, f.pos, f.pos === 'dividido' && f.rep ? [f.rep.si, f.rep.no, f.rep.abstencion, f.rep.ausente].join('.') : ''].join('~')).join('|'));
+    h.set('sim', '1');
+    history.replaceState(null, '', '#' + h.toString());
+  }
+  function deserializar(): boolean {
+    if (!location.hash.includes('sim=1')) return false;
+    try {
+      const h = new URLSearchParams(location.hash.slice(1));
+      const o = h.get('o') || 'manual';
+      cargarPreset(o);
+      modificado = h.get('mod') === '1' || o === 'manual';
+      const m = h.get('m') === 'cen' ? 'cen' : 'inv';
+      document.querySelector<HTMLInputElement>(`input[name="modo"][value="${m}"]`)!.checked = true;
+      encuesta.value = (h.get('enc') || '').slice(0, 120);
+      const valid = new Set(POS.map((p) => p[0]));
+      const parsed = (h.get('f') || '').split('|').filter(Boolean).slice(0, 40).map((s) => {
+        const [n, e, p, r] = s.split('~');
+        const pos = (valid.has(p as Pos) ? p : 'no') as Pos;
+        const fila: Fila = { nombre: decodeURIComponent(n).slice(0, 60), escanos: Number(e), pos };
+        if (pos === 'dividido' && r) { const [a, b, c, d] = r.split('.').map(Number); fila.rep = { si: a, no: b, abstencion: c, ausente: d }; }
+        const prev = filas.find((x) => x.nombre === fila.nombre);
+        if (prev) { fila.color = prev.color; fila.ficha = prev.ficha; }
+        return fila;
+      });
+      if (parsed.length) filas = parsed;
+      document.querySelectorAll<HTMLInputElement>('input[name="origen"]').forEach((r) => (r.checked = r.value === o));
+      document.getElementById('sim-banner')!.insertAdjacentHTML('afterbegin', '<span class="badge warn">Escenario compartido</span> ');
+      return true;
+    } catch { return false; }
+  }
+
+  // --- Eventos ---
+  cont.addEventListener('input', (ev) => {
+    const t = ev.target as HTMLInputElement | HTMLSelectElement;
+    const row = t.closest<HTMLElement>('.sim-fila');
+    if (!row) return;
+    const f = filas[Number(row.dataset.i)];
+    if (t.dataset.k === 'nombre') f.nombre = t.value;
+    if (t.dataset.k === 'escanos') {
+      f.escanos = t.value === '' ? NaN : Number(t.value);
+      if (origen !== 'manual' && !modificado) { modificado = true; pintarFilas(); (document.getElementById(t.id) as HTMLInputElement)?.focus(); }
+    }
+    if (t.dataset.rep) {
+      f.rep = f.rep ?? { si: 0, no: 0, abstencion: 0, ausente: f.escanos };
+      (f.rep as any)[t.dataset.rep] = t.value === '' ? NaN : Number(t.value);
+    }
+    calcular(); serializar();
+  });
+  cont.addEventListener('change', (ev) => {
+    const t = ev.target as HTMLSelectElement;
+    if (t.dataset.k !== 'pos') return;
+    const f = filas[Number(t.closest<HTMLElement>('.sim-fila')!.dataset.i)];
+    f.pos = t.value as Pos;
+    if (f.pos === 'dividido' && !f.rep) f.rep = { si: 0, no: 0, abstencion: 0, ausente: f.escanos };
+    pintarFilas(); (document.getElementById(t.id) as HTMLSelectElement)?.focus();
+    calcular(); serializar();
+  });
+  cont.addEventListener('click', (ev) => {
+    const b = (ev.target as HTMLElement).closest<HTMLButtonElement>('[data-del]');
+    if (!b) return;
+    filas.splice(Number(b.dataset.del), 1);
+    pintarFilas(); calcular(); serializar();
+  });
+  document.getElementById('add')!.addEventListener('click', () => {
+    if (origen !== 'manual') modificado = true;
+    filas.push({ nombre: `Grupo ${filas.length + 1}`, escanos: 0, pos: 'no' });
+    pintarFilas(); calcular(); serializar();
+    (document.getElementById(`n${filas.length - 1}`) as HTMLInputElement)?.focus();
+  });
+  document.getElementById('reset-pos')!.addEventListener('click', () => { filas.forEach((f) => { f.pos = 'no'; delete f.rep; }); pintarFilas(); calcular(); serializar(); });
+  document.querySelectorAll<HTMLInputElement>('input[name="origen"]').forEach((r) => r.addEventListener('change', () => { cargarPreset(r.value); pintarFilas(); calcular(); serializar(); }));
+  document.querySelectorAll<HTMLInputElement>('input[name="modo"]').forEach((r) => r.addEventListener('change', () => { calcular(); serializar(); }));
+  encuesta.addEventListener('input', () => { if (origen !== 'manual') { modificado = modificado || false; } calcular(); serializar(); });
+  document.getElementById('share')!.addEventListener('click', async () => {
+    serializar();
+    const m = document.getElementById('share-msg')!;
+    try { await navigator.clipboard.writeText(location.href); m.textContent = 'Enlace copiado. Quien lo abra verá que es una simulación.'; }
+    catch { m.textContent = 'No se pudo copiar. Copia la dirección de la barra del navegador.'; }
+  });
+
+  try {
+    if (!deserializar()) cargarPreset(origen);
+    pintarFilas(); calcular();
+  } catch (e) {
+    res.innerHTML = '<p class="notice bad">No se pudo cargar el simulador. Recarga la página.</p>';
+    console.error(e);
+  }
+</script>
+
+<style is:global>
+  .sim-filas { display: grid; gap: 0.5rem; }
+  .sim-fila { display: grid; grid-template-columns: 0.6rem 1fr auto auto; gap: 0.35rem 0.75rem; align-items: end; padding: 0.6rem 0; border-bottom: 1px solid var(--line); }
+  .sim-fila .sim-del { grid-column: 4; }
+  .sim-color { align-self: stretch; border-radius: 3px; }
+  .sim-nombre { align-self: center; }
+  .sim-nombre input { width: 100%; }
+  .sim-rep { grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .sim-rep input { width: 4.5rem; }
+  @media (max-width: 40rem) {
+    .sim-fila { grid-template-columns: 0.5rem 1fr 1fr; }
+    .sim-nombre { grid-column: 2 / -1; }
+    .sim-fila .sim-del { grid-column: 2 / -1; justify-self: start; }
+  }
+  .sim-res { margin: 1.5rem 0; }
+  .sim-bar { position: relative; display: flex; height: 2.2rem; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--paper-2); }
+  .sim-bar span { display: block; height: 100%; }
+  .sim-bar i { position: absolute; top: -2px; bottom: -2px; width: 3px; background: var(--ink); transform: translateX(-1px); }
+  .b-si { background: #2f7d4f; } .b-no { background: #a33a3a; } .b-ab { background: #c9a227; } .b-au { background: #9aa0aa; }
+  .legend i.b-si, .legend i.b-no, .legend i.b-ab, .legend i.b-au { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; margin-right: 0.35rem; }
+</style>

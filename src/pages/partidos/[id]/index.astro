@@ -1,0 +1,195 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Quick from '../../../components/Quick.astro';
+import Claim from '../../../components/Claim.astro';
+import SourceList from '../../../components/SourceList.astro';
+import Source from '../../../components/Source.astro';
+import Revision from '../../../components/Revision.astro';
+import PropuestaCard from '../../../components/PropuestaCard.astro';
+import TemaVacio from '../../../components/TemaVacio.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import { publicados, ETIQUETAS, fechaLarga } from '../../../lib/content';
+
+export async function getStaticPaths() {
+  const partidos = await publicados('partidos');
+  return partidos.map((p) => ({ params: { id: p.data.id }, props: { p } }));
+}
+const { p } = Astro.props;
+const d = p.data;
+const temas = (await publicados('temas')).sort((a, b) => a.data.orden - b.data.orden);
+const propuestas = (await publicados('propuestas')).filter((x) => x.data.partido === d.id);
+const escenarios = await publicados('escenarios');
+const tieneEscenario = escenarios.some((e) => e.data.partido === d.id);
+const temasConDatos = temas.filter((t) => propuestas.some((x) => x.data.tema === t.id));
+
+const todas = [
+  ...d.historia.flatMap((a) => a.fuentes),
+  ...d.liderazgo.flatMap((l) => l.fuentes),
+  ...d.candidatura_2026.detalle.flatMap((a) => a.fuentes),
+  ...(d.orientacion.autodefinicion?.fuentes ?? []),
+  ...d.orientacion.clasificaciones_externas.flatMap((a) => a.fuentes),
+  ...d.resultados.flatMap((r) => r.fuentes),
+  ...d.trayectoria_institucional.flatMap((a) => a.fuentes),
+  ...d.pactos.anteriores.flatMap((a) => a.fuentes),
+  ...d.pactos.posicion_actual.flatMap((a) => a.fuentes),
+  ...propuestas.flatMap((x) => x.data.fuentes),
+];
+const description = `${d.nombre} (${d.siglas}) ante las generales del 29-N de 2026: historia, liderazgo, candidatura, propuestas por temas, pactos y fuentes. Revisado el ${fechaLarga(d.revision.fecha_revision)}.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'PoliticalParty',
+  name: d.nombre,
+  alternateName: d.siglas,
+  ...(d.web_oficial ? { url: d.web_oficial } : {}),
+};
+---
+<Base title={`${d.nombre} (${d.siglas}): propuestas, candidatura y pactos`} description={description} ogType="article" jsonld={jsonld} crumbs={[{ href: '/partidos/', label: 'Partidos' }, { label: d.siglas }]}>
+  <article class="wrap">
+    <header>
+      <h1>{d.nombre} <span class="muted" style="font-weight:400">({d.siglas})</span></h1>
+      <p class="muted">
+        {ETIQUETAS.naturaleza[d.naturaleza]} · {d.ambito === 'estatal' ? 'Ámbito estatal' : `Ámbito territorial${d.territorio ? ': ' + d.territorio : ''}`}
+        {d.web_oficial && <> · <a href={d.web_oficial} rel="noopener nofollow" target="_blank">Web oficial</a></>}
+      </p>
+      <Revision revision={d.revision} />
+    </header>
+
+    <nav aria-label="En esta ficha" class="toc card small no-print">
+      <strong>En esta ficha:</strong>
+      <a href="#historia">Historia</a> · <a href="#liderazgo">Liderazgo y candidatura</a> · <a href="#orientacion">Orientación</a> ·
+      <a href="#propuestas">Propuestas por temas</a> · <a href="#trayectoria">Trayectoria</a> · <a href="#pactos">Pactos</a> ·
+      <a href="#balance">Qué está concreto y qué no</a> · <a href="#fuentes">Fuentes</a>
+    </nav>
+
+    <div class="read">
+      <Quick titulo="1. Resumen">
+        <p style="margin:0">{d.resumen}</p>
+      </Quick>
+
+      <section id="historia">
+        <h2>2. Historia breve</h2>
+        {d.historia.map((a) => <Claim a={a} />)}
+      </section>
+
+      <section id="liderazgo">
+        <h2>3. Liderazgo y candidatura 2026</h2>
+        <ul>
+          {d.liderazgo.map((l) => (
+            <li><strong>{l.cargo}:</strong> {l.nombre}{l.desde && <span class="muted"> (desde {fechaLarga(l.desde)})</span>}{' '}
+              <span class="src-inline">[{l.fuentes.map((f, i) => <>{i > 0 && ', '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}</a></>)}]</span></li>
+          ))}
+        </ul>
+        <div class="card">
+          <p style="margin:0 0 .4rem"><strong>Estado de la candidatura:</strong> <span class={`badge ${d.candidatura_2026.estado === 'proclamada' ? 'ok' : 'warn'}`}>{ETIQUETAS.candidatura[d.candidatura_2026.estado]}</span></p>
+          {d.candidatura_2026.forma_concurrencia && <p style="margin:0 0 .4rem"><strong>Cómo concurre:</strong> {d.candidatura_2026.forma_concurrencia}</p>}
+          {d.candidatura_2026.candidato_presidencia && <p style="margin:0 0 .4rem"><strong>Candidato o candidata a la Presidencia (anunciado):</strong> {d.candidatura_2026.candidato_presidencia}</p>}
+          {d.candidatura_2026.detalle.map((a) => <Claim a={a} />)}
+          <p class="small muted" style="margin:0">
+            Las candidaturas solo son oficiales cuando se publican en el BOE (presentadas: 28 de octubre; proclamadas: 3 de noviembre de 2026).
+            {d.candidatura_2026.listas_oficiales_url ? <a href={d.candidatura_2026.listas_oficiales_url} rel="noopener">Ver listas oficiales</a> : <a href="/candidaturas/">Estado de las listas por circunscripción</a>}
+          </p>
+        </div>
+      </section>
+
+      <section id="orientacion">
+        <h2>4. Orientación ideológica</h2>
+        <p>{d.orientacion.descripcion}</p>
+        {d.orientacion.autodefinicion && <><h3>Cómo se define el partido</h3><Claim a={d.orientacion.autodefinicion} /></>}
+        {d.orientacion.clasificaciones_externas.length > 0 && <><h3>Cómo lo clasifican fuentes externas</h3>{d.orientacion.clasificaciones_externas.map((a) => <Claim a={a} />)}</>}
+        {d.orientacion.matices && <p class="notice"><strong>Matices:</strong> {d.orientacion.matices}</p>}
+      </section>
+    </div>
+
+    <section id="propuestas">
+      <h2>5. Propuestas por temas</h2>
+      <div class="read">
+        <p>
+          Programa electoral 2026: <span class={`badge ${d.programa_2026.estado === 'publicado' ? 'ok' : 'warn'}`}>{ETIQUETAS.programa[d.programa_2026.estado]}</span>
+          {d.programa_2026.url && <> · <a href={d.programa_2026.url} rel="noopener nofollow" target="_blank">Leer el programa completo</a></>}
+          <span class="muted small"> (comprobado el {fechaLarga(d.programa_2026.comprobado_en)})</span>
+        </p>
+        {d.programa_2026.estado !== 'publicado' && (
+          <p class="notice info small">Mientras no se publique el programa de 2026, recogemos posiciones de documentos oficiales recientes, declaraciones y votos parlamentarios, señalando siempre de qué tipo de fuente procede cada una. No usamos programas antiguos como si fueran compromisos para 2026.</p>
+        )}
+        <p class="small"><a href={`/comparar/#partidos=${d.id}`}>Comparar con otros partidos →</a></p>
+      </div>
+      {temas.map((t) => {
+        const items = propuestas.filter((x) => x.data.tema === t.id);
+        return (
+          <section class="tema-block" id={`tema-${t.id}`}>
+            <h3><a href={`/temas/${t.id}/`}>{t.data.nombre}</a></h3>
+            {items.length ? <div class="grid wide">{items.map((x) => <PropuestaCard p={{ ...x.data }} headingLevel={4} />)}</div> : <TemaVacio programa={d.programa_2026.estado} />}
+          </section>
+        );
+      })}
+      <p class="small muted">Temas con información publicada: {temasConDatos.length} de {temas.length}.</p>
+    </section>
+
+    <AdSlot />
+
+    <div class="read">
+      <section id="trayectoria">
+        <h2>6. Trayectoria institucional</h2>
+        {d.resultados.length > 0 && (
+          <>
+            <h3>Resultados electorales</h3>
+            <div style="overflow-x:auto">
+              <table>
+                <thead><tr><th scope="col">Elección</th><th scope="col">Candidatura</th><th scope="col" class="num">Votos</th><th scope="col" class="num">%</th><th scope="col" class="num">Congreso</th><th scope="col" class="num">Senado</th></tr></thead>
+                <tbody>
+                  {d.resultados.map((r) => (
+                    <tr>
+                      <td>{r.eleccion}</td><td>{r.candidatura}{r.nota && <div class="small muted">{r.nota}</div>}</td>
+                      <td class="num">{r.votos?.toLocaleString('es-ES') ?? '—'}</td>
+                      <td class="num">{r.porcentaje != null ? r.porcentaje.toLocaleString('es-ES') : '—'}</td>
+                      <td class="num">{r.escanos_congreso ?? '—'}</td><td class="num">{r.escanos_senado ?? '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p class="small muted">Fuentes de resultados: {d.resultados.flatMap((r) => r.fuentes).slice(0, 3).map((f, i) => <>{i > 0 && '; '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}</a></>)}</p>
+          </>
+        )}
+        {d.trayectoria_institucional.map((a) => <Claim a={a} />)}
+      </section>
+
+      <section id="pactos">
+        <h2>7. Pactos anteriores y posición sobre acuerdos</h2>
+        <h3>Acuerdos y apoyos anteriores</h3>
+        {d.pactos.anteriores.length ? d.pactos.anteriores.map((a) => <Claim a={a} />) : <p class="muted">No localizado en las fuentes consultadas.</p>}
+        <h3>Qué dice ahora sobre posibles acuerdos</h3>
+        {d.pactos.posicion_actual.length ? d.pactos.posicion_actual.map((a) => <Claim a={a} />) : <p class="muted">No localizada una posición pública reciente en las fuentes consultadas.</p>}
+        <p class="small">
+          {tieneEscenario
+            ? <a href={`/si-gobernara/${d.id}/`}>¿Qué podría pasar si gobernara? Análisis condicionado →</a>
+            : <a href="/si-gobernara/#influencia">Cómo podría influir en una investidura →</a>}
+          · <a href="/simulador/">Probar sumas en el simulador (escenario hipotético) →</a>
+        </p>
+      </section>
+
+      <section id="balance">
+        <h2>8. Qué está concreto, qué falta por desarrollar y qué está pendiente</h2>
+        <div class="grid">
+          <div class="card"><h3 style="font-size:1rem">Concreto</h3>{d.balance_informacion.concreto.length ? <ul>{d.balance_informacion.concreto.map((x) => <li>{x}</li>)}</ul> : <p class="muted small">Nada destacado.</p>}</div>
+          <div class="card"><h3 style="font-size:1rem">Sin desarrollar</h3>{d.balance_informacion.sin_desarrollar.length ? <ul>{d.balance_informacion.sin_desarrollar.map((x) => <li>{x}</li>)}</ul> : <p class="muted small">Nada destacado.</p>}</div>
+          <div class="card"><h3 style="font-size:1rem">Pendiente</h3>{d.balance_informacion.pendiente.length ? <ul>{d.balance_informacion.pendiente.map((x) => <li>{x}</li>)}</ul> : <p class="muted small">Nada destacado.</p>}</div>
+        </div>
+      </section>
+
+      <section id="fuentes">
+        <h2>9. Fuentes y revisión</h2>
+        <p>Criterio de inclusión: {d.criterio_inclusion}</p>
+        <Revision revision={d.revision} />
+        {d.programa_2026.url && <p><a href={d.programa_2026.url} rel="noopener nofollow" target="_blank">Programa electoral completo</a></p>}
+        <SourceList fuentes={todas} titulo="Todas las fuentes de esta ficha" />
+        <p class="small">¿Has visto un error? <a href="/correcciones/">Solicita una corrección</a>.</p>
+      </section>
+    </div>
+  </article>
+</Base>
+<style>
+  .toc { margin: 1rem 0; line-height: 2; }
+  .tema-block { border-top: 1px solid var(--line); padding: 0.5rem 0 1rem; }
+  .tema-block h3 { margin-top: 0.8rem; }
+</style>

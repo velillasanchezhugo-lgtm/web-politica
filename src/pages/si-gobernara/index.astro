@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import Claim from '../../components/Claim.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { publicados, alfa } from '../../lib/content';
+
+const escenarios = await publicados('escenarios');
+const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
+const conEscenario = partidos.filter((p) => escenarios.some((e) => e.data.partido === p.data.id));
+const influencia = partidos.filter((p) => p.data.rol_gobierno === 'influencia_parlamentaria');
+---
+<Base title="¿Qué podría pasar si gobernara…? Escenarios de Gobierno tras el 29-N" description="Qué necesitaría cada opción para gobernar, qué instrumentos y apoyos, qué límites y qué efectos respaldados por evidencia. Análisis condicionado, no predicción." crumbs={[{ label: 'Si gobernara…' }]}>
+  <div class="wrap read">
+    <h1>¿Qué podría pasar si gobernara…?</h1>
+    <Quick items={[
+      'No es una predicción. Es un análisis condicionado: si este partido encabezara el Gobierno, qué querría hacer, qué necesitaría y con qué límites se encontraría.',
+      'Distinguimos lo que el partido declara, lo que estima una fuente identificada y las hipótesis de nuestra redacción.',
+      'Ganar en votos, tener más escaños, ser investido y poder aprobar leyes son cuatro cosas distintas.',
+    ]} />
+
+    <h2>Cuatro escalones distintos</h2>
+    <ol class="steps">
+      <li><strong>Ser el partido más votado.</strong> No da derecho a gobernar. En 2023 el PP fue el más votado y no logró la investidura.</li>
+      <li><strong>Tener más escaños.</strong> Depende del reparto por circunscripciones; puede no coincidir con el orden en votos.</li>
+      <li><strong>Obtener la investidura.</strong> 176 síes en primera votación o más síes que noes en la segunda (art. 99 de la Constitución).</li>
+      <li><strong>Poder aprobar leyes y presupuestos.</strong> Cada votación necesita su propia mayoría. Las leyes orgánicas exigen 176 en la votación final y los presupuestos deben superar las enmiendas de totalidad y la votación final.</li>
+    </ol>
+    <p><a href="/guia/investidura-y-mayorias/">Guía completa sobre investidura y mayorías</a> · <a href="/simulador/">Simulador</a></p>
+
+    <h2>Partidos con opciones de encabezar el Gobierno</h2>
+    {conEscenario.length ? (
+      <ul class="grid" role="list" style="list-style:none;padding:0">
+        {conEscenario.map((p) => <li class="card"><a href={`/si-gobernara/${p.data.id}/`}><strong>Si gobernara {p.data.nombre}</strong></a></li>)}
+      </ul>
+    ) : <p class="notice info">Análisis en revisión editorial. Se publicará cuando todas sus afirmaciones estén verificadas.</p>}
+    <p class="small muted">Criterio: incluimos las formaciones que han encabezado el Gobierno desde 1982 y que en 2023 obtuvieron más de 100 escaños. No creamos escenarios inverosímiles.</p>
+
+    <AdSlot />
+
+    <h2 id="influencia">Cómo podrían influir las demás fuerzas</h2>
+    <p>Sin opciones realistas de presidir el Gobierno, un partido puede ser decisivo en una investidura (con su voto a favor o su abstención), entrar en un Gobierno de coalición o condicionar leyes y presupuestos votación a votación. Lo que han dicho cada una sobre posibles acuerdos, con fecha y fuente:</p>
+    {influencia.map((p) => (
+      <section class="tema-block">
+        <h3><a href={`/partidos/${p.data.id}/#pactos`}>{p.data.nombre}</a></h3>
+        {p.data.pactos.posicion_actual.length ? p.data.pactos.posicion_actual.slice(0, 2).map((a) => <Claim a={a} />) : <p class="muted small">No localizada una posición pública reciente en las fuentes consultadas.</p>}
+      </section>
+    ))}
+  </div>
+</Base>
+<style>
+  .steps li { margin-bottom: 0.6rem; }
+  .tema-block { border-top: 1px solid var(--line); padding: 0.25rem 0 0.5rem; }
+</style>

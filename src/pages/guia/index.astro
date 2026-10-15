@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import { publicados } from '../../lib/content';
+const guias = (await publicados('guia')).sort((a, b) => a.data.orden - b.data.orden);
+---
+<Base title="Cómo se vota en las elecciones generales: guía sencilla" description="Qué se elige, Congreso y Senado, circunscripciones, método D'Hondt, voto en blanco y nulo, investidura, voto por correo y desde el extranjero. Con enlaces a fuentes oficiales." crumbs={[{ label: 'Cómo se vota' }]}>
+  <div class="wrap read">
+    <h1>Cómo se vota</h1>
+    <Quick items={[
+      'Explicaciones cortas con ejemplos, pensadas para quien empieza desde cero.',
+      'Los trámites y plazos enlazan siempre a la fuente oficial: si cambian, manda la fuente oficial.',
+    ]} />
+    <ol class="guide-list">
+      {guias.map((g) => <li><a href={`/guia/${g.id}/`}><strong>{g.data.titulo}</strong></a><br /><span class="small muted">{g.data.descripcion}</span></li>)}
+      <li><a href="/guia/calendario-electoral/"><strong>Calendario electoral del 29-N</strong></a><br /><span class="small muted">Plazos oficiales: candidaturas, voto por correo, campaña y escrutinio.</span></li>
+    </ol>
+    {guias.length === 0 && <p class="notice info">Guía en revisión editorial.</p>}
+    <p><a href="/glosario/">Glosario de términos políticos y parlamentarios</a> · <a href="/candidaturas/">Diputados por circunscripción y candidaturas</a></p>
+  </div>
+</Base>
+<style>.guide-list li { margin-bottom: 0.9rem; }</style>

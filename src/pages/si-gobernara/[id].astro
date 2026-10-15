@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import Revision from '../../components/Revision.astro';
+import SourceList from '../../components/SourceList.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { publicados, ETIQUETAS } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const esc = await publicados('escenarios');
+  const partidos = await publicados('partidos');
+  return esc
+    .map((e) => ({ e, p: partidos.find((p) => p.data.id === e.data.partido) }))
+    .filter((x) => x.p)
+    .map(({ e, p }) => ({ params: { id: e.data.partido }, props: { e, p: p! } }));
+}
+const { e, p } = Astro.props;
+const d = e.data;
+const bloques = [
+  { id: 'medidas', t: '1. Medidas que el partido declara querer impulsar', items: d.medidas },
+  { id: 'instrumentos', t: '2. Instrumentos necesarios para aplicarlas', items: d.instrumentos },
+  { id: 'apoyos', t: '3. Apoyos parlamentarios y otras condiciones', items: d.apoyos },
+  { id: 'limites', t: '4. Límites competenciales, presupuestarios, jurídicos y europeos', items: d.limites },
+  { id: 'efectos', t: '5. Posibles efectos respaldados por evidencia', items: d.efectos },
+  { id: 'incertidumbres', t: '6. Incertidumbres y explicaciones alternativas', items: d.incertidumbres },
+];
+const cls: Record<string, string> = { objetivo_declarado: 'declaracion', efecto_estimado: 'info', hipotesis_editorial: 'interpretacion', hecho: 'hecho', requisito: 'neutral' };
+const todas = bloques.flatMap((b) => b.items.flatMap((i) => i.fuentes));
+---
+<Base title={d.titulo} description={`${d.resumen.slice(0, 150)}…`} ogType="article" crumbs={[{ href: '/si-gobernara/', label: 'Si gobernara…' }, { label: p.data.siglas }]}>
+  <article class="wrap read">
+    <h1>{d.titulo}</h1>
+    <Revision revision={d.revision} />
+    <div class="notice warn" role="note"><strong>Análisis condicionado, no predicción.</strong> No afirmamos que ninguna de estas medidas vaya a aprobarse ni que sus efectos sean seguros.</div>
+    <Quick><p style="margin:0">{d.resumen}</p></Quick>
+    <p class="small">Leyenda:
+      {Object.entries(ETIQUETAS.analisis).map(([k, v]) => <><span class={`badge ${cls[k]}`}>{v}</span>{' '}</>)}
+    </p>
+    <nav class="card small no-print" aria-label="Secciones">{bloques.map((b, i) => <>{i > 0 && ' · '}<a href={`#${b.id}`}>{b.t.replace(/^\d\. /, '')}</a></>)}</nav>
+    {bloques.map((b, i) => (
+      <>
+        <section id={b.id}>
+          <h2>{b.t}</h2>
+          {b.items.length ? b.items.map((it) => (
+            <div class="claim">
+              <p><span class={`badge ${cls[it.tipo]}`}>{ETIQUETAS.analisis[it.tipo]}</span> {it.texto}</p>
+              {it.fuentes.length > 0 && <p class="src-inline">Fuente{it.fuentes.length > 1 ? 's' : ''}: {it.fuentes.map((f, j) => <>{j > 0 && '; '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}{f.localizacion ? `, ${f.localizacion}` : ''}</a></>)}</p>}
+            </div>
+          )) : <p class="muted">No hay elementos verificados en este apartado.</p>}
+        </section>
+        {i === 2 && <AdSlot />}
+      </>
+    ))}
+    <p><a href={`/partidos/${p.data.id}/`}>Ficha completa de {p.data.nombre}</a> · <a href="/simulador/">Probar sumas en el simulador</a></p>
+    <SourceList fuentes={todas} titulo="Fuentes de este análisis" />
+  </article>
+</Base>

@@ -1,0 +1,80 @@
+---
+import { publicados } from '../lib/content';
+const circ = (await publicados('circunscripciones')).find((c) => c.data.eleccion === 'generales-2026');
+const opciones = circ ? [...circ.data.filas].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')) : [];
+---
+<section class="card dh" aria-labelledby="dh-title">
+  <h2 id="dh-title" style="margin-top:0">Calculadora D’Hondt</h2>
+  <p class="small">Reparte los escaños de <strong>una circunscripción</strong> según el art. 163 de la LOREG. Los datos de partida son <strong>ficticios</strong>: cámbialos a tu gusto. No sirve para convertir porcentajes nacionales en escaños.</p>
+  <form id="dh-form" onsubmit="return false" novalidate>
+    <div style="display:flex;flex-wrap:wrap;gap:1rem;align-items:end">
+      {opciones.length > 0 && (
+        <div><label for="dh-circ">Usar el nº de escaños de</label><br />
+          <select id="dh-circ"><option value="">— elegir circunscripción (2026) —</option>{opciones.map((o) => <option value={o.diputados}>{o.nombre} ({o.diputados})</option>)}</select></div>
+      )}
+      <div><label for="dh-esc">Escaños a repartir</label><br /><input id="dh-esc" type="number" min="1" max="100" step="1" value="5" inputmode="numeric" /></div>
+      <div><label for="dh-blanco">Votos en blanco</label><br /><input id="dh-blanco" type="number" min="0" step="1" value="2000" inputmode="numeric" style="width:8rem" /></div>
+    </div>
+    <table style="margin-top:1rem">
+      <thead><tr><th scope="col">Candidatura</th><th scope="col">Votos</th><th scope="col"><span class="visually-hidden">Acciones</span></th></tr></thead>
+      <tbody id="dh-rows"></tbody>
+    </table>
+    <p style="display:flex;gap:.5rem;flex-wrap:wrap"><button type="button" class="btn secondary small" id="dh-add">Añadir candidatura</button></p>
+  </form>
+  <div id="dh-out" aria-live="polite"><noscript><p class="notice warn">La calculadora necesita JavaScript. El método está explicado paso a paso en esta misma página.</p></noscript></div>
+</section>
+<script>
+  import { dhondt } from '../lib/dhondt.js';
+  const rows = document.getElementById('dh-rows')!;
+  const out = document.getElementById('dh-out')!;
+  const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+  let cands = [
+    { nombre: 'Candidatura A', votos: 42000 },
+    { nombre: 'Candidatura B', votos: 31000 },
+    { nombre: 'Candidatura C', votos: 15000 },
+    { nombre: 'Candidatura D', votos: 7000 },
+    { nombre: 'Candidatura E', votos: 2500 },
+  ];
+  const num = (id: string) => { const v = (document.getElementById(id) as HTMLInputElement).value; return v === '' ? NaN : Number(v); };
+  function pintar() {
+    rows.innerHTML = cands.map((c, i) => `<tr>
+      <td><label class="visually-hidden" for="dn${i}">Nombre</label><input id="dn${i}" data-i="${i}" data-k="nombre" value="${esc(c.nombre)}" maxlength="40" style="width:100%" /></td>
+      <td><label class="visually-hidden" for="dv${i}">Votos de ${esc(c.nombre)}</label><input id="dv${i}" data-i="${i}" data-k="votos" type="number" min="0" step="1" value="${c.votos}" inputmode="numeric" style="width:8rem" /></td>
+      <td><button type="button" class="btn secondary small" data-del="${i}" aria-label="Quitar ${esc(c.nombre)}">Quitar</button></td></tr>`).join('');
+  }
+  function calcular() {
+    const r = dhondt({ escanos: num('dh-esc'), blanco: num('dh-blanco'), candidaturas: cands });
+    if (r.errores.length) { out.innerHTML = `<div class="notice bad" role="alert"><ul>${r.errores.map((e) => `<li>${esc(e)}</li>`).join('')}</ul></div>`; return; }
+    const fmt = (n: number) => n.toLocaleString('es-ES', { maximumFractionDigits: 0 });
+    const ganadores = new Set(r.ganadores!.map((g) => g.nombre + '|' + g.divisor));
+    const maxDiv = Math.min(num('dh-esc'), 8);
+    let t = `<p>Votos válidos (candidaturas + blancos): <strong>${fmt(r.validos!)}</strong>. Barrera del 3 %: <strong>${fmt(Math.ceil(r.minimo!))}</strong> votos.${r.excluidas!.length ? ` No llegan: ${r.excluidas!.map(esc).join(', ')}.` : ''}</p>`;
+    t += `<div style="overflow-x:auto"><table><caption class="small muted" style="text-align:left">Cocientes (votos ÷ 1, 2, 3…). En negrita, los que obtienen escaño.${num('dh-esc') > 8 ? ' Se muestran los 8 primeros divisores.' : ''}</caption><thead><tr><th scope="col">Candidatura</th>${Array.from({ length: maxDiv }, (_, i) => `<th scope="col" class="num">÷${i + 1}</th>`).join('')}<th scope="col" class="num">Escaños</th></tr></thead><tbody>`;
+    for (const c of cands) {
+      const fuera = r.excluidas!.includes(c.nombre);
+      t += `<tr${fuera ? ' class="muted"' : ''}><th scope="row">${esc(c.nombre)}${fuera ? ' <span class="badge warn">bajo el 3 %</span>' : ''}</th>`;
+      for (let d = 1; d <= maxDiv; d++) {
+        const q = c.votos / d; const g = ganadores.has(c.nombre + '|' + d);
+        t += `<td class="num">${fuera ? '—' : g ? `<strong>${fmt(q)}</strong>` : fmt(q)}</td>`;
+      }
+      t += `<td class="num"><strong>${r.reparto![c.nombre]}</strong></td></tr>`;
+    }
+    t += `</tbody></table></div>`;
+    if (r.empateSorteo) t += `<p class="notice warn">Hay un empate exacto en el último escaño (mismo cociente y mismos votos). La ley lo resuelve por sorteo.</p>`;
+    out.innerHTML = t;
+  }
+  rows.addEventListener('input', (e) => {
+    const t = e.target as HTMLInputElement; const c = cands[Number(t.dataset.i)];
+    if (!c) return;
+    if (t.dataset.k === 'nombre') c.nombre = t.value; else c.votos = t.value === '' ? NaN : Number(t.value);
+    calcular();
+  });
+  rows.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-del]'); if (!b) return;
+    cands.splice(Number(b.dataset.del), 1); pintar(); calcular();
+  });
+  document.getElementById('dh-add')!.addEventListener('click', () => { cands.push({ nombre: `Candidatura ${String.fromCharCode(65 + cands.length)}`, votos: 0 }); pintar(); calcular(); });
+  ['dh-esc', 'dh-blanco'].forEach((id) => document.getElementById(id)!.addEventListener('input', calcular));
+  document.getElementById('dh-circ')?.addEventListener('change', (e) => { const v = (e.target as HTMLSelectElement).value; if (v) { (document.getElementById('dh-esc') as HTMLInputElement).value = v; calcular(); } });
+  pintar(); calcular();
+</script>

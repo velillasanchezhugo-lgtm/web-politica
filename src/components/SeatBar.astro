@@ -1,0 +1,14 @@
+---
+interface Props { filas: { candidatura: string; escanos: number; color: string }[]; total: number; caption: string }
+const { filas, total, caption } = Astro.props;
+const orden = [...filas].filter((f) => f.escanos > 0).sort((a, b) => b.escanos - a.escanos);
+---
+<figure style="margin:1rem 0">
+  <div class="seatbar" role="img" aria-label={`${caption}: ` + orden.map((f) => `${f.candidatura} ${f.escanos}`).join(', ')}>
+    {orden.map((f) => <span style={`width:${(f.escanos / total) * 100}%;background:${f.color}`} title={`${f.candidatura}: ${f.escanos}`}></span>)}
+  </div>
+  <figcaption class="small muted">{caption}</figcaption>
+  <ul class="legend">
+    {orden.map((f) => <li><i style={`background:${f.color}`}></i>{f.candidatura}: <strong>{f.escanos}</strong></li>)}
+  </ul>
+</figure>

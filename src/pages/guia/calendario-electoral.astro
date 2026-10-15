@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import Revision from '../../components/Revision.astro';
+import SourceList from '../../components/SourceList.astro';
+import { publicados, fechaLarga } from '../../lib/content';
+const cal = (await publicados('calendario')).find((c) => c.data.eleccion === 'generales-2026');
+const hitos = cal ? [...cal.data.hitos].sort((a, b) => a.fecha_inicio.localeCompare(b.fecha_inicio)) : [];
+const hoy = new Date().toISOString().slice(0, 10);
+---
+<Base title="Calendario electoral de las elecciones generales del 29-N de 2026" description="Fechas oficiales: coaliciones, presentación y proclamación de candidaturas, voto por correo, campaña, jornada de reflexión, votación y constitución de las Cortes, con fuentes." crumbs={[{ href: '/guia/', label: 'Cómo se vota' }, { label: 'Calendario electoral' }]}>
+  <div class="wrap read">
+    <h1>Calendario electoral del 29-N</h1>
+    <Quick items={[
+      'Votación: domingo 29 de noviembre de 2026. Campaña: del 13 al 27 de noviembre. Constitución de las Cortes: 23 de diciembre (Real Decreto 806/2026).',
+      'Los plazos salen de la Ley Orgánica del Régimen Electoral General y se cuentan desde la convocatoria publicada en el BOE el 6 de octubre.',
+      'Para trámites concretos (voto por correo, censo), la referencia es siempre la página oficial enlazada.',
+    ]} />
+    {hitos.length === 0 ? <p class="notice info">Calendario en revisión editorial. Consulta el <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742">Real Decreto 806/2026</a>.</p> : (
+      <ol class="cal" role="list">
+        {hitos.map((h) => {
+          const pasado = (h.fecha_fin ?? h.fecha_inicio) < hoy;
+          return (
+            <li class={pasado ? 'pasado' : ''}>
+              <p class="cal-fecha"><time datetime={h.fecha_inicio}>{fechaLarga(h.fecha_inicio)}</time>{h.fecha_fin && h.fecha_fin !== h.fecha_inicio && <> – <time datetime={h.fecha_fin}>{fechaLarga(h.fecha_fin)}</time></>}{pasado && <span class="badge neutral">Plazo pasado (a fecha de compilación)</span>}</p>
+              <p style="margin:0"><strong>{h.titulo}</strong></p>
+              {h.descripcion && <p class="small" style="margin:.2rem 0 0">{h.descripcion}</p>}
+              <p class="src-inline" style="margin:.2rem 0 0">{h.fuentes.map((f, i) => <>{i > 0 && '; '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}{f.localizacion ? `, ${f.localizacion}` : ''}</a></>)}</p>
+            </li>
+          );
+        })}
+      </ol>
+    )}
+    {cal && <><SourceList fuentes={cal.data.hitos.flatMap((h) => h.fuentes)} /><Revision revision={cal.data.revision} /></>}
+  </div>
+</Base>
+<style>
+  .cal { list-style: none; padding: 0; }
+  .cal li { padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
+  .cal .pasado { opacity: 0.7; }
+  .cal-fecha { margin: 0; font-size: 0.9rem; color: var(--accent); font-weight: 700; }
+  .cal-fecha .badge { margin-left: 0.5rem; }
+</style>

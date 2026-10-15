@@ -1,0 +1,632 @@
+{
+  "eleccion": "generales-2026",
+  "hitos": [
+    {
+      "fecha_inicio": "2026-10-06",
+      "titulo": "Publicación de la convocatoria en el BOE",
+      "descripcion": "El Real Decreto 806/2026, de 5 de octubre, se publica en el BOE núm. 248 y entra en vigor ese día: disuelve las Cortes y convoca elecciones para el domingo 29 de noviembre, que es el día 54 posterior a la convocatoria, como exige el artículo 42.1 de la LOREG. Regla de cómputo: la LOREG cuenta los plazos en días naturales desde la convocatoria, que es la fecha de publicación del Real Decreto 806/2026 en el BOE (6 de octubre de 2026, día 0); «día n posterior a la convocatoria» = 6 de octubre + n días.",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículos 1, 2 y disposición final única",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 42.1",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Convocatoria",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-06",
+      "fecha_fin": "2026-10-31",
+      "titulo": "Solicitud del voto de quienes están temporalmente en el extranjero",
+      "descripcion": "Los electores que residen en España pero estarán temporalmente en el extranjero deben pedir el voto por correo como muy tarde el 31 de octubre. La LOREG remite la regulación de este voto al Gobierno. Según el INE, pueden remitir su voto hasta el 25 de noviembre.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 74",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Voto de los temporalmente ausentes",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales de 29 de noviembre 2026. Plazos de interés para los electores",
+          "emisor": "Instituto Nacional de Estadística (Oficina del Censo Electoral)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
+          "localizacion": "Voto por correspondencia. Residentes, temporalmente en el extranjero",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones a las Cortes Generales de 29 de noviembre de 2026. ¿Cómo votar desde el extranjero?",
+          "emisor": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+          "tipo": "oficial",
+          "url": "https://www.exteriores.gob.es/es/Paginas/Elecciones.aspx",
+          "localizacion": "Plazos",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-06",
+      "fecha_fin": "2026-11-19",
+      "titulo": "Solicitud del voto por correo (residentes en España)",
+      "descripcion": "Quien vote por correo desde España debe pedir el certificado de inscripción en el censo desde la convocatoria hasta el décimo día anterior a la votación (29 de noviembre − 10 días = 19 de noviembre), en cualquier oficina de Correos o por internet con certificado digital. La Oficina del Censo Electoral envía la documentación a partir del día 34 posterior a la convocatoria (9 de noviembre) y antes del sexto día anterior a la votación (22 de noviembre como último día, según la JEC y el INE).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 72.a y 73.2",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Voto por correo de electores residentes en España",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales de 29 de noviembre 2026. Plazos de interés para los electores",
+          "emisor": "Instituto Nacional de Estadística (Oficina del Censo Electoral)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
+          "localizacion": "Voto por correspondencia. Residentes",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Voto por correo. Elecciones a las Cortes Generales - 29 de noviembre de 2026",
+          "emisor": "Correos",
+          "tipo": "oficial",
+          "url": "https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo",
+          "localizacion": "Plazo de presentación de la solicitud",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-07",
+      "fecha_fin": "2026-10-16",
+      "titulo": "Plazo para comunicar coaliciones electorales",
+      "descripcion": "Los partidos y federaciones que pacten una coalición para concurrir juntos deben comunicarlo a la junta electoral competente en los diez días siguientes a la convocatoria (días 1 a 10), indicando su denominación, sus normas y sus órganos de dirección. Si la coalición abarca más de una provincia, la junta competente es la Junta Electoral Central.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 44.2",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Candidaturas: comunicación a la Junta Electoral de la constitución de coaliciones electorales",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-09",
+      "titulo": "Constitución de las juntas electorales provinciales y de zona",
+      "descripcion": "Las juntas electorales provinciales y de zona se constituyen inicialmente con sus vocales judiciales el tercer día siguiente a la convocatoria (día 3).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 14.1",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Juntas Electorales: constitución inicial",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-12",
+      "fecha_fin": "2026-10-19",
+      "titulo": "Consulta del censo electoral y reclamaciones",
+      "descripcion": "Ayuntamientos y consulados ofrecen la consulta de las listas electorales durante ocho días a partir del sexto día posterior a la convocatoria (días 6 a 13). En ese plazo se pueden presentar reclamaciones sobre los propios datos censales ante la Delegación Provincial de la Oficina del Censo Electoral. Las rectificaciones aceptadas se exponen al público el día 17 (23 de octubre).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 39, apartados 2, 3 y 6",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Rectificación del Censo en período electoral",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales de 29 de noviembre 2026. Plazos de interés para los electores",
+          "emisor": "Instituto Nacional de Estadística (Oficina del Censo Electoral)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
+          "localizacion": "Rectificación del Censo en periodo electoral",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-21",
+      "fecha_fin": "2026-10-26",
+      "titulo": "Presentación de candidaturas",
+      "descripcion": "Las candidaturas se presentan ante las juntas electorales provinciales entre el decimoquinto y el vigésimo día posteriores a la convocatoria (días 15 a 20).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 45 y 169.1",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Candidaturas: presentación ante las Juntas Electorales Provinciales",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-24",
+      "fecha_fin": "2026-10-30",
+      "titulo": "Primer envío de documentación a los residentes en el extranjero (CERA)",
+      "descripcion": "Los españoles inscritos en el censo de residentes ausentes (CERA) votan sin solicitud previa. La Oficina del Censo Electoral les envía la documentación de oficio por correo certificado a partir del día 18 y antes del día 25 posteriores a la convocatoria. Las papeletas oficiales se envían después, entre los días 29 y 33 (4 a 8 de noviembre) si no se ha impugnado la proclamación de candidatos en la provincia, y como muy tarde el día 39 (14 de noviembre) si se ha impugnado.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 75.1 y 75.3",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Voto de electores residentes en el extranjero (CERA)",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales de 29 de noviembre 2026. Plazos de interés para los electores",
+          "emisor": "Instituto Nacional de Estadística (Oficina del Censo Electoral)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
+          "localizacion": "Residentes en el extranjero",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-28",
+      "titulo": "El BOE publica las candidaturas presentadas",
+      "descripcion": "Las candidaturas presentadas en todas las circunscripciones se publican en el BOE el vigésimo segundo día posterior a la convocatoria (día 22). Todavía no son definitivas: después se abre un plazo para subsanar irregularidades.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 47.1, 47.2 y 169.4",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Candidaturas: publicación de candidaturas presentadas en el BOE",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-10-31",
+      "fecha_fin": "2026-11-04",
+      "titulo": "Sorteo de los miembros de las mesas electorales",
+      "descripcion": "Los ayuntamientos sortean presidentes, vocales y suplentes de las mesas entre los días vigésimo quinto y vigésimo noveno posteriores a la convocatoria (días 25 a 29).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 26.4",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Formación de Mesas electorales: sorteo",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-02",
+      "titulo": "Proclamación de candidaturas",
+      "descripcion": "Las juntas electorales provinciales proclaman las candidaturas el vigésimo séptimo día posterior a la convocatoria (día 27).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 47.3",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Candidaturas: proclamación de candidaturas",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-03",
+      "titulo": "El BOE publica las candidaturas proclamadas",
+      "descripcion": "Las candidaturas proclamadas se publican en el BOE el vigésimo octavo día posterior a la convocatoria (día 28). Contra la proclamación cabe recurso ante el juzgado de lo contencioso-administrativo (4 y 5 de noviembre según el calendario de la JEC).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 47.5 y 169.4",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Candidaturas: publicación en el BOE de las candidaturas proclamadas; recurso contra la proclamación",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-13",
+      "fecha_fin": "2026-11-27",
+      "titulo": "Campaña electoral",
+      "descripcion": "La campaña empieza el día 38 posterior a la convocatoria, dura quince días y termina a las cero horas del día anterior a la votación: desde las 00.00 del viernes 13 de noviembre hasta las 24.00 del viernes 27 de noviembre.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 51",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículo 4",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Campaña electoral",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-21",
+      "fecha_fin": "2026-11-26",
+      "titulo": "Voto en urna en consulados (CERA)",
+      "descripcion": "Los residentes en el extranjero que prefieran votar en urna pueden depositar su voto en embajadas, consulados o centros habilitados entre el octavo y el tercer día anteriores a la elección, ambos incluidos.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 75.4",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Depósito del voto en urna (Consulado)",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones a las Cortes Generales de 29 de noviembre de 2026. ¿Cómo votar desde el extranjero?",
+          "emisor": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+          "tipo": "oficial",
+          "url": "https://www.exteriores.gob.es/es/Paginas/Elecciones.aspx",
+          "localizacion": "Plazos",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-24",
+      "titulo": "Último día para que los residentes en el extranjero (CERA) envíen su voto por correo al consulado",
+      "descripcion": "El elector CERA que vote por correo debe enviar la documentación a su oficina o sección consular no más tarde del quinto día anterior a la elección (29 de noviembre − 5 días = 24 de noviembre).",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 75.7",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Remisión del voto por correo por elector a Oficina Consular",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones a las Cortes Generales de 29 de noviembre de 2026. ¿Cómo votar desde el extranjero?",
+          "emisor": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+          "tipo": "oficial",
+          "url": "https://www.exteriores.gob.es/es/Paginas/Elecciones.aspx",
+          "localizacion": "Plazos",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-24",
+      "fecha_fin": "2026-11-28",
+      "titulo": "Prohibición de publicar encuestas electorales",
+      "descripcion": "Durante los cinco días anteriores al de la votación ningún medio puede publicar, difundir ni reproducir sondeos electorales.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 69.7",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Campaña electoral: prohibición de publicación, difusión o reproducción de sondeos electorales",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-25",
+      "titulo": "Último día para enviar el voto por correo desde España",
+      "descripcion": "La LOREG exige remitir el sobre por correo certificado «antes del tercer día previo» a la votación. La Junta Electoral Central, el INE y Correos fijan como último día el 25 de noviembre. El calendario de la JEC sitúa el inicio de la remisión el 10 de noviembre y la tabla del INE el 9 de noviembre; en la práctica, se puede enviar desde que se recibe la documentación.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 73.3",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Voto por correo de electores residentes en España: remisión por los electores del voto por correo",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales de 29 de noviembre 2026. Plazos de interés para los electores",
+          "emisor": "Instituto Nacional de Estadística (Oficina del Censo Electoral)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
+          "localizacion": "Voto por correspondencia. Residentes",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Voto por correo. Elecciones a las Cortes Generales - 29 de noviembre de 2026",
+          "emisor": "Correos",
+          "tipo": "oficial",
+          "url": "https://www.correos.es/es/es/particulares/para-el-ciudadano/voto-por-correo",
+          "localizacion": "Plazo de presentación de la solicitud",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-28",
+      "titulo": "Jornada de reflexión",
+      "descripcion": "Terminada la campaña, el sábado 28 de noviembre no se puede difundir propaganda electoral ni hacer actos de campaña.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 51.3 y 53",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Campaña electoral: jornada de reflexión",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-11-29",
+      "titulo": "Jornada electoral",
+      "descripcion": "Votación para el Congreso de los Diputados y el Senado. Las mesas se abren a las 9.00 y la votación continúa sin interrupción hasta las 20.00.",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículo 2",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículo 84.1",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Jornada de votación",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-12-04",
+      "fecha_fin": "2026-12-07",
+      "titulo": "Escrutinio general",
+      "descripcion": "Las juntas electorales provinciales hacen el escrutinio general el quinto día siguiente al de la votación (4 de diciembre), y debe terminar no más tarde del octavo día posterior a las elecciones (7 de diciembre). Después se proclaman los electos. La JEC dispone de cuarenta días para publicar los resultados en el BOE.",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 103.1, 107.2 y 108",
+          "fecha_documento": "2026-07-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Elecciones Generales 29 de noviembre de 2026. Calendario electoral",
+          "emisor": "Junta Electoral Central",
+          "tipo": "oficial",
+          "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+          "localizacion": "Escrutinio general y proclamación de electos",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "fecha_inicio": "2026-12-23",
+      "titulo": "Constitución de las nuevas Cortes Generales",
+      "descripcion": "El Congreso y el Senado elegidos se reúnen en sesión constitutiva a las 10.00 del 23 de diciembre, dentro de los veinticinco días siguientes a las elecciones que fija la Constitución.",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículo 5",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 68.6",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Fechas calculadas a partir de la LOREG consolidada (última actualización publicada el 02/07/2026) y del RD 806/2026, y contrastadas con el calendario oficial de la Junta Electoral Central y con las páginas del INE, Correos y Exteriores (todas abiertas el 2026-10-15). Coinciden todas las fechas límite. Diferencias menores en las fechas de inicio: la remisión del voto por correo empieza el 10 de noviembre según la JEC y el 9 según el INE; el segundo envío CERA con impugnación va del 6 al 14 de noviembre según la JEC y del 9 al 14 según el INE."
+  }
+}

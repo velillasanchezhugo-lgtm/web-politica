@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { publicados, alfa, ETIQUETAS, fechaLarga, ultimaRevision } from '../../lib/content';
+
+const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
+const estatales = partidos.filter((p) => p.data.ambito === 'estatal');
+const territoriales = partidos.filter((p) => p.data.ambito === 'territorial');
+const rev = ultimaRevision(partidos);
+---
+<Base title="Partidos que se presentan a las elecciones generales de 2026" description="Directorio de partidos y coaliciones estatales y territoriales: historia, liderazgo, candidatura, propuestas por temas y pactos, con fuentes y fecha de revisión." crumbs={[{ label: 'Partidos' }]}>
+  <div class="wrap">
+    <h1>Partidos y coaliciones</h1>
+    <Quick items={[
+      'Orden alfabético. No hay ranking ni recomendación.',
+      'Incluimos las formaciones con escaño en el Congreso en 2023 y las que, procedentes de esas candidaturas, se presentan ahora por separado. También las que tienen representación estatal en el Parlamento Europeo.',
+      'Las listas oficiales por circunscripción se publican en el BOE: las presentadas el 28 de octubre y las proclamadas el 3 de noviembre de 2026.',
+    ]} />
+    <p class="small"><a href="/metodologia/#cobertura">Criterio de cobertura completo</a> · <a href="/candidaturas/">Candidaturas por circunscripción</a>{rev && <> · Última revisión: {fechaLarga(rev)}</>}</p>
+
+    {partidos.length === 0 && <div class="notice info">Todavía no hay fichas publicadas.</div>}
+
+    <div class="filter no-print" role="group" aria-label="Filtrar por ámbito">
+      <div class="chip-group">
+        <label class="chip"><input type="radio" name="ambito" value="todos" checked /><span>Todos ({partidos.length})</span></label>
+        <label class="chip"><input type="radio" name="ambito" value="estatal" /><span>Estatales ({estatales.length})</span></label>
+        <label class="chip"><input type="radio" name="ambito" value="territorial" /><span>Territoriales ({territoriales.length})</span></label>
+      </div>
+    </div>
+
+    <ul class="grid party-list" role="list" style="list-style:none;padding:0;margin-top:1.25rem">
+      {partidos.map((p) => (
+        <li class="card" data-ambito={p.data.ambito}>
+          <h2 style="margin:0 0 .3rem;font-size:1.2rem"><a href={`/partidos/${p.data.id}/`}>{p.data.nombre}</a></h2>
+          <p class="small muted" style="margin:0 0 .5rem">
+            {p.data.siglas} · {ETIQUETAS.naturaleza[p.data.naturaleza]} · {p.data.ambito === 'estatal' ? 'Ámbito estatal' : `Ámbito territorial${p.data.territorio ? ': ' + p.data.territorio : ''}`}
+          </p>
+          <p style="margin:0 0 .5rem">{p.data.resumen}</p>
+          <p class="small" style="margin:0">
+            <strong>Candidatura 2026:</strong> {ETIQUETAS.candidatura[p.data.candidatura_2026.estado]}
+            {p.data.candidatura_2026.forma_concurrencia && <> · {p.data.candidatura_2026.forma_concurrencia}</>}
+          </p>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <AdSlot slot="footer" />
+</Base>
+<script>
+  const items = document.querySelectorAll<HTMLElement>('.party-list > li');
+  document.querySelectorAll<HTMLInputElement>('input[name="ambito"]').forEach((r) =>
+    r.addEventListener('change', () => {
+      items.forEach((li) => (li.hidden = r.value !== 'todos' && li.dataset.ambito !== r.value));
+    }),
+  );
+</script>

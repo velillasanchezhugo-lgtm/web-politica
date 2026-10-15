@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro';
+import Quick from '../components/Quick.astro';
+import { publicados, alfa } from '../lib/content';
+const terminos = (await publicados('glosario')).sort((a, b) => alfa(a.data.termino, b.data.termino));
+const ids = new Set(terminos.map((t) => t.id));
+const nombre = new Map(terminos.map((t) => [t.id, t.data.termino]));
+const letras = [...new Set(terminos.map((t) => t.data.termino[0].toLocaleUpperCase('es').normalize('NFD').replace(/\p{Diacritic}/gu, '')))];
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: 'Glosario político y parlamentario',
+  hasDefinedTerm: terminos.map((t) => ({ '@type': 'DefinedTerm', name: t.data.termino, description: t.data.definicion })),
+};
+---
+<Base title="Glosario político y parlamentario" description="Definiciones claras de investidura, mayoría absoluta, moción de censura, D'Hondt, decreto-ley, Grupo Mixto y otros términos, con ejemplos y fuentes legales." jsonld={jsonld} crumbs={[{ label: 'Glosario' }]}>
+  <div class="wrap read">
+    <h1>Glosario</h1>
+    <Quick items={[`${terminos.length} términos explicados en lenguaje sencillo, en orden alfabético.`, 'Cuando existe una definición legal, enlazamos el artículo correspondiente.']} />
+    <label for="g-filtro">Filtrar términos</label><br />
+    <input id="g-filtro" type="search" placeholder="Escribe para filtrar…" style="width:100%;max-width:24rem" />
+    <p class="small" id="g-count" aria-live="polite"></p>
+    <nav class="small" aria-label="Letras">{letras.map((l, i) => <>{i > 0 && ' · '}<a href={`#letra-${l}`}>{l}</a></>)}</nav>
+    <dl class="gl">
+      {terminos.map((t, i) => {
+        const l = t.data.termino[0].toLocaleUpperCase('es').normalize('NFD').replace(/\p{Diacritic}/gu, '');
+        const prevL = i > 0 ? terminos[i - 1].data.termino[0].toLocaleUpperCase('es').normalize('NFD').replace(/\p{Diacritic}/gu, '') : '';
+        return (
+          <div class="gl-item" id={t.id} data-text={(t.data.termino + ' ' + t.data.definicion).toLowerCase()}>
+            {l !== prevL && <span id={`letra-${l}`}></span>}
+            <dt>{t.data.termino}</dt>
+            <dd>
+              <p>{t.data.definicion}</p>
+              {t.data.ejemplo && <p class="small"><strong>Ejemplo:</strong> {t.data.ejemplo}</p>}
+              {t.data.relacionados.filter((r) => ids.has(r)).length > 0 && <p class="small">Relacionado: {t.data.relacionados.filter((r) => ids.has(r)).map((r, j) => <>{j > 0 && ', '}<a href={`#${r}`}>{nombre.get(r)}</a></>)}</p>}
+              {t.data.fuentes.length > 0 && <p class="src-inline">Fuente: {t.data.fuentes.map((f, j) => <>{j > 0 && '; '}<a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}{f.localizacion ? `, ${f.localizacion}` : ''}</a></>)}</p>}
+            </dd>
+          </div>
+        );
+      })}
+    </dl>
+    {terminos.length === 0 && <p class="notice info">Glosario en revisión editorial.</p>}
+  </div>
+</Base>
+<script>
+  const input = document.getElementById('g-filtro') as HTMLInputElement;
+  const items = [...document.querySelectorAll<HTMLElement>('.gl-item')];
+  const count = document.getElementById('g-count')!;
+  const norm = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+  input.addEventListener('input', () => {
+    const q = norm(input.value.trim());
+    let n = 0;
+    items.forEach((it) => { const ok = !q || norm(it.dataset.text || '').includes(q); it.hidden = !ok; if (ok) n++; });
+    count.textContent = q ? `${n} términos coinciden.` : '';
+  });
+</script>
+<style>
+  .gl dt { font-family: var(--font-serif); font-weight: 700; font-size: 1.15rem; margin-top: 1.25rem; }
+  .gl dd { margin: 0.25rem 0 0; border-bottom: 1px solid var(--line); padding-bottom: 0.75rem; }
+  .gl dd p { margin-bottom: 0.4rem; }
+</style>

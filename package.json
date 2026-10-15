@@ -1,0 +1,23 @@
+{
+  "name": "voto-en-claro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Plataforma informativa independiente sobre política española y las elecciones generales de 2026",
+  "scripts": {
+    "dev": "astro dev",
+    "validate": "node scripts/validate-content.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "npm run validate && astro build && pagefind --site dist --output-subdir pagefind",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.18.2",
+    "pagefind": "^1.5.2"
+  }
+}

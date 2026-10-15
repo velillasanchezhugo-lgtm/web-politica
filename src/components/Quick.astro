@@ -1,0 +1,8 @@
+---
+interface Props { items?: string[]; titulo?: string }
+const { items, titulo = 'Resumen rápido' } = Astro.props;
+---
+<section class="quick" aria-labelledby="resumen-rapido">
+  <h2 id="resumen-rapido">{titulo}</h2>
+  {items ? <ul>{items.map((i) => <li>{i}</li>)}</ul> : <slot />}
+</section>

@@ -1,0 +1,19 @@
+---
+import Source from './Source.astro';
+interface Props { fuentes: any[]; titulo?: string; open?: boolean }
+const { fuentes, titulo = 'Fuentes', open = false } = Astro.props;
+// Elimina duplicados por URL + localización, conservando el orden de aparición.
+const vistos = new Set<string>();
+const unicas = fuentes.filter((f) => {
+  const k = f.url + '|' + (f.localizacion ?? '');
+  if (vistos.has(k)) return false;
+  vistos.add(k);
+  return true;
+});
+---
+{unicas.length > 0 && (
+  <details class="sources" open={open}>
+    <summary>{titulo} ({unicas.length})</summary>
+    <ol>{unicas.map((f) => <li><Source f={f} /></li>)}</ol>
+  </details>
+)}

@@ -1,0 +1,11 @@
+---
+import { ETIQUETAS, fechaLarga } from '../lib/content';
+interface Props { f: any }
+const { f } = Astro.props;
+---
+<cite class="src" style="font-style:normal">
+  <a href={f.url} rel="noopener nofollow" target="_blank">{f.titulo}</a>
+  <span class="muted">— {f.emisor}{f.fecha_documento && `, ${fechaLarga(f.fecha_documento)}`}{f.localizacion && ` (${f.localizacion})`}.</span>
+  <span class="badge neutral">{ETIQUETAS.tipoFuente[f.tipo as keyof typeof ETIQUETAS.tipoFuente]}</span>
+  <span class="muted small"> Consultada el {fechaLarga(f.fecha_consulta)}.</span>
+</cite>

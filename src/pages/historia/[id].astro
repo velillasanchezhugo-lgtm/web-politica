@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import Claim from '../../components/Claim.astro';
+import Revision from '../../components/Revision.astro';
+import SourceList from '../../components/SourceList.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { publicados, ETIQUETAS, fechaLarga } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const hitos = (await publicados('historia')).sort((a, b) => a.data.fecha.localeCompare(b.data.fecha));
+  return hitos.map((h, i) => ({ params: { id: h.data.id }, props: { h, prev: hitos[i - 1], next: hitos[i + 1] } }));
+}
+const { h, prev, next } = Astro.props;
+const d = h.data;
+const todas = [...d.fuentes, ...d.consecuencias.flatMap((a) => a.fuentes), ...d.interpretaciones.flatMap((a) => a.fuentes)];
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: d.titulo,
+  dateModified: d.revision.fecha_revision,
+  about: { '@type': 'Event', name: d.titulo, startDate: d.fecha, ...(d.fecha_fin ? { endDate: d.fecha_fin } : {}), location: { '@type': 'Country', name: 'España' } },
+  inLanguage: 'es-ES',
+};
+---
+<Base title={`${d.titulo} (${d.fecha.slice(0, 4)})`} description={d.resumen.slice(0, 160)} ogType="article" jsonld={jsonld} crumbs={[{ href: '/historia/', label: 'Historia' }, { label: d.titulo }]}>
+  <article class="wrap read">
+    <p class="muted" style="margin-bottom:0"><time datetime={d.fecha}>{fechaLarga(d.fecha)}</time>{d.fecha_fin && <> – <time datetime={d.fecha_fin}>{fechaLarga(d.fecha_fin)}</time></>}</p>
+    <h1>{d.titulo}</h1>
+    <p>{d.categorias.map((c) => <><a class="badge neutral" href="/historia/">{ETIQUETAS.categoriaHistoria[c]}</a>{' '}</>)}</p>
+    <Quick><p style="margin:0">{d.resumen}</p></Quick>
+    <p class="level-label">Explicación ampliada</p>
+    <h2>Contexto</h2>
+    <p>{d.contexto}</p>
+    <h2>Consecuencias documentadas</h2>
+    {d.consecuencias.length ? d.consecuencias.map((a) => <Claim a={a} />) : <p class="muted">Sin consecuencias documentadas recogidas.</p>}
+    {d.interpretaciones.length > 0 && (
+      <>
+        <h2>Interpretaciones historiográficas</h2>
+        <p class="small muted">Valoraciones de autores identificados. No son hechos establecidos y pueden existir lecturas distintas.</p>
+        {d.interpretaciones.map((a) => <Claim a={a} />)}
+      </>
+    )}
+    <AdSlot />
+    <p class="level-label">Fuentes y detalles</p>
+    <SourceList fuentes={todas} open />
+    <Revision revision={d.revision} />
+    <nav class="pager" aria-label="Hitos anterior y siguiente">
+      {prev ? <a href={`/historia/${prev.data.id}/`}>← {prev.data.titulo}</a> : <span></span>}
+      {next ? <a href={`/historia/${next.data.id}/`}>{next.data.titulo} →</a> : <span></span>}
+    </nav>
+  </article>
+</Base>
+<style>
+  .pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  .pager a:last-child { text-align: right; }
+</style>

@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import Quick from '../components/Quick.astro';
+import Revision from '../components/Revision.astro';
+import SourceList from '../components/SourceList.astro';
+import { publicados } from '../lib/content';
+const c26 = (await publicados('circunscripciones')).find((c) => c.data.eleccion === 'generales-2026');
+const c23 = (await publicados('circunscripciones')).find((c) => c.data.eleccion === 'generales-2023');
+const prev = new Map(c23?.data.filas.map((f) => [f.nombre, f.diputados]) ?? []);
+const filas = c26 ? [...c26.data.filas].sort((a, b) => a.comunidad.localeCompare(b.comunidad, 'es') || a.nombre.localeCompare(b.nombre, 'es')) : [];
+const total = filas.reduce((s, f) => s + f.diputados, 0);
+---
+<Base title="Candidaturas y diputados por circunscripción: elecciones generales 2026" description="Cuántos diputados elige cada provincia el 29-N según el Real Decreto 806/2026, cambios respecto a 2023 y dónde consultar las listas oficiales de candidatos." crumbs={[{ label: 'Candidaturas por circunscripción' }]}>
+  <div class="wrap read">
+    <h1>Candidaturas por circunscripción</h1>
+    <Quick items={[
+      'Las listas oficiales se publican en el BOE: candidaturas presentadas el 28 de octubre y proclamadas el 3 de noviembre de 2026 (fechas derivadas de la LOREG).',
+      'Hasta entonces, cualquier nombre es un anuncio de partido, no una candidatura oficial.',
+      'Cada provincia elige un número fijo de diputados, establecido en el real decreto de convocatoria.',
+    ]} />
+    <div class="notice warn"><strong>Listas oficiales: pendiente de publicación.</strong> Cuando el BOE publique las candidaturas, enlazaremos aquí el documento oficial de cada circunscripción.</div>
+    <h2>Diputados que elige cada circunscripción en 2026</h2>
+    {filas.length ? (
+      <div style="overflow-x:auto">
+        <table>
+          <caption class="small muted" style="text-align:left">Total: {total} diputados. Fuente: anexo del Real Decreto 806/2026.</caption>
+          <thead><tr><th scope="col">Circunscripción</th><th scope="col">Comunidad</th><th scope="col" class="num">2026</th>{c23 && <th scope="col" class="num">2023</th>}</tr></thead>
+          <tbody>
+            {filas.map((f) => {
+              const p = prev.get(f.nombre);
+              const diff = p != null ? f.diputados - p : 0;
+              return <tr><th scope="row">{f.nombre}</th><td>{f.comunidad}</td><td class="num"><strong>{f.diputados}</strong>{diff !== 0 && <span class={`badge ${diff > 0 ? 'ok' : 'bad'}`} style="margin-left:.4rem">{diff > 0 ? '+' : ''}{diff}</span>}</td>{c23 && <td class="num">{p ?? '—'}</td>}</tr>;
+            })}
+          </tbody>
+        </table>
+      </div>
+    ) : <p class="notice info">Tabla en revisión editorial. Consulta el anexo del <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742">Real Decreto 806/2026</a>.</p>}
+    <p class="small">Los cambios en el número de diputados se deben a la actualización de la población de cada provincia (art. 162 LOREG). <a href="/guia/circunscripciones-y-reparto/">Cómo se reparten</a>.</p>
+    {c26 && <><SourceList fuentes={[...c26.data.fuentes, ...(c23?.data.fuentes ?? [])]} open /><Revision revision={c26.data.revision} /></>}
+  </div>
+</Base>

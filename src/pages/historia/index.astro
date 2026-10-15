@@ -1,0 +1,72 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { publicados, ETIQUETAS, fechaLarga } from '../../lib/content';
+
+const hitos = (await publicados('historia')).sort((a, b) => a.data.fecha.localeCompare(b.data.fecha));
+const cats = Object.entries(ETIQUETAS.categoriaHistoria);
+const decadas = [...new Set(hitos.map((h) => h.data.fecha.slice(0, 3) + '0'))];
+const ultimo = hitos.at(-1)?.data.fecha;
+---
+<Base title="Historia política de España desde la Transición: cronología" description="Cronología interactiva de 1975 a hoy: elecciones y gobiernos, Constitución, 23-F, autonomías, integración europea, crisis económicas y cambios del sistema de partidos, con fuentes." crumbs={[{ label: 'Historia' }]}>
+  <div class="wrap">
+    <h1>Historia política desde la Transición</h1>
+    <div class="read">
+      <Quick items={[
+        `${hitos.length} hitos desde 1975${ultimo ? ` hasta ${fechaLarga(ultimo)}` : ''}, cada uno con fecha, contexto, consecuencias documentadas y fuentes.`,
+        'Filtra por tipo de hito. Separamos los hechos de las interpretaciones de historiadores, que se identifican como tales.',
+        'No atribuimos automáticamente la evolución económica o social al Gobierno de cada momento.',
+      ]} />
+    </div>
+    <fieldset class="no-print">
+      <legend>Filtrar por tipo</legend>
+      <div class="chip-group" id="hist-filtros">
+        {cats.map(([k, v]) => <label class="chip"><input type="checkbox" value={k} checked /><span>{v}</span></label>)}
+      </div>
+      <p class="small muted" id="hist-count" aria-live="polite" style="margin:.5rem 0 0"></p>
+    </fieldset>
+    <nav class="small no-print" aria-label="Décadas">Ir a: {decadas.map((d, i) => <>{i > 0 && ' · '}<a href={`#d${d}`}>{d}s</a></>)}</nav>
+    {hitos.length === 0 && <p class="notice info">La cronología está en revisión editorial.</p>}
+    <ol class="timeline" role="list">
+      {hitos.map((h, i) => {
+        const dec = h.data.fecha.slice(0, 3) + '0';
+        const prev = i > 0 ? hitos[i - 1].data.fecha.slice(0, 3) + '0' : '';
+        return (
+          <li class="hito" data-cats={h.data.categorias.join(' ')} id={dec !== prev ? `d${dec}` : undefined}>
+            <time datetime={h.data.fecha}>{fechaLarga(h.data.fecha)}{h.data.fecha_fin && ` – ${fechaLarga(h.data.fecha_fin)}`}</time>
+            <h2><a href={`/historia/${h.data.id}/`}>{h.data.titulo}</a></h2>
+            <p>{h.data.resumen}</p>
+            <p class="small">{h.data.categorias.map((c) => <span class="badge neutral">{ETIQUETAS.categoriaHistoria[c]}</span>)}</p>
+          </li>
+        );
+      })}
+    </ol>
+    <p class="notice info small" id="hist-vacio" hidden>Ningún hito coincide con los filtros elegidos.</p>
+  </div>
+  <AdSlot slot="footer" />
+</Base>
+<script>
+  const boxes = [...document.querySelectorAll<HTMLInputElement>('#hist-filtros input')];
+  const items = [...document.querySelectorAll<HTMLElement>('.hito')];
+  const count = document.getElementById('hist-count')!;
+  const vacio = document.getElementById('hist-vacio')!;
+  function aplicar() {
+    const on = new Set(boxes.filter((b) => b.checked).map((b) => b.value));
+    let n = 0;
+    items.forEach((li) => { const ok = (li.dataset.cats || '').split(' ').some((c) => on.has(c)); li.hidden = !ok; if (ok) n++; });
+    count.textContent = `Mostrando ${n} de ${items.length} hitos.`;
+    vacio.hidden = n > 0;
+  }
+  boxes.forEach((b) => b.addEventListener('change', aplicar));
+  aplicar();
+</script>
+<style>
+  .timeline { list-style: none; padding: 0 0 0 1.25rem; border-left: 2px solid var(--line); margin: 1.5rem 0; }
+  .hito { position: relative; padding: 0 0 1.25rem 0.75rem; }
+  .hito::before { content: ''; position: absolute; left: -1.25rem; top: 0.45rem; width: 0.75rem; height: 0.75rem; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent); transform: translateX(-6px); }
+  .hito time { font-size: 0.85rem; color: var(--ink-3); font-weight: 600; }
+  .hito h2 { font-size: 1.2rem; margin: 0.1rem 0 0.3rem; }
+  .hito p { margin: 0 0 0.3rem; max-width: 46rem; }
+  .hito .badge { margin-right: 0.3rem; }
+</style>

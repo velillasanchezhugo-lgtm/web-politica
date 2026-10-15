@@ -1,0 +1,193 @@
+{
+  "id": "generales-2019-11",
+  "nombre": "Elecciones generales de 10 de noviembre de 2019: resultado oficial del Congreso",
+  "origen": "resultado_oficial",
+  "eleccion": "generales-2019-11",
+  "descripcion": "Votos y escaños de las candidaturas que obtuvieron representación en el Congreso de los Diputados el 10 de noviembre de 2019, según la Resolución de 29 de noviembre de 2019 de la Presidencia de la Junta Electoral Central (BOE núm. 289, de 2 de diciembre de 2019) y su corrección de errores de 17 de diciembre de 2019 (BOE núm. 303, de 18 de diciembre de 2019), que vuelve a publicar los cuadros II y III del Congreso tras retirar de Más País-Equo los 23.196 votos de Zaragoza, que correspondían a la coalición Más País-Chunta Aragonesista-Equo. Las cifras de votos proceden del cuadro II corregido. El porcentaje no figura en la resolución: lo calcula la redacción sobre los votos válidos del cuadro I, 24.258.228, y se redondea a dos decimales. Se listan las candidaturas tal como las publica el BOE. Solo se asocia una ficha cuando la candidatura lleva el nombre del partido: el PSOE y el PSC (ficha del PSOE), PP y la coalición PP-Foro de Asturias (ficha del PP), ERC-Sobiranistes (ficha de ERC), JxCat-Junts (ficha de Junts) y la coalición Coalición Canaria-Nueva Canarias (ficha de CC). Navarra Suma, coalición de UPN, PP y Ciudadanos en Navarra, no se asocia a ninguna ficha para no atribuir sus escaños a un solo partido. No se incluyen las candidaturas sin escaño (cuadro III).",
+  "total": 350,
+  "filas": [
+    {
+      "candidatura": "Partido Socialista Obrero Español (PSOE)",
+      "partido": "psoe",
+      "escanos": 108,
+      "votos": 5997533,
+      "porcentaje": 24.72,
+      "color": "#E30613"
+    },
+    {
+      "candidatura": "Partido Popular (PP)",
+      "partido": "pp",
+      "escanos": 87,
+      "votos": 4917095,
+      "porcentaje": 20.27,
+      "color": "#1D5FAF"
+    },
+    {
+      "candidatura": "VOX (VOX)",
+      "partido": "vox",
+      "escanos": 52,
+      "votos": 3656979,
+      "porcentaje": 15.08,
+      "color": "#5AB031"
+    },
+    {
+      "candidatura": "Unidas Podemos (PODEMOS-IU)",
+      "escanos": 26,
+      "votos": 2381960,
+      "porcentaje": 9.82,
+      "color": "#6B2E68"
+    },
+    {
+      "candidatura": "Esquerra Republicana de Catalunya-Sobiranistes (ERC-SOBIRANISTES)",
+      "partido": "erc",
+      "escanos": 13,
+      "votos": 874859,
+      "porcentaje": 3.61,
+      "color": "#F2A900"
+    },
+    {
+      "candidatura": "Partit dels Socialistes de Catalunya (PSC-PSOE) (PSC)",
+      "partido": "psoe",
+      "escanos": 12,
+      "votos": 794666,
+      "porcentaje": 3.28,
+      "color": "#B5121B"
+    },
+    {
+      "candidatura": "Ciudadanos-Partido de la Ciudadanía (Cs)",
+      "escanos": 10,
+      "votos": 1650318,
+      "porcentaje": 6.8,
+      "color": "#EB6109"
+    },
+    {
+      "candidatura": "Junts per Catalunya-Junts (JxCAT-JUNTS)",
+      "partido": "junts",
+      "escanos": 8,
+      "votos": 530225,
+      "porcentaje": 2.19,
+      "color": "#16A6A0"
+    },
+    {
+      "candidatura": "En Comú Podem-Guanyem el Canvi (ECP-GUANYEM EL CANVI)",
+      "escanos": 7,
+      "votos": 549173,
+      "porcentaje": 2.26,
+      "color": "#8E3B8A"
+    },
+    {
+      "candidatura": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco (EAJ-PNV)",
+      "partido": "pnv",
+      "escanos": 6,
+      "votos": 379002,
+      "porcentaje": 1.56,
+      "color": "#2E7D32"
+    },
+    {
+      "candidatura": "Euskal Herria Bildu (EH Bildu)",
+      "partido": "eh-bildu",
+      "escanos": 5,
+      "votos": 277621,
+      "porcentaje": 1.14,
+      "color": "#8DBF3F"
+    },
+    {
+      "candidatura": "Más País-Equo (MÁS PAÍS-EQUO)",
+      "escanos": 2,
+      "votos": 330345,
+      "porcentaje": 1.36,
+      "color": "#0FB5A6"
+    },
+    {
+      "candidatura": "Candidatura d'Unitat Popular-Per la Ruptura (CUP-PR)",
+      "escanos": 2,
+      "votos": 246971,
+      "porcentaje": 1.02,
+      "color": "#D4C200"
+    },
+    {
+      "candidatura": "En Común-Unidas Podemos (PODEMOS-EU)",
+      "escanos": 2,
+      "votos": 188231,
+      "porcentaje": 0.78,
+      "color": "#A16FB0"
+    },
+    {
+      "candidatura": "Partido Popular-Foro (PP-FORO)",
+      "partido": "pp",
+      "escanos": 2,
+      "votos": 129945,
+      "porcentaje": 0.54,
+      "color": "#3D7CC9"
+    },
+    {
+      "candidatura": "Coalición Canaria-Nueva Canarias (CCa-PNC-NC)",
+      "partido": "cc",
+      "escanos": 2,
+      "votos": 124289,
+      "porcentaje": 0.51,
+      "color": "#E6C200"
+    },
+    {
+      "candidatura": "Navarra Suma (NA+)",
+      "escanos": 2,
+      "votos": 99078,
+      "porcentaje": 0.41,
+      "color": "#4A5D8F"
+    },
+    {
+      "candidatura": "Més Compromís (MÉS COMPROMÍS)",
+      "escanos": 1,
+      "votos": 176287,
+      "porcentaje": 0.73,
+      "color": "#DA7A1A"
+    },
+    {
+      "candidatura": "Bloque Nacionalista Galego (BNG)",
+      "partido": "bng",
+      "escanos": 1,
+      "votos": 120456,
+      "porcentaje": 0.5,
+      "color": "#6FA8DC"
+    },
+    {
+      "candidatura": "Partido Regionalista de Cantabria (PRC)",
+      "escanos": 1,
+      "votos": 68830,
+      "porcentaje": 0.28,
+      "color": "#9AA80C"
+    },
+    {
+      "candidatura": "Agrupación de electores «Teruel Existe» (¡TERUEL EXISTE!)",
+      "escanos": 1,
+      "votos": 19761,
+      "porcentaje": 0.08,
+      "color": "#2F7F6F"
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Resolución de 29 de noviembre de 2019, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado convocadas por Real Decreto 551/2019, de 24 de septiembre, y celebradas el 10 de noviembre de 2019",
+      "emisor": "Boletín Oficial del Estado (Junta Electoral Central)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2019/12/02/pdfs/BOE-A-2019-17344.pdf",
+      "localizacion": "Cuadro I (resumen general, total estatal)",
+      "fecha_documento": "2019-12-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 17 de diciembre de 2019, de la Presidencia de la Junta Electoral Central, por la que se corrigen errores en la de 29 de noviembre de 2019 (resumen de los resultados de las elecciones de 10 de noviembre de 2019)",
+      "emisor": "Boletín Oficial del Estado (Junta Electoral Central)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2019/12/18/pdfs/BOE-A-2019-18147.pdf",
+      "localizacion": "Cuadro II corregido (candidaturas con escaño), total estatal",
+      "fecha_documento": "2019-12-18",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "Votos y escaños transcritos del cuadro II corregido (BOE-A-2019-18147) y votos válidos del cuadro I (BOE-A-2019-17344), PDFs abiertos el 2026-10-15; porcentajes calculados por la redacción. Suma de escaños comprobada: 350."
+  }
+}

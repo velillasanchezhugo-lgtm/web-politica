@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quick from '../../components/Quick.astro';
+import Revision from '../../components/Revision.astro';
+import SourceList from '../../components/SourceList.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import DhondtCalc from '../../components/DhondtCalc.astro';
+import { render } from 'astro:content';
+import { publicados } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const guias = (await publicados('guia')).sort((a, b) => a.data.orden - b.data.orden);
+  return guias.map((g, i) => ({ params: { slug: g.id }, props: { g, next: guias[i + 1] } }));
+}
+const { g, next } = Astro.props;
+const { Content } = await render(g);
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: g.data.titulo, dateModified: g.data.revision.fecha_revision, inLanguage: 'es-ES' };
+---
+<Base title={g.data.titulo} description={g.data.descripcion} ogType="article" jsonld={jsonld} crumbs={[{ href: '/guia/', label: 'Cómo se vota' }, { label: g.data.titulo }]}>
+  <article class="wrap read prose">
+    <h1>{g.data.titulo}</h1>
+    <Quick items={g.data.resumen} />
+    <p class="level-label">Explicación ampliada</p>
+    {g.id === 'metodo-dhondt' && <DhondtCalc />}
+    <Content />
+    <AdSlot />
+    <p class="level-label">Fuentes y detalles</p>
+    <SourceList fuentes={g.data.fuentes} open />
+    <Revision revision={g.data.revision} />
+    {next && <p><a href={`/guia/${next.id}/`}>Siguiente: {next.data.titulo} →</a></p>}
+  </article>
+</Base>
+<style is:global>
+  .prose h2 { margin-top: 2rem; }
+  .prose table { margin: 1rem 0; font-size: 0.95rem; }
+  .prose blockquote { border-left: 3px solid var(--line); margin: 1rem 0; padding: 0.2rem 1rem; color: var(--ink-2); }
+</style>

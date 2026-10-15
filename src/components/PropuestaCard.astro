@@ -1,0 +1,51 @@
+---
+import { ETIQUETAS, fechaLarga } from '../lib/content';
+import Source from './Source.astro';
+interface Props { p: any; headingLevel?: 3 | 4; showParty?: string }
+const { p, headingLevel = 3, showParty } = Astro.props;
+const H = `h${headingLevel}` as any;
+const estadoClase = { compromiso_2026: 'ok', posicion_vigente: 'info', iniciativa_presentada: 'neutral', medida_aprobada: 'neutral' } as Record<string, string>;
+---
+<article class="card propuesta" id={p.id}>
+  {showParty && <p class="small muted" style="margin:0 0 .2rem">{showParty}</p>}
+  <H style="margin:0 0 .4rem;font-size:1.08rem">{p.titulo}</H>
+  <p style="margin:0 0 .5rem">
+    <span class={`badge ${estadoClase[p.estado]}`}>{ETIQUETAS.estadoPropuesta[p.estado as keyof typeof ETIQUETAS.estadoPropuesta]}</span>{' '}
+    <span class="badge neutral">{ETIQUETAS.tipoInformacion[p.tipo_informacion as keyof typeof ETIQUETAS.tipoInformacion]}</span>
+  </p>
+  <p>{p.resumen}</p>
+  <p class="src-inline">
+    Fuente: <a href={p.fuentes[0].url} rel="noopener nofollow" target="_blank">{p.fuentes[0].emisor}{p.fuentes[0].localizacion ? `, ${p.fuentes[0].localizacion}` : ''}</a>
+    {p.fuentes[0].fecha_documento && <> · {fechaLarga(p.fuentes[0].fecha_documento)}</>}
+  </p>
+  <details>
+    <summary>Explicación ampliada y detalles</summary>
+    <dl class="dl">
+      <dt>Qué cambiaría</dt>
+      <dd>{p.que_cambiaria ?? 'La fuente no concreta qué norma o situación vigente cambiaría.'}</dd>
+      <dt>Quién tiene competencias</dt>
+      <dd>{p.competencia.administraciones.map((a: string) => ETIQUETAS.administracion[a as keyof typeof ETIQUETAS.administracion]).join(', ')}{p.competencia.nota && `. ${p.competencia.nota}`}</dd>
+      <dt>Coste declarado por el partido</dt>
+      <dd>{p.financiacion.coste_declarado ?? 'No publicado en la fuente consultada.'}</dd>
+      <dt>Estimación independiente</dt>
+      <dd>
+        {p.financiacion.estimacion_independiente ? (
+          <>{p.financiacion.estimacion_independiente.texto} <span class="src-inline">({p.financiacion.estimacion_independiente.fuentes.map((f: any) => <a href={f.url} rel="noopener nofollow" target="_blank">{f.emisor}</a>)})</span></>
+        ) : 'No localizada en las fuentes consultadas.'}
+        {p.financiacion.nota && <><br /><span class="muted">{p.financiacion.nota}</span></>}
+      </dd>
+      <dt>Calendario</dt>
+      <dd>{p.calendario ?? 'No publicado en la fuente consultada.'}</dd>
+      {p.detalle && <><dt>Más contexto</dt><dd>{p.detalle}</dd></>}
+      <dt>Fuentes</dt>
+      <dd><ol style="padding-left:1.2rem;margin:0">{p.fuentes.map((f: any) => <li><Source f={f} /></li>)}</ol></dd>
+      <dt>Revisión</dt>
+      <dd>{fechaLarga(p.revision.fecha_revision)}{p.revision.estado_editorial === 'desactualizado' && ' — desactualizado'}</dd>
+    </dl>
+  </details>
+</article>
+<style>
+  .dl dt { font-weight: 700; font-size: 0.9rem; margin-top: 0.6rem; }
+  .dl dd { margin: 0.1rem 0 0; }
+  .propuesta details { margin-bottom: 0; }
+</style>
