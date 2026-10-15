@@ -1,0 +1,877 @@
+{
+  "partido": "psoe",
+  "titulo": "¿Qué podría pasar si gobernara el PSOE?",
+  "resumen": "Este análisis es condicional, no una predicción: describe lo que el PSOE dice que quiere hacer, qué instrumentos jurídicos y apoyos parlamentarios necesitaría y qué límites tendría si Pedro Sánchez volviera a encabezar el Gobierno tras el 29 de noviembre de 2026. Como el programa de 2026 no estaba publicado el 15 de octubre, las medidas proceden del 41 Congreso Federal (diciembre de 2024), de normas del Gobierno que preside y de compromisos de campaña. Solo se mencionan efectos cuando hay una estimación independiente identificada, con sus cautelas.",
+  "medidas": [
+    {
+      "texto": "Según EFE, el documento aprobado en el 41 Congreso Federal del PSOE (Sevilla, diciembre de 2024) fija como objetivos para 2030 que el parque público de vivienda supere al menos el 6 % del total. También quiere bajar del 7 % la proporción de personas que dedican más del 40 % de sus ingresos a la vivienda y reforzar en la Constitución el derecho a la vivienda.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "¿Qué decisiones ha adoptado el 41 Congreso del PSOE en política de vivienda?",
+          "emisor": "EFE (publicado por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/agencias/2024/12/01/que-decisiones-ha-adoptado-el-41-congreso-del-psoe-en-politica-de-vivienda/",
+          "fecha_documento": "2024-12-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Para aumentar la oferta, el mismo documento propone reformar la ley del suelo para agilizar licencias de vivienda pública o asequible. Incluye incentivos fiscales a la obra nueva y la rehabilitación, construcción modular, suelos dotacionales con financiación del ICO y un seguro público contra impagos.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "¿Qué decisiones ha adoptado el 41 Congreso del PSOE en política de vivienda?",
+          "emisor": "EFE (publicado por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/agencias/2024/12/01/que-decisiones-ha-adoptado-el-41-congreso-del-psoe-en-politica-de-vivienda/",
+          "fecha_documento": "2024-12-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Contra la especulación, el PSOE propone un impuesto especial progresivo sobre la propiedad a partir de la tercera vivienda y prohibir convertir viviendas en turísticas o de temporada en zonas de alta demanda. Quiere además subir la fiscalidad de los usos no residenciales y que los ayuntamientos puedan declarar zonas tensionadas.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "¿Qué decisiones ha adoptado el 41 Congreso del PSOE en política de vivienda?",
+          "emisor": "EFE (publicado por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/agencias/2024/12/01/que-decisiones-ha-adoptado-el-41-congreso-del-psoe-en-politica-de-vivienda/",
+          "fecha_documento": "2024-12-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Gobierno presidido por Pedro Sánchez aprobó el 6 de octubre de 2026, ya disueltas las Cortes, el Real Decreto-ley 28/2026. Con él, los contratos de alquiler de vivienda habitual se prorrogan por plazos sucesivos, tras los cinco o siete años mínimos, salvo que alguna de las partes comunique que no quiere seguir. El preaviso del arrendador pasa de cuatro a seis meses y, en general, debe indemnizar al inquilino si no renueva, salvo causas tasadas.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
+          "localizacion": "Preámbulo, apartados I y II",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto-ley 29/2026, aprobado el mismo día, limita hasta el 31 de diciembre de 2030 que los grandes tenedores y las entidades dedicadas a comprar inmuebles o carteras de préstamos impagados adquieran viviendas gratis o por menos del 70 % de su valor de mercado. También somete al IVA del 10 % el alquiler de viviendas amuebladas por un máximo de 30 noches (salvo la vivienda habitual del arrendador) y regula reducciones en el IRPF por alquilar. Además, refuerza el papel de CASA 47, la entidad estatal de vivienda, para ampliar el parque público.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
+          "localizacion": "Preámbulo (títulos I a III)",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En campaña, Sánchez se ha comprometido a «cuatro años más de pensiones actualizadas al IPC» y a «cero recortes» en el Estado del bienestar (mitin en Zaragoza, 14 de octubre de 2026).",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España «firman la carta de defunción del Estado del Bienestar»",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Gobierno mantiene el objetivo de que el salario mínimo alcance el 60 % del salario medio. Para 2026 lo fijó en 1.221 euros al mes en 14 pagas (17.094 euros al año), un 3,1 % más que en 2025.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+          "localizacion": "Preámbulo y artículo 1",
+          "fecha_documento": "2026-02-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Sánchez ha fijado como objetivos para 2030 que la tasa de paro sea de un solo dígito, que el 80 % de la energía proceda de fuentes renovables y que el abandono escolar baje cuatro puntos. No ha detallado con qué medidas concretas.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España «firman la carta de defunción del Estado del Bienestar»",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "instrumentos": [
+    {
+      "texto": "Los Reales Decretos-leyes 28/2026 y 29/2026 deben ser convalidados o derogados en los 30 días siguientes a su promulgación. Con las Cortes disueltas, esa votación de totalidad corresponde a la Diputación Permanente del Congreso. Si los deroga, decaen, como ocurrió el 2 de octubre de 2026 con los Reales Decretos-leyes 26/2026 y 27/2026, de contenido parecido.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 78.2 y 86",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Gobierno aprobará de nuevo en el Consejo de Ministros los decretos de vivienda que rechazó el Congreso para intentar convalidarlos en la Diputación Permanente",
+          "emisor": "Infobae (con información de El País)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/2026/10/05/el-gobierno-aprobara-de-nuevo-en-el-consejo-de-ministros-los-decretos-de-vivienda-que-rechazo-el-congreso-para-intentar-convalidarlos-en-la-diputacion-permanente/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Un nuevo impuesto estatal, como el impuesto progresivo a partir de la tercera vivienda, solo puede crearse por ley: la Ley de Presupuestos no puede crear tributos. Los beneficios fiscales también exigen ley.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 31.3, 133.1, 133.3 y 134.7",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Prohibir el uso turístico, ampliar las zonas tensionadas o reformar el suelo exige modificar leyes estatales (ordinarias). La declaración de zonas tensionadas y el urbanismo dependen hoy de comunidades y ayuntamientos.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.3.ª y 149.1.1.ª y 8.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Reforzar el derecho a la vivienda en la Constitución requiere una reforma constitucional: tres quintos de cada Cámara o, en su defecto, mayoría absoluta del Senado y dos tercios del Congreso, con referéndum si lo pide una décima parte de cualquiera de las Cámaras.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 167",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El salario mínimo lo fija cada año el Gobierno por real decreto, tras consultar a los agentes sociales (artículo 27.1 del Estatuto de los Trabajadores). Es una de las pocas medidas que no necesita votación parlamentaria.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+          "localizacion": "Preámbulo",
+          "fecha_documento": "2026-02-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Revalorizar las pensiones con el IPC ya es obligatorio por ley: el artículo 58 de la Ley General de la Seguridad Social lo establece con la media del IPC de los doce meses previos a diciembre. Mantenerlo no requiere una ley nueva, aunque las cuantías máximas y mínimas se actualizan en los Presupuestos.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, texto refundido de la Ley General de la Seguridad Social (consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "localizacion": "Artículo 58",
+          "fecha_documento": "2015-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ampliar el parque público y financiar CASA 47 requiere crédito presupuestario, que debe aprobarse en unos Presupuestos Generales del Estado. Si no se aprueban, se prorrogan los del año anterior.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 134",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
+          "localizacion": "Preámbulo (título III)",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "apoyos": [
+    {
+      "texto": "El Congreso que salga de las elecciones del 29 de noviembre de 2026 tendrá 350 diputados, repartidos entre 52 circunscripciones según el anexo del real decreto de convocatoria. Para ser investido en la primera votación, un candidato necesita la mayoría absoluta (176 votos a favor); si no la logra, 48 horas después basta la mayoría simple (más síes que noes). Si en dos meses desde la primera votación nadie es investido, se disuelven las Cortes y se repiten las elecciones.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículos 1 a 3 y anexo",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 99",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ganar en votos o en escaños no da derecho a gobernar: el Rey propone un candidato tras consultar a los grupos, y lo que decide es la votación del Congreso. Por eso, la candidatura con más escaños no siempre logra la investidura y otra con menos puede conseguirla si reúne más apoyos en la Cámara.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 99.1 a 99.3",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ser investido tampoco garantiza poder aprobar leyes. Cada ley ordinaria necesita mayoría simple en el Congreso; las leyes orgánicas exigen mayoría absoluta (176) en una votación final sobre el conjunto. Los Presupuestos los elabora el Gobierno, pero los examinan, enmiendan y aprueban las Cortes; si no se aprueban a tiempo, se prorrogan los anteriores. Los decretos-leyes deben ser convalidados por el Congreso en 30 días.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 81, 86 y 134",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Senado puede vetar un proyecto de ley por mayoría absoluta o enmendarlo en dos meses (20 días si es urgente). El Congreso levanta el veto por mayoría absoluta de inmediato o por mayoría simple pasados dos meses. Desde la reforma constitucional de 2026, Formentera elige su propio senador. Con ella, cada provincia elige cuatro senadores, las islas eligen tres o uno, Ceuta y Melilla eligen dos cada una, y los parlamentos autonómicos designan a otros más. Una mayoría distinta en el Senado puede retrasar las leyes, pero no bloquearlas de forma definitiva.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 69 y 90",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Reforma del apartado 3 del artículo 69 de la Constitución Española, a los efectos de que la isla de Formentera elija un senador propio, de 19 de mayo de 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881",
+          "localizacion": "Artículo único",
+          "fecha_documento": "2026-05-19",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Esta sección no suma escaños ni presenta ningún acuerdo como probable o cerrado. Las declaraciones de otros partidos que se recogen abajo son posiciones públicas en una fecha concreta y pueden cambiar con los resultados.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": []
+    },
+    {
+      "texto": "Precedente: en 2023 el PP fue la candidatura con más escaños (137) y la del PSOE (102, a los que se suman sus candidaturas asociadas como el PSC) quedó por detrás. Aun así, Sánchez fue investido el 16 de noviembre de 2023 por mayoría absoluta: 179 votos a favor y 171 en contra.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro de escaños por candidatura, total estatal",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV legislatura, núm. 8 (16-11-2023)",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "Sumario (resultado de la votación de investidura)",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Votación reciente: el 2 de octubre de 2026, el Congreso derogó los decretos-leyes de vivienda 26/2026 y 27/2026. Según Infobae, con información de El País, uno de ellos cayó por 172 votos a favor y 178 en contra, con el voto en contra de PP, Vox y Junts.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Gobierno aprobará de nuevo en el Consejo de Ministros los decretos de vivienda que rechazó el Congreso para intentar convalidarlos en la Diputación Permanente",
+          "emisor": "Infobae (con información de El País)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/2026/10/05/el-gobierno-aprobara-de-nuevo-en-el-consejo-de-ministros-los-decretos-de-vivienda-que-rechazo-el-congreso-para-intentar-convalidarlos-en-la-diputacion-permanente/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Junts: su secretario general, Jordi Turull, declaró a TV3 que «a Pedro Sánchez no le investiremos, porque hemos salido muy escaldados» (Ara, 7 de octubre de 2026).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Junts también descarta investir a Sánchez",
+          "emisor": "Ara",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/turull-descarta-investir-pedro-sanchez_1_5872106.html",
+          "fecha_documento": "2026-10-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "PNV: según Público (12 de octubre de 2026), no se compromete a facilitar un nuevo Gobierno estatal con Sánchez al frente, aunque fuentes de su dirección descartan apoyar un Gobierno con Vox.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "El tercer escenario electoral del que nadie habla: el bloqueo si PP y Vox no suman mayoría absoluta",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/tercer-escenario-electoral-nadie-habla-bloqueo-pp-vox-suman-mayoria-absoluta.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "No se han localizado, a 15 de octubre de 2026, declaraciones atribuidas y fechadas de ERC, EH Bildu, BNG, Podemos o del espacio de Sumar y el Frente Amplio sobre si apoyarían una nueva investidura de Sánchez. Por eso no se recoge aquí su posición.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": []
+    }
+  ],
+  "limites": [
+    {
+      "texto": "Las comunidades autónomas pueden asumir las competencias de ordenación del territorio, urbanismo y vivienda. En sanidad y educación, el Estado fija las bases o normas básicas y las comunidades gestionan los servicios. Un Gobierno central puede legislar sobre condiciones básicas de igualdad, legislación civil y bases de la planificación económica, pero gran parte de la ejecución depende de gobiernos autonómicos y municipales.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.3.ª y 149.1.1.ª, 8.ª, 13.ª, 16.ª y 30.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Cuentas públicas: según Eurostat (notificación de abril de 2026), el déficit de las Administraciones Públicas fue del 2,4 % del PIB en 2025 (3,2 % en 2024) y la deuda, del 100,7 % del PIB al cierre de 2025. El Ministerio de Hacienda comunicó el 31 de marzo de 2026 un déficit del 2,18 % del PIB. El Banco de España sitúa la deuda en el 101,4 % del PIB en el segundo trimestre de 2026.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Government deficit/surplus, debt and associated data (gov_10dd_edpt1), España, % del PIB",
+          "emisor": "Eurostat",
+          "tipo": "organismo_independiente",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=ES&geo=EA20&geo=EU27_2020&unit=PC_GDP&sector=S13&na_item=B9&na_item=GD&sinceTimePeriod=2022&format=JSON",
+          "localizacion": "Serie anual 2022-2025 (actualización de 22-04-2026)",
+          "fecha_documento": "2026-04-22",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "España cierra 2025 con un déficit público del 2,2% del PIB y mejora por sexto año consecutivo el objetivo pactado con la UE",
+          "emisor": "La Moncloa (Ministerio de Hacienda)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/hacienda/paginas/2026/310326-cierre-deficit-2025.aspx",
+          "fecha_documento": "2026-03-31",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en el 101,4% del PIB en el segundo trimestre de 2026",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-2026t2.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Banco de España estima que, pese a la bajada del déficit en 2025, el desequilibrio estructural de las cuentas públicas sigue en torno al 3 % del PIB, porque la mejora se debió sobre todo a factores transitorios. También indica que el gasto neto creció por encima del 3,7 % fijado para 2025 en el plan fiscal.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "«Informe anual en breve», p. 15",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Reglas fiscales de la UE: el plan fiscal-estructural de España, aprobado por el Consejo el 21 de enero de 2025, fija un crecimiento máximo del gasto neto del 3,5 % en 2026, del 3,2 % en 2027 y del 3,0 % en 2028, con un ajuste en siete años (2025-2031). El «gasto neto» se calcula descontando las medidas discrecionales de ingresos. Por eso, una rebaja de impuestos reduce el margen de gasto y una subida lo amplía. En junio de 2026, el Consejo activó para España la cláusula de salvaguardia nacional, que permite desviarse de esa senda por mayor gasto en defensa, hasta un 1,5 % del PIB al año hasta 2028.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Recomendación del Consejo de 21 de enero de 2025 por la que se aprueba el plan fiscal-estructural nacional a medio plazo de España (C/2025/643)",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2025/643/Z00001-00020.pdf",
+          "localizacion": "Considerando 16 y anexo I",
+          "fecha_documento": "2025-01-21",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2024/1263/L00001-00021.pdf",
+          "localizacion": "Artículos 2.2 y 16.2",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Recomendación del Consejo, de 12 de junio de 2026, por la que se autoriza a España a desviarse de las tasas máximas de crecimiento del gasto neto (activación de la cláusula de salvaguardia nacional)",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2026/3314/Z00001-00004.pdf",
+          "localizacion": "Considerandos 5 a 7",
+          "fecha_documento": "2026-06-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Un Gobierno recién nombrado puede presentar un plan fiscal-estructural revisado, para un nuevo período de cuatro o cinco años. Lo evalúan la Comisión y el Consejo, y debe mantener la deuda en una senda descendente verosímil y el déficit por debajo del 3 % del PIB. La Constitución, por su parte, obliga a todas las administraciones a respetar la estabilidad presupuestaria.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2024/1263/L00001-00021.pdf",
+          "localizacion": "Artículos 15.2 y 16.2",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 135",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Cualquier ley puede ser recurrida ante el Tribunal Constitucional, también por los gobiernos autonómicos. Ejemplo reciente: en la STC 59/2026 (8 de septiembre de 2026), el Tribunal desestimó casi por completo el recurso del Gobierno vasco contra la Ley 12/2023, por el derecho a la vivienda. Un magistrado formuló voto particular: considera que algunos preceptos invaden competencias autonómicas y recuerda que el Tribunal ya había resuelto controversias similares, entre ellas en la STC 79/2024.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 161",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Pleno. Sentencia 59/2026, de 8 de septiembre de 2026. Recurso de inconstitucionalidad 1301-2024 (Ley 12/2023, por el derecho a la vivienda)",
+          "emisor": "Tribunal Constitucional (publicada en el Boletín Oficial del Estado)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21250",
+          "localizacion": "Fallo y voto particular",
+          "fecha_documento": "2026-09-08",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los decretos-leyes no pueden afectar a los derechos, deberes y libertades del Título I de la Constitución, entre los que está el derecho de propiedad. El alcance de este límite lo concreta la jurisprudencia constitucional, por lo que normas sobre arrendamientos o compras de vivienda aprobadas por esta vía pueden ser recurridas ante el Tribunal Constitucional.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 33 y 86.1",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las limitaciones de precios en zonas tensionadas solo se aplican donde las comunidades declaran esas zonas. Según el Banco de España, en 2025-2026 se aplicaban en municipios de Cataluña, País Vasco, Navarra y Galicia (A Coruña). Un Gobierno del PSOE no podría declararlas en comunidades que no quieran hacerlo, salvo que cambie la ley.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, p. 152",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "efectos": [
+    {
+      "texto": "Control de alquileres y protección de inquilinos: el Banco de España considera que estas medidas son especialmente eficaces a corto plazo para reducir el esfuerzo de quienes ya tienen contrato. Advierte, sin embargo, de que mantenidas en el tiempo reducen la renta real de los propietarios y la inversión en vivienda en alquiler, pueden desplazar viviendas al uso turístico, de temporada o a la venta, y pueden subir los precios en los segmentos no regulados. Cautela: es una síntesis de literatura internacional, no una evaluación de los Reales Decretos-leyes 28 y 29/2026.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, pp. 184-185",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Evidencia en Cataluña (control de precios de 2020-2021), según los estudios que cita el Banco de España: Jofre-Monseny, Martínez-Mazza y Segú (2023) estiman una reducción del alquiler de entre un 4 % y un 6 %, sin efecto a corto plazo sobre la oferta. Monràs y García-Montalvo (2022) encuentran que bajó el alquiler medio porque cayeron las rentas superiores a la referencia, pero subieron las que estaban por debajo. Cautela: es una regulación distinta y de corta duración; los resultados no se pueden extrapolar sin más.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, pp. 162 y 185, nota 93",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Salario mínimo: un estudio del Banco de España sobre la subida de 2019 concluye que el empleo de los trabajadores con salarios más bajos creció menos tras el aumento. Sus cálculos equivalen a que cada punto de subida del SMI restara entre 0,03 y 0,05 puntos al crecimiento del empleo asalariado total. Cautelas de los autores: es difícil encontrar un grupo de comparación adecuado, por lo que los impactos deben interpretarse con prudencia. La subida de 2026 (3,1 %) fue de una magnitud distinta.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "Los efectos del salario mínimo interprofesional en el empleo: nueva evidencia para España (Documentos Ocasionales n.º 2113)",
+          "emisor": "Banco de España (C. Barceló, M. Izquierdo, A. Lacuesta, S. Puente, A. Regil y E. Villanueva)",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf",
+          "localizacion": "Resumen; conclusiones (pp. 36-37) y nota 38",
+          "fecha_documento": "2021-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+          "localizacion": "Preámbulo y artículo 1",
+          "fecha_documento": "2026-02-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Vivienda pública: el Banco de España señala que las administraciones están adoptando medidas que aumentan gradualmente la oferta, pero que sus cuantías siguen siendo modestas frente a las necesidades. Estima un déficit acumulado de unas 750.000 viviendas entre 2021 y 2025. No se ha localizado una estimación de cuánto tardaría el parque público en llegar al 6 %.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "«Informe anual en breve», p. 17, y capítulo 2, p. 157",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "No es posible estimar la recaudación ni los efectos del impuesto progresivo desde la tercera vivienda, porque el PSOE no ha publicado tipos, mínimos exentos ni su relación con el Impuesto sobre el Patrimonio. Tampoco se ha localizado una evaluación independiente.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "¿Qué decisiones ha adoptado el 41 Congreso del PSOE en política de vivienda?",
+          "emisor": "EFE (publicado por Infobae)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/agencias/2024/12/01/que-decisiones-ha-adoptado-el-41-congreso-del-psoe-en-politica-de-vivienda/",
+          "fecha_documento": "2024-12-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Pensiones: según la información publicada sobre el informe de la AIReF de marzo de 2025, el gasto en pensiones pasaría del 12,7 % del PIB en 2022 al 16,1 % en 2050, y su aumento exigiría transferencias adicionales de 2,4 puntos del PIB. El compromiso de Sánchez de revalorizar con el IPC coincide con la ley vigente, así que no añade coste respecto a ese escenario, pero tampoco lo reduce. Cautela: la AIReF advirtió que esa regla de gasto no es un indicador adecuado de sostenibilidad. Este dato procede de un medio, porque la web de la AIReF no pudo consultarse.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "La AIReF constata el cumplimiento de la regla de gasto en pensiones, pero avisa: no mejora la sostenibilidad",
+          "emisor": "Forbes España (información sobre el informe de la AIReF)",
+          "tipo": "medio",
+          "url": "https://forbes.es/?p=667213",
+          "fecha_documento": "2025-03-31",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, texto refundido de la Ley General de la Seguridad Social (consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "localizacion": "Artículo 58",
+          "fecha_documento": "2015-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los objetivos para 2030 (paro de un dígito, 80 % de renovables) no van acompañados de medidas ni de estimaciones que permitan atribuir su cumplimiento a la acción del Gobierno. El paro depende también del ciclo económico y del contexto internacional.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Sánchez cree que si PP y Vox llegan al Gobierno de España «firman la carta de defunción del Estado del Bienestar»",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/aragon/noticia-sanchez-cree-si-pp-vox-llegan-gobierno-espana-firman-carta-defuncion-estado-bienestar-20261014203519.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "incertidumbres": [
+    {
+      "texto": "Contexto económico: en su escenario central de junio de 2026, el Banco de España prevé que el PIB crezca un 2,3 % en 2026 y un 1,7 % en 2027, con una inflación elevada por el encarecimiento de la energía tras la guerra de Irán. El IPC subió un 4,9 % interanual en septiembre de 2026, la tasa más alta desde febrero de 2023. La recaudación, el coste de revalorizar las pensiones (ligado al IPC) y el margen fiscal dependerán de esa evolución, que ningún Gobierno controla por completo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "«Informe anual en breve», p. 15",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Índice de Precios de Consumo (IPC). Septiembre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/IPC0926.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los tipos de interés los fija el Banco Central Europeo para toda la zona del euro, no el Gobierno de España. Afectan al coste de las hipotecas y al de la deuda pública (más de 100 % del PIB). Por eso, la evolución de la vivienda y del déficit puede deberse a decisiones monetarias y a la economía internacional, y no solo a las políticas del Gobierno que se forme.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en el 101,4% del PIB en el segundo trimestre de 2026",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-2026t2.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Plazos de ejecución: según el Banco de España, la oferta de vivienda nueva reacciona con lentitud y la frenan la escasez de suelo edificable, la lentitud en la gestión urbanística y la falta de mano de obra en la construcción. Cualquier medida sobre la oferta tardará años en notarse en el número de viviendas terminadas, probablemente más allá de una legislatura, sea cual sea el partido que gobierne.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, p. 128, e «Informe anual en breve», p. 17",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Socios: un Gobierno del PSOE dependería con toda probabilidad de varios grupos con prioridades distintas. Junts ha descartado investir a Sánchez y el PNV no se compromete a hacerlo. Las medidas que exigen ley o Presupuestos, como el impuesto desde la tercera vivienda, la reforma del suelo o la financiación de CASA 47, dependerían de acuerdos hoy desconocidos.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Junts también descarta investir a Sánchez",
+          "emisor": "Ara",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/turull-descarta-investir-pedro-sanchez_1_5872106.html",
+          "fecha_documento": "2026-10-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El tercer escenario electoral del que nadie habla: el bloqueo si PP y Vox no suman mayoría absoluta",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/tercer-escenario-electoral-nadie-habla-bloqueo-pp-vox-suman-mayoria-absoluta.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Decretos de vivienda: no se sabe si la Diputación Permanente convalidará los Reales Decretos-leyes 28/2026 y 29/2026. Si los deroga, sus medidas decaen. Si los convalida, un nuevo Congreso con otra mayoría podría modificarlos por ley.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
+          "localizacion": "Preámbulo, apartados I y II",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
+          "localizacion": "Preámbulo",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Gobierno aprobará de nuevo en el Consejo de Ministros los decretos de vivienda que rechazó el Congreso para intentar convalidarlos en la Diputación Permanente",
+          "emisor": "Infobae (con información de El País)",
+          "tipo": "medio",
+          "url": "https://www.infobae.com/espana/2026/10/05/el-gobierno-aprobara-de-nuevo-en-el-consejo-de-ministros-los-decretos-de-vivienda-que-rechazo-el-congreso-para-intentar-convalidarlos-en-la-diputacion-permanente/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 78.2 y 86",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Gobiernos autonómicos: buena parte de la política de vivienda (zonas tensionadas, suelo, licencias) la ejecutan comunidades y ayuntamientos. Donde gobiernen partidos contrarios a los controles de precios, las medidas estatales tendrían un alcance limitado.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, p. 152",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 148.1.3.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Análisis condicional elaborado con fuentes abiertas y verificadas el 2026-10-15. El programa electoral de 2026 no estaba publicado en esa fecha; las medidas proceden de documentos oficiales y declaraciones recientes. Pendiente de segunda revisión."
+  }
+}

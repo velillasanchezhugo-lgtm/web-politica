@@ -1,0 +1,109 @@
+{
+  "id": "1981-02-23-intento-de-golpe-de-estado-del-23-f",
+  "fecha": "1981-02-23",
+  "fecha_fin": "1981-02-25",
+  "titulo": "Intento de golpe de Estado del 23-F",
+  "categorias": [
+    "elecciones-gobiernos",
+    "reformas-institucionales"
+  ],
+  "resumen": "El 23 de febrero de 1981 un grupo de guardias civiles irrumpió en el Congreso de los Diputados durante la votación de investidura de Leopoldo Calvo-Sotelo. El intento de golpe de Estado fracasó y el 25 de febrero el Congreso invistió a Calvo-Sotelo.",
+  "contexto": "En la I Legislatura, tras cuatro gobiernos presididos por Adolfo Suárez (UCD), el candidato a la Presidencia del Gobierno sometido a la investidura era Leopoldo Calvo-Sotelo, también de UCD. Con el asalto, los diputados y el Gobierno quedaron retenidos en el hemiciclo.",
+  "consecuencias": [
+    {
+      "texto": "Al reanudarse el Pleno el 25 de febrero, el presidente del Congreso condenó el «grave atentado» sufrido por las Cortes y expresó el reconocimiento de la Cámara a la decisión del Rey y a la lealtad de las Fuerzas Armadas.",
+      "tipo": "hecho",
+      "fecha": "1981-02-25",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 147, sesión plenaria de 25 de febrero de 1981",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L1/CONG/DS/PL/PL_147.PDF",
+          "fecha_documento": "1981-02-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Calvo-Sotelo fue investido presidente del Gobierno el 25 de febrero de 1981 con 186 votos a favor y 158 en contra.",
+      "tipo": "hecho",
+      "fecha": "1981-02-25",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 147, sesión plenaria de 25 de febrero de 1981",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L1/CONG/DS/PL/PL_147.PDF",
+          "fecha_documento": "1981-02-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según la biografía oficial de la Casa Real, «fue la actuación del Monarca la que salvó la Constitución y la democracia» esa noche, «cuando los demás poderes constitucionales estaban secuestrados en el Parlamento».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Biografía de Su Majestad el Rey Don Juan Carlos",
+          "emisor": "Casa de S.M. el Rey",
+          "tipo": "oficial",
+          "url": "https://www.casareal.es/ES/FamiliaReal/rey/Paginas/rey_biografia.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 24 de febrero de 2026 el Consejo de Ministros acordó desclasificar documentación relativa al intento de golpe que estaba clasificada como secreta.",
+      "tipo": "hecho",
+      "fecha": "2026-02-24",
+      "fuentes": [
+        {
+          "titulo": "Orden PJC/125/2026, de 24 de febrero, por la que se publica el Acuerdo del Consejo de Ministros por el que se desclasifica documentación relativa al intento de golpe de Estado de 23 de febrero de 1981",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-4351",
+          "fecha_documento": "2026-02-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 147, sesión plenaria de 25 de febrero de 1981",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L1/CONG/DS/PL/PL_147.PDF",
+      "fecha_documento": "1981-02-25",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Orden PJC/125/2026, de 24 de febrero, por la que se publica el Acuerdo del Consejo de Ministros por el que se desclasifica documentación relativa al intento de golpe de Estado de 23 de febrero de 1981",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-4351",
+      "fecha_documento": "2026-02-25",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: I Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/I%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Biografía de Su Majestad el Rey Don Juan Carlos",
+      "emisor": "Casa de S.M. el Rey",
+      "tipo": "oficial",
+      "url": "https://www.casareal.es/ES/FamiliaReal/rey/Paginas/rey_biografia.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

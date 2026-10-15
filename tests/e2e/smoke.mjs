@@ -141,7 +141,7 @@ ok('páginas principales: 200, un solo h1 y sin scroll horizontal a 390 px');
   const { readFileSync } = await import('node:fs');
   const { createRequire } = await import('node:module');
   const axeSrc = readFileSync(createRequire(import.meta.url).resolve('axe-core/axe.min.js'), 'utf8');
-  for (const ruta of ['/', '/simulador/', '/comparar/', '/guia/metodo-dhondt/', '/historia/', '/glosario/', '/candidaturas/', '/partidos/']) {
+  for (const ruta of ['/', '/simulador/', '/comparar/#partidos=erc,junts,pp,vox', '/guia/metodo-dhondt/', '/historia/', '/glosario/', '/candidaturas/', '/partidos/', '/partidos/pp/', '/partidos/erc/', '/partidos/vox/', '/temas/vivienda/']) {
     for (const scheme of ['light', 'dark']) {
       const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, colorScheme: scheme });
       const page = await ctx.newPage();

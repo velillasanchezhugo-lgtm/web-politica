@@ -4,10 +4,12 @@ import Quick from '../components/Quick.astro';
 import SourceList from '../components/SourceList.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { publicados, fechaLarga } from '../lib/content';
+import { paleta } from '../lib/partidos';
 
 // Más reciente primero: el primer conjunto es el que se carga por defecto.
 const conjuntos = (await publicados('escanos')).filter((e) => e.data.origen === 'resultado_oficial').sort((a, b) => b.data.id.localeCompare(a.data.id));
 const partidos = await publicados('partidos');
+const tintas = await paleta();
 const fichas = new Set(partidos.map((p) => p.data.id));
 
 // Para votar en el Congreso, las candidaturas que forman un mismo grupo (p. ej. PSOE y PSC) se agrupan.
@@ -18,7 +20,7 @@ const presets = conjuntos.map((c) => {
     const k = f.partido ?? f.candidatura;
     const g = grupos.get(k);
     if (g) { g.escanos += f.escanos; g.candidaturas.push(f.candidatura); }
-    else grupos.set(k, { nombre: f.candidatura, escanos: f.escanos, color: f.color, partido: f.partido, candidaturas: [f.candidatura] });
+    else grupos.set(k, { nombre: f.candidatura, escanos: f.escanos, color: (f.partido && tintas.get(f.partido)?.color) || f.color, partido: f.partido, candidaturas: [f.candidatura] });
   }
   const filas = [...grupos.values()].map((g) => ({
     nombre: g.candidaturas.length > 1 ? g.candidaturas.join(' + ') : g.nombre,
@@ -153,6 +155,39 @@ const referencias = presets.some((p) => p.id === 'generales-2023')
 
 <script>
   import { validar, investidura, mocionCensura, situacionGobierno, mayoriaAbsoluta, MIEMBROS_CONGRESO } from '../lib/investidura.js';
+  import { posiciones } from '../lib/hemiciclo.js';
+
+  // Hemiciclo en vivo: los escaños se ordenan por sentido del voto (sí → abstención → no votan → no).
+  const SEATS = posiciones(MIEMBROS_CONGRESO);
+  function hemiSVG(filas: Fila[]) {
+    type S = { color: string; nombre: string; voto: 'si' | 'abstencion' | 'ausente' | 'no' };
+    const bloques: Record<S['voto'], S[]> = { si: [], abstencion: [], ausente: [], no: [] };
+    for (const f of filas) {
+      const color = f.color ?? '#8a8f99';
+      const rep = f.pos === 'dividido' ? (f.rep ?? { si: 0, no: 0, abstencion: 0, ausente: f.escanos })
+        : { si: ['gob', 'apoyo', 'si'].includes(f.pos) ? f.escanos : 0, no: f.pos === 'no' ? f.escanos : 0, abstencion: f.pos === 'abstencion' ? f.escanos : 0, ausente: f.pos === 'ausente' ? f.escanos : 0 };
+      (['si', 'abstencion', 'ausente', 'no'] as const).forEach((k) => { for (let i = 0; i < (rep[k] || 0); i++) bloques[k].push({ color, nombre: f.nombre, voto: k }); });
+    }
+    const orden = [...bloques.si, ...bloques.abstencion, ...bloques.ausente, ...bloques.no].slice(0, SEATS.length);
+    const abs = mayoriaAbsoluta();
+    const a = SEATS[abs - 1], b = SEATS[abs];
+    const ang = Math.atan2(100 - (a.y + b.y) / 2, (a.x + b.x) / 2 - 100);
+    const lx = 100 + 102 * Math.cos(ang), ly = 100 - 102 * Math.sin(ang);
+    const circles = SEATS.map((p, i) => {
+      const s = orden[i];
+      if (!s) return `<circle cx="${p.x}" cy="${p.y}" r="${p.r}" fill="var(--line)"><title>Sin asignar</title></circle>`;
+      const op = s.voto === 'si' || s.voto === 'no' ? 1 : 0.28;
+      return `<circle cx="${p.x}" cy="${p.y}" r="${p.r}" fill="${s.color}" fill-opacity="${op}"${s.voto === 'no' ? ' stroke="var(--ink)" stroke-width="0.5"' : ''}><title>${esc(s.nombre)} · ${{ si: 'a favor', no: 'en contra', abstencion: 'abstención', ausente: 'no vota' }[s.voto]}</title></circle>`;
+    }).join('');
+    return `<figure class="hemi sim-hemi"><svg viewBox="-6 -8 212 114" role="img" aria-label="Hemiciclo de la simulación: ${bloques.si.length} a favor a la izquierda, ${bloques.abstencion.length} abstenciones y ${bloques.ausente.length} que no votan en el centro, ${bloques.no.length} en contra a la derecha.">
+      ${circles}
+      <line x1="100" y1="100" x2="${lx.toFixed(1)}" y2="${ly.toFixed(1)}" stroke="var(--ink)" stroke-width="0.8" stroke-dasharray="2 1.5"/>
+      <text x="${lx.toFixed(1)}" y="${(ly - 2).toFixed(1)}" text-anchor="middle" class="center-lbl">${abs}</text>
+      <text x="100" y="90" text-anchor="middle" class="center-num">${bloques.si.length}</text>
+      <text x="100" y="99" text-anchor="middle" class="center-lbl">votos a favor</text>
+    </svg>
+    <figcaption class="small muted">Izquierda: a favor · centro (atenuados): abstención y no votan · derecha (con borde): en contra. La línea marca el escaño ${abs}.</figcaption></figure>`;
+  }
 
   type Pos = 'gob' | 'apoyo' | 'si' | 'abstencion' | 'no' | 'ausente' | 'dividido';
   type Fila = { nombre: string; escanos: number; pos: Pos; color?: string; ficha?: string; partido?: string; rep?: { si: number; no: number; abstencion: number; ausente: number } };
@@ -257,7 +292,7 @@ const referencias = presets.some((p) => p.id === 'generales-2023')
     if (modo === 'inv') {
       const r = investidura(lib);
       const { si, no, abstencion, ausente } = r.votos;
-      html += `<h2>Resultado de la simulación</h2>${barra(si, no, abstencion, ausente)}
+      html += `<h2>Resultado de la simulación</h2>${hemiSVG(filas)}${barra(si, no, abstencion, ausente)}
         <div class="grid">
           <div class="card"><h3>Primera votación</h3><p><span class="badge ${r.primeraVotacion.aprobada ? 'ok' : 'bad'}">${r.primeraVotacion.aprobada ? 'Investidura aprobada' : 'No alcanza'}</span></p>
             <p class="small">Necesita ${abs} votos a favor. Tiene ${si}.${r.primeraVotacion.aprobada ? '' : ` Faltan ${r.primeraVotacion.faltan}.`}</p></div>
@@ -268,7 +303,7 @@ const referencias = presets.some((p) => p.id === 'generales-2023')
     } else {
       const r = mocionCensura(lib);
       const { si, no, abstencion, ausente } = r.votos;
-      html += `<h2>Resultado de la simulación</h2>${barra(si, no, abstencion, ausente)}
+      html += `<h2>Resultado de la simulación</h2>${hemiSVG(filas)}${barra(si, no, abstencion, ausente)}
         <div class="card"><h3>Moción de censura</h3><p><span class="badge ${r.aprobada ? 'ok' : 'bad'}">${r.aprobada ? 'Prosperaría' : 'No prosperaría'}</span></p>
         <p class="small">Necesita ${abs} votos a favor en una única votación. Tiene ${si}.${r.aprobada ? ' El candidato incluido en la moción quedaría investido.' : ` Faltan ${r.faltan}. El Gobierno seguiría en funciones plenas.`}</p></div>`;
     }
@@ -400,6 +435,8 @@ const referencias = presets.some((p) => p.id === 'generales-2023')
     .sim-fila .sim-del { grid-column: 1 / -1; justify-self: start; }
   }
   .sim-res { margin: 1.5rem 0; }
+  .sim-hemi { max-width: 34rem; margin: 0 auto 1rem; }
+  .sim-hemi circle { transition: fill 0.25s ease, fill-opacity 0.25s ease; }
   .sim-bar { position: relative; display: flex; height: 2.2rem; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--paper-2); }
   .sim-bar span { display: block; height: 100%; }
   .sim-bar i { position: absolute; top: -2px; bottom: -2px; width: 3px; background: var(--ink); transform: translateX(-1px); }

@@ -1,0 +1,74 @@
+{
+  "id": "1977-10-15-ley-de-amnistia-de-1977",
+  "fecha": "1977-10-15",
+  "titulo": "Ley de Amnistía de 1977",
+  "categorias": [
+    "legislacion",
+    "reformas-institucionales"
+  ],
+  "resumen": "La Ley 46/1977, de 15 de octubre, amnistió los actos de intencionalidad política tipificados como delitos y faltas cometidos antes del 15 de diciembre de 1976 y, con determinadas condiciones, otros posteriores hasta 1977. Fue una de las primeras leyes de las Cortes elegidas en junio de 1977.",
+  "contexto": "El Congreso aprobó la ley el 14 de octubre de 1977 y se publicó en el BOE el 17 de octubre. El preámbulo de la Ley Orgánica 1/2024 de amnistía se refiere a ella como precedente.",
+  "consecuencias": [
+    {
+      "texto": "En el Congreso la ley se aprobó con 317 votos emitidos: 296 a favor, 2 en contra, 18 abstenciones y 1 nulo.",
+      "tipo": "hecho",
+      "fecha": "1977-10-14",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 24, sesión de 14 de octubre de 1977",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L0/CONG/DS/C_1977_024.PDF",
+          "fecha_documento": "1977-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El artículo primero incluyó los actos de intencionalidad política anteriores al 15 de diciembre de 1976 y, para actos posteriores hasta el 15 de junio de 1977, exigió además un móvil de restablecimiento de las libertades públicas o de reivindicación de autonomías.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 46/1977, de 15 de octubre, de Amnistía",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-24937",
+          "localizacion": "Artículo primero",
+          "fecha_documento": "1977-10-17",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 46/1977, de 15 de octubre, de Amnistía",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-24937",
+      "fecha_documento": "1977-10-17",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 24, sesión de 14 de octubre de 1977",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L0/CONG/DS/C_1977_024.PDF",
+      "fecha_documento": "1977-10-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía (preámbulo)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-11776",
+      "fecha_documento": "2024-06-11",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -8,6 +8,8 @@ import PropuestaCard from '../../../components/PropuestaCard.astro';
 import TemaVacio from '../../../components/TemaVacio.astro';
 import AdSlot from '../../../components/AdSlot.astro';
 import { publicados, ETIQUETAS, fechaLarga } from '../../../lib/content';
+import { escanos2023 } from '../../../lib/partidos';
+import { textoSobre } from '../../../lib/hemiciclo.js';
 
 export async function getStaticPaths() {
   const partidos = await publicados('partidos');
@@ -20,6 +22,10 @@ const propuestas = (await publicados('propuestas')).filter((x) => x.data.partido
 const escenarios = await publicados('escenarios');
 const tieneEscenario = escenarios.some((e) => e.data.partido === d.id);
 const temasConDatos = temas.filter((t) => propuestas.some((x) => x.data.tema === t.id));
+const esc23 = escanos2023(d);
+const r23 = d.resultados.filter((r) => r.eleccion === 'generales-2023' && r.votos != null && !r.candidatura.toLowerCase().includes('predecesor'));
+const votos23 = esc23 != null && r23.length ? r23.reduce((s, r) => s + (r.votos ?? 0), 0) : undefined;
+const tinta = `--pc:${d.color_grafico};--pc-ink:${textoSobre(d.color_grafico)}`;
 
 const todas = [
   ...d.historia.flatMap((a) => a.fuentes),
@@ -43,35 +49,39 @@ const jsonld = {
 };
 ---
 <Base title={`${d.nombre} (${d.siglas}): propuestas, candidatura y pactos`} description={description} ogType="article" jsonld={jsonld} crumbs={[{ href: '/partidos/', label: 'Partidos' }, { label: d.siglas }]}>
-  <article class="wrap">
-    <header>
-      <h1>{d.nombre} <span class="muted" style="font-weight:400">({d.siglas})</span></h1>
-      <p class="muted">
-        {ETIQUETAS.naturaleza[d.naturaleza]} · {d.ambito === 'estatal' ? 'Ámbito estatal' : `Ámbito territorial${d.territorio ? ': ' + d.territorio : ''}`}
-        {d.web_oficial && <> · <a href={d.web_oficial} rel="noopener nofollow" target="_blank">Web oficial</a></>}
-      </p>
-      <Revision revision={d.revision} />
+  <article style={tinta}>
+    <header class="phero pc-band">
+      <div class="wrap">
+        <p class="phero-kicker">{ETIQUETAS.naturaleza[d.naturaleza]} · {d.ambito === 'estatal' ? 'Ámbito estatal' : `Ámbito territorial${d.territorio ? ': ' + d.territorio : ''}`}</p>
+        <h1><span class="phero-siglas">{d.siglas}</span> {d.nombre}</h1>
+        <div class="phero-stats">
+          {esc23 != null && <div><b data-count={esc23}>{esc23}</b><span>escaños en 2023</span></div>}
+          {votos23 != null && <div><b>{votos23.toLocaleString('es-ES')}</b><span>votos en 2023</span></div>}
+          <div><b>{temasConDatos.length}<small>/{temas.length}</small></b><span>temas con posición publicada</span></div>
+          <div><b class="phero-estado">{ETIQUETAS.candidatura[d.candidatura_2026.estado]}</b><span>candidatura al 29-N</span></div>
+        </div>
+        {d.web_oficial && <p class="small" style="margin:.75rem 0 0"><a href={d.web_oficial} rel="noopener nofollow" target="_blank">Web oficial del partido ↗</a></p>}
+      </div>
     </header>
-
-    <nav aria-label="En esta ficha" class="toc card small no-print">
-      <strong>En esta ficha:</strong>
-      <a href="#historia">Historia</a> · <a href="#liderazgo">Liderazgo y candidatura</a> · <a href="#orientacion">Orientación</a> ·
-      <a href="#propuestas">Propuestas por temas</a> · <a href="#trayectoria">Trayectoria</a> · <a href="#pactos">Pactos</a> ·
-      <a href="#balance">Qué está concreto y qué no</a> · <a href="#fuentes">Fuentes</a>
+    <nav aria-label="En esta ficha" class="ptoc no-print">
+      <div class="wrap">
+        <a href="#resumen">Resumen</a><a href="#historia">Historia</a><a href="#liderazgo">Candidatura</a><a href="#orientacion">Orientación</a><a href="#propuestas">Propuestas</a><a href="#trayectoria">Trayectoria</a><a href="#pactos">Pactos</a><a href="#balance">Balance</a><a href="#fuentes">Fuentes</a>
+      </div>
     </nav>
-
+    <div class="wrap">
+      <Revision revision={d.revision} />
     <div class="read">
-      <Quick titulo="1. Resumen">
+      <div id="resumen"></div><Quick titulo="1. Resumen">
         <p style="margin:0">{d.resumen}</p>
       </Quick>
 
       <section id="historia">
-        <h2>2. Historia breve</h2>
+        <h2 class="pc-heading">2. Historia breve</h2>
         {d.historia.map((a) => <Claim a={a} />)}
       </section>
 
       <section id="liderazgo">
-        <h2>3. Liderazgo y candidatura 2026</h2>
+        <h2 class="pc-heading">3. Liderazgo y candidatura 2026</h2>
         <ul>
           {d.liderazgo.map((l) => (
             <li><strong>{l.cargo}:</strong> {l.nombre}{l.desde && <span class="muted"> (desde {fechaLarga(l.desde)})</span>}{' '}
@@ -91,7 +101,7 @@ const jsonld = {
       </section>
 
       <section id="orientacion">
-        <h2>4. Orientación ideológica</h2>
+        <h2 class="pc-heading">4. Orientación ideológica</h2>
         <p>{d.orientacion.descripcion}</p>
         {d.orientacion.autodefinicion && <><h3>Cómo se define el partido</h3><Claim a={d.orientacion.autodefinicion} /></>}
         {d.orientacion.clasificaciones_externas.length > 0 && <><h3>Cómo lo clasifican fuentes externas</h3>{d.orientacion.clasificaciones_externas.map((a) => <Claim a={a} />)}</>}
@@ -100,7 +110,7 @@ const jsonld = {
     </div>
 
     <section id="propuestas">
-      <h2>5. Propuestas por temas</h2>
+      <h2 class="pc-heading">5. Propuestas por temas</h2>
       <div class="read">
         <p>
           Programa electoral 2026: <span class={`badge ${d.programa_2026.estado === 'publicado' ? 'ok' : 'warn'}`}>{ETIQUETAS.programa[d.programa_2026.estado]}</span>
@@ -112,10 +122,15 @@ const jsonld = {
         )}
         <p class="small"><a href={`/comparar/#partidos=${d.id}`}>Comparar con otros partidos →</a></p>
       </div>
+      <div class="chip-group tema-filtro no-print" role="group" aria-label="Filtrar propuestas por tema">
+        <button type="button" class="chip-btn" aria-pressed="true" data-tema="todos">Todos</button>
+        {temasConDatos.map((t) => <button type="button" class="chip-btn" aria-pressed="false" data-tema={t.id}>{t.data.nombre_corto}</button>)}
+        <button type="button" class="chip-btn" aria-pressed="false" data-tema="vacios">Sin información</button>
+      </div>
       {temas.map((t) => {
         const items = propuestas.filter((x) => x.data.tema === t.id);
         return (
-          <section class="tema-block" id={`tema-${t.id}`}>
+          <section class="tema-block reveal" id={`tema-${t.id}`} data-tema={t.id} data-vacio={items.length ? undefined : ''}>
             <h3><a href={`/temas/${t.id}/`}>{t.data.nombre}</a></h3>
             {items.length ? <div class="grid wide">{items.map((x) => <PropuestaCard p={{ ...x.data }} headingLevel={4} />)}</div> : <TemaVacio programa={d.programa_2026.estado} />}
           </section>
@@ -128,7 +143,7 @@ const jsonld = {
 
     <div class="read">
       <section id="trayectoria">
-        <h2>6. Trayectoria institucional</h2>
+        <h2 class="pc-heading">6. Trayectoria institucional</h2>
         {d.resultados.length > 0 && (
           <>
             <h3>Resultados electorales</h3>
@@ -154,7 +169,7 @@ const jsonld = {
       </section>
 
       <section id="pactos">
-        <h2>7. Pactos anteriores y posición sobre acuerdos</h2>
+        <h2 class="pc-heading">7. Pactos anteriores y posición sobre acuerdos</h2>
         <h3>Acuerdos y apoyos anteriores</h3>
         {d.pactos.anteriores.length ? d.pactos.anteriores.map((a) => <Claim a={a} />) : <p class="muted">No localizado en las fuentes consultadas.</p>}
         <h3>Qué dice ahora sobre posibles acuerdos</h3>
@@ -168,7 +183,7 @@ const jsonld = {
       </section>
 
       <section id="balance">
-        <h2>8. Qué está concreto, qué falta por desarrollar y qué está pendiente</h2>
+        <h2 class="pc-heading">8. Qué está concreto, qué falta por desarrollar y qué está pendiente</h2>
         <div class="grid">
           <div class="card"><h3 style="font-size:1rem">Concreto</h3>{d.balance_informacion.concreto.length ? <ul>{d.balance_informacion.concreto.map((x) => <li>{x}</li>)}</ul> : <p class="muted small">Nada destacado.</p>}</div>
           <div class="card"><h3 style="font-size:1rem">Sin desarrollar</h3>{d.balance_informacion.sin_desarrollar.length ? <ul>{d.balance_informacion.sin_desarrollar.map((x) => <li>{x}</li>)}</ul> : <p class="muted small">Nada destacado.</p>}</div>
@@ -177,7 +192,7 @@ const jsonld = {
       </section>
 
       <section id="fuentes">
-        <h2>9. Fuentes y revisión</h2>
+        <h2 class="pc-heading">9. Fuentes y revisión</h2>
         <p>Criterio de inclusión: {d.criterio_inclusion}</p>
         <Revision revision={d.revision} />
         {d.programa_2026.url && <p><a href={d.programa_2026.url} rel="noopener nofollow" target="_blank">Programa electoral completo</a></p>}
@@ -185,10 +200,55 @@ const jsonld = {
         <p class="small">¿Has visto un error? <a href="/correcciones/">Solicita una corrección</a>.</p>
       </section>
     </div>
+    </div>
   </article>
 </Base>
+<script>
+  // Filtro de propuestas por tema
+  const botones = [...document.querySelectorAll<HTMLButtonElement>('.tema-filtro .chip-btn')];
+  const bloques = [...document.querySelectorAll<HTMLElement>('.tema-block[data-tema]')];
+  botones.forEach((b) => b.addEventListener('click', () => {
+    const t = b.dataset.tema!;
+    botones.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    bloques.forEach((el) => { el.hidden = t === 'todos' ? false : t === 'vacios' ? !el.hasAttribute('data-vacio') : el.dataset.tema !== t; });
+  }));
+  // Navegación de la ficha: marca la sección visible
+  const enlaces = [...document.querySelectorAll<HTMLAnchorElement>('.ptoc a')];
+  const secciones = enlaces.map((a) => document.querySelector(a.getAttribute('href')!)).filter(Boolean) as Element[];
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((ents) => {
+      ents.forEach((en) => {
+        if (!en.isIntersecting) return;
+        const id = '#' + en.target.id;
+        enlaces.forEach((a) => { const on = a.getAttribute('href') === id; a.classList.toggle('on', on); if (on) a.scrollIntoView({ block: 'nearest', inline: 'center' }); });
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    secciones.forEach((s) => io.observe(s));
+  }
+</script>
 <style>
+  .phero { padding: 2rem 0 1.5rem; }
+  .phero h1 { margin: 0.2rem 0 1rem; color: inherit; }
+  .phero-kicker { margin: 0; font: 700 0.8rem/1.2 var(--font-sans); text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.9; }
+  .phero-siglas { display: inline-block; font-family: var(--font-sans); font-weight: 900; background: color-mix(in srgb, var(--pc-ink) 14%, transparent); padding: 0 0.35em; border-radius: 8px; margin-right: 0.15em; }
+  .phero-stats { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); }
+  .phero-stats div { background: color-mix(in srgb, var(--pc-ink) 10%, transparent); border: 1px solid color-mix(in srgb, var(--pc-ink) 25%, transparent); border-radius: 12px; padding: 0.6rem 0.8rem; }
+  .phero-stats b { display: block; font: 800 1.7rem/1.1 var(--font-sans); font-variant-numeric: tabular-nums; }
+  .phero-stats b small { font-size: 0.9rem; }
+  .phero-stats .phero-estado { font-size: 1rem; line-height: 1.25; }
+  .phero-stats span { font-size: 0.8rem; opacity: 0.92; }
+  .ptoc { position: sticky; top: 3.5rem; z-index: 15; background: var(--paper); border-bottom: 1px solid var(--line); }
+  .ptoc .wrap { display: flex; gap: 0.25rem; overflow-x: auto; scrollbar-width: none; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .ptoc a { flex: none; padding: 0.4rem 0.75rem; border-radius: 99px; text-decoration: none; font-size: 0.9rem; font-weight: 600; color: var(--ink-2); }
+  .ptoc a.on, .ptoc a:hover { background: var(--pc); color: var(--pc-ink); }
+  section[id] { scroll-margin-top: 7rem; }
+  .tema-filtro { margin: 1rem 0; }
+  .chip-btn { min-height: 2.4rem; padding: 0.35rem 0.85rem; border: 1.5px solid var(--line); border-radius: 99px; background: var(--paper); font: 600 0.9rem/1 var(--font-sans); color: var(--ink); cursor: pointer; }
+  .chip-btn[aria-pressed='true'] { background: var(--pc); border-color: var(--pc); color: var(--pc-ink); }
+  .tema-block { border-left: 4px solid color-mix(in srgb, var(--pc) 60%, transparent); padding: 0.25rem 0 0.75rem 1rem; margin: 0.75rem 0; }
+  .tema-block[data-vacio] { border-left-color: var(--line); }
+  :global(.propuesta) { border-top: 4px solid var(--pc); }
+  :global(.quick) { border-left-color: var(--pc); }
   .toc { margin: 1rem 0; line-height: 2; }
-  .tema-block { border-top: 1px solid var(--line); padding: 0.5rem 0 1rem; }
   .tema-block h3 { margin-top: 0.8rem; }
 </style>

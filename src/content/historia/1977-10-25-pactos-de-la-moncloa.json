@@ -1,0 +1,67 @@
+{
+  "id": "1977-10-25-pactos-de-la-moncloa",
+  "fecha": "1977-10-25",
+  "fecha_fin": "1977-10-27",
+  "titulo": "Pactos de la Moncloa",
+  "categorias": [
+    "economia-sociedad",
+    "elecciones-gobiernos"
+  ],
+  "resumen": "En octubre de 1977 el Gobierno de Adolfo Suárez y los partidos con representación parlamentaria firmaron en el Palacio de la Moncloa un acuerdo de saneamiento y reforma de la economía, acompañado de un acuerdo político. El Congreso respaldó el acuerdo económico el 27 de octubre.",
+  "contexto": "Las negociaciones se celebraron en la Moncloa a comienzos de octubre de 1977. El 25 de octubre el presidente del Gobierno remitió al Congreso el acuerdo firmado con los partidos para afrontar la situación económica, que fue presentado en el Pleno por el vicepresidente para Asuntos Económicos, Enrique Fuentes Quintana.",
+  "consecuencias": [
+    {
+      "texto": "El 27 de octubre de 1977 el Pleno del Congreso aprobó, con un solo voto en contra, la resolución sobre la puesta en marcha del acuerdo para el saneamiento económico, tras intervenir portavoces de todos los grupos parlamentarios.",
+      "tipo": "hecho",
+      "fecha": "1977-10-27",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 29, sesión de 27 de octubre de 1977",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L0/CONG/DS/C_1977_029.PDF",
+          "fecha_documento": "1977-10-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto 2809/1977 creó un Consejo Rector Provisional de RTVE invocando el acuerdo político alcanzado en las negociaciones de la Moncloa entre el Gobierno y los grupos parlamentarios.",
+      "tipo": "hecho",
+      "fecha": "1977-11-02",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 2809/1977, de 2 de noviembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-27025",
+          "fecha_documento": "1977-11-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, núm. 29, sesión de 27 de octubre de 1977",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L0/CONG/DS/C_1977_029.PDF",
+      "fecha_documento": "1977-10-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 2809/1977, de 2 de noviembre, por el que se crea el Consejo Rector Provisional de Radiotelevisión Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1977-27025",
+      "fecha_documento": "1977-11-14",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

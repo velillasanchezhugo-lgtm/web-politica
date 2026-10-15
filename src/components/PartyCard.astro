@@ -13,7 +13,7 @@ const style = `--pc:${p.color_grafico};--pc-ink:${textoSobre(p.color_grafico)}`;
   </div>
   <div class="pcard-body">
     <H><a class="stretch" href={`/partidos/${p.id}/`}>{p.nombre}</a></H>
-    <p class="small muted" style="margin:0">{ETIQUETAS.naturaleza[p.naturaleza as keyof typeof ETIQUETAS.naturaleza]} · {p.ambito === 'estatal' ? 'Estatal' : p.territorio ?? 'Territorial'}</p>
+    <p class="small muted" style="margin:0">{ETIQUETAS.naturaleza[p.naturaleza as keyof typeof ETIQUETAS.naturaleza]} · {p.ambito === 'estatal' ? 'Estatal' : (p.territorio ?? 'Territorial').split(' (')[0]}</p>
     {escanos2023 != null && <div class="meter" role="img" aria-label={`${escanos2023} de 350 escaños`}><span style={`width:${(escanos2023 / 350) * 100}%`}></span></div>}
     {!compact && <p class="small" style="margin:0">{p.resumen.length > 190 ? p.resumen.slice(0, p.resumen.lastIndexOf(' ', 185)) + '…' : p.resumen}</p>}
     <p class="small" style="margin:auto 0 0"><strong>29-N:</strong> {ETIQUETAS.candidatura[p.candidatura_2026.estado as keyof typeof ETIQUETAS.candidatura]}</p>

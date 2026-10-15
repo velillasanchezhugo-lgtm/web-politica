@@ -246,7 +246,7 @@ details > :last-child { margin-bottom: 0.9rem; }
 .hemi svg { display: block; width: 100%; height: auto; overflow: visible; }
 .hemi circle { transition: opacity 0.2s ease, transform 0.2s ease; transform-box: fill-box; transform-origin: center; }
 .hemi.focus circle:not(.on) { opacity: 0.16; }
-.hemi .center-num { font: 800 22px/1 var(--font-sans); fill: var(--ink); }
+.hemi .center-num { font: 800 18px/1 var(--font-sans); fill: var(--ink); }
 .hemi .center-lbl { font: 600 6px/1 var(--font-sans); fill: var(--ink-2); text-transform: uppercase; letter-spacing: 0.08em; }
 .hemi-legend { list-style: none; padding: 0; margin: 0.75rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .hemi-legend button, .hemi-legend a { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.25rem; padding: 0.25rem 0.65rem; border: 1px solid var(--line); border-radius: 99px; background: var(--paper); font: 600 0.85rem/1 var(--font-sans); color: var(--ink); cursor: pointer; text-decoration: none; }
@@ -258,6 +258,6 @@ details > :last-child { margin-bottom: 0.9rem; }
 @media (prefers-reduced-motion: no-preference) {
   .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease, transform 0.5s ease; }
   .js .reveal.in { opacity: 1; transform: none; }
-  .hemi.anim circle { animation: seat-in 0.5s ease both; animation-delay: calc(var(--i) * 2ms); }
+  .hemi.anim circle { animation: seat-in 0.5s ease both; animation-delay: calc(var(--i) * 1ms); }
   @keyframes seat-in { from { opacity: 0; transform: scale(0.2); } to { opacity: 1; transform: none; } }
 }

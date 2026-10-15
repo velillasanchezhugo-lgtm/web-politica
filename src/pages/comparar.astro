@@ -3,13 +3,14 @@ import Base from '../layouts/Base.astro';
 import Quick from '../components/Quick.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { publicados, alfa, ETIQUETAS, fechaCorta } from '../lib/content';
+import { textoSobre } from '../lib/hemiciclo.js';
 
 const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
 const temas = (await publicados('temas')).sort((a, b) => a.data.orden - b.data.orden);
 const propuestas = await publicados('propuestas');
 
 const data = {
-  partidos: partidos.map((p) => ({ id: p.data.id, nombre: p.data.nombre, siglas: p.data.siglas, programa: p.data.programa_2026.estado })),
+  partidos: partidos.map((p) => ({ id: p.data.id, nombre: p.data.nombre, siglas: p.data.siglas, programa: p.data.programa_2026.estado, color: p.data.color_grafico, ink: textoSobre(p.data.color_grafico) })),
   temas: temas.map((t) => ({ id: t.data.id, nombre: t.data.nombre })),
   propuestas: propuestas.map((p) => ({
     id: p.data.id,
@@ -40,7 +41,7 @@ const data = {
       <fieldset>
         <legend>Partidos <span class="muted small">(entre 2 y 4, en orden alfabético)</span></legend>
         <div class="chip-group" id="cmp-partidos">
-          {data.partidos.map((p) => <label class="chip"><input type="checkbox" name="partido" value={p.id} /><span>{p.nombre}</span></label>)}
+          {data.partidos.map((p) => <label class="chip chip-p" style={`--pc:${p.color};--pc-ink:${p.ink}`}><input type="checkbox" name="partido" value={p.id} /><span><i class="pc-dot" aria-hidden="true"></i>{p.nombre}</span></label>)}
         </div>
         <p class="small muted" id="cmp-partidos-msg" aria-live="polite" style="margin:.5rem 0 0"></p>
       </fieldset>
@@ -79,7 +80,7 @@ const data = {
 </Base>
 
 <script>
-  type P = { id: string; nombre: string; siglas: string; programa: string };
+  type P = { id: string; nombre: string; siglas: string; programa: string; color: string; ink: string };
   type T = { id: string; nombre: string };
   type X = { id: string; partido: string; tema: string; titulo: string; resumen: string; estado: string; estadoClave: string; tipo: string; fuente: { emisor: string; url: string; fecha: string }; desactualizado: boolean };
   const data = JSON.parse(document.getElementById('cmp-data')!.textContent!) as { partidos: P[]; temas: T[]; propuestas: X[] };
@@ -126,12 +127,12 @@ const data = {
       return;
     }
     const cols = ps.length;
-    let html = `<p class="small muted">${ps.map((p) => esc(p.nombre)).join(' · ')} — ${ts.length} ${ts.length === 1 ? 'tema' : 'temas'}</p>`;
+    let html = `<div class="cmp-sticky" style="--cols:${cols}">${ps.map((p) => `<span class="pc-band" style="--pc:${p.color};--pc-ink:${p.ink}">${esc(p.siglas)}</span>`).join('')}</div><p class="small muted">${ts.length} ${ts.length === 1 ? 'tema' : 'temas'} · orden alfabético</p>`;
     for (const t of ts) {
       html += `<section class="cmp-tema"><h2 class="cmp-h">${esc(t.nombre)} <a class="small" href="/temas/${t.id}/">Ver tema</a></h2><div class="cmp-row" style="--cols:${cols}">`;
       for (const p of ps) {
         const items = data.propuestas.filter((x) => x.partido === p.id && x.tema === t.id);
-        html += `<div class="cmp-cell"><h3 class="cmp-p">${esc(p.nombre)}</h3>`;
+        html += `<div class="cmp-cell" style="--pc:${p.color};--pc-ink:${p.ink}"><h3 class="cmp-p pc-band"><span>${esc(p.siglas)}</span> ${esc(p.nombre)}</h3><div class="cmp-body">`;
         if (!items.length) {
           html += `<p class="muted small">${p.programa === 'pendiente_publicacion' ? 'Programa 2026 pendiente de publicación; no localizado en otras fuentes consultadas.' : 'No localizado en las fuentes consultadas.'}</p>`;
         }
@@ -144,7 +145,7 @@ const data = {
             <p class="src-inline" style="margin:0">Fuente: <a href="${esc(x.fuente.url)}" rel="noopener nofollow" target="_blank">${esc(x.fuente.emisor)}</a>${x.fuente.fecha ? ' · ' + esc(x.fuente.fecha) : ''} · <a href="/partidos/${p.id}/#${esc(x.id)}">Explicación ampliada</a></p>
           </div>`;
         }
-        html += `</div>`;
+        html += `</div></div>`;
       }
       html += `</div></section>`;
     }
@@ -171,8 +172,15 @@ const data = {
   .cmp-h a { font-family: var(--font-sans); font-weight: 500; }
   .cmp-row { display: grid; gap: 0.75rem; grid-template-columns: 1fr; }
   @media (min-width: 48rem) { .cmp-row { grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); } }
-  .cmp-cell { border: 1px solid var(--line); border-radius: var(--radius); padding: 0.75rem 0.9rem; background: var(--paper); }
-  .cmp-p { font: 700 0.95rem/1.3 var(--font-sans); margin: 0 0 0.4rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-2); }
+  .cmp-cell { border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--pc) 5%, var(--paper)); overflow: hidden; }
+  .cmp-p { font: 700 0.92rem/1.3 var(--font-sans); margin: 0; padding: 0.5rem 0.9rem; }
+  .cmp-p span { font-weight: 900; }
+  .cmp-body { padding: 0.75rem 0.9rem; }
+  .cmp-sticky { position: sticky; top: 3.5rem; z-index: 10; display: grid; gap: 0.75rem; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); padding: 0.4rem 0; background: var(--paper); }
+  .cmp-sticky span { text-align: center; font: 800 0.85rem/1 var(--font-sans); padding: 0.45rem; border-radius: 8px; }
+  @media (max-width: 48rem) { .cmp-sticky { display: none; } }
+  .chip-p input:checked + span { background: var(--pc); border-color: var(--pc); color: var(--pc-ink); }
+  .chip-p input:checked + span .pc-dot { box-shadow: 0 0 0 2px var(--pc-ink); }
   .cmp-item + .cmp-item { border-top: 1px dashed var(--line); margin-top: 0.6rem; padding-top: 0.6rem; }
   .cmp-t { margin: 0; }
 </style>

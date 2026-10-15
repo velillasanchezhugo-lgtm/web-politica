@@ -8,6 +8,7 @@ import TemaVacio from '../../components/TemaVacio.astro';
 import SourceList from '../../components/SourceList.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import { publicados, alfa } from '../../lib/content';
+import { textoSobre } from '../../lib/hemiciclo.js';
 
 export async function getStaticPaths() {
   const temas = await publicados('temas');
@@ -38,12 +39,18 @@ const todas = [...d.contexto, ...d.competencias].flatMap((a) => a.fuentes).conca
     </div>
     <AdSlot />
     <h2>Qué plantea cada partido</h2>
+    <ul class="tema-mapa" role="list" aria-label="Formaciones con posición publicada en este tema">
+      {partidos.map((p) => {
+        const n = propuestas.filter((x) => x.data.partido === p.data.id).length;
+        return <li style={`--pc:${p.data.color_grafico};--pc-ink:${textoSobre(p.data.color_grafico)}`}><a href={`#${p.data.id}`} class={n ? 'si' : 'no'}><b>{p.data.siglas}</b><span>{n ? `${n} ${n === 1 ? 'posición' : 'posiciones'}` : 'Sin información'}</span></a></li>;
+      })}
+    </ul>
     <p class="small"><a href={`/comparar/#temas=${d.id}`}>Comparar solo algunos partidos en este tema →</a></p>
     {partidos.map((p) => {
       const items = propuestas.filter((x) => x.data.partido === p.data.id);
       return (
-        <section class="tema-block" id={p.data.id}>
-          <h3><a href={`/partidos/${p.data.id}/`}>{p.data.nombre}</a></h3>
+        <section class="tema-block reveal" id={p.data.id} style={`--pc:${p.data.color_grafico};--pc-ink:${textoSobre(p.data.color_grafico)}`}>
+          <h3><span class="pc-tag">{p.data.siglas}</span> <a href={`/partidos/${p.data.id}/`}>{p.data.nombre}</a></h3>
           {items.length ? <div class="grid wide">{items.map((x) => <PropuestaCard p={x.data} headingLevel={4} />)}</div> : <TemaVacio programa={p.data.programa_2026.estado} />}
         </section>
       );
@@ -55,5 +62,12 @@ const todas = [...d.contexto, ...d.competencias].flatMap((a) => a.fuentes).conca
   </article>
 </Base>
 <style>
-  .tema-block { border-top: 1px solid var(--line); padding: 0.5rem 0 1rem; }
+  .tema-block { border-left: 5px solid var(--pc); padding: 0.25rem 0 0.75rem 1rem; margin: 1rem 0; scroll-margin-top: 5rem; }
+  .tema-block :global(.propuesta) { border-top: 4px solid var(--pc); }
+  .tema-mapa { list-style: none; padding: 0; display: grid; gap: 0.5rem; grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); margin: 0 0 1.5rem; }
+  .tema-mapa a { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.6rem 0.75rem; border-radius: 10px; text-decoration: none; height: 100%; }
+  .tema-mapa a.si { background: var(--pc); color: var(--pc-ink); }
+  .tema-mapa a.no { border: 1.5px dashed var(--pc); color: var(--ink-2); }
+  .tema-mapa b { font: 800 1rem/1.1 var(--font-sans); }
+  .tema-mapa span { font-size: 0.78rem; }
 </style>

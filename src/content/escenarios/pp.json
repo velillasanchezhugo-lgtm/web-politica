@@ -1,0 +1,943 @@
+{
+  "partido": "pp",
+  "titulo": "¿Qué podría pasar si gobernara el PP?",
+  "resumen": "Este análisis es condicional, no una predicción: describe lo que el PP dice que quiere hacer, qué instrumentos jurídicos y apoyos parlamentarios necesitaría y qué límites tendría si Alberto Núñez Feijóo encabezara el Gobierno tras el 29 de noviembre de 2026. Como el programa de 2026 no estaba publicado el 15 de octubre, las medidas proceden de la Ponencia Política de julio de 2025 y de propuestas oficiales recientes. Solo se mencionan efectos cuando hay una estimación independiente identificada, con sus cautelas.",
+  "medidas": [
+    {
+      "texto": "El PP se marca como objetivo cubrir en la próxima legislatura lo que llama un «déficit de un millón de viviendas». Feijóo ha defendido construir 200.000 viviendas al año. En su plan de enero de 2026 también propone dar más financiación a las comunidades y más capacidad de gasto a los ayuntamientos que faciliten la construcción, y vincular a ello el modelo de financiación autonómica.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Feijóo se marca como objetivo cubrir el déficit del millón de casas y propone mayor financiación para CCAA y ayuntamientos que trabajen en vivienda",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-marca-como-objetivo-cubrir-el-deficit-del-millon-de-casas-y-propone-mayor-financiacion-para-ccaa-y-ayuntamientos-que-trabajen-en-vivienda/",
+          "localizacion": "Entradilla y apartado «Programa de Vivienda del PP: 15 medidas»",
+          "fecha_documento": "2026-01-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo dice que Sánchez no puede culpar al resto de «lo que no ha hecho»: «La vivienda ha sido el gran fracaso de este Gobierno y tiene que ser el éxito del siguiente»",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-dice-que-sanchez-no-puede-culpar-al-resto-de-lo-que-no-ha-hecho-la-vivienda-ha-sido-el-gran-fracaso-de-este-gobierno-y-tiene-que-ser-el-exito-del-siguiente/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Para aumentar la oferta, el PP propone el silencio administrativo positivo en las licencias de obra nueva y rehabilitación (90 días, según su plan de 15 medidas), salvo en inmuebles con protección ambiental, patrimonial o histórica. Propone además movilizar suelo público y en desuso, aprobar una nueva Ley de Suelo y un Plan Residencial Estratégico para reducir de 10 a 4 años el tiempo de construcción.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "«La vivienda: un bien accesible», pp. 25-26",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo se marca como objetivo cubrir el déficit del millón de casas y propone mayor financiación para CCAA y ayuntamientos que trabajen en vivienda",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-marca-como-objetivo-cubrir-el-deficit-del-millon-de-casas-y-propone-mayor-financiacion-para-ccaa-y-ayuntamientos-que-trabajen-en-vivienda/",
+          "localizacion": "Apartado «Programa de Vivienda del PP: 15 medidas»",
+          "fecha_documento": "2026-01-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En fiscalidad de la vivienda, el PP propone bajar del 10 % al 4 % el IVA de la vivienda nueva que compren jóvenes, una bonificación en el IRPF para jóvenes y una «Hucha Hogar Joven». No detalla cuantías ni requisitos.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Feijóo se marca como objetivo cubrir el déficit del millón de casas y propone mayor financiación para CCAA y ayuntamientos que trabajen en vivienda",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-marca-como-objetivo-cubrir-el-deficit-del-millon-de-casas-y-propone-mayor-financiacion-para-ccaa-y-ayuntamientos-que-trabajen-en-vivienda/",
+          "localizacion": "Apartado «Programa de Vivienda del PP: 15 medidas»",
+          "fecha_documento": "2026-01-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El PP propone una ley contra la ocupación de viviendas que permita desalojar en 48 horas. Según su Ponencia, quiere endurecer las penas e impedir que las personas que ocupan una vivienda se empadronen en ella.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Feijóo se marca como objetivo cubrir el déficit del millón de casas y propone mayor financiación para CCAA y ayuntamientos que trabajen en vivienda",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-marca-como-objetivo-cubrir-el-deficit-del-millon-de-casas-y-propone-mayor-financiacion-para-ccaa-y-ayuntamientos-que-trabajen-en-vivienda/",
+          "localizacion": "Apartado «Programa de Vivienda del PP: 15 medidas»",
+          "fecha_documento": "2026-01-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "«La vivienda: un bien accesible», p. 26",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En impuestos, la Ponencia Política plantea una «profunda reforma» para un sistema «más sencillo» y «más justo», con impuestos bajos en especial para las rentas modestas, los jóvenes, las familias y las clases medias, y propone incorporar el «derecho al error» del contribuyente. Feijóo ha defendido además deflactar el IRPF por la inflación. El PP no ha publicado tipos ni una estimación de coste.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "«Gastar bien y aliviar la carga fiscal», p. 42",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo dice que Sánchez no puede culpar al resto de «lo que no ha hecho»: «La vivienda ha sido el gran fracaso de este Gobierno y tiene que ser el éxito del siguiente»",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-dice-que-sanchez-no-puede-culpar-al-resto-de-lo-que-no-ha-hecho-la-vivienda-ha-sido-el-gran-fracaso-de-este-gobierno-y-tiene-que-ser-el-exito-del-siguiente/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Feijóo se ha comprometido a garantizar la viabilidad del sistema público de pensiones y a revalorizar con el IPC las que ya se cobran (13 de octubre de 2026). La Ponencia promete «un sistema de pensiones sólido y viable».",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Feijóo garantiza el sistema público de pensiones y su revalorización con el IPC",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-garantiza-el-sistema-publico-de-pensiones-y-su-revalorizacion-con-el-ipc-el-desahucio-mas-importante-de-espana-es-el-de-pedro-sanchez/",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "«Cuidar a quienes nos cuidaron», p. 32",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En inmigración, la Ponencia propone que estar empadronado en situación irregular deje de dar acceso a prestaciones no contributivas. También quiere condicionar la residencia de larga duración a haber cotizado y a conocer la lengua y la cultura españolas, devolver al arraigo y a la reagrupación familiar su «carácter excepcional» y repatriar «de inmediato» a quienes estén en situación irregular o cometan delitos.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "«Libertad y Seguridad», pp. 21-22",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La Ponencia apoya prorrogar la vida de las centrales nucleares como complemento de las renovables y propone que el Estado financie el 50 % de la dependencia.",
+      "tipo": "objetivo_declarado",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "pp. 25 y 39",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "instrumentos": [
+    {
+      "texto": "Vivienda y suelo: el Estado puede aprobar una ley estatal de suelo (ley ordinaria) amparada en sus títulos de condiciones básicas y procedimiento administrativo común. Pero el urbanismo, las licencias y la vivienda son competencia autonómica y municipal. Medidas como el silencio positivo en licencias o la movilización de suelo necesitarían también normas y actuaciones de comunidades y ayuntamientos.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.3.ª y 149.1.1.ª y 18.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Rebajas de IVA o IRPF y beneficios fiscales: solo pueden establecerse por ley. La Ley de Presupuestos no puede crear tributos y solo puede modificarlos si lo prevé una ley tributaria sustantiva. Si se usara un decreto-ley, tendría que respetar los límites constitucionales de ese instrumento y ser convalidado por el Congreso en 30 días.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 31.3, 86, 133.1, 133.3 y 134.7",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Endurecer las penas por ocupación exige reformar el Código Penal, que es una ley orgánica: hace falta mayoría absoluta del Congreso (176 votos) en la votación final. Agilizar los desalojos implica además cambiar las leyes procesales.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1995-25444",
+          "fecha_documento": "1995-11-23",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 81",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Inmigración: los derechos de los extranjeros se regulan en la Ley Orgánica 4/2000, cuya reforma exige mayoría absoluta. Una parte del régimen, como el arraigo, está en el reglamento de extranjería, que el Gobierno puede modificar por real decreto, como hizo el actual con el Real Decreto 316/2026. Cambiar el acceso a prestaciones exige reformar las normas estatales y, en las rentas mínimas autonómicas, también las de cada comunidad.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-544",
+          "fecha_documento": "2000-01-11",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+          "fecha_documento": "2026-04-14",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 81",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Financiación autonómica: el sistema se regula en la Ley Orgánica de Financiación de las Comunidades Autónomas (LOFCA), que asigna funciones al Consejo de Política Fiscal y Financiera. Vincularlo a la vivienda exigiría negociar en ese órgano con todas las comunidades y aprobar una ley orgánica (mayoría absoluta).",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166",
+          "localizacion": "Artículo 2",
+          "fecha_documento": "1980-09-22",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 157.3",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Revalorizar las pensiones con el IPC ya es obligatorio por ley: el artículo 58 de la Ley General de la Seguridad Social lo establece con la media del IPC de los doce meses previos a diciembre. Mantenerlo no requiere una ley nueva, aunque las cuantías máximas y mínimas se actualizan en los Presupuestos.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, texto refundido de la Ley General de la Seguridad Social (consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "localizacion": "Artículo 58",
+          "fecha_documento": "2015-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Para aplicar las rebajas fiscales y los planes de gasto, el Gobierno tendría que presentar y aprobar unos Presupuestos Generales del Estado. Si no los aprueba, se prorrogan los del año anterior.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 134",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "apoyos": [
+    {
+      "texto": "El Congreso que salga de las elecciones del 29 de noviembre de 2026 tendrá 350 diputados, repartidos entre 52 circunscripciones según el anexo del real decreto de convocatoria. Para ser investido en la primera votación, un candidato necesita la mayoría absoluta (176 votos a favor); si no la logra, 48 horas después basta la mayoría simple (más síes que noes). Si en dos meses desde la primera votación nadie es investido, se disuelven las Cortes y se repiten las elecciones.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículos 1 a 3 y anexo",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 99",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ganar en votos o en escaños no da derecho a gobernar: el Rey propone un candidato tras consultar a los grupos, y lo que decide es la votación del Congreso. Por eso, la candidatura con más escaños no siempre logra la investidura y otra con menos puede conseguirla si reúne más apoyos en la Cámara.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 99.1 a 99.3",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ser investido tampoco garantiza poder aprobar leyes. Cada ley ordinaria necesita mayoría simple en el Congreso; las leyes orgánicas exigen mayoría absoluta (176) en una votación final sobre el conjunto. Los Presupuestos los elabora el Gobierno, pero los examinan, enmiendan y aprueban las Cortes; si no se aprueban a tiempo, se prorrogan los anteriores. Los decretos-leyes deben ser convalidados por el Congreso en 30 días.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 81, 86 y 134",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Senado puede vetar un proyecto de ley por mayoría absoluta o enmendarlo en dos meses (20 días si es urgente). El Congreso levanta el veto por mayoría absoluta de inmediato o por mayoría simple pasados dos meses. Desde la reforma constitucional de 2026, Formentera elige su propio senador. Con ella, cada provincia elige cuatro senadores, las islas eligen tres o uno, Ceuta y Melilla eligen dos cada una, y los parlamentos autonómicos designan a otros más. Una mayoría distinta en el Senado puede retrasar las leyes, pero no bloquearlas de forma definitiva.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 69 y 90",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Reforma del apartado 3 del artículo 69 de la Constitución Española, a los efectos de que la isla de Formentera elija un senador propio, de 19 de mayo de 2026",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881",
+          "localizacion": "Artículo único",
+          "fecha_documento": "2026-05-19",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Esta sección no suma escaños ni presenta ningún acuerdo como probable o cerrado. Las declaraciones de otros partidos que se recogen abajo son posiciones públicas en una fecha concreta y pueden cambiar con los resultados.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": []
+    },
+    {
+      "texto": "Precedente: en 2023 la candidatura del PP fue la que obtuvo más escaños (137), pero Feijóo no fue investido. En la primera votación, el 27 de septiembre de 2023, logró 172 votos a favor y 178 en contra.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro de escaños por candidatura, total estatal",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV legislatura, núm. 5 (27-09-2023)",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "localizacion": "Sumario (resultado de la votación de investidura)",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En junio de 2026, Feijóo dijo que quiere gobernar en solitario pero que, si no obtiene mayoría absoluta, «nos sentaremos y haremos una coalición de gobierno» con Vox, «de acuerdo con los principios básicos de nuestros partidos» y con seis «líneas rojas».",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Feijóo en 'El hormiguero' sobre Vox y Abascal: «Nos sentaremos y haremos una coalición de gobierno»",
+          "emisor": "Público (con información de Europa Press)",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/feijoo-hormiguero-sobre-vox-abascal-sentaremos-haremos-coalicion-gobierno.html",
+          "fecha_documento": "2026-06-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Vox: según Euronews (5 de octubre de 2026), Santiago Abascal dijo de Feijóo: «Ambos sabemos que necesitamos un cambio y hablamos con normalidad». Calificó las elecciones de «muy inciertas». El medio resumió sus exigencias al PP en «remigración», desregulación y «prioridad nacional», pero no se ha localizado una declaración literal de Abascal que fije condiciones concretas para apoyar una investidura.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Vox recuerda al PP sus condiciones para gobernar España: remigración, desregularización y prioridad nacional",
+          "emisor": "Euronews",
+          "tipo": "medio",
+          "url": "https://es.euronews.com/2026/10/05/vox-pp-condiciones-gobernar-espana-remigracion-desregularizacion-prioridad-nacional",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "UPN: el 13 de octubre de 2026, el PP anunció un principio de acuerdo para concurrir en Navarra con UPN en una coalición electoral («Unión del Pueblo Navarro en coalición con el Partido Popular»), con Feijóo como candidato. Es una candidatura conjunta, no un pacto de investidura con otro grupo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "PP y UPN, juntos por Navarra y por España (comunicado sobre el principio de acuerdo de coalición electoral)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2026/10/26.10.13-COMUNICADO-PREACUERDO-PP-UPN.pdf",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Junts: según Ara (7 de octubre de 2026) y Público (12 de octubre de 2026), su portavoz en el Congreso, Míriam Nogueras, ha dicho que «PP y Vox no gobernarán» con los votos de Junts.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Junts también descarta investir a Sánchez",
+          "emisor": "Ara",
+          "tipo": "medio",
+          "url": "https://es.ara.cat/politica/turull-descarta-investir-pedro-sanchez_1_5872106.html",
+          "fecha_documento": "2026-10-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El tercer escenario electoral del que nadie habla: el bloqueo si PP y Vox no suman mayoría absoluta",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/tercer-escenario-electoral-nadie-habla-bloqueo-pp-vox-suman-mayoria-absoluta.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "PNV: según fuentes de su dirección citadas por Público (12 de octubre de 2026), el partido «no permitirá con su voto que se forme un Gobierno donde esté Vox», ni con el voto a favor ni con la abstención. Es una declaración anónima recogida por el medio, no un comunicado oficial.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "El tercer escenario electoral del que nadie habla: el bloqueo si PP y Vox no suman mayoría absoluta",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/tercer-escenario-electoral-nadie-habla-bloqueo-pp-vox-suman-mayoria-absoluta.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "limites": [
+    {
+      "texto": "Las comunidades autónomas pueden asumir las competencias de ordenación del territorio, urbanismo y vivienda. En sanidad y educación, el Estado fija las bases o normas básicas y las comunidades gestionan los servicios. Un Gobierno central puede legislar sobre condiciones básicas de igualdad, legislación civil y bases de la planificación económica, pero gran parte de la ejecución depende de gobiernos autonómicos y municipales.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.3.ª y 149.1.1.ª, 8.ª, 13.ª, 16.ª y 30.ª",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Cuentas públicas: según Eurostat (notificación de abril de 2026), el déficit de las Administraciones Públicas fue del 2,4 % del PIB en 2025 (3,2 % en 2024) y la deuda, del 100,7 % del PIB al cierre de 2025. El Ministerio de Hacienda comunicó el 31 de marzo de 2026 un déficit del 2,18 % del PIB. El Banco de España sitúa la deuda en el 101,4 % del PIB en el segundo trimestre de 2026.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Government deficit/surplus, debt and associated data (gov_10dd_edpt1), España, % del PIB",
+          "emisor": "Eurostat",
+          "tipo": "organismo_independiente",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=ES&geo=EA20&geo=EU27_2020&unit=PC_GDP&sector=S13&na_item=B9&na_item=GD&sinceTimePeriod=2022&format=JSON",
+          "localizacion": "Serie anual 2022-2025 (actualización de 22-04-2026)",
+          "fecha_documento": "2026-04-22",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "España cierra 2025 con un déficit público del 2,2% del PIB y mejora por sexto año consecutivo el objetivo pactado con la UE",
+          "emisor": "La Moncloa (Ministerio de Hacienda)",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/hacienda/paginas/2026/310326-cierre-deficit-2025.aspx",
+          "fecha_documento": "2026-03-31",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en el 101,4% del PIB en el segundo trimestre de 2026",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-2026t2.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Banco de España estima que, pese a la bajada del déficit en 2025, el desequilibrio estructural de las cuentas públicas sigue en torno al 3 % del PIB, porque la mejora se debió sobre todo a factores transitorios. También indica que el gasto neto creció por encima del 3,7 % fijado para 2025 en el plan fiscal.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "«Informe anual en breve», p. 15",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Reglas fiscales de la UE: el plan fiscal-estructural de España, aprobado por el Consejo el 21 de enero de 2025, fija un crecimiento máximo del gasto neto del 3,5 % en 2026, del 3,2 % en 2027 y del 3,0 % en 2028, con un ajuste en siete años (2025-2031). El «gasto neto» se calcula descontando las medidas discrecionales de ingresos. Por eso, una rebaja de impuestos reduce el margen de gasto y una subida lo amplía. En junio de 2026, el Consejo activó para España la cláusula de salvaguardia nacional, que permite desviarse de esa senda por mayor gasto en defensa, hasta un 1,5 % del PIB al año hasta 2028.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Recomendación del Consejo de 21 de enero de 2025 por la que se aprueba el plan fiscal-estructural nacional a medio plazo de España (C/2025/643)",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2025/643/Z00001-00020.pdf",
+          "localizacion": "Considerando 16 y anexo I",
+          "fecha_documento": "2025-01-21",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2024/1263/L00001-00021.pdf",
+          "localizacion": "Artículos 2.2 y 16.2",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Recomendación del Consejo, de 12 de junio de 2026, por la que se autoriza a España a desviarse de las tasas máximas de crecimiento del gasto neto (activación de la cláusula de salvaguardia nacional)",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2026/3314/Z00001-00004.pdf",
+          "localizacion": "Considerandos 5 a 7",
+          "fecha_documento": "2026-06-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Un Gobierno recién nombrado puede presentar un plan fiscal-estructural revisado, para un nuevo período de cuatro o cinco años. Lo evalúan la Comisión y el Consejo, y debe mantener la deuda en una senda descendente verosímil y el déficit por debajo del 3 % del PIB. La Constitución, por su parte, obliga a todas las administraciones a respetar la estabilidad presupuestaria.",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2024/1263/L00001-00021.pdf",
+          "localizacion": "Artículos 15.2 y 16.2",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 135",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Cualquier ley puede ser recurrida ante el Tribunal Constitucional, también por los gobiernos autonómicos. Ejemplo reciente: en la STC 59/2026 (8 de septiembre de 2026), el Tribunal desestimó casi por completo el recurso del Gobierno vasco contra la Ley 12/2023, por el derecho a la vivienda. Un magistrado formuló voto particular: considera que algunos preceptos invaden competencias autonómicas y recuerda que el Tribunal ya había resuelto controversias similares, entre ellas en la STC 79/2024.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 161",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Pleno. Sentencia 59/2026, de 8 de septiembre de 2026. Recurso de inconstitucionalidad 1301-2024 (Ley 12/2023, por el derecho a la vivienda)",
+          "emisor": "Tribunal Constitucional (publicada en el Boletín Oficial del Estado)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21250",
+          "localizacion": "Fallo y voto particular",
+          "fecha_documento": "2026-09-08",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Las rebajas de impuestos propuestas por el PP cuentan como aumento del «gasto neto» en las reglas europeas. Sin recortes de gasto equivalentes, o sin otras subidas de ingresos, reducirían el margen que deja la senda de 3,5 % (2026), 3,2 % (2027) y 3,0 % (2028).",
+      "tipo": "requisito",
+      "fuentes": [
+        {
+          "titulo": "Reglamento (UE) 2024/1263 del Parlamento Europeo y del Consejo, de 29 de abril de 2024, relativo a la coordinación eficaz de las políticas económicas y a la supervisión presupuestaria multilateral",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2024/1263/L00001-00021.pdf",
+          "localizacion": "Artículo 2.2",
+          "fecha_documento": "2024-04-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Recomendación del Consejo de 21 de enero de 2025 por la que se aprueba el plan fiscal-estructural nacional a medio plazo de España (C/2025/643)",
+          "emisor": "Diario Oficial de la Unión Europea (copia en boe.es)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/doue/2025/643/Z00001-00020.pdf",
+          "localizacion": "Anexo I",
+          "fecha_documento": "2025-01-21",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Un Gobierno del PP no podría imponer a las comunidades gobernadas por otros partidos el silencio positivo en licencias ni una política de suelo concreta. Solo podría incentivarlos con financiación, que es lo que propone el PP, o con legislación básica, que puede ser recurrida ante el Tribunal Constitucional.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 148.1.3.ª, 149.1 y 161",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo se marca como objetivo cubrir el déficit del millón de casas y propone mayor financiación para CCAA y ayuntamientos que trabajen en vivienda",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-marca-como-objetivo-cubrir-el-deficit-del-millon-de-casas-y-propone-mayor-financiacion-para-ccaa-y-ayuntamientos-que-trabajen-en-vivienda/",
+          "localizacion": "Apartado «Programa de Vivienda del PP: 15 medidas»",
+          "fecha_documento": "2026-01-12",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "efectos": [
+    {
+      "texto": "Oferta de vivienda: el Banco de España concluye que la rigidez de la oferta es un problema estructural, debido a la escasez de suelo edificable, la lentitud urbanística y la falta de mano de obra. Recomienda priorizar políticas que aumenten la oferta, coordinadas entre Estado, comunidades y ayuntamientos. Esto respalda la dirección general de las medidas de oferta del PP, pero el Banco de España no evalúa ni cuantifica el plan del PP.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "«Informe anual en breve», p. 17, y capítulo 2, p. 128",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Escala del objetivo: según el Banco de España, en 2025 se terminaron unas 92.000 viviendas y el déficit acumulado entre 2021 y 2025 ronda las 750.000. El ritmo de 200.000 viviendas al año que defiende Feijóo supondría más que duplicar la producción de 2025. No se ha localizado ninguna estimación independiente de que sus medidas permitan alcanzarlo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, pp. 156-157",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo dice que Sánchez no puede culpar al resto de «lo que no ha hecho»: «La vivienda ha sido el gran fracaso de este Gobierno y tiene que ser el éxito del siguiente»",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-dice-que-sanchez-no-puede-culpar-al-resto-de-lo-que-no-ha-hecho-la-vivienda-ha-sido-el-gran-fracaso-de-este-gobierno-y-tiene-que-ser-el-exito-del-siguiente/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ayudas fiscales a la compra (IVA reducido, deducciones, ahorro subvencionado): el Banco de España advierte que las ayudas a la demanda pueden trasladarse a precios más altos donde la oferta es rígida, de modo que parte del dinero público acaba en manos del vendedor. Cautelas: se basa en literatura internacional (Estados Unidos, Reino Unido, Francia) y no estima el efecto concreto del IVA al 4 % para jóvenes que propone el PP.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, p. 184, y notas 89 y 90",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "No es posible estimar el efecto de la rebaja general de impuestos ni de la deflactación del IRPF sobre la recaudación, porque el PP no ha publicado tipos, tramos ni calendario. Tampoco se ha localizado una evaluación de la AIReF o del Banco de España sobre estas propuestas.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "p. 42",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Pensiones: según la información publicada sobre el informe de la AIReF de marzo de 2025, el gasto en pensiones pasaría del 12,7 % del PIB en 2022 al 16,1 % en 2050, y su aumento exigiría transferencias adicionales de 2,4 puntos del PIB. El compromiso del PP de revalorizar con el IPC coincide con la ley vigente, así que no añade coste respecto a ese escenario, pero tampoco lo reduce. Cautela: la AIReF advirtió que esa regla de gasto no es un indicador adecuado de sostenibilidad. Este dato procede de un medio, porque la web de la AIReF no pudo consultarse.",
+      "tipo": "efecto_estimado",
+      "fuentes": [
+        {
+          "titulo": "La AIReF constata el cumplimiento de la regla de gasto en pensiones, pero avisa: no mejora la sostenibilidad",
+          "emisor": "Forbes España (información sobre el informe de la AIReF)",
+          "tipo": "medio",
+          "url": "https://forbes.es/?p=667213",
+          "fecha_documento": "2025-03-31",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, texto refundido de la Ley General de la Seguridad Social (consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "localizacion": "Artículo 58",
+          "fecha_documento": "2015-10-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "No se ha localizado ninguna estimación independiente de los efectos económicos, laborales o fiscales de las medidas migratorias de la Ponencia, como limitar prestaciones o hacer excepcional el arraigo. Cualquier cifra sería especulativa.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Ponencia Política del XXI Congreso Nacional del Partido Popular (julio de 2025)",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/wp-content/uploads/2025/07/PONENCIA-POLITICA-.pdf",
+          "localizacion": "pp. 21-22",
+          "fecha_documento": "2025-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "incertidumbres": [
+    {
+      "texto": "Contexto económico: en su escenario central de junio de 2026, el Banco de España prevé que el PIB crezca un 2,3 % en 2026 y un 1,7 % en 2027, con una inflación elevada por el encarecimiento de la energía tras la guerra de Irán. El IPC subió un 4,9 % interanual en septiembre de 2026, la tasa más alta desde febrero de 2023. La recaudación, el coste de revalorizar las pensiones (ligado al IPC) y el margen fiscal dependerán de esa evolución, que ningún Gobierno controla por completo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "«Informe anual en breve», p. 15",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Índice de Precios de Consumo (IPC). Septiembre 2026",
+          "emisor": "Instituto Nacional de Estadística (INE)",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/dyngs/Prensa/es/IPC0926.htm",
+          "localizacion": "Principales resultados",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los tipos de interés los fija el Banco Central Europeo para toda la zona del euro, no el Gobierno de España. Afectan al coste de las hipotecas y al de la deuda pública (más de 100 % del PIB). Por eso, la evolución de la vivienda y del déficit puede deberse a decisiones monetarias y a la economía internacional, y no solo a las políticas del Gobierno que se forme.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "La deuda de las Administraciones Públicas se situó en el 101,4% del PIB en el segundo trimestre de 2026",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-2026t2.html",
+          "localizacion": "Nota de prensa estadística",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Plazos de ejecución: según el Banco de España, la oferta de vivienda nueva reacciona con lentitud y la frenan la escasez de suelo edificable, la lentitud en la gestión urbanística y la falta de mano de obra en la construcción. Cualquier medida sobre la oferta tardará años en notarse en el número de viviendas terminadas, probablemente más allá de una legislatura, sea cual sea el partido que gobierne.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Informe Anual 2025",
+          "emisor": "Banco de España",
+          "tipo": "organismo_independiente",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesAnuales/InformesAnuales/25/InfAnual_2025.pdf",
+          "localizacion": "Capítulo 2, p. 128, e «Informe anual en breve», p. 17",
+          "fecha_documento": "2026-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Socios: si el PP necesitara a Vox para gobernar, sus condiciones, como la «prioridad nacional» en las ayudas según el resumen de Euronews, podrían modificar o ampliar las medidas del PP. Además, Junts y el PNV, que en otras etapas pactaron con el PP, han rechazado facilitar un Gobierno con Vox. Qué medidas saldrían adelante dependería de esa negociación, hoy desconocida.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Vox recuerda al PP sus condiciones para gobernar España: remigración, desregularización y prioridad nacional",
+          "emisor": "Euronews",
+          "tipo": "medio",
+          "url": "https://es.euronews.com/2026/10/05/vox-pp-condiciones-gobernar-espana-remigracion-desregularizacion-prioridad-nacional",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El tercer escenario electoral del que nadie habla: el bloqueo si PP y Vox no suman mayoría absoluta",
+          "emisor": "Público",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/tercer-escenario-electoral-nadie-habla-bloqueo-pp-vox-suman-mayoria-absoluta.html",
+          "fecha_documento": "2026-10-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Feijóo en 'El hormiguero' sobre Vox y Abascal: «Nos sentaremos y haremos una coalición de gobierno»",
+          "emisor": "Público (con información de Europa Press)",
+          "tipo": "medio",
+          "url": "https://www.publico.es/politica/feijoo-hormiguero-sobre-vox-abascal-sentaremos-haremos-coalicion-gobierno.html",
+          "fecha_documento": "2026-06-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Decretos de vivienda del Gobierno saliente: los Reales Decretos-leyes 28/2026 y 29/2026, aprobados el 6 de octubre de 2026, siguen pendientes de convalidación por la Diputación Permanente. Si se convalidan, un Gobierno del PP tendría que derogarlos o modificarlos por ley u otro decreto-ley para cambiar su contenido, para lo que necesitaría mayoría en el nuevo Congreso.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 28/2026, de 6 de octubre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
+          "localizacion": "Preámbulo, apartados I y II",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
+          "localizacion": "Preámbulo",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículos 78.2 y 86",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El PP propone pactar el nuevo modelo de financiación autonómica «entre todos» en el Consejo de Política Fiscal y Financiera. El resultado dependerá de comunidades gobernadas por partidos distintos, y de leyes orgánicas que necesitan mayoría absoluta.",
+      "tipo": "hipotesis_editorial",
+      "fuentes": [
+        {
+          "titulo": "Feijóo se marca como objetivo cubrir el déficit del millón de casas y propone mayor financiación para CCAA y ayuntamientos que trabajen en vivienda",
+          "emisor": "Partido Popular",
+          "tipo": "partido",
+          "url": "https://www.pp.es/actualidad/articulos/feijoo-se-marca-como-objetivo-cubrir-el-deficit-del-millon-de-casas-y-propone-mayor-financiacion-para-ccaa-y-ayuntamientos-que-trabajen-en-vivienda/",
+          "localizacion": "Declaraciones sobre financiación autonómica",
+          "fecha_documento": "2026-01-12",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas (texto consolidado)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166",
+          "localizacion": "Artículo 2",
+          "fecha_documento": "1980-09-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Análisis condicional elaborado con fuentes abiertas y verificadas el 2026-10-15. El programa electoral de 2026 no estaba publicado en esa fecha; las medidas proceden de documentos oficiales y declaraciones recientes. Pendiente de segunda revisión."
+  }
+}
