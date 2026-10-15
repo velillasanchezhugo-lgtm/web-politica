@@ -1,0 +1,65 @@
+{
+  "id": "2011-11-20-mayoria-absoluta-del-pp-en-las-elecciones-generales",
+  "fecha": "2011-11-20",
+  "titulo": "Mayoría absoluta del PP en las elecciones generales de 2011",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "En las elecciones anticipadas del 20 de noviembre de 2011, celebradas en plena crisis económica, el PP obtuvo mayoría absoluta y Mariano Rajoy fue investido presidente el 20 de diciembre.",
+  "contexto": "El presidente José Luis Rodríguez Zapatero, del PSOE, había adelantado las elecciones. El PSOE presentó como candidato a Alfredo Pérez Rubalcaba.",
+  "consecuencias": [
+    {
+      "texto": "Según la Junta Electoral Central, la candidatura del PP obtuvo 170 escaños, que con sus listas en coalición PP-PAR (8), PP-EU (6) y UPN-PP (2) sumaron 186, por encima de la mayoría absoluta de 176; el PSOE obtuvo 96 y el PSC-PSOE 14 (110 en conjunto).",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resumen de los resultados de las elecciones al Congreso de 20 de noviembre de 2011",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2011/12/10/pdfs/BOE-A-2011-19391.pdf",
+          "localizacion": "Cuadro II. Total Estatal",
+          "fecha_documento": "2011-12-10",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Congreso aprobó la investidura de Mariano Rajoy el 20 de diciembre de 2011; según La Moncloa, fue el sexto presidente desde la Constitución de 1978.",
+      "tipo": "hecho",
+      "fecha": "2011-12-20",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: X Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/XLegislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Acuerdo de 7 de diciembre de 2011, de la Junta Electoral Central, de publicación del resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 20 de noviembre de 2011",
+      "emisor": "Junta Electoral Central (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2011/12/10/pdfs/BOE-A-2011-19391.pdf",
+      "localizacion": "Cuadro II. Total Estatal",
+      "fecha_documento": "2011-12-10",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: X Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/XLegislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador",
+    "notas": "El candidato del PSOE y el adelanto electoral no se han contrastado con fuente abierta en esta sesión; revisar antes de publicar."
+  }
+}

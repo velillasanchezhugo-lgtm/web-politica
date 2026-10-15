@@ -1,0 +1,61 @@
+{
+  "id": "1982-10-28-victoria-del-psoe-en-las-elecciones-generales",
+  "fecha": "1982-10-28",
+  "fecha_fin": "1982-12-02",
+  "titulo": "Victoria del PSOE en las elecciones generales de 1982",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "El PSOE ganó las elecciones generales del 28 de octubre de 1982 y su secretario general, Felipe González, fue investido presidente del Gobierno el 1 de diciembre.",
+  "contexto": "Las elecciones pusieron fin a la etapa de gobiernos de UCD, que había gobernado desde 1977 con Adolfo Suárez y, desde 1981, con Leopoldo Calvo-Sotelo. Fue el primer cambio de partido en el Gobierno tras la aprobación de la Constitución.",
+  "consecuencias": [
+    {
+      "texto": "Felipe González fue investido por el Congreso el 1 de diciembre de 1982 y su nombramiento se publicó en el BOE el día 2; según La Moncloa, fue el tercer presidente del Gobierno desde la aprobación de la Constitución.",
+      "tipo": "hecho",
+      "fecha": "1982-12-02",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: II Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/II%20Legislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El PSOE gobernó durante las legislaturas II a V, todas con Felipe González como presidente, hasta 1996.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/index.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Gobiernos por legislaturas: II Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/II%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: I Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/I%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

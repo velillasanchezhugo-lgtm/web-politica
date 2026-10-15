@@ -1,0 +1,63 @@
+{
+  "id": "1996-03-03-victoria-del-pp-en-las-elecciones-generales",
+  "fecha": "1996-03-03",
+  "titulo": "Victoria del PP en las elecciones generales de 1996",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "El Partido Popular ganó las elecciones generales del 3 de marzo de 1996 y José María Aznar fue investido presidente del Gobierno el 4 de mayo, tras casi catorce años de gobiernos del PSOE.",
+  "contexto": "Desde 1982 todos los gobiernos habían sido del PSOE con Felipe González. Aznar se convirtió, según La Moncloa, en el cuarto presidente del Gobierno desde la aprobación de la Constitución de 1978.",
+  "consecuencias": [
+    {
+      "texto": "El Congreso aprobó la investidura de Aznar el 4 de mayo de 1996; el BOE publicó su nombramiento el 5 de mayo.",
+      "tipo": "hecho",
+      "fecha": "1996-05-05",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: VI Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/VI%20Legislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Aznar fue reelegido en las elecciones generales del 12 de marzo de 2000 e investido por el Congreso el 26 de abril de 2000.",
+      "tipo": "hecho",
+      "fecha": "2000-04-26",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: VII Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/VII%20Legislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Gobiernos por legislaturas: VI Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/VI%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Acuerdo de 25 de marzo de 1996, de la Junta Electoral Central, por el que se ordena la publicación del resumen de los resultados de las elecciones para el Congreso de los Diputados y el Senado celebradas el 3 de marzo de 1996",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025",
+      "fecha_documento": "1996-03-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "No se incluyen cifras de escaños de 1996: la versión digitalizada del resumen oficial de la JEC en el BOE tiene un OCR deficiente que impide verificarlas con seguridad."
+  }
+}

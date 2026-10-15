@@ -1,0 +1,119 @@
+{
+  "id": "2016-06-26-repeticion-electoral-e-investidura-de-rajoy",
+  "fecha": "2016-06-26",
+  "fecha_fin": "2016-10-29",
+  "titulo": "Repetición electoral de 2016 e investidura de Rajoy",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "Las primeras elecciones generales repetidas de la democracia se celebraron el 26 de junio de 2016. Mariano Rajoy (PP) no logró la investidura en septiembre, pero sí el 29 de octubre de 2016, gracias a la abstención de la mayoría del Grupo Socialista.",
+  "contexto": "El PP mejoró su resultado respecto a diciembre de 2015, sin mayoría absoluta. La XII Legislatura comenzó el 19 de julio de 2016 con el Gobierno en funciones.",
+  "consecuencias": [
+    {
+      "texto": "Según la Junta Electoral Central, el PP obtuvo 137 escaños sumando sus candidaturas propias y en coalición; el PSOE, 85 con el PSC y la lista PSOE-Nueva Canarias; Unidos Podemos y sus confluencias, 71; y Ciudadanos, 32.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resumen de los resultados de las elecciones al Congreso de 26 de junio de 2016",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2016/07/22/pdfs/BOE-A-2016-7133.pdf",
+          "localizacion": "Cuadro II. Total estatal",
+          "fecha_documento": "2016-07-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Rajoy no obtuvo la confianza en las votaciones del 31 de agosto y el 2 de septiembre de 2016 (170 votos a favor y 180 en contra en ambas).",
+      "tipo": "hecho",
+      "fecha": "2016-09-02",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 12 Legislatura, núm. 4",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-4.PDF",
+          "fecha_documento": "2016-08-31",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 12 Legislatura, núm. 5",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-5.PDF",
+          "fecha_documento": "2016-09-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 29 de octubre de 2016 Rajoy fue investido con 170 votos a favor, 111 en contra y 68 abstenciones.",
+      "tipo": "hecho",
+      "fecha": "2016-10-29",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 12 Legislatura, núm. 14",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-14.PDF",
+          "fecha_documento": "2016-10-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según el recuento de Maldita.es, Rajoy fue elegido con la abstención de la mayoría del grupo parlamentario socialista.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Sánchez consigue ser presidente en la votación más ajustada de la democracia: así han sido las distintas votaciones de investidura desde 1979",
+          "emisor": "Maldita.es",
+          "tipo": "medio",
+          "url": "https://maldita.es/malditodato/20200107/sanchez-consigue-ser-presidente-en-la-votacion-mas-ajustada-de-la-democracia-asi-han-sido-las-distintas-votaciones-de-investidura-desde-1979/",
+          "fecha_documento": "2020-01-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Acuerdo de 20 de julio de 2016, de la Junta Electoral Central, por el que se procede a la publicación del resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 26 de junio de 2016",
+      "emisor": "Junta Electoral Central (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2016/07/22/pdfs/BOE-A-2016-7133.pdf",
+      "localizacion": "Cuadro II. Total estatal",
+      "fecha_documento": "2016-07-22",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: XII Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xii-legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 12 Legislatura, núm. 5",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-5.PDF",
+      "fecha_documento": "2016-09-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 12 Legislatura, núm. 14",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L12/CONG/DS/PL/DSCD-12-PL-14.PDF",
+      "fecha_documento": "2016-10-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

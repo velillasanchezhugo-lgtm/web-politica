@@ -1,0 +1,122 @@
+{
+  "id": "2015-12-20-elecciones-generales-y-fin-del-bipartidismo",
+  "fecha": "2015-12-20",
+  "fecha_fin": "2016-05-03",
+  "titulo": "Elecciones de 2015: Congreso fragmentado y legislatura sin investidura",
+  "categorias": [
+    "elecciones-gobiernos",
+    "reformas-institucionales"
+  ],
+  "resumen": "Las elecciones del 20 de diciembre de 2015 dieron entrada con fuerza a Podemos y Ciudadanos. Ningún candidato logró la investidura y, por primera vez, se aplicó la disolución automática del artículo 99.5 de la Constitución.",
+  "contexto": "El PP fue la fuerza con más escaños, pero lejos de la mayoría absoluta. Pedro Sánchez (PSOE) se sometió a la investidura en marzo de 2016 sin obtenerla. Transcurridos dos meses desde la primera votación sin investidura, el Rey disolvió las Cortes y se convocaron nuevas elecciones para el 26 de junio de 2016.",
+  "consecuencias": [
+    {
+      "texto": "Según la Junta Electoral Central, el PP obtuvo 123 escaños sumando sus candidaturas propias y en coalición; el PSOE, 90 con el PSC y la lista PSOE-Nueva Canarias; Podemos y sus candidaturas de confluencia, 69; y Ciudadanos, 40.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resumen de los resultados de las elecciones al Congreso de 20 de diciembre de 2015",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2016/01/29/pdfs/BOE-A-2016-867.pdf",
+          "localizacion": "Cuadro II. Total estatal",
+          "fecha_documento": "2016-01-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En la primera votación de investidura, el 2 de marzo de 2016, Pedro Sánchez obtuvo 130 votos a favor, 219 en contra y 1 abstención.",
+      "tipo": "hecho",
+      "fecha": "2016-03-02",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 11 Legislatura, núm. 3",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L11/CONG/DS/PL/DSCD-11-PL-3.PDF",
+          "fecha_documento": "2016-03-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto 184/2016 disolvió las Cortes «de acuerdo con lo dispuesto en el artículo 99.5 de la Constitución» y convocó elecciones para el 26 de junio de 2016; este precepto prevé la disolución si en dos meses desde la primera votación ningún candidato obtiene la confianza del Congreso.",
+      "tipo": "hecho",
+      "fecha": "2016-05-03",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 184/2016, de 3 de mayo",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2016-4280",
+          "fecha_documento": "2016-05-03",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Constitución Española",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+          "localizacion": "Artículo 99.5",
+          "fecha_documento": "1978-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [
+    {
+      "texto": "La constitucionalista Rosario García Mahamut subraya que fue la primera vez en la historia democrática en que se accionó el artículo 99.5 y analiza críticamente la posterior reforma de la LOREG (LO 2/2016) que acortó el proceso electoral para estos supuestos.",
+      "tipo": "interpretacion",
+      "fuentes": [
+        {
+          "titulo": "La reforma de la LOREG para el supuesto de convocatoria automática de elecciones en virtud del artículo 99.5 CE",
+          "emisor": "Rosario García Mahamut, Revista de Derecho Político (UNED), n.º 100",
+          "tipo": "academica",
+          "url": "https://revistas.uned.es/index.php/derechopolitico/article/download/20709/17209/41157",
+          "fecha_documento": "2017",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Resolución de 26 de enero de 2016, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 20 de diciembre de 2015",
+      "emisor": "Junta Electoral Central (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/boe/dias/2016/01/29/pdfs/BOE-A-2016-867.pdf",
+      "localizacion": "Cuadro II. Total estatal",
+      "fecha_documento": "2016-01-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: XI Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/xi-legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, 11 Legislatura, núm. 3",
+      "emisor": "Congreso de los Diputados",
+      "tipo": "oficial",
+      "url": "https://www.congreso.es/public_oficiales/L11/CONG/DS/PL/DSCD-11-PL-3.PDF",
+      "fecha_documento": "2016-03-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 184/2016, de 3 de mayo, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2016-4280",
+      "fecha_documento": "2016-05-03",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

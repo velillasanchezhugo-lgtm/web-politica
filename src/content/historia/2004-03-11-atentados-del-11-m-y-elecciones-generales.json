@@ -1,0 +1,73 @@
+{
+  "id": "2004-03-11-atentados-del-11-m-y-elecciones-generales",
+  "fecha": "2004-03-11",
+  "fecha_fin": "2004-04-17",
+  "titulo": "Atentados del 11-M y elecciones generales de 2004",
+  "categorias": [
+    "elecciones-gobiernos"
+  ],
+  "resumen": "El 11 de marzo de 2004, tres días antes de las elecciones generales, Madrid sufrió los atentados terroristas del 11-M. El 14 de marzo el PSOE fue la candidatura más votada y José Luis Rodríguez Zapatero fue investido presidente en abril.",
+  "contexto": "El Gobierno de José María Aznar declaró luto oficial por los atentados mediante el Real Decreto 419/2004, de 11 de marzo. Las elecciones se celebraron en la fecha prevista, el 14 de marzo, tras la disolución de las Cortes en enero.",
+  "consecuencias": [
+    {
+      "texto": "Según el resumen oficial de la Junta Electoral Central, el PSOE obtuvo 164 escaños (11.026.163 votos) y el PP 146, a los que se sumaron 2 de la candidatura UPN-PP en Navarra; la mayoría absoluta es de 176.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Resumen de los resultados de las elecciones al Congreso de 14 de marzo de 2004",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358",
+          "localizacion": "Cuadro II. Total Estatal",
+          "fecha_documento": "2004-05-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Congreso aprobó la investidura de Zapatero el 16 de abril de 2004 y su nombramiento se publicó en el BOE el 17 de abril; según La Moncloa, fue el quinto presidente desde la Constitución de 1978.",
+      "tipo": "hecho",
+      "fecha": "2004-04-17",
+      "fuentes": [
+        {
+          "titulo": "Gobiernos por legislaturas: VIII Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/VIIILegislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 419/2004, de 11 de marzo, por el que se declara luto oficial con motivo de los atentados terroristas perpetrados en Madrid el día 11 de marzo de 2004",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-4525",
+      "fecha_documento": "2004-03-12",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Acuerdos de 25 de marzo y de 22 de abril de 2004, de la Junta Electoral Central, por los que se ordena la publicación del resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 14 de marzo de 2004",
+      "emisor": "Junta Electoral Central (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358",
+      "localizacion": "Cuadro II. Total Estatal",
+      "fecha_documento": "2004-05-05",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: VIII Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/VIIILegislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

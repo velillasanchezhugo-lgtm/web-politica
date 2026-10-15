@@ -1,0 +1,33 @@
+# Valida el contenido, compila y ejecuta las pruebas en cada push y pull request.
+# Protege la rama main exigiendo que este flujo pase antes de fusionar (ver docs/PANEL-EDITORIAL.md).
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Pruebas unitarias (investidura, D'Hondt)
+        run: npm test
+      - name: Validación editorial + compilación + índice de búsqueda
+        run: npm run build
+      - name: Navegador para pruebas de humo
+        run: npx playwright install --with-deps chromium
+      - name: Pruebas en navegador y accesibilidad
+        run: |
+          npx astro preview --port 4321 &
+          npx --yes wait-on@8.0.3 http://localhost:4321/ --timeout 60000
+          npm run test:e2e
