@@ -1,0 +1,43 @@
+{
+  "id": "2018-05-04-disolucion-de-eta",
+  "fecha": "2018-05-04",
+  "titulo": "Disolución de ETA",
+  "categorias": [
+    "elecciones-gobiernos",
+    "territorial"
+  ],
+  "resumen": "En mayo de 2018 ETA emitió un comunicado en el que anunciaba su disolución y el desmantelamiento de sus estructuras. El 4 de mayo el presidente del Gobierno, Mariano Rajoy, hizo una declaración institucional al respecto.",
+  "contexto": "La organización había anunciado en octubre de 2011 el cese definitivo de su actividad armada. Según el Gobierno, ETA asesinó a 853 personas a lo largo de cincuenta años.",
+  "consecuencias": [
+    {
+      "texto": "Según la transcripción de La Moncloa, las primeras palabras de la declaración institucional de Rajoy fueron en recuerdo de las víctimas, y el presidente afirmó que su memoria y reconocimiento serían objeto de atención prioritaria del Gobierno.",
+      "tipo": "declaracion",
+      "fecha": "2018-05-04",
+      "fuentes": [
+        {
+          "titulo": "Rueda de prensa posterior al Consejo de Ministros de 11 de mayo de 2018 (transcripción)",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/consejodeministros/ruedas/Documents/2018/20180511ConferenciaConsejo.pdf",
+          "fecha_documento": "2018-05-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Rueda de prensa posterior al Consejo de Ministros de 11 de mayo de 2018 (transcripción)",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/ruedas/Documents/2018/20180511ConferenciaConsejo.pdf",
+      "fecha_documento": "2018-05-11",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

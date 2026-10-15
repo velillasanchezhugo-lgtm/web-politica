@@ -1,0 +1,66 @@
+{
+  "id": "2022-10-19-ley-de-memoria-democratica",
+  "fecha": "2022-10-19",
+  "titulo": "Ley de Memoria Democrática",
+  "categorias": [
+    "legislacion"
+  ],
+  "resumen": "La Ley 20/2022, de 19 de octubre, de Memoria Democrática, sustituyó a la Ley 52/2007 (conocida como Ley de Memoria Histórica) y declaró ilegales e ilegítimos los tribunales y órganos represivos constituidos a partir del golpe de Estado de 1936, así como la nulidad de sus condenas.",
+  "contexto": "La Ley 52/2007, de 26 de diciembre, había reconocido derechos a quienes padecieron persecución o violencia durante la Guerra Civil y la dictadura. Según el preámbulo de la ley de 2022, aquella norma marcó un punto de inflexión en las políticas públicas de memoria.",
+  "consecuencias": [
+    {
+      "texto": "El artículo 5 declara la ilegalidad e ilegitimidad de los tribunales y órganos penales o administrativos constituidos a partir del golpe de Estado de 1936 para imponer condenas por motivos políticos, ideológicos o de creencia, y la nulidad de sus condenas y sanciones.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 20/2022, de 19 de octubre, de Memoria Democrática",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-17099",
+          "localizacion": "Artículo 5",
+          "fecha_documento": "2022-10-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La ley creó un Fiscal de Sala para la investigación de las violaciones de derechos humanos durante la guerra y la dictadura y modificó la denominación del Valle de los Caídos, que pasa a llamarse Valle de Cuelgamuros.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 20/2022, de 19 de octubre, de Memoria Democrática",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-17099",
+          "localizacion": "Preámbulo",
+          "fecha_documento": "2022-10-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 20/2022, de 19 de octubre, de Memoria Democrática",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-17099",
+      "fecha_documento": "2022-10-20",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley 52/2007, de 26 de diciembre, por la que se reconocen y amplían derechos y se establecen medidas en favor de quienes padecieron persecución o violencia durante la guerra civil y la dictadura",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-22296",
+      "fecha_documento": "2007-12-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador",
+    "notas": "Pendiente de verificar en el texto la derogación expresa de la Ley 52/2007 (disposición derogatoria) y la fecha de publicación de esta en el BOE."
+  }
+}

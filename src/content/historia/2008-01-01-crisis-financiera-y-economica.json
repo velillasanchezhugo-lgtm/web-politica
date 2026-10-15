@@ -1,0 +1,88 @@
+{
+  "id": "2008-01-01-crisis-financiera-y-economica",
+  "fecha": "2008-01-01",
+  "fecha_fin": "2013-12-31",
+  "titulo": "Crisis financiera y económica (2008-2013)",
+  "categorias": [
+    "economia-sociedad"
+  ],
+  "resumen": "La crisis financiera internacional iniciada en 2007-2008 tuvo en España un fuerte impacto en el empleo y en el sistema bancario. El paro pasó de 1,9 millones de personas a finales de 2007 a más de 6,2 millones a comienzos de 2013, según el INE.",
+  "contexto": "Según el preámbulo del Real Decreto-ley 9/2009, al comienzo de la crisis financiera internacional las entidades de crédito españolas tenían una exposición prácticamente nula a los llamados activos tóxicos, pero el sistema bancario no fue inmune a la crisis. La evolución del empleo responde a múltiples factores y no se atribuye aquí a un Gobierno concreto.",
+  "consecuencias": [
+    {
+      "texto": "Según la EPA, en el cuarto trimestre de 2007 había 1.927.600 parados y la tasa de paro era del 8,60 %.",
+      "tipo": "hecho",
+      "fecha": "2007-12-31",
+      "fuentes": [
+        {
+          "titulo": "Encuesta de Población Activa (EPA). Cuarto trimestre de 2007. Nota de prensa",
+          "emisor": "Instituto Nacional de Estadística",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/daco/daco42/daco4211/epa0407.pdf",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según la nota de prensa de la EPA del primer trimestre de 2013, el número de parados alcanzó 6.202.700 y la tasa de paro el 27,16 % (cifras publicadas entonces, antes de revisiones posteriores de la serie).",
+      "tipo": "hecho",
+      "fecha": "2013-03-31",
+      "fuentes": [
+        {
+          "titulo": "Encuesta de Población Activa (EPA). Primer trimestre de 2013. Nota de prensa",
+          "emisor": "Instituto Nacional de Estadística",
+          "tipo": "oficial",
+          "url": "https://www.ine.es/daco/daco42/daco4211/epa0113.pdf",
+          "fecha_documento": "2013-04-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto-ley 9/2009 creó el Fondo de Reestructuración Ordenada Bancaria (FROB) para los procesos de reestructuración de entidades de crédito.",
+      "tipo": "hecho",
+      "fecha": "2009-06-26",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 9/2009, de 26 de junio, sobre reestructuración bancaria y reforzamiento de los recursos propios de las entidades de crédito",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-10575",
+          "fecha_documento": "2009-06-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Encuesta de Población Activa (EPA). Cuarto trimestre de 2007. Nota de prensa",
+      "emisor": "Instituto Nacional de Estadística",
+      "tipo": "oficial",
+      "url": "https://www.ine.es/daco/daco42/daco4211/epa0407.pdf",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Encuesta de Población Activa (EPA). Primer trimestre de 2013. Nota de prensa",
+      "emisor": "Instituto Nacional de Estadística",
+      "tipo": "oficial",
+      "url": "https://www.ine.es/daco/daco42/daco4211/epa0113.pdf",
+      "fecha_documento": "2013-04-25",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto-ley 9/2009, de 26 de junio, sobre reestructuración bancaria y reforzamiento de los recursos propios de las entidades de crédito",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-10575",
+      "fecha_documento": "2009-06-27",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado",
+    "notas": "La fecha de inicio (1 de enero de 2008) es convencional para situar un periodo; las fuentes no fijan un día de inicio."
+  }
+}
