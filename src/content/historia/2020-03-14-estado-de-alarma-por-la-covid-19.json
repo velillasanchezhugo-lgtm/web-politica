@@ -1,0 +1,53 @@
+{
+  "id": "2020-03-14-estado-de-alarma-por-la-covid-19",
+  "fecha": "2020-03-14",
+  "titulo": "Estado de alarma por la COVID-19",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad",
+    "reformas-institucionales"
+  ],
+  "resumen": "El Real Decreto 463/2020, de 14 de marzo, declaró el estado de alarma en todo el territorio nacional para gestionar la crisis sanitaria de la COVID-19, con fuertes limitaciones a la libertad de circulación.",
+  "contexto": "Fue publicado en el BOE el mismo 14 de marzo de 2020. La Constitución limita la declaración inicial del estado de alarma a un máximo de quince días y exige autorización del Congreso para prorrogarla.",
+  "consecuencias": [
+    {
+      "texto": "El artículo 7 limitó la circulación de las personas por las vías de uso público a actividades tasadas, como la adquisición de alimentos y productos de primera necesidad, la asistencia a centros sanitarios o el desplazamiento al lugar de trabajo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 463/2020, de 14 de marzo",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-3692",
+          "localizacion": "Artículo 7",
+          "fecha_documento": "2020-03-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-3692",
+      "fecha_documento": "2020-03-14",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 116.2",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

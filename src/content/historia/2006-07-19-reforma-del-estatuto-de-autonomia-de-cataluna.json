@@ -1,0 +1,67 @@
+{
+  "id": "2006-07-19-reforma-del-estatuto-de-autonomia-de-cataluna",
+  "fecha": "2006-07-19",
+  "titulo": "Reforma del Estatuto de Autonomía de Cataluña",
+  "categorias": [
+    "territorial",
+    "legislacion"
+  ],
+  "resumen": "La Ley Orgánica 6/2006, de 19 de julio, aprobó el nuevo Estatuto de Autonomía de Cataluña, aprobado por el Parlament, por las Cortes Generales y ratificado en referéndum por los ciudadanos de Cataluña el 18 de junio de 2006.",
+  "contexto": "Según la cronología de Andrés Boix Palop, el Parlament aprobó la propuesta el 30 de septiembre de 2005 con el voto de 120 de sus 135 diputados (en contra, los 15 del PP), y el Congreso aprobó el 30 de marzo de 2006 un texto modificado respecto del original.",
+  "consecuencias": [
+    {
+      "texto": "Según la cronología de Andrés Boix Palop, el texto fue aprobado en el referéndum del 18 de junio de 2006 con un 73,90 % de votos favorables y un 20,76 % de votos negativos.",
+      "tipo": "hecho",
+      "fecha": "2006-06-18",
+      "fuentes": [
+        {
+          "titulo": "El conflicto catalán y la crisis constitucional española: una cronología",
+          "emisor": "Andrés Boix Palop (Universitat de València), El Cronista del Estado Social y Democrático de Derecho, n.º 71-72",
+          "tipo": "academica",
+          "url": "https://www.uv.es/seminaridret/sesiones2018/catalonia/boix.pdf",
+          "fecha_documento": "2017",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Estatuto fue recurrido ante el Tribunal Constitucional por noventa y nueve diputados del Grupo Parlamentario Popular (recurso 8045-2006), resuelto por la STC 31/2010.",
+      "tipo": "hecho",
+      "fecha": "2010-06-28",
+      "fuentes": [
+        {
+          "titulo": "Pleno. Sentencia 31/2010, de 28 de junio de 2010. Recurso de inconstitucionalidad 8045-2006",
+          "emisor": "Tribunal Constitucional (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11409",
+          "localizacion": "Fallo",
+          "fecha_documento": "2010-07-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-13087",
+      "fecha_documento": "2006-07-20",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El conflicto catalán y la crisis constitucional española: una cronología",
+      "emisor": "Andrés Boix Palop (Universitat de València), El Cronista del Estado Social y Democrático de Derecho, n.º 71-72",
+      "tipo": "academica",
+      "url": "https://www.uv.es/seminaridret/sesiones2018/catalonia/boix.pdf",
+      "fecha_documento": "2017",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

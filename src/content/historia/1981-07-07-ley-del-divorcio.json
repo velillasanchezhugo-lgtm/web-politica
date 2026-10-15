@@ -1,0 +1,52 @@
+{
+  "id": "1981-07-07-ley-del-divorcio",
+  "fecha": "1981-07-07",
+  "titulo": "Ley del divorcio",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "La Ley 30/1981, de 7 de julio, modificó la regulación del matrimonio en el Código Civil e introdujo el divorcio como causa de disolución del matrimonio, cualquiera que fuera la forma de su celebración.",
+  "contexto": "La Constitución de 1978 encomendó a la ley regular las causas de separación y disolución del matrimonio (artículo 32.2). La ley se publicó en el BOE el 20 de julio de 1981.",
+  "consecuencias": [
+    {
+      "texto": "El nuevo artículo 85 del Código Civil establece que el matrimonio se disuelve, sea cual fuere la forma y el tiempo de su celebración, por la muerte o la declaración de fallecimiento de uno de los cónyuges y por el divorcio.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 30/1981, de 7 de julio",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1981-16216",
+          "localizacion": "Artículo 85 del Código Civil",
+          "fecha_documento": "1981-07-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 30/1981, de 7 de julio, por la que se modifica la regulación del matrimonio en el Código Civil y se determina el procedimiento a seguir en las causas de nulidad, separación y divorcio",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1981-16216",
+      "fecha_documento": "1981-07-20",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 32.2",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

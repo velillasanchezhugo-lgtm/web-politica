@@ -1,0 +1,99 @@
+{
+  "id": "1985-06-19-ley-organica-del-regimen-electoral-general",
+  "fecha": "1985-06-19",
+  "titulo": "Ley Orgánica del Régimen Electoral General (LOREG)",
+  "categorias": [
+    "legislacion",
+    "reformas-institucionales"
+  ],
+  "resumen": "La Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, estableció el marco común de los procesos electorales y derogó el Real Decreto-ley 20/1977, sobre normas electorales, con el que se habían celebrado las elecciones de 1977.",
+  "contexto": "La Constitución remite a una ley orgánica el régimen electoral general. La LOREG regula, entre otros aspectos, el derecho de sufragio, la administración electoral, las campañas y el sistema de reparto de escaños, y sigue vigente, con reformas, en las elecciones generales de 2026.",
+  "consecuencias": [
+    {
+      "texto": "Su disposición derogatoria derogó el Real Decreto-ley 20/1977, sobre normas electorales, la Ley 39/1978, de elecciones locales, y otras normas electorales anteriores.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1985-11672",
+          "localizacion": "Disposición derogatoria",
+          "fecha_documento": "1985-06-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Para el Congreso, la ley asigna a cada provincia un mínimo inicial de dos diputados (Ceuta y Melilla, uno cada una) y excluye del reparto a las candidaturas que no alcancen el 3 % de los votos válidos de la circunscripción.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1985-11672",
+          "localizacion": "Artículos 162.2 y 163.1.a)",
+          "fecha_documento": "1985-06-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto 806/2026 establece que las elecciones generales del 29 de noviembre de 2026 se rigen por la LOREG y su normativa de desarrollo.",
+      "tipo": "hecho",
+      "fecha": "2026-10-06",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 806/2026, de 5 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+          "localizacion": "Artículo 6",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1985-11672",
+      "fecha_documento": "1985-06-20",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Las Cortes Constituyentes",
+      "emisor": "Congreso de los Diputados (Portal de la Constitución)",
+      "tipo": "oficial",
+      "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "localizacion": "Artículo 6",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 81.1",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

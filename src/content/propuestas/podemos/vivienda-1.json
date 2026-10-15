@@ -1,0 +1,69 @@
+{
+  "id": "podemos-vivienda-1",
+  "partido": "podemos",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Bajar por ley los alquileres, expropiar viviendas a fondos de inversión y prohibir la compra especulativa",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Irene Montero ha reclamado un real decreto que baje los precios del alquiler, expropie viviendas a los «fondos buitre», prohíba la compra o venta para especular y prohíba los desahucios sin alternativa habitacional. Ione Belarra defiende «expropiar las viviendas de los fondos buitre para hacer un parque de alquiler social». La vivienda («precios justos») es uno de los cinco ejes anunciados de la candidatura de Montero.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "El Estado regula el contrato de arrendamiento y la legislación procesal (art. 149.1.6.ª y 8.ª CE); la legislación sobre expropiación forzosa es estatal (art. 149.1.18.ª CE) y exige causa de utilidad pública o interés social e indemnización (art. 33.3 CE); la política de vivienda es competencia autonómica (art. 148.1.3.ª CE)."
+  },
+  "financiacion": {
+    "nota": "Podemos no ha publicado coste de las expropiaciones ni fuente de financiación del parque de alquiler social."
+  },
+  "calendario": "No publicado",
+  "detalle": "Declaraciones de dirigentes; Podemos no ha publicado aún un programa electoral de 2026 localizado en esta revisión.",
+  "fuentes": [
+    {
+      "titulo": "Irene Montero pide un decreto que baje alquileres y expropie viviendas a fondos buitre \"antes que convocar elecciones\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/nacional/noticia-irene-montero-pide-decreto-baje-alquileres-expropie-viviendas-fondos-buitre-antes-convocar-elecciones-20261003130430.html",
+      "fecha_documento": "2026-10-03",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Podemos exige \"medidas estructurales\" ante una propuesta de decreto de vivienda \"que no hay por dónde cogerla\"",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/economia/noticia-podemos-exige-medidas-estructurales-propuesta-decreto-vivienda-no-hay-donde-cogerla-20260929000113.html",
+      "fecha_documento": "2026-09-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Belarra reprocha a Colau que no se presentara a las primarias que ofrecieron para elegir al candidato el 29N",
+      "emisor": "Europa Press",
+      "tipo": "medio",
+      "url": "https://www.europapress.es/nacional/noticia-belarra-reprocha-colau-no-presentara-primarias-ofrecieron-elegir-candidato-29n-20261015104412.html",
+      "fecha_documento": "2026-10-15",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Irene Montero presenta mañana su candidatura para liderar las izquierdas en las generales",
+      "emisor": "Diario de León (EFE)",
+      "tipo": "medio",
+      "url": "https://www.diariodeleon.es/nacional/260911/2097086/irene-montero-presenta-manana-candidatura-liderar-izquierdas-generales.html",
+      "fecha_documento": "2026-09-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículos 33.3, 148.1.3.ª y 149.1.6.ª, 8.ª y 18.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

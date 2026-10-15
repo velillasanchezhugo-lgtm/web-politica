@@ -1,0 +1,74 @@
+{
+  "id": "2014-06-02-abdicacion-de-juan-carlos-i-y-proclamacion-de-felipe-vi",
+  "fecha": "2014-06-02",
+  "fecha_fin": "2014-06-19",
+  "titulo": "Abdicación de Juan Carlos I y proclamación de Felipe VI",
+  "categorias": [
+    "reformas-institucionales",
+    "elecciones-gobiernos"
+  ],
+  "resumen": "El 2 de junio de 2014 Juan Carlos I comunicó al presidente del Gobierno su voluntad de abdicar. La Ley Orgánica 3/2014 hizo efectiva la abdicación y el 19 de junio el Príncipe Felipe fue proclamado Rey como Felipe VI.",
+  "contexto": "El artículo 57.5 de la Constitución dispone que las abdicaciones y renuncias en el orden de sucesión a la Corona se resuelvan por una ley orgánica, por lo que las Cortes tramitaron la Ley Orgánica 3/2014.",
+  "consecuencias": [
+    {
+      "texto": "La ley orgánica entró en vigor en el momento de su publicación en el BOE, el 19 de junio de 2014, y su entrada en vigor determinó que la sucesión en la Corona se produjera de forma automática conforme al orden constitucional.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 3/2014, de 18 de junio",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-6476",
+          "localizacion": "Preámbulo y disposición final única",
+          "fecha_documento": "2014-06-19",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según la Casa Real, el Rey sancionó la ley el 18 de junio de 2014 y al día siguiente su hijo, el Príncipe Felipe, fue proclamado Rey de España.",
+      "tipo": "hecho",
+      "fecha": "2014-06-19",
+      "fuentes": [
+        {
+          "titulo": "Biografía de Su Majestad el Rey Don Juan Carlos",
+          "emisor": "Casa de S.M. el Rey",
+          "tipo": "oficial",
+          "url": "https://www.casareal.es/ES/FamiliaReal/rey/Paginas/rey_biografia.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 3/2014, de 18 de junio, por la que se hace efectiva la abdicación de Su Majestad el Rey Don Juan Carlos I de Borbón",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-6476",
+      "fecha_documento": "2014-06-19",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Biografía de Su Majestad el Rey Don Juan Carlos",
+      "emisor": "Casa de S.M. el Rey",
+      "tipo": "oficial",
+      "url": "https://www.casareal.es/ES/FamiliaReal/rey/Paginas/rey_biografia.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 57.5",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2011-08-01-reforma-de-las-pensiones-jubilacion-a-los-67",
+  "fecha": "2011-08-01",
+  "titulo": "Reforma de las pensiones de 2011: jubilación a los 67 años",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "La Ley 27/2011, de 1 de agosto, elevó progresivamente la edad ordinaria de jubilación de 65 a 67 años, manteniendo los 65 para carreras de cotización largas.",
+  "contexto": "La ley trasladó al ordenamiento los compromisos del Acuerdo social y económico para el crecimiento, el empleo y la garantía de las pensiones, firmado el 2 de febrero de 2011 por el Gobierno y los interlocutores sociales. Su preámbulo invoca el alargamiento de la esperanza de vida y las recomendaciones europeas de prolongar la vida activa.",
+  "consecuencias": [
+    {
+      "texto": "La edad de acceso a la jubilación pasa a 67 años, con la posibilidad de jubilarse a los 65 con 38 años y seis meses cotizados; los nuevos requisitos se aplican de forma gradual a lo largo de quince años.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 27/2011, de 1 de agosto",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-13242",
+          "localizacion": "Preámbulo y artículo 4",
+          "fecha_documento": "2011-08-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 27/2011, de 1 de agosto, sobre actualización, adecuación y modernización del sistema de Seguridad Social",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-13242",
+      "fecha_documento": "2011-08-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

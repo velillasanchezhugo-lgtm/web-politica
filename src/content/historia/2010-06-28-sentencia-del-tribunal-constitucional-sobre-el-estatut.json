@@ -1,0 +1,97 @@
+{
+  "id": "2010-06-28-sentencia-del-tribunal-constitucional-sobre-el-estatut",
+  "fecha": "2010-06-28",
+  "titulo": "Sentencia del Tribunal Constitucional sobre el Estatuto de Cataluña (STC 31/2010)",
+  "categorias": [
+    "territorial",
+    "reformas-institucionales"
+  ],
+  "resumen": "La Sentencia 31/2010, de 28 de junio, estimó parcialmente el recurso del PP contra el Estatuto de Cataluña de 2006: declaró nulos varios preceptos, fijó la interpretación de otros y privó de eficacia jurídica interpretativa a las referencias del preámbulo a Cataluña como nación.",
+  "contexto": "El recurso había sido interpuesto en 2006 por noventa y nueve diputados del Grupo Parlamentario Popular. La sentencia se dictó cuatro años después y se publicó en el BOE el 16 de julio de 2010.",
+  "consecuencias": [
+    {
+      "texto": "El fallo declaró que carecen de eficacia jurídica interpretativa las referencias del preámbulo a «Cataluña como nación» y a «la realidad nacional de Cataluña».",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Pleno. Sentencia 31/2010, de 28 de junio de 2010. Recurso de inconstitucionalidad 8045-2006",
+          "emisor": "Tribunal Constitucional (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11409",
+          "localizacion": "Fallo",
+          "fecha_documento": "2010-07-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Declaró inconstitucionales y nulos, entre otros, el inciso «y preferente» del artículo 6.1 (lengua propia y lenguas oficiales) y el artículo 97 (Consejo de Justicia de Cataluña), y sometió a interpretación conforme una larga serie de artículos.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Pleno. Sentencia 31/2010, de 28 de junio de 2010. Recurso de inconstitucionalidad 8045-2006",
+          "emisor": "Tribunal Constitucional (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11409",
+          "localizacion": "Fallo",
+          "fecha_documento": "2010-07-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según Boix Palop, el 10 de julio de 2010 se celebró en Barcelona una manifestación muy concurrida contra la sentencia, a la que asistieron todos los partidos con representación en el Parlament salvo el PP y Ciudadanos, así como el presidente de la Generalitat.",
+      "tipo": "hecho",
+      "fecha": "2010-07-10",
+      "fuentes": [
+        {
+          "titulo": "El conflicto catalán y la crisis constitucional española: una cronología",
+          "emisor": "Andrés Boix Palop (Universitat de València), El Cronista del Estado Social y Democrático de Derecho, n.º 71-72",
+          "tipo": "academica",
+          "url": "https://www.uv.es/seminaridret/sesiones2018/catalonia/boix.pdf",
+          "fecha_documento": "2017",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [
+    {
+      "texto": "Andrés Boix Palop señala que, mientras en Cataluña la sentencia provocó una fuerte reacción política —en esa manifestación se corearon por primera vez de forma generalizada gritos de «Independència»—, en el resto de España el Gobierno y buena parte de la opinión publicada la consideraron un punto de encuentro satisfactorio.",
+      "tipo": "interpretacion",
+      "fuentes": [
+        {
+          "titulo": "El conflicto catalán y la crisis constitucional española: una cronología",
+          "emisor": "Andrés Boix Palop (Universitat de València), El Cronista del Estado Social y Democrático de Derecho, n.º 71-72",
+          "tipo": "academica",
+          "url": "https://www.uv.es/seminaridret/sesiones2018/catalonia/boix.pdf",
+          "fecha_documento": "2017",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Pleno. Sentencia 31/2010, de 28 de junio de 2010. Recurso de inconstitucionalidad 8045-2006",
+      "emisor": "Tribunal Constitucional (BOE)",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-11409",
+      "localizacion": "Fallo",
+      "fecha_documento": "2010-07-16",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El conflicto catalán y la crisis constitucional española: una cronología",
+      "emisor": "Andrés Boix Palop (Universitat de València), El Cronista del Estado Social y Democrático de Derecho, n.º 71-72",
+      "tipo": "academica",
+      "url": "https://www.uv.es/seminaridret/sesiones2018/catalonia/boix.pdf",
+      "fecha_documento": "2017",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

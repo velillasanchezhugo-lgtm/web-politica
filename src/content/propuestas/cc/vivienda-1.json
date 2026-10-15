@@ -1,0 +1,68 @@
+{
+  "id": "cc-vivienda-1",
+  "partido": "cc",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Sí crítico al decreto de función social de la vivienda y «no rotundo» a la prórroga automática de alquileres",
+  "tipo_informacion": "voto_parlamentario",
+  "estado": "posicion_vigente",
+  "resumen": "CC votó a favor del Real Decreto-ley 26/2026 como «punto de partida», anunciando enmiendas para reconocer singularidades canarias y agilizar licencias (silencio positivo a los seis meses), y en contra del 27/2026 por considerar que genera inseguridad jurídica, desprotege al pequeño propietario y puede retirar viviendas del alquiler en Canarias.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "La legislación de arrendamientos es estatal (art. 149.1.8.ª CE); la vivienda es competencia autonómica y las licencias de obra, municipales."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "CC da un «no rotundo» al segundo decreto de vivienda y logra el compromiso para limitar la compra a no residentes en Canarias",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/cc-da-un-no-rotundo-al-segundo-decreto-de-vivienda-y-logra-el-compromiso-para-limitar-la-compra-a-no-residentes-en-canarias/",
+      "fecha_documento": "2026-10-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Valido rechaza el segundo decreto de vivienda del Gobierno de España porque hará que el parque de alquiler de Canarias «se vea aún más reducido»",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/valido-rechaza-el-segundo-decreto-de-vivienda-del-gobierno-de-espana-porque-hara-que-el-parque-de-alquiler-de-canarias-se-vea-aun-mas-reducido/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026 (BOE-A-2026-20526)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026 (BOE-A-2026-20527)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

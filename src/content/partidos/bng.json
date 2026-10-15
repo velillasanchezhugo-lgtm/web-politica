@@ -1,0 +1,452 @@
+{
+  "id": "bng",
+  "nombre": "Bloque Nacionalista Galego",
+  "siglas": "BNG",
+  "naturaleza": "partido",
+  "ambito": "territorial",
+  "territorio": "Galicia",
+  "color_grafico": "#76B3DD",
+  "web_oficial": "https://www.bng.gal/",
+  "criterio_inclusion": "Obtuvo representación en el Congreso (1 escaño) en las elecciones generales de 2023 y ha anunciado que concurrirá a las de 29 de noviembre de 2026.",
+  "resumen": "Organización nacionalista gallega de izquierdas constituida en 1982, que defiende la soberanía de Galicia. Es la segunda fuerza del Parlamento de Galicia desde 2024 y principal partido de la oposición al Gobierno del PP de Alfonso Rueda. En la XV legislatura tuvo un diputado en el Congreso, Néstor Rego, y apoyó la investidura de Pedro Sánchez tras un acuerdo con el PSOE. Concurre a las generales solo en las cuatro provincias gallegas.",
+  "historia": [
+    {
+      "texto": "Según el propio BNG, se constituyó en 1982 como «Frente Patriótico», culminando un proceso de reestructuración del nacionalismo gallego; la Gran Enciclopèdia Catalana lo describe en origen como una agrupación de partidos nacionalistas de izquierda, especialmente la Unión do Povo Galego.",
+      "tipo": "hecho",
+      "fecha": "1982",
+      "fuentes": [
+        {
+          "titulo": "Boletín internacional del BNG (versión en castellano): «¿Qué es el Bloque Nacionalista Galego?»",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/01/17/BNG_BoletimInternacional_ES_def.pdf",
+          "fecha_documento": "2023-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Bloque Nacionalista Galego (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0243612",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Figura en el Registro de Partidos Políticos del Ministerio del Interior como partido político, con fecha de inscripción 24 de junio de 1996.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Registro de Partidos Políticos: consulta por denominación",
+          "emisor": "Ministerio del Interior",
+          "tipo": "oficial",
+          "url": "https://servicio.mir.es/nfrontal/webpartido_politico.html",
+          "localizacion": "Denominación «Bloque Nacionalista Galego (B.N.G.)»; tipo de formación: partido político; inscripción 24/06/1996",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Formó parte entre 2005 y 2009 del Gobierno de coalición de Galicia presidido por el socialista Emilio Pérez Touriño; tras las elecciones de 2009 pasó a la oposición.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Bloque Nacionalista Galego (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0243612",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Perdió la representación en el Congreso en 2011 y la recuperó en noviembre de 2019, con un diputado.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Bloque Nacionalista Galego (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0243612",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las elecciones gallegas de 18 de febrero de 2024 obtuvo 25 escaños, su mejor resultado, sin impedir la mayoría absoluta del PP.",
+      "tipo": "hecho",
+      "fecha": "2024-02-18",
+      "fuentes": [
+        {
+          "titulo": "O mellor resultado histórico do BNG é insuficiente para quitar a maioría ao PP",
+          "emisor": "El Salto",
+          "tipo": "medio",
+          "url": "https://www.elsaltodiario.com/elecciones/mellor-resultado-bng-insuficiente-quitar-maioria-ao-pp",
+          "fecha_documento": "2024-02-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Portavoz nacional",
+      "nombre": "Ana Pontón",
+      "fuentes": [
+        {
+          "titulo": "Pontón chama a concentrar o voto en Galiza no BNG o 29N para frear o bloque reaccionario e darlle unha voz firme ao País",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/articulo/novas/ponton-chama-concentrar-voto-galiza-bng-29n-frear-bloque-reaccionario-darlle-voz-firme-ao-pais/20261013134518043609.html",
+          "fecha_documento": "2026-10-13",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Bloque Nacionalista Galego (entrada de enciclopedia)",
+          "emisor": "Gran Enciclopèdia Catalana",
+          "tipo": "otra",
+          "url": "https://www.enciclopedia.cat/EC-GEC-0243612",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Diputado y portavoz en el Congreso (XV legislatura)",
+      "nombre": "Néstor Rego",
+      "fuentes": [
+        {
+          "titulo": "Rego: «Afrontamos as eleccións coa convicción de termos realizado un bo traballo e a confianza nun aumento da representación»",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/articulo/novas/rego-afrontamos-eleccions-coa-conviccion-termos-realizado-bo-traballo-confianza-nun-aumento-da-representacion/20261006140743043566.html",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "En solitario («o BNG vai ir como BNG»)",
+    "detalle": [
+      {
+        "texto": "Ana Pontón reiteró que el BNG concurrirá en solitario a las elecciones de 29 de noviembre: «Se temos algunha coalición será co pobo galego».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Pontón chama a concentrar o voto en Galiza no BNG o 29N para frear o bloque reaccionario e darlle unha voz firme ao País",
+            "emisor": "Bloque Nacionalista Galego",
+            "tipo": "partido",
+            "url": "https://www.bng.gal/articulo/novas/ponton-chama-concentrar-voto-galiza-bng-29n-frear-bloque-reaccionario-darlle-voz-firme-ao-pais/20261013134518043609.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Según Pontón, el Consello Nacional del BNG aprobará las candidaturas el 24 de octubre de 2026, tras el proceso en las asambleas comarcales.",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Pontón chama a concentrar o voto en Galiza no BNG o 29N para frear o bloque reaccionario e darlle unha voz firme ao País",
+            "emisor": "Bloque Nacionalista Galego",
+            "tipo": "partido",
+            "url": "https://www.bng.gal/articulo/novas/ponton-chama-concentrar-voto-galiza-bng-29n-frear-bloque-reaccionario-darlle-voz-firme-ao-pais/20261013134518043609.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Formación nacionalista gallega de izquierdas que defiende la soberanía de Galicia, la lengua gallega y la mejora de financiación e infraestructuras para Galicia; en el Congreso ha apoyado al Gobierno de coalición PSOE-Sumar a cambio de acuerdos concretos para Galicia, manteniendo «as mans libres» en lo no pactado.",
+    "autodefinicion": {
+      "texto": "El BNG se presenta como «una organización nacionalista que defiende la Soberanía Nacional y la emancipación social de la nación gallega para constituirse en un Estado soberano, democrático, laico y republicano: la República de Galiza».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Boletín internacional del BNG (versión en castellano): «¿Qué es el Bloque Nacionalista Galego?»",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/media/bnggaliza/files/2023/01/17/BNG_BoletimInternacional_ES_def.pdf",
+          "fecha_documento": "2023-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [
+      {
+        "texto": "La Gran Enciclopèdia Catalana señala que los conflictos internos y la escasa implantación llevaron al BNG a abandonar el radicalismo inicial y a situarse en el centroizquierda.",
+        "tipo": "interpretacion",
+        "fuentes": [
+          {
+            "titulo": "Bloque Nacionalista Galego (entrada de enciclopedia)",
+            "emisor": "Gran Enciclopèdia Catalana",
+            "tipo": "otra",
+            "url": "https://www.enciclopedia.cat/EC-GEC-0243612",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "La clasificación anterior procede de una obra de referencia general, no de un estudio académico específico; no se ha localizado en esta revisión una clasificación por encuesta a expertos."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Bloque Nacionalista Galego (BNG)",
+      "votos": 153995,
+      "porcentaje": 0.62,
+      "escanos_congreso": 1,
+      "escanos_senado": 0,
+      "nota": "Porcentaje calculado por la redacción sobre 24.688.087 votos válidos. Escaño obtenido en A Coruña. No obtuvo senadores electos.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II, págs. 122205-122206; relación de senadores electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Es la segunda fuerza del Parlamento de Galicia tras las elecciones de 2024 y gobierna el Ayuntamiento de Santiago de Compostela, cuya alcaldesa es Goretti Sanmartín.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "O mellor resultado histórico do BNG é insuficiente para quitar a maioría ao PP",
+          "emisor": "El Salto",
+          "tipo": "medio",
+          "url": "https://www.elsaltodiario.com/elecciones/mellor-resultado-bng-insuficiente-quitar-maioria-ao-pp",
+          "fecha_documento": "2024-02-18",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ana Miranda leva ao Parlamento Europeo as medidas do BNG fronte a crise de vivenda",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/articulo/novas/ana-miranda-leva-ao-parlamento-europeo-medidas-do-bng-fronte-crise-vivenda/20261006172904043568.html",
+          "fecha_documento": "2026-10-06",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Pontón propón que toda a vivenda pública sexa en alugueiro social e mobilizar a que hai baleira para alugar a prezos accesibles",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/articulo/novas/ponton-propon-que-toda-vivenda-publica-sexa-alugueiro-social-mobilizar-que-hai-baleira-alugar-prezos-accesibles/20261007123801043570.html",
+          "fecha_documento": "2026-10-07",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Néstor Rego anunció el voto en contra del BNG a la investidura de Alberto Núñez Feijóo (27-9-2023) y el apoyo a la de Pedro Sánchez (16-11-2023), tras un acuerdo de investidura con el PSOE. En la investidura fallida de Alberto Núñez Feijóo (27-9-2023) el resultado fue de 172 votos a favor y 178 en contra; en la de Pedro Sánchez (16-11-2023), de 179 a favor y 171 en contra.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 5 (27 de septiembre de 2023): debate de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "localizacion": "Pág. 19, intervención del señor Rego Candamil",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16 de noviembre de 2023): debate de investidura de Pedro Sánchez",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "Págs. 24-25 y 36",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Votó a favor de la Ley Orgánica de amnistía en su aprobación definitiva en el Congreso (30-5-2024).",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "El Congreso aprueba de forma definitiva la ley de Amnistía",
+          "emisor": "Deia",
+          "tipo": "medio",
+          "url": "https://www.deia.eus/politica/2024/05/30/congreso-aprueba-forma-definitiva-ley-8297867.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña (BOE-A-2024-11776)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+          "fecha_documento": "2024-06-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Impulsó en el Congreso la ley de transferencia de la AP-9 a Galicia, procedente del Parlamento gallego; según Rego, el dictamen se aprobó con enmiendas transaccionales con PSOE y Sumar y el voto en contra de PP y Vox. Fue publicada como Ley Orgánica 3/2026, de 29 de julio.",
+      "tipo": "hecho",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        {
+          "titulo": "A transferencia da AP-9 e a trampa do PP (artigo de Néstor Rego)",
+          "emisor": "Bloque Nacionalista Galego",
+          "tipo": "partido",
+          "url": "https://www.bng.gal/opinion/nestor-rego/transferencia-da-ap-9-trampa-do-pp/20260605100855042938.html",
+          "fecha_documento": "2026-06-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 3/2026, de 29 de julio, de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia (BOE-A-2026-16652)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16652",
+          "fecha_documento": "2026-07-31",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 votó a favor de convalidar los Reales Decretos-leyes de vivienda 26/2026 y 27/2026, que fueron derogados.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+          "emisor": "Diario de Avisos (Europa Press)",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026 (BOE-A-2026-20526)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026 (BOE-A-2026-20527)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "En noviembre de 2023 firmó con el PSOE un acuerdo de investidura; según Rego en el Congreso, incluía un trato igualitario a Galicia en la condonación de deuda y un plan de mejora de las infraestructuras ferroviarias gallegas, y el BNG mantenía «las manos libres» en lo no incluido.",
+        "tipo": "declaracion",
+        "fecha": "2023-11-16",
+        "fuentes": [
+          {
+            "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16 de noviembre de 2023): debate de investidura de Pedro Sánchez",
+            "emisor": "Congreso de los Diputados",
+            "tipo": "oficial",
+            "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+            "localizacion": "Págs. 24-25, intervención del señor Rego Candamil",
+            "fecha_documento": "2023-11-16",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "El BNG atribuye a su negociación en la legislatura descuentos de hasta el 75 % en la AP-9 y la AP-53, la transferencia de la AP-9, una quita de deuda de 4.000 millones para Galicia y más financiación para la dependencia.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-05",
+        "fuentes": [
+          {
+            "titulo": "Ana Pontón: «Imos a por todas o 29N para darlle máis forza a Galiza e gañar en avances sociais fronte ao PP máis ultra da historia»",
+            "emisor": "Bloque Nacionalista Galego",
+            "tipo": "partido",
+            "url": "https://www.bng.gal/articulo/novas/ana-ponton-imos-todas-29n-darlle-mais-forza-galiza-ganar-avances-sociais-fronte-ao-pp-mais-ultra-da-historia/20261005142051043564.html",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Pontón pide concentrar el voto en el BNG para «frear o bloque reaccionario» y condicionar las políticas del Estado; sostiene que el BNG es garantía de que el PP y Feijóo sigan en la oposición.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Pontón chama a concentrar o voto en Galiza no BNG o 29N para frear o bloque reaccionario e darlle unha voz firme ao País",
+            "emisor": "Bloque Nacionalista Galego",
+            "tipo": "partido",
+            "url": "https://www.bng.gal/articulo/novas/ponton-chama-concentrar-voto-galiza-bng-29n-frear-bloque-reaccionario-darlle-voz-firme-ao-pais/20261013134518043609.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Rego afirma que con más representación el BNG tendrá más capacidad para «determinar e condicionar» las políticas del Estado y que cada escaño suyo será «un escano menos para o bloque reaccionario».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Pontón chama a concentrar o voto en Galiza no BNG o 29N para frear o bloque reaccionario e darlle unha voz firme ao País",
+            "emisor": "Bloque Nacionalista Galego",
+            "tipo": "partido",
+            "url": "https://www.bng.gal/articulo/novas/ponton-chama-concentrar-voto-galiza-bng-29n-frear-bloque-reaccionario-darlle-voz-firme-ao-pais/20261013134518043609.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Rego: «Afrontamos as eleccións coa convicción de termos realizado un bo traballo e a confianza nun aumento da representación»",
+            "emisor": "Bloque Nacionalista Galego",
+            "tipo": "partido",
+            "url": "https://www.bng.gal/articulo/novas/rego-afrontamos-eleccions-coa-conviccion-termos-realizado-bo-traballo-confianza-nun-aumento-da-representacion/20261006140743043566.html",
+            "fecha_documento": "2026-10-06",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Votaciones de la XV legislatura",
+      "Ley Orgánica 3/2026 de transferencia de la AP-9",
+      "Propuestas de vivienda presentadas en octubre de 2026"
+    ],
+    "sin_desarrollar": [
+      "Soberanía de Galicia: objetivo estatutario sin propuesta articulada para la legislatura estatal",
+      "Quita de deuda: el BNG la da por conseguida, pero no se ha localizado el instrumento normativo en esta revisión"
+    ],
+    "pendiente": [
+      "Programa electoral 2026",
+      "Candidaturas (Consello Nacional de 24-10-2026)"
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "No se ha localizado una fuente que fije la fecha de inicio de Ana Pontón como portavoz nacional (la enciclopedia indica 2015 como relevo de Xavier Vence); se omite «desde»."
+  }
+}

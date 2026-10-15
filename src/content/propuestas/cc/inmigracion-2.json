@@ -1,0 +1,36 @@
+{
+  "id": "cc-inmigracion-2",
+  "partido": "cc",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Que los territorios frontera no se conviertan en «centros de retención» con el Pacto Europeo de Migración",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "CC critica partes del Pacto Europeo de Migración y Asilo y exige que el Estado aporte medios para documentar y derivar a las personas migrantes, sin que Canarias asuma el triaje, y que los territorios de la frontera sur participen en las decisiones.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue",
+      "ccaa"
+    ],
+    "nota": "La aplicación del Pacto corresponde al Estado en el marco de los reglamentos de la UE; las CCAA participan en la acogida."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Valido exige que la frontera sur deje de pagar el fracaso de las políticas migratorias europeas",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/valido-exige-que-la-frontera-sur-deje-de-pagar-el-fracaso-de-las-politicas-migratorias-europeas/",
+      "fecha_documento": "2026-09-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

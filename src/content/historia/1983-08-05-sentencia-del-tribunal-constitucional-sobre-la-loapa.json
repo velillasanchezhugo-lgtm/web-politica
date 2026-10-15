@@ -1,0 +1,67 @@
+{
+  "id": "1983-08-05-sentencia-del-tribunal-constitucional-sobre-la-loapa",
+  "fecha": "1983-08-05",
+  "titulo": "El Tribunal Constitucional se pronuncia sobre la LOAPA (STC 76/1983)",
+  "categorias": [
+    "territorial",
+    "reformas-institucionales"
+  ],
+  "resumen": "La Sentencia 76/1983 declaró que el proyecto de Ley Orgánica de Armonización del Proceso Autonómico (LOAPA) no podía promulgarse ni como ley orgánica ni como ley armonizadora y anuló varios de sus artículos.",
+  "contexto": "La LOAPA, aprobada por las Cortes en 1982 para ordenar el desarrollo del Estado autonómico, fue recurrida antes de su promulgación (recurso previo de inconstitucionalidad) por el Gobierno y el Parlamento vascos, el Consejo Ejecutivo y el Parlamento de Cataluña y 50 diputados.",
+  "consecuencias": [
+    {
+      "texto": "El fallo estimó parcialmente los recursos: negó al proyecto el carácter orgánico y armonizador, declaró inconstitucionales varios artículos (entre ellos los artículos 1 a 4) y desestimó los recursos en lo demás.",
+      "tipo": "hecho",
+      "fecha": "1983-08-05",
+      "fuentes": [
+        {
+          "titulo": "Sentencia 76/1983, de 5 de agosto",
+          "emisor": "Tribunal Constitucional",
+          "tipo": "oficial",
+          "url": "https://hj.tribunalconstitucional.es/es/Resolucion/Show/204",
+          "localizacion": "Fallo",
+          "fecha_documento": "1983-08-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El texto resultante se promulgó como Ley 12/1983, de 14 de octubre, del Proceso Autonómico, publicada en el BOE el 15 de octubre de 1983.",
+      "tipo": "hecho",
+      "fecha": "1983-10-15",
+      "fuentes": [
+        {
+          "titulo": "Ley 12/1983, de 14 de octubre, del Proceso Autonómico",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-27280",
+          "fecha_documento": "1983-10-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Sentencia 76/1983, de 5 de agosto (LOAPA)",
+      "emisor": "Tribunal Constitucional",
+      "tipo": "oficial",
+      "url": "https://hj.tribunalconstitucional.es/es/Resolucion/Show/204",
+      "fecha_documento": "1983-08-05",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley 12/1983, de 14 de octubre, del Proceso Autonómico",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-27280",
+      "fecha_documento": "1983-10-15",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

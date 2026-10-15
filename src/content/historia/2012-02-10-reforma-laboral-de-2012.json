@@ -1,0 +1,58 @@
+{
+  "id": "2012-02-10-reforma-laboral-de-2012",
+  "fecha": "2012-02-10",
+  "titulo": "Reforma laboral de 2012",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "El Real Decreto-ley 3/2012, de 10 de febrero, de medidas urgentes para la reforma del mercado laboral, abarató el despido improcedente y dio prioridad al convenio de empresa sobre los convenios sectoriales en determinadas materias.",
+  "contexto": "El Gobierno de Mariano Rajoy aprobó la reforma por decreto-ley a los pocos meses de iniciar la legislatura. Su preámbulo la justifica en la necesidad de reducir la dualidad laboral y acercar los costes de despido a la media europea.",
+  "consecuencias": [
+    {
+      "texto": "La indemnización por despido improcedente se fijó con carácter general en 33 días de salario por año con un tope de 24 mensualidades para los contratos nuevos; para los anteriores se mantuvieron 45 días por el tiempo trabajado hasta la entrada en vigor.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 3/2012, de 10 de febrero",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2076",
+          "localizacion": "Preámbulo y disposición transitoria quinta",
+          "fecha_documento": "2012-02-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El convenio de empresa pasó a tener prioridad aplicativa respecto del convenio sectorial estatal, autonómico o de ámbito inferior en una serie de materias.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 3/2012, de 10 de febrero",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2076",
+          "localizacion": "Artículo 14 (modificación del artículo 84.2 del Estatuto de los Trabajadores)",
+          "fecha_documento": "2012-02-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto-ley 3/2012, de 10 de febrero, de medidas urgentes para la reforma del mercado laboral",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2076",
+      "fecha_documento": "2012-02-11",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

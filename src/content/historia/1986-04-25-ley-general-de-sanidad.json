@@ -1,0 +1,68 @@
+{
+  "id": "1986-04-25-ley-general-de-sanidad",
+  "fecha": "1986-04-25",
+  "titulo": "Ley General de Sanidad y creación del Sistema Nacional de Salud",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad",
+    "territorial"
+  ],
+  "resumen": "La Ley 14/1986, de 25 de abril, General de Sanidad, creó el Sistema Nacional de Salud como conjunto de los servicios de salud de las comunidades autónomas.",
+  "contexto": "La Constitución reconoce el derecho a la protección de la salud (artículo 43). Según la exposición de motivos, la ley tomó a las comunidades autónomas como eje del modelo sanitario.",
+  "consecuencias": [
+    {
+      "texto": "La ley reconoció como titulares del derecho a la protección de la salud y a la atención sanitaria a todos los españoles y a los extranjeros con residencia establecida en España.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-10499",
+          "localizacion": "Artículo 1.2",
+          "fecha_documento": "1986-04-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Entre las características fundamentales del Sistema Nacional de Salud, la ley fija la extensión de sus servicios a toda la población.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-10499",
+          "localizacion": "Artículo 46.a)",
+          "fecha_documento": "1986-04-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-10499",
+      "fecha_documento": "1986-04-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 43",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

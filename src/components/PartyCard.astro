@@ -1,0 +1,21 @@
+---
+import { ETIQUETAS } from '../lib/content';
+import { textoSobre } from '../lib/hemiciclo.js';
+interface Props { p: any; escanos2023?: number; compact?: boolean; headingLevel?: 2 | 3 }
+const { p, escanos2023, compact = false, headingLevel = 2 } = Astro.props;
+const H = `h${headingLevel}` as any;
+const style = `--pc:${p.color_grafico};--pc-ink:${textoSobre(p.color_grafico)}`;
+---
+<li class="pcard reveal" style={style} data-ambito={p.ambito}>
+  <div class="pcard-head pc-band">
+    <span class="pcard-siglas" aria-hidden="true">{p.siglas}</span>
+    {escanos2023 != null && <span class="pcard-esc"><strong>{escanos2023}</strong>escaños en 2023</span>}
+  </div>
+  <div class="pcard-body">
+    <H><a class="stretch" href={`/partidos/${p.id}/`}>{p.nombre}</a></H>
+    <p class="small muted" style="margin:0">{ETIQUETAS.naturaleza[p.naturaleza as keyof typeof ETIQUETAS.naturaleza]} · {p.ambito === 'estatal' ? 'Estatal' : p.territorio ?? 'Territorial'}</p>
+    {escanos2023 != null && <div class="meter" role="img" aria-label={`${escanos2023} de 350 escaños`}><span style={`width:${(escanos2023 / 350) * 100}%`}></span></div>}
+    {!compact && <p class="small" style="margin:0">{p.resumen.length > 190 ? p.resumen.slice(0, p.resumen.lastIndexOf(' ', 185)) + '…' : p.resumen}</p>}
+    <p class="small" style="margin:auto 0 0"><strong>29-N:</strong> {ETIQUETAS.candidatura[p.candidatura_2026.estado as keyof typeof ETIQUETAS.candidatura]}</p>
+  </div>
+</li>

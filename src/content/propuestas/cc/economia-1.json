@@ -1,0 +1,36 @@
+{
+  "id": "cc-economia-1",
+  "partido": "cc",
+  "tema": "economia",
+  "eleccion": "generales-2026",
+  "titulo": "Mayor autonomía de Canarias en la decisión y gestión del Régimen Económico y Fiscal",
+  "tipo_informacion": "documento_oficial",
+  "estado": "posicion_vigente",
+  "resumen": "Una resolución del VIII Congreso de CC (2025) defiende reformar en profundidad el REF para diversificar la economía, reducir cargas fiscales y contributivas de las rentas del trabajo, separar claramente la financiación común del gasto ligado a la singularidad canaria y dar a Canarias autonomía para decidir y gestionar su régimen económico y fiscal.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue",
+      "ccaa"
+    ],
+    "nota": "El REF se regula por leyes estatales y sus incentivos fiscales están sujetos a las normas de ayudas de Estado de la UE y al estatuto de región ultraperiférica."
+  },
+  "financiacion": {
+    "nota": "La resolución no cuantifica costes ni efectos recaudatorios."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Propuesta de resolución del VIII Congreso Nacional: «Liderando el futuro del Régimen Económico y Fiscal de Canarias»",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/wp-content/uploads/2025/04/Propuesta-de-resolucion.-REF.pdf",
+      "fecha_documento": "2025-04",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

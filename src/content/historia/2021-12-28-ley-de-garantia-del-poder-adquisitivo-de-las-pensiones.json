@@ -1,0 +1,58 @@
+{
+  "id": "2021-12-28-ley-de-garantia-del-poder-adquisitivo-de-las-pensiones",
+  "fecha": "2021-12-28",
+  "titulo": "Ley de garantía del poder adquisitivo de las pensiones",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "La Ley 21/2021, de 28 de diciembre, vinculó la revalorización anual de las pensiones a la inflación y derogó el factor de sostenibilidad introducido en 2013.",
+  "contexto": "La ley modificó la Ley General de Seguridad Social. Sustituyó el índice de revalorización y el factor de sostenibilidad de la Ley 23/2013 por un nuevo artículo 58 de revalorización y por un mecanismo de equidad intergeneracional.",
+  "consecuencias": [
+    {
+      "texto": "El nuevo artículo 58 de la Ley General de Seguridad Social regula la revalorización y garantía de mantenimiento del poder adquisitivo de las pensiones.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 21/2021, de 28 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-21652",
+          "localizacion": "Artículo 1, apartado uno",
+          "fecha_documento": "2021-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La ley derogó el factor de sostenibilidad de la Ley 23/2013, de 23 de diciembre, y lo sustituyó por un mecanismo de equidad intergeneracional.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 21/2021, de 28 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-21652",
+          "localizacion": "Preámbulo",
+          "fecha_documento": "2021-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 21/2021, de 28 de diciembre, de garantía del poder adquisitivo de las pensiones y de otras medidas de refuerzo de la sostenibilidad financiera y social del sistema público de pensiones",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-21652",
+      "fecha_documento": "2021-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

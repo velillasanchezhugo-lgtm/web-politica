@@ -1,0 +1,35 @@
+{
+  "id": "cc-inmigracion-1",
+  "partido": "cc",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Plan ante el repunte de la ruta atlántica: más medios, Frontex y solidaridad europea",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Ante el aumento de llegadas a Canarias en septiembre-octubre de 2026, CC propone un dispositivo extraordinario de vigilancia de la ruta atlántica (Guardia Civil y Policía Nacional), un operativo reforzado de Frontex, activar los mecanismos de solidaridad del Pacto Europeo de Migración y Asilo, una operación policial internacional contra las redes con Europol y una iniciativa diplomática con Marruecos, Senegal y Gambia. Rechaza la militarización que, según CC, plantea el PP.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ue"
+    ],
+    "nota": "Control de fronteras e inmigración son competencias exclusivas del Estado (art. 149.1.2.ª CE) y se coordinan con la UE (Frontex, Pacto de Migración y Asilo); Canarias gestiona la acogida de menores."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Cristina Valido reclama más información y medidas concretas ante el riesgo de un repunte migratorio en Canarias",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/cristina-valido-reclama-mas-informacion-y-medidas-concretas-ante-el-riesgo-de-un-repunte-migratorio-en-canarias/",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

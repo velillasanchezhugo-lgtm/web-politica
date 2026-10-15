@@ -1,0 +1,492 @@
+{
+  "id": "cc",
+  "nombre": "Coalición Canaria",
+  "siglas": "CC",
+  "naturaleza": "federacion",
+  "ambito": "territorial",
+  "territorio": "Canarias",
+  "color_grafico": "#F2C200",
+  "web_oficial": "https://coalicioncanaria.org/",
+  "criterio_inclusion": "Obtuvo representación en el Congreso (1 escaño) en las elecciones generales de 2023 y ha anunciado que concurrirá a las de 29 de noviembre de 2026.",
+  "resumen": "Formación nacionalista canaria creada en 1993 y registrada como federación, que preside el Gobierno de Canarias con Fernando Clavijo en coalición con el PP desde 2023. En la XV legislatura tuvo una diputada, Cristina Valido, que apoyó la investidura fallida de Alberto Núñez Feijóo y después la de Pedro Sánchez, en ambos casos a cambio de compromisos de la llamada «agenda canaria». Concurre a las generales solo en las dos provincias canarias.",
+  "historia": [
+    {
+      "texto": "Según la propia formación, a principios de 1993 Agrupaciones Independientes de Canarias (AIC), Centro Canario Nacionalista (CCN), Iniciativa Canaria (ICAN), Asamblea Majorera (AM) y el Partido Nacionalista Canario (PNC) decidieron constituir Coalición Canaria, que ese año formó un Gobierno de Canarias presidido por Manuel Hermoso.",
+      "tipo": "declaracion",
+      "fecha": "1993",
+      "fuentes": [
+        {
+          "titulo": "Quiénes somos",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/quienes-somos/",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Coalición Canaria (CCa) está inscrita en el Registro de Partidos Políticos del Ministerio del Interior como federación, con fecha de inscripción 30 de mayo de 1997; sus estatutos de 2025 regulan la «extinción de la Federación».",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Registro de Partidos Políticos: consulta por denominación",
+          "emisor": "Ministerio del Interior",
+          "tipo": "oficial",
+          "url": "https://servicio.mir.es/nfrontal/webpartido_politico.html",
+          "localizacion": "Denominación «Coalición Canaria (CCa)»; tipo de formación: federación; inscripción 30/05/1997",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Estatutos aprobados en el VIII Congreso Nacional (5 y 6 de abril de 2025)",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/wp-content/uploads/2025/06/ESTATUTOS-APROBADOS-CONGRESO-NACIONAL-5-Y-6-DE-ABRIL-DE-2025-conforme-MINISTERIO.pdf",
+          "localizacion": "Título VI",
+          "fecha_documento": "2025-04",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Tras las elecciones autonómicas de mayo de 2023, CC y PP, con el apoyo de AHI y ASG, propusieron a Fernando Clavijo como presidente de Canarias, con Manuel Domínguez (PP) como vicepresidente; Clavijo fue nombrado por Real Decreto 644/2023.",
+      "tipo": "hecho",
+      "fecha": "2023-07-13",
+      "fuentes": [
+        {
+          "titulo": "CC y PP proponen a Clavijo como presidente y Torres renuncia, «consciente» de la realidad",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/astrid-perez-comienza-la-ronda-de-consultas-parlamentarias/",
+          "fecha_documento": "2023-06-28",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 644/2023, de 13 de julio, por el que se nombra Presidente de Canarias a don Fernando Clavijo Batlle (BOE-A-2023-16293)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-16293",
+          "fecha_documento": "2023-07-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En su VIII Congreso Nacional (5 y 6 de abril de 2025) reeligió a Fernando Clavijo como secretario nacional con el 96,83 % de los votos y aprobó resoluciones sobre el futuro del Régimen Económico y Fiscal (REF), la vivienda y la unidad nacionalista.",
+      "tipo": "hecho",
+      "fecha": "2025-04-06",
+      "fuentes": [
+        {
+          "titulo": "Clavijo, reelegido como secretario nacional de CC con el 96,83 % de los votos",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/fernando-clavijo-es-reelegido-secretario-nacional-de-cc-6-abril-2025/",
+          "fecha_documento": "2025-04-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 3 de octubre de 2026 su Consejo Político Nacional proclamó por unanimidad a Clavijo candidato a la Presidencia de Canarias para las autonómicas de mayo de 2027.",
+      "tipo": "hecho",
+      "fecha": "2026-10-03",
+      "fuentes": [
+        {
+          "titulo": "CC proclama por unanimidad a Fernando Clavijo candidato a la Presidencia de Canarias en 2027",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/cc-proclama-por-unanimidad-a-fernando-clavijo-candidato-a-la-presidencia-de-canarias-en-2027/",
+          "fecha_documento": "2026-10-03",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Secretario nacional (secretario general de la formación)",
+      "nombre": "Fernando Clavijo Batlle",
+      "fuentes": [
+        {
+          "titulo": "Clavijo, reelegido como secretario nacional de CC con el 96,83 % de los votos",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/fernando-clavijo-es-reelegido-secretario-nacional-de-cc-6-abril-2025/",
+          "fecha_documento": "2025-04-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Presidente de Canarias",
+      "nombre": "Fernando Clavijo Batlle",
+      "desde": "2023-07",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 644/2023, de 13 de julio, por el que se nombra Presidente de Canarias a don Fernando Clavijo Batlle (BOE-A-2023-16293)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-16293",
+          "fecha_documento": "2023-07-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretario nacional de Organización",
+      "nombre": "David Toledo",
+      "fuentes": [
+        {
+          "titulo": "CC apuesta por Cristina Valido y llama a la unidad nacionalista para blindar la voz de Canarias en Madrid",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "CC da un «no rotundo» al segundo decreto de vivienda y logra el compromiso para limitar la compra a no residentes en Canarias",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/cc-da-un-no-rotundo-al-segundo-decreto-de-vivienda-y-logra-el-compromiso-para-limitar-la-compra-a-no-residentes-en-canarias/",
+          "fecha_documento": "2026-10-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Diputada y portavoz en el Congreso (XV legislatura)",
+      "nombre": "Cristina Valido",
+      "desde": "2023-08",
+      "fuentes": [
+        {
+          "titulo": "CC apuesta por Cristina Valido y llama a la unidad nacionalista para blindar la voz de Canarias en Madrid",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Valido exige que la frontera sur deje de pagar el fracaso de las políticas migratorias europeas",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/valido-exige-que-la-frontera-sur-deje-de-pagar-el-fracaso-de-las-politicas-migratorias-europeas/",
+          "fecha_documento": "2026-09-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Lista propia en Santa Cruz de Tenerife; en Las Palmas, posibles coaliciones en estudio (sin confirmar a 15-10-2026)",
+    "detalle": [
+      {
+        "texto": "El Comité Ejecutivo Nacional acordó por unanimidad el 5 de octubre de 2026 proponer al Consejo Político Nacional a Cristina Valido como cabeza de lista al Congreso por Santa Cruz de Tenerife y pedir autorización para explorar coaliciones electorales en la provincia de Las Palmas.",
+        "tipo": "hecho",
+        "fecha": "2026-10-05",
+        "fuentes": [
+          {
+            "titulo": "CC apuesta por Cristina Valido y llama a la unidad nacionalista para blindar la voz de Canarias en Madrid",
+            "emisor": "Coalición Canaria",
+            "tipo": "partido",
+            "url": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "La web de CC presenta ya a Valido como «candidata de Coalición Canaria a las Elecciones Generales al Congreso».",
+        "tipo": "hecho",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Cristina Valido reclama más información y medidas concretas ante el riesgo de un repunte migratorio en Canarias",
+            "emisor": "Coalición Canaria",
+            "tipo": "partido",
+            "url": "https://coalicioncanaria.org/cristina-valido-reclama-mas-informacion-y-medidas-concretas-ante-el-riesgo-de-un-repunte-migratorio-en-canarias/",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Cristina Valido destaca la importancia de garantizar una oferta de plazas de 0 a 3 años de calidad",
+            "emisor": "Coalición Canaria",
+            "tipo": "partido",
+            "url": "https://coalicioncanaria.org/cristina-valido-destaca-la-importancia-de-garantizar-una-oferta-de-plazas-de-0-a-3-anos-de-calidad/",
+            "fecha_documento": "2026-10-06",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Formación nacionalista canaria que se define progresista, defiende el máximo autogobierno dentro del marco constitucional, el Régimen Económico y Fiscal canario y la «agenda canaria», y negocia en Madrid con gobiernos de distinto color; en Canarias gobierna con el PP.",
+    "autodefinicion": {
+      "texto": "Sus estatutos la definen como «una organización política, nacionalista, progresista y de estructura federal» que persigue la consolidación por vías democráticas de la Nación Canaria «integrado en una concepción plurinacional del estado» y la consecución del «máximo nivel de autogobierno dentro del ámbito del Estado y su marco constitucional».",
+      "tipo": "declaracion",
+      "fuentes": [
+        {
+          "titulo": "Estatutos aprobados en el VIII Congreso Nacional (5 y 6 de abril de 2025)",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/wp-content/uploads/2025/06/ESTATUTOS-APROBADOS-CONGRESO-NACIONAL-5-Y-6-DE-ABRIL-DE-2025-conforme-MINISTERIO.pdf",
+          "localizacion": "Preámbulo y artículo 1",
+          "fecha_documento": "2025-04",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    "clasificaciones_externas": [],
+    "matices": "Se presenta como ajena a los bloques: «Nuestro bloque es Canarias». No se ha localizado en esta revisión una clasificación académica verificable."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Coalición Canaria (CCa)",
+      "votos": 116363,
+      "porcentaje": 0.47,
+      "escanos_congreso": 1,
+      "escanos_senado": 0,
+      "nota": "Porcentaje calculado por la redacción sobre 24.688.087 votos válidos. Escaño obtenido en Santa Cruz de Tenerife (82.805 votos); en Las Palmas obtuvo 33.558 votos sin escaño. No obtuvo senadores electos.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II, págs. 122207-122208; relación de senadores electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Preside el Gobierno de Canarias desde julio de 2023 (Fernando Clavijo), en coalición con el PP.",
+      "tipo": "hecho",
+      "fecha": "2023-07-13",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 644/2023, de 13 de julio, por el que se nombra Presidente de Canarias a don Fernando Clavijo Batlle (BOE-A-2023-16293)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-16293",
+          "fecha_documento": "2023-07-14",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "CC y PP proponen a Clavijo como presidente y Torres renuncia, «consciente» de la realidad",
+          "emisor": "Radio Televisión Canaria (RTVC)",
+          "tipo": "medio",
+          "url": "https://rtvc.es/astrid-perez-comienza-la-ronda-de-consultas-parlamentarias/",
+          "fecha_documento": "2023-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Cristina Valido votó a favor de la investidura de Alberto Núñez Feijóo (27-9-2023), tras un acuerdo PP-CC sobre la agenda canaria, y a favor de la de Pedro Sánchez (16-11-2023), tras asumir el PSOE los 25 puntos de esa agenda; en este último debate expresó su rechazo a la ley de amnistía. En la investidura fallida de Alberto Núñez Feijóo (27-9-2023) el resultado fue de 172 votos a favor y 178 en contra; en la de Pedro Sánchez (16-11-2023), de 179 a favor y 171 en contra.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 5 (27 de septiembre de 2023): debate de investidura de Alberto Núñez Feijóo",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+          "localizacion": "Págs. 24 y 27",
+          "fecha_documento": "2023-09-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16 de noviembre de 2023): debate de investidura de Pedro Sánchez",
+          "emisor": "Congreso de los Diputados",
+          "tipo": "oficial",
+          "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+          "localizacion": "Págs. 26 y 31-32",
+          "fecha_documento": "2023-11-16",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Votó en contra de la Ley Orgánica de amnistía en su aprobación definitiva en el Congreso (30-5-2024).",
+      "tipo": "hecho",
+      "fecha": "2024-05-30",
+      "fuentes": [
+        {
+          "titulo": "El Congreso aprueba de forma definitiva la ley de Amnistía",
+          "emisor": "Deia",
+          "tipo": "medio",
+          "url": "https://www.deia.eus/politica/2024/05/30/congreso-aprueba-forma-definitiva-ley-8297867.html",
+          "fecha_documento": "2024-05-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña (BOE-A-2024-11776)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+          "fecha_documento": "2024-06-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El 2 de octubre de 2026 votó a favor de convalidar el Real Decreto-ley 26/2026 y en contra del 27/2026 (renovación automática de alquileres); ambos fueron derogados.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+          "emisor": "Diario de Avisos (Europa Press)",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "CC apoya el primer decreto de vivienda y rechaza la renovación automática de alquileres",
+          "emisor": "Diario de Avisos",
+          "tipo": "medio",
+          "url": "https://diariodeavisos.elespanol.com/2026/10/cc-apoya-primer-decreto-vivienda/",
+          "fecha_documento": "2026-10-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Valido rechaza el segundo decreto de vivienda del Gobierno de España porque hará que el parque de alquiler de Canarias «se vea aún más reducido»",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/valido-rechaza-el-segundo-decreto-de-vivienda-del-gobierno-de-espana-porque-hara-que-el-parque-de-alquiler-de-canarias-se-vea-aun-mas-reducido/",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026 (BOE-A-2026-20526)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 27/2026 (BOE-A-2026-20527)",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según CC, en la legislatura logró la reforma de la Ley de Extranjería para distribuir de forma corresponsable a los menores migrantes no acompañados, la modificación de la RIC para destinarla a vivienda en alquiler y la financiación estatal de la gratuidad de las guaguas en Canarias.",
+      "tipo": "declaracion",
+      "fecha": "2026-10-05",
+      "fuentes": [
+        {
+          "titulo": "CC apuesta por Cristina Valido y llama a la unidad nacionalista para blindar la voz de Canarias en Madrid",
+          "emisor": "Coalición Canaria",
+          "tipo": "partido",
+          "url": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/",
+          "fecha_documento": "2026-10-05",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "En septiembre de 2023 CC firmó con el PP un acuerdo sobre la agenda canaria y apoyó la investidura de Feijóo; Valido explicó que había presentado «el mismo documento» al PP y al PSOE.",
+        "tipo": "hecho",
+        "fecha": "2023-09-27",
+        "fuentes": [
+          {
+            "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 5 (27 de septiembre de 2023): debate de investidura de Alberto Núñez Feijóo",
+            "emisor": "Congreso de los Diputados",
+            "tipo": "oficial",
+            "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-5.PDF",
+            "localizacion": "Págs. 24 y 27",
+            "fecha_documento": "2023-09-27",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "En noviembre de 2023 CC apoyó la investidura de Pedro Sánchez después de que este asumiera los 25 puntos de la agenda canaria.",
+        "tipo": "hecho",
+        "fecha": "2023-11-16",
+        "fuentes": [
+          {
+            "titulo": "Diario de Sesiones del Congreso de los Diputados, Pleno, XV Legislatura, núm. 8 (16 de noviembre de 2023): debate de investidura de Pedro Sánchez",
+            "emisor": "Congreso de los Diputados",
+            "tipo": "oficial",
+            "url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-8.PDF",
+            "localizacion": "Págs. 31-32",
+            "fecha_documento": "2023-11-16",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "David Toledo afirmó que el 29 de noviembre «no elegimos entre PP y PSOE, ni entre izquierda y derecha. Elegimos Canarias», y que CC busca un grupo propio en Madrid para negociar la agenda canaria «gobierne quien gobierne».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-05",
+        "fuentes": [
+          {
+            "titulo": "CC apuesta por Cristina Valido y llama a la unidad nacionalista para blindar la voz de Canarias en Madrid",
+            "emisor": "Coalición Canaria",
+            "tipo": "partido",
+            "url": "https://coalicioncanaria.org/cc-apuesta-por-cristina-valido-y-llama-a-la-unidad-nacionalista-para-blindar-la-voz-de-canarias-en-madrid/",
+            "fecha_documento": "2026-10-05",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Clavijo sostiene que las prioridades de CC se mantendrán «independientemente del escenario político que se abra en el Estado».",
+        "tipo": "declaracion",
+        "fecha": "2026-10-03",
+        "fuentes": [
+          {
+            "titulo": "CC proclama por unanimidad a Fernando Clavijo candidato a la Presidencia de Canarias en 2027",
+            "emisor": "Coalición Canaria",
+            "tipo": "partido",
+            "url": "https://coalicioncanaria.org/cc-proclama-por-unanimidad-a-fernando-clavijo-candidato-a-la-presidencia-de-canarias-en-2027/",
+            "fecha_documento": "2026-10-03",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "pendiente_publicacion",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Votaciones de la XV legislatura",
+      "Medidas migratorias propuestas el 13-10-2026",
+      "Posición sobre financiación autonómica (1.337 millones acordados en el CPFF, según CC)"
+    ],
+    "sin_desarrollar": [
+      "Limitación de la compra de vivienda por no residentes: sin texto ni encaje jurídico detallado",
+      "Reforma del REF: anunciada como debate interno, sin propuesta articulada localizada"
+    ],
+    "pendiente": [
+      "Programa electoral 2026",
+      "Ratificación de la candidatura por el Consejo Político Nacional y posibles coaliciones en Las Palmas"
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "bng-organizacion-territorial-2",
+  "partido": "bng",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Quita de 4.000 millones de deuda autonómica para Galicia",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "El BNG sostiene que negoció con el Gobierno central una quita de 4.000 millones de euros de la deuda de Galicia y critica que la Xunta del PP la rechace; reclama además una auditoría independiente de la deuda gallega, que según el Banco de España alcanzó 13.357 millones en el segundo trimestre de 2026.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La asunción de deuda autonómica por el Estado requiere una norma estatal y la aceptación de cada comunidad; la gestión de la deuda corresponde a la Xunta."
+  },
+  "financiacion": {
+    "nota": "El coste para el Estado sería el importe asumido (4.000 millones, según el BNG); no se ha localizado en esta revisión la norma que lo instrumenta ni una estimación independiente."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "BNG denuncia a nefasta xestión do Goberno de Rueda tras elevar a débeda de Galiza ao máximo histórico de 13.357 M€",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/bng-denuncia-nefasta-xestion-do-goberno-rueda-elevar-debeda-galiza-ao-maximo-historico-13357-mE/20261011110421043601.html",
+      "fecha_documento": "2026-10-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Pontón chama a concentrar o voto en Galiza no BNG o 29N para frear o bloque reaccionario e darlle unha voz firme ao País",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/ponton-chama-concentrar-voto-galiza-bng-29n-frear-bloque-reaccionario-darlle-voz-firme-ao-pais/20261013134518043609.html",
+      "fecha_documento": "2026-10-13",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ana Pontón: «Imos a por todas o 29N para darlle máis forza a Galiza e gañar en avances sociais fronte ao PP máis ultra da historia»",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/ana-ponton-imos-todas-29n-darlle-mais-forza-galiza-ganar-avances-sociais-fronte-ao-pp-mais-ultra-da-historia/20261005142051043564.html",
+      "fecha_documento": "2026-10-05",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Cifras de deuda atribuidas por el BNG al Banco de España; no contrastadas con la fuente original en esta revisión."
+  }
+}

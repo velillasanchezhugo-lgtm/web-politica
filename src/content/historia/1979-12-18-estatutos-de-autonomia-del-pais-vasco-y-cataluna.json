@@ -1,0 +1,90 @@
+{
+  "id": "1979-12-18-estatutos-de-autonomia-del-pais-vasco-y-cataluna",
+  "fecha": "1979-12-18",
+  "titulo": "Estatutos de Autonomía del País Vasco y de Cataluña",
+  "categorias": [
+    "territorial",
+    "legislacion"
+  ],
+  "resumen": "Las Leyes Orgánicas 3/1979 y 4/1979, de 18 de diciembre, aprobaron los primeros Estatutos de Autonomía tras la Constitución: los del País Vasco y Cataluña, publicados en el BOE el 22 de diciembre de 1979.",
+  "contexto": "La Constitución reconoce el derecho a la autonomía de las nacionalidades y regiones y permite que cada comunidad se dote de un estatuto como norma institucional básica. El Estatuto vasco define a Euskadi como expresión de la nacionalidad del Pueblo Vasco, y el catalán se presenta como ejercicio del derecho a la autonomía que la Constitución reconoce a las nacionalidades y regiones.",
+  "consecuencias": [
+    {
+      "texto": "El Estatuto vasco regula las relaciones tributarias con el Estado mediante el sistema foral tradicional de Concierto Económico o Convenios y declara oficial el euskera junto al castellano.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 3/1979, de 18 de diciembre, de Estatuto de Autonomía para el País Vasco",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1979-30177",
+          "localizacion": "Artículos 6 y 41",
+          "fecha_documento": "1979-12-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Ambos estatutos prevén una policía autónoma bajo el mando supremo de los respectivos gobiernos autonómicos.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 3/1979, de 18 de diciembre, de Estatuto de Autonomía para el País Vasco",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1979-30177",
+          "localizacion": "Artículo 17",
+          "fecha_documento": "1979-12-22",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 4/1979, de 18 de diciembre, de Estatuto de Autonomía de Cataluña",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1979-30178",
+          "localizacion": "Artículo 13",
+          "fecha_documento": "1979-12-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Estatuto de Cataluña exige para su reforma la aprobación del Parlamento de Cataluña por mayoría de dos tercios, de las Cortes mediante ley orgánica y un referéndum positivo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 4/1979, de 18 de diciembre, de Estatuto de Autonomía de Cataluña",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1979-30178",
+          "localizacion": "Artículo 56",
+          "fecha_documento": "1979-12-22",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 3/1979, de 18 de diciembre, de Estatuto de Autonomía para el País Vasco",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1979-30177",
+      "fecha_documento": "1979-12-22",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 4/1979, de 18 de diciembre, de Estatuto de Autonomía de Cataluña",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1979-30178",
+      "fecha_documento": "1979-12-22",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bng-educacion-1",
+  "partido": "bng",
+  "tema": "educacion",
+  "eleccion": "generales-2026",
+  "titulo": "Derogar el decreto de plurilingüismo y más recursos para el gallego",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "El BNG defiende derogar el decreto gallego de plurilingüismo en la enseñanza aprobado bajo el Gobierno de Feijóo (al que llama «decreto da vergoña») y negociar una nueva normativa, así como aumentar los recursos para la promoción del idioma; rechaza el acuerdo PP-PSdeG de septiembre de 2026 sobre la lengua, que a su juicio mantiene las mismas restricciones.",
+  "competencia": {
+    "administraciones": [
+      "ccaa"
+    ],
+    "nota": "La normativa lingüística en la enseñanza no universitaria y la promoción del gallego son competencia de la Comunidad Autónoma de Galicia; no dependen de las Cortes Generales."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ana Pontón ante o pacto PP-PSOE: «O bipartidismo poñéndose de acordo para enterrar o galego»",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/ana-ponton-pacto-pp-psoe-bipartidismo-ponendose-acordo-enterrar-galego/20260924131307043473.html",
+      "fecha_documento": "2026-09-24",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Posición de ámbito autonómico; se incluye por ser central en el perfil del partido."
+  }
+}

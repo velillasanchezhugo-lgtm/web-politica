@@ -1,0 +1,59 @@
+{
+  "id": "2005-07-01-matrimonio-entre-personas-del-mismo-sexo",
+  "fecha": "2005-07-01",
+  "titulo": "Matrimonio entre personas del mismo sexo",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "La Ley 13/2005, de 1 de julio, modificó el Código Civil para permitir el matrimonio entre personas del mismo sexo con los mismos requisitos y efectos que entre personas de distinto sexo.",
+  "contexto": "La reforma se publicó en el BOE el 2 de julio de 2005 y entró en vigor al día siguiente de su publicación.",
+  "consecuencias": [
+    {
+      "texto": "Se añadió al artículo 44 del Código Civil la previsión de que el matrimonio tendrá los mismos requisitos y efectos cuando ambos contrayentes sean del mismo o de diferente sexo.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 13/2005, de 1 de julio",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2005-11364",
+          "localizacion": "Artículo único, apartado uno (art. 44 del Código Civil)",
+          "fecha_documento": "2005-07-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La ley entró en vigor el día siguiente al de su publicación en el BOE, es decir, el 3 de julio de 2005.",
+      "tipo": "hecho",
+      "fecha": "2005-07-03",
+      "fuentes": [
+        {
+          "titulo": "Ley 13/2005, de 1 de julio",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2005-11364",
+          "localizacion": "Disposición final segunda",
+          "fecha_documento": "2005-07-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 13/2005, de 1 de julio, por la que se modifica el Código Civil en materia de derecho a contraer matrimonio",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2005-11364",
+      "fecha_documento": "2005-07-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "podemos-inmigracion-1",
+  "partido": "podemos",
+  "tema": "inmigracion",
+  "eleccion": "generales-2026",
+  "titulo": "Regularización extraordinaria de migrantes pactada con el Gobierno",
+  "tipo_informacion": "documento_oficial",
+  "estado": "medida_aprobada",
+  "resumen": "Podemos anunció en enero de 2026 un acuerdo con el Gobierno para regularizar a las personas que estuvieran en España antes del 31 de diciembre de 2025 y acreditaran cinco meses de residencia. El Gobierno lo aprobó por el Real Decreto 316/2026, con autorización provisional para trabajar desde la admisión a trámite y plazo de solicitud hasta el 30 de junio de 2026. «Papeles son derechos», dijo Irene Montero al anunciarlo.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Inmigración y extranjería son competencia exclusiva del Estado (art. 149.1.2.ª CE); las comunidades autónomas emiten informes de integración y la UE fija el marco común de migración y asilo."
+  },
+  "financiacion": {
+    "nota": "No se publicó coste; no se ha localizado estimación independiente."
+  },
+  "calendario": "Plazo de solicitud cerrado el 30 de junio de 2026.",
+  "detalle": "Medida aprobada por el Gobierno (no por Podemos, que no forma parte de él) tras un acuerdo con el partido.",
+  "fuentes": [
+    {
+      "titulo": "Podemos anuncia un pacto con el Gobierno para una regularización extraordinaria de migrantes",
+      "emisor": "elDiario.es",
+      "tipo": "medio",
+      "url": "https://www.eldiario.es/politica/anuncia-pacto-gobierno-regularizacion-extraordinaria-migrantes_1_12937083.html",
+      "fecha_documento": "2026-01-26",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Reglamento de la Ley Orgánica 4/2000",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+      "localizacion": "Disposiciones adicionales vigésima y vigesimoprimera",
+      "fecha_documento": "2026-04-15",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.2.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

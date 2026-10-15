@@ -1,0 +1,36 @@
+{
+  "id": "cc-organizacion-territorial-1",
+  "partido": "cc",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Financiación autonómica: 1.337 millones más para Canarias sin computar el REF",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "CC reclama que el nuevo modelo de financiación autonómica respete el incremento de 1.337 millones de euros para Canarias que, según el partido, aprobó el Consejo de Política Fiscal y Financiera (611 del sistema y 726 de un fondo de dinamismo económico), que no compute los recursos del REF y que compense el antiguo IGTE. Votó en contra de una moción del PSOE que solo recogía 611 millones.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "El sistema de financiación de las CCAA de régimen común se regula por ley orgánica (LOFCA) y ley ordinaria del Estado, previa deliberación en el Consejo de Política Fiscal y Financiera."
+  },
+  "financiacion": {
+    "nota": "Las cifras son las que atribuye CC al acuerdo del Consejo de Política Fiscal y Financiera; no se han contrastado con documentos del Ministerio de Hacienda en esta revisión."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "San Ginés denuncia que el PSOE lleva a las Cortes una moción sobre financiación autonómica que ignora sus propios compromisos con Canarias",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/san-gines-denuncia-que-el-psoe-lleva-a-las-cortes-una-mocion-sobre-financiacion-autonomica-que-ignora-sus-propios-compromisos-con-canarias/",
+      "fecha_documento": "2026-10-01",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Cifras atribuidas por CC; pendiente de contraste con fuente oficial."
+  }
+}

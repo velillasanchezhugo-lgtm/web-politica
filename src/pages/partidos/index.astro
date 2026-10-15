@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import Quick from '../../components/Quick.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import PartyCard from '../../components/PartyCard.astro';
+import { escanos2023 } from '../../lib/partidos';
 import { getCollection } from 'astro:content';
 import { publicados, alfa, ETIQUETAS, fechaLarga, ultimaRevision, esPublico } from '../../lib/content';
 
@@ -32,20 +34,8 @@ const enRevision = (await getCollection('partidos')).filter((p) => !esPublico(p.
       </div>
     </div>
 
-    <ul class="grid party-list" role="list" style="list-style:none;padding:0;margin-top:1.25rem">
-      {partidos.map((p) => (
-        <li class="card" data-ambito={p.data.ambito}>
-          <h2 style="margin:0 0 .3rem;font-size:1.2rem"><a href={`/partidos/${p.data.id}/`}>{p.data.nombre}</a></h2>
-          <p class="small muted" style="margin:0 0 .5rem">
-            {p.data.siglas} · {ETIQUETAS.naturaleza[p.data.naturaleza]} · {p.data.ambito === 'estatal' ? 'Ámbito estatal' : `Ámbito territorial${p.data.territorio ? ': ' + p.data.territorio : ''}`}
-          </p>
-          <p style="margin:0 0 .5rem">{p.data.resumen}</p>
-          <p class="small" style="margin:0">
-            <strong>Candidatura 2026:</strong> {ETIQUETAS.candidatura[p.data.candidatura_2026.estado]}
-            {p.data.candidatura_2026.forma_concurrencia && <> · {p.data.candidatura_2026.forma_concurrencia}</>}
-          </p>
-        </li>
-      ))}
+    <ul class="grid party-list" role="list" style="list-style:none;padding:0;margin-top:1.25rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,17rem),1fr))">
+      {partidos.map((p) => <PartyCard p={p.data} escanos2023={escanos2023(p.data)} />)}
     </ul>
   </div>
   <AdSlot slot="footer" />

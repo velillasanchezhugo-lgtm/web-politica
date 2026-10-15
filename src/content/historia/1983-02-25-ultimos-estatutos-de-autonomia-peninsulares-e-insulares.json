@@ -1,0 +1,91 @@
+{
+  "id": "1983-02-25-ultimos-estatutos-de-autonomia-peninsulares-e-insulares",
+  "fecha": "1983-02-25",
+  "titulo": "Aprobación de los Estatutos de Extremadura, Baleares, Madrid y Castilla y León",
+  "categorias": [
+    "territorial",
+    "legislacion"
+  ],
+  "resumen": "El 25 de febrero de 1983 se aprobaron, mediante las Leyes Orgánicas 1/1983 a 4/1983, los Estatutos de Autonomía de Extremadura, las Illes Balears, la Comunidad de Madrid y Castilla y León.",
+  "contexto": "Desde 1979 se habían ido aprobando los estatutos del resto de comunidades al amparo del Título VIII de la Constitución. Estas cuatro leyes orgánicas se publicaron en el BOE entre el 26 de febrero y el 2 de marzo de 1983.",
+  "consecuencias": [
+    {
+      "texto": "Con estas leyes, las cuatro comunidades pasaron a disponer de su norma institucional básica e instituciones propias de autogobierno.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 1/1983, de 25 de febrero, de Estatuto de Autonomía de Extremadura",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6190",
+          "fecha_documento": "1983-02-26",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 2/1983, de 25 de febrero, de Estatuto de Autonomía para las islas Baleares",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6316",
+          "fecha_documento": "1983-03-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 3/1983, de 25 de febrero, de Estatuto de Autonomía de la Comunidad de Madrid",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6317",
+          "fecha_documento": "1983-03-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Ley Orgánica 4/1983, de 25 de febrero, de Estatuto de Autonomía de Castilla-León",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6483",
+          "fecha_documento": "1983-03-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 1/1983, de 25 de febrero, de Estatuto de Autonomía de Extremadura",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6190",
+      "fecha_documento": "1983-02-26",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 2/1983, de 25 de febrero, de Estatuto de Autonomía para las islas Baleares",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6316",
+      "fecha_documento": "1983-03-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 3/1983, de 25 de febrero, de Estatuto de Autonomía de la Comunidad de Madrid",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6317",
+      "fecha_documento": "1983-03-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 4/1983, de 25 de febrero, de Estatuto de Autonomía de Castilla-León",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-6483",
+      "fecha_documento": "1983-03-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "borrador",
+    "notas": "Falta una fuente abierta que confirme que con estos estatutos quedó completado el mapa de 17 comunidades autónomas y la fecha de los estatutos anteriores; no se afirma en el texto."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2023-05-24-ley-por-el-derecho-a-la-vivienda",
+  "fecha": "2023-05-24",
+  "titulo": "Ley por el derecho a la vivienda",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad",
+    "territorial"
+  ],
+  "resumen": "La Ley 12/2023, de 24 de mayo, por el derecho a la vivienda, es según su preámbulo la primera ley estatal reguladora de este derecho desde la Constitución. Introdujo la declaración de zonas de mercado residencial tensionado.",
+  "contexto": "La Constitución reconoce el derecho a disfrutar de una vivienda digna (artículo 47). La ley establece que la declaración de zonas de mercado residencial tensionado corresponde a las administraciones competentes en materia de vivienda, conforme a su normativa y en el ámbito de sus competencias.",
+  "consecuencias": [
+    {
+      "texto": "La ley regula la declaración de zonas de mercado residencial tensionado y obligaciones de información para los grandes tenedores en esas zonas.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 12/2023, de 24 de mayo",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-12203",
+          "localizacion": "Artículos 18 y 19",
+          "fecha_documento": "2023-05-25",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-12203",
+      "fecha_documento": "2023-05-25",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 47",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

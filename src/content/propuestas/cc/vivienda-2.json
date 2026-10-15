@@ -1,0 +1,36 @@
+{
+  "id": "cc-vivienda-2",
+  "partido": "cc",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Limitar la compra de vivienda por no residentes en Canarias",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "CC defiende poder limitar la compra de vivienda por parte de no residentes en Canarias para frenar la adquisición de inmuebles que permanecen vacíos buena parte del año, y afirma haber logrado el compromiso de incluir esa posibilidad en el primer texto legislativo de vivienda que se tramite.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "ue"
+    ],
+    "nota": "Una limitación de este tipo exigiría una norma estatal o autonómica compatible con la libre circulación de capitales y la no discriminación del Derecho de la UE; el partido no ha publicado el diseño jurídico."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado (el compromiso citado por CC se refiere a un futuro texto legislativo)",
+  "fuentes": [
+    {
+      "titulo": "CC da un «no rotundo» al segundo decreto de vivienda y logra el compromiso para limitar la compra a no residentes en Canarias",
+      "emisor": "Coalición Canaria",
+      "tipo": "partido",
+      "url": "https://coalicioncanaria.org/cc-da-un-no-rotundo-al-segundo-decreto-de-vivienda-y-logra-el-compromiso-para-limitar-la-compra-a-no-residentes-en-canarias/",
+      "fecha_documento": "2026-10-01",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

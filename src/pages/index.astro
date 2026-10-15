@@ -1,80 +1,126 @@
 ---
 import Base from '../layouts/Base.astro';
 import AdSlot from '../components/AdSlot.astro';
+import Hemiciclo from '../components/Hemiciclo.astro';
+import PartyCard from '../components/PartyCard.astro';
 import { SITE } from '../config/site';
 import { publicados, fechaLarga, alfa } from '../lib/content';
+import { paleta, escanos2023 } from '../lib/partidos';
+import { gruposDe } from '../lib/escanos';
 
-const actualizaciones = (await publicados('actualizaciones')).sort((a, b) => b.data.fecha.localeCompare(a.data.fecha)).slice(0, 6);
+const actualizaciones = (await publicados('actualizaciones')).sort((a, b) => b.data.fecha.localeCompare(a.data.fecha)).slice(0, 5);
 const temas = (await publicados('temas')).sort((a, b) => a.data.orden - b.data.orden);
-const destacados = temas.filter((t) => ['vivienda', 'empleo', 'pensiones', 'sanidad', 'inmigracion', 'organizacion-territorial'].includes(t.data.id));
 const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
+const publicas = new Set(partidos.map((p) => p.data.id));
+const tintas = await paleta();
+const res23 = (await publicados('escanos')).find((e) => e.data.id === 'generales-2023');
+const grupos = res23 ? gruposDe(res23.data.filas, tintas, publicas) : [];
 const calendario = (await publicados('calendario'))[0];
+const hoy = new Date().toISOString().slice(0, 10);
 const proximos = calendario?.data.hitos
-  .filter((h) => (h.fecha_fin ?? h.fecha_inicio) >= new Date().toISOString().slice(0, 10))
+  .filter((h) => (h.fecha_fin ?? h.fecha_inicio) >= hoy)
   .sort((a, b) => a.fecha_inicio.localeCompare(b.fecha_inicio))
   .slice(0, 4);
+const diasBuild = Math.max(0, Math.round((Date.parse(SITE.eleccion.fecha) - Date.parse(hoy)) / 86400000));
+const propuestas = await publicados('propuestas');
 
 const accesos = [
-  { href: '/partidos/', t: 'Conocer los partidos', d: 'Quién es quién, qué propone y con quién ha pactado. Con fuentes.' },
-  { href: '/comparar/', t: 'Comparar propuestas', d: 'Elige de 2 a 4 partidos y los temas que te interesan.' },
-  { href: '/si-gobernara/', t: 'Explorar escenarios de Gobierno', d: 'Qué necesitaría cada opción para gobernar y qué límites tendría.' },
-  { href: '/simulador/', t: 'Simular una investidura', d: 'Prueba sumas con las reglas reales del Congreso.' },
-  { href: '/guia/', t: 'Entender cómo se vota', d: 'Circunscripciones, D’Hondt, voto por correo, investidura…' },
-  { href: '/historia/', t: 'Recorrer la historia política', d: 'De 1975 a hoy: elecciones, reformas, Europa y autonomías.' },
+  { href: '/partidos/', t: 'Conocer los partidos', d: 'Quién es quién, qué propone y con quién ha pactado.', icon: 'M12 3l9 4-9 4-9-4 9-4zm-9 8l9 4 9-4M3 15l9 4 9-4' },
+  { href: '/comparar/', t: 'Comparar propuestas', d: 'De 2 a 4 partidos, tema a tema, con fuentes.', icon: 'M4 5h7v14H4zM13 5h7v14h-7z' },
+  { href: '/simulador/', t: 'Simular una investidura', d: 'Suma escaños con las reglas reales del Congreso.', icon: 'M3 18a9 9 0 0118 0M7 18a5 5 0 0110 0' },
+  { href: '/si-gobernara/', t: 'Escenarios de Gobierno', d: 'Qué necesitaría cada opción y con qué límites.', icon: 'M4 20V10l8-6 8 6v10M9 20v-6h6v6' },
+  { href: '/guia/', t: 'Cómo se vota', d: 'D’Hondt, voto por correo, investidura y más.', icon: 'M5 4h14v16H5zM8 9h8M8 13h8M8 17h5' },
+  { href: '/historia/', t: 'Historia desde 1975', d: 'Elecciones, reformas, autonomías y Europa.', icon: 'M12 7v5l3 3M12 3a9 9 0 100 18 9 9 0 000-18z' },
 ];
 ---
 <Base title={SITE.nombre} description={SITE.descripcion}>
   <section class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Elecciones generales · domingo 29 de noviembre de 2026</p>
-      <h1>Entiende las elecciones antes de votar.</h1>
-      <p class="lead">Qué propone cada partido, cómo se reparten los escaños, qué hace falta para formar Gobierno y de dónde venimos. Con fuentes enlazadas, fechas reales y sin decirte a quién votar.</p>
-      <form action="/buscar/" method="get" role="search" class="hero-search">
-        <label for="q" class="visually-hidden">Buscar en la web</label>
-        <input id="q" name="q" type="search" placeholder="Busca un partido, un tema o un término (p. ej. «alquiler», «D’Hondt»)" />
-        <button class="btn" type="submit">Buscar</button>
-      </form>
-      <p class="small muted">Convocatoria: <a href={SITE.eleccion.decreto.url} rel="noopener">{SITE.eleccion.decreto.titulo}</a> (BOE de 6 de octubre de 2026).</p>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Elecciones generales · domingo 29 de noviembre de 2026</p>
+        <h1>Entiende las elecciones antes de votar.</h1>
+        <p class="lead">Qué propone cada partido, cómo se reparten los escaños, qué hace falta para formar Gobierno y de dónde venimos. Con fuentes enlazadas y sin decirte a quién votar.</p>
+        <div class="countdown" aria-live="off">
+          <div><b id="cd-dias">{diasBuild}</b><span>días para votar</span></div>
+          <div><b>{grupos.reduce((s, g) => s + g.escanos, 0) || 350}</b><span>escaños en juego</span></div>
+          <div><b>176</b><span>mayoría absoluta</span></div>
+        </div>
+        <form action="/buscar/" method="get" role="search" class="hero-search">
+          <label for="q" class="visually-hidden">Buscar en la web</label>
+          <input id="q" name="q" type="search" placeholder="Busca un partido, un tema o un término" />
+          <button class="btn" type="submit">Buscar</button>
+        </form>
+        <p class="small muted">Convocatoria: <a href={SITE.eleccion.decreto.url} rel="noopener">{SITE.eleccion.decreto.titulo}</a>.</p>
+      </div>
+      {grupos.length > 0 && (
+        <div class="hero-hemi">
+          <p class="hemi-title">El Congreso que sale de las urnas de 2023</p>
+          <Hemiciclo grupos={grupos} total={350} titulo="Escaños del Congreso según el resultado oficial de las elecciones del 23 de julio de 2023" centro={{ num: '350', label: 'diputados' }} nota="Resultado oficial de 2023 (JEC, BOE). Grupos en orden alfabético por siglas: no reflejan su ubicación en la Cámara. Pulsa una formación para resaltarla." />
+          <p class="small"><a href="/simulador/">Prueba sumas con estos escaños →</a></p>
+        </div>
+      )}
     </div>
   </section>
 
   <div class="wrap">
     <h2 class="visually-hidden">Accesos principales</h2>
-    <ul class="grid accesos" role="list">
-      {accesos.map((a) => (
-        <li class="card acceso"><a href={a.href}><strong>{a.t}</strong><span>{a.d}</span></a></li>
+    <ul class="accesos" role="list">
+      {accesos.map((a, i) => (
+        <li class="acceso reveal" style={`transition-delay:${i * 50}ms`}>
+          <a href={a.href}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d={a.icon} fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            <strong>{a.t}</strong><span>{a.d}</span>
+          </a>
+        </li>
       ))}
     </ul>
 
-    <div class="cols-2">
-      <section>
-        <h2>Temas destacados</h2>
-        {destacados.length ? (
-          <ul class="list-plain">
-            {destacados.map((t) => <li><a href={`/temas/${t.data.id}/`}>{t.data.nombre}</a> <span class="small muted">— {t.data.descripcion}</span></li>)}
-          </ul>
-        ) : <p class="muted">En preparación.</p>}
-        <p><a href="/temas/">Todos los temas</a></p>
-
-        {proximos && proximos.length > 0 && (
-          <>
-            <h2>Próximas fechas del calendario electoral</h2>
-            <ul class="list-plain">
-              {proximos.map((h) => <li><strong>{fechaLarga(h.fecha_inicio)}{h.fecha_fin && h.fecha_fin !== h.fecha_inicio && ` – ${fechaLarga(h.fecha_fin)}`}:</strong> {h.titulo}</li>)}
-            </ul>
-            <p><a href="/guia/calendario-electoral/">Calendario completo con fuentes</a></p>
-          </>
-        )}
+    {partidos.length > 0 && (
+      <section class="sec">
+        <div class="sec-head"><h2>Partidos y coaliciones</h2><p class="small muted">Orden alfabético · {partidos.length} fichas publicadas · <a href="/partidos/">Ver todas</a></p></div>
+        <ul class="grid party-grid" role="list">
+          {partidos.map((p) => <PartyCard p={p.data} escanos2023={escanos2023(p.data)} compact headingLevel={3} />)}
+        </ul>
       </section>
-      <section>
+    )}
+
+    <section class="sec">
+      <div class="sec-head"><h2>Temas</h2><p class="small muted">Qué plantea cada partido, con datos oficiales de contexto</p></div>
+      <ul class="temas-grid" role="list">
+        {temas.map((t) => {
+          const ps = [...new Set(propuestas.filter((p) => p.data.tema === t.data.id).map((p) => p.data.partido))].filter((id) => publicas.has(id)).sort();
+          return (
+            <li class="reveal"><a href={`/temas/${t.data.id}/`}>
+              <strong>{t.data.nombre}</strong>
+              <span class="dots" aria-label={`${ps.length} partidos con posición publicada`}>{ps.map((id) => <i style={`--pc:${tintas.get(id)?.color}`} title={tintas.get(id)?.siglas}></i>)}</span>
+            </a></li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <div class="cols-2">
+      {proximos && proximos.length > 0 && (
+        <section class="sec">
+          <h2>Próximas fechas</h2>
+          <ol class="agenda" role="list">
+            {proximos.map((h) => (
+              <li class="reveal">
+                <time datetime={h.fecha_inicio}><b>{+h.fecha_inicio.slice(8, 10)}</b><span>{fechaLarga(h.fecha_inicio).split(' de ')[1]?.slice(0, 3)}</span></time>
+                <p>{h.titulo}{h.fecha_fin && h.fecha_fin !== h.fecha_inicio && <span class="small muted"> · hasta el {fechaLarga(h.fecha_fin)}</span>}</p>
+              </li>
+            ))}
+          </ol>
+          <p><a href="/guia/calendario-electoral/">Calendario completo con fuentes</a></p>
+        </section>
+      )}
+      <section class="sec">
         <h2>Últimas actualizaciones verificadas</h2>
         {actualizaciones.length ? (
           <ul class="list-plain updates">
             {actualizaciones.map((u) => (
-              <li>
-                <time datetime={u.data.fecha}>{fechaLarga(u.data.fecha)}</time>
-                <p style="margin:.1rem 0 0">{u.data.enlace_interno ? <a href={u.data.enlace_interno}>{u.data.titulo}</a> : u.data.titulo}</p>
-              </li>
+              <li class="reveal"><time datetime={u.data.fecha}>{fechaLarga(u.data.fecha)}</time>
+                <p style="margin:.1rem 0 0">{u.data.enlace_interno ? <a href={u.data.enlace_interno}>{u.data.titulo}</a> : u.data.titulo}</p></li>
             ))}
           </ul>
         ) : <p class="muted">Sin actualizaciones registradas.</p>}
@@ -82,45 +128,66 @@ const accesos = [
       </section>
     </div>
 
-    {partidos.length > 0 && (
-      <section>
-        <h2>Partidos y coaliciones <span class="small muted" style="font-family:var(--font-sans);font-weight:400">(orden alfabético)</span></h2>
-        <p class="party-pills">{partidos.map((p) => <a href={`/partidos/${p.data.id}/`}>{p.data.siglas}</a>)}</p>
-      </section>
-    )}
-
-    <section class="card principles">
+    <section class="card principles reveal">
       <h2 style="margin-top:0">Cómo trabajamos</h2>
       <ul>
         <li>Cada dato relevante enlaza a su fuente y lleva fecha.</li>
-        <li>Separamos hechos, propuestas, declaraciones y análisis, y lo indicamos con etiquetas.</li>
+        <li>Separamos hechos, propuestas, declaraciones y análisis, con etiquetas visibles.</li>
         <li>Si no encontramos algo, lo decimos: «No localizado en las fuentes consultadas».</li>
-        <li>No recomendamos el voto ni calculamos afinidades.</li>
+        <li>No recomendamos el voto ni calculamos afinidades. Cada partido usa su color en lo que le corresponde; la web no tiene color de partido.</li>
       </ul>
       <p style="margin:0"><a href="/metodologia/">Metodología editorial</a> · <a href="/correcciones/">Correcciones</a> · <a href="/financiacion-y-publicidad/">Cómo nos financiamos</a></p>
     </section>
   </div>
   <AdSlot slot="footer" />
 </Base>
+<script>
+  // Recalcula los días en el navegador (la cifra del HTML es la del día de compilación).
+  const el = document.getElementById('cd-dias');
+  if (el) {
+    const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+    const dias = Math.round((new Date(2026, 10, 29).getTime() - hoy.getTime()) / 86400000);
+    el.textContent = String(Math.max(0, dias));
+  }
+</script>
 <style>
-  .hero { background: var(--paper-2); border-bottom: 1px solid var(--line); padding: 2rem 0 1.5rem; margin-bottom: 1.5rem; }
+  .hero { background: radial-gradient(1200px 400px at 85% 0%, color-mix(in srgb, var(--accent) 10%, transparent), transparent), var(--paper-2); border-bottom: 1px solid var(--line); padding: 2rem 0 1.75rem; margin-bottom: 1.75rem; }
+  .hero-grid { display: grid; gap: 2rem; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 60rem) { .hero-grid { grid-template-columns: 1.05fr 1fr; } }
   .eyebrow { font: 700 0.8rem/1.2 var(--font-sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 0; }
-  .lead { font-size: 1.15rem; max-width: 42rem; color: var(--ink-2); }
-  .hero-search { display: flex; gap: 0.5rem; max-width: 40rem; margin: 1.25rem 0 0.5rem; }
+  .lead { font-size: 1.15rem; max-width: 40rem; color: var(--ink-2); }
+  .countdown { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1.25rem 0; }
+  .countdown div { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 0.6rem 0.9rem; min-width: 7rem; }
+  .countdown b { display: block; font: 800 2rem/1 var(--font-sans); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+  .countdown span { font-size: 0.8rem; color: var(--ink-2); }
+  .hero-search { display: flex; gap: 0.5rem; max-width: 36rem; margin: 0.5rem 0; }
   .hero-search input { flex: 1; min-width: 0; }
-  .accesos { list-style: none; padding: 0; }
-  .acceso { padding: 0; }
-  .acceso a { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem 1.1rem; text-decoration: none; height: 100%; border-radius: var(--radius); }
-  .acceso a:hover { background: var(--paper-2); color: var(--ink); }
-  .acceso strong { font-family: var(--font-serif); font-size: 1.15rem; }
-  .acceso strong::after { content: ' →'; color: var(--accent); }
-  .acceso span { color: var(--ink-2); font-size: 0.95rem; }
+  .hero-hemi { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 1rem 1rem 0.75rem; }
+  .hemi-title { font: 700 0.8rem/1.2 var(--font-sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); margin: 0 0 0.5rem; }
+  .accesos { list-style: none; padding: 0; display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); }
+  .acceso a { display: grid; grid-template-columns: 2.4rem 1fr; gap: 0.15rem 0.75rem; padding: 1rem; border: 1px solid var(--line); border-radius: 14px; text-decoration: none; height: 100%; background: var(--paper); transition: border-color 0.15s, transform 0.15s; }
+  .acceso a:hover { border-color: var(--ink); transform: translateY(-2px); color: var(--ink); }
+  .acceso svg { grid-row: span 2; width: 2.4rem; height: 2.4rem; padding: 0.45rem; border-radius: 10px; background: var(--paper-2); color: var(--accent); }
+  .acceso strong { font-family: var(--font-serif); font-size: 1.1rem; }
+  .acceso span { color: var(--ink-2); font-size: 0.92rem; }
+  .sec { margin-top: 2.5rem; }
+  .sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.25rem 1rem; }
+  .sec-head h2 { margin: 0 0 0.75rem; }
+  .party-grid { list-style: none; padding: 0; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13.5rem), 1fr)); }
+  .temas-grid { list-style: none; padding: 0; display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); }
+  .temas-grid a { display: flex; flex-direction: column; gap: 0.5rem; padding: 0.8rem 1rem; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; background: var(--paper); height: 100%; }
+  .temas-grid a:hover { border-color: var(--ink); color: var(--ink); }
+  .dots { display: flex; flex-wrap: wrap; gap: 4px; min-height: 12px; }
+  .dots i { width: 12px; height: 12px; border-radius: 50%; background: var(--pc); }
   .cols-2 { display: grid; gap: 0 2.5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+  .agenda { list-style: none; padding: 0; }
+  .agenda li { display: grid; grid-template-columns: 3.4rem 1fr; gap: 0.75rem; align-items: center; padding: 0.5rem 0; border-bottom: 1px solid var(--line); }
+  .agenda time { text-align: center; border-radius: 10px; background: var(--ink); color: var(--paper); padding: 0.3rem 0; }
+  .agenda time b { display: block; font: 800 1.3rem/1 var(--font-sans); }
+  .agenda time span { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
+  .agenda p { margin: 0; }
   .list-plain { list-style: none; padding: 0; }
   .list-plain li { padding: 0.45rem 0; border-bottom: 1px solid var(--line); }
   .updates time { font-size: 0.85rem; color: var(--ink-3); }
-  .party-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-  .party-pills a { border: 1px solid var(--line); border-radius: 99px; padding: 0.35rem 0.8rem; text-decoration: none; font-weight: 600; }
-  .party-pills a:hover { border-color: var(--ink); }
-  .principles { margin-top: 2rem; background: var(--paper-2); }
+  .principles { margin-top: 2.5rem; background: var(--paper-2); }
 </style>

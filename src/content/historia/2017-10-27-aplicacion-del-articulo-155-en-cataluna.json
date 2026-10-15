@@ -1,0 +1,111 @@
+{
+  "id": "2017-10-27-aplicacion-del-articulo-155-en-cataluna",
+  "fecha": "2017-10-27",
+  "fecha_fin": "2017-12-21",
+  "titulo": "Aplicación del artículo 155 de la Constitución en Cataluña",
+  "categorias": [
+    "territorial",
+    "reformas-institucionales"
+  ],
+  "resumen": "El 27 de octubre de 2017 el Senado aprobó las medidas propuestas por el Gobierno al amparo del artículo 155 de la Constitución. El Gobierno cesó al presidente y al Gobierno de la Generalitat, disolvió el Parlamento de Cataluña y convocó elecciones autonómicas para el 21 de diciembre de 2017.",
+  "contexto": "El Parlamento de Cataluña había aprobado en septiembre de 2017 las Leyes 19/2017, del referéndum de autodeterminación, y 20/2017, y el 1 de octubre se celebró un referéndum declarado inconstitucional por el Tribunal Constitucional (STC 114/2017). Según el acuerdo del Consejo de Ministros, el presidente de la Generalitat no atendió el requerimiento previo del Gobierno.",
+  "consecuencias": [
+    {
+      "texto": "El Real Decreto 942/2017 dispuso el cese de Carles Puigdemont como presidente de la Generalitat y el Real Decreto 943/2017 el del vicepresidente y los consejeros.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 942/2017, de 27 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12332",
+          "fecha_documento": "2017-10-27",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 943/2017, de 27 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12333",
+          "fecha_documento": "2017-10-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto 946/2017 disolvió el Parlamento de Cataluña elegido el 27 de septiembre de 2015 y convocó elecciones para el 21 de diciembre de 2017.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 946/2017, de 27 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12330",
+          "fecha_documento": "2017-10-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Real Decreto 944/2017 designó a los órganos y autoridades del Estado encargados de ejecutar las medidas dirigidas al Gobierno y la Administración de la Generalitat.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 944/2017, de 27 de octubre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12329",
+          "fecha_documento": "2017-10-27",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Resolución de 27 de octubre de 2017, de la Presidencia del Senado, por la que se publica el Acuerdo del Pleno del Senado, por el que se aprueban las medidas requeridas por el Gobierno, al amparo del artículo 155 de la Constitución",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12327",
+      "fecha_documento": "2017-10-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Orden PRA/1034/2017, de 27 de octubre, por la que se publica el Acuerdo del Consejo de Ministros de 21 de octubre de 2017 (artículo 155 de la Constitución)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12328",
+      "fecha_documento": "2017-10-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 942/2017, de 27 de octubre, por el que se dispone el cese del Presidente de la Generalitat de Cataluña",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12332",
+      "fecha_documento": "2017-10-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Real Decreto 946/2017, de 27 de octubre, de convocatoria de elecciones al Parlamento de Cataluña y de su disolución",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-12330",
+      "fecha_documento": "2017-10-27",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía (preámbulo, referencia a la STC 114/2017)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-11776",
+      "fecha_documento": "2024-06-11",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

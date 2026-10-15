@@ -63,6 +63,7 @@ const ld = [
 <html lang="es">
   <head>
     <meta charset="utf-8" />
+    <script is:inline>document.documentElement.classList.add('js')</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
@@ -178,6 +179,11 @@ const ld = [
           btn?.focus();
         }
       });
+      // Aparición progresiva de bloques marcados con .reveal (el CSS la anula con movimiento reducido).
+      const io = 'IntersectionObserver' in window
+        ? new IntersectionObserver((ents) => ents.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io?.unobserve(en.target); } }), { rootMargin: '0px 0px -8% 0px' })
+        : null;
+      document.querySelectorAll('.reveal').forEach((el) => (io ? io.observe(el) : el.classList.add('in')));
       // Reabre el mensaje de consentimiento de la CMP de Google (si está configurada).
       document.getElementById('gestionar-privacidad')?.addEventListener('click', () => {
         const w = window as any;

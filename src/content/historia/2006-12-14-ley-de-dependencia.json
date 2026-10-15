@@ -1,0 +1,59 @@
+{
+  "id": "2006-12-14-ley-de-dependencia",
+  "fecha": "2006-12-14",
+  "titulo": "Ley de Dependencia",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad",
+    "territorial"
+  ],
+  "resumen": "La Ley 39/2006, de 14 de diciembre, creó el Sistema para la Autonomía y Atención a la Dependencia (SAAD) y configuró como derecho subjetivo de ciudadanía la atención a las personas en situación de dependencia.",
+  "contexto": "La exposición de motivos vincula la ley a los artículos 49 y 50 de la Constitución, sobre atención a personas con discapacidad y personas mayores. El sistema se organiza con la colaboración y participación de todas las administraciones públicas.",
+  "consecuencias": [
+    {
+      "texto": "La ley estableció tres grados de dependencia (moderada, severa y gran dependencia) para el reconocimiento de prestaciones.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 39/2006, de 14 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-21990",
+          "localizacion": "Artículo 26",
+          "fecha_documento": "2006-12-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Su objeto es regular las condiciones básicas que garanticen la igualdad en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la autonomía personal y atención a la dependencia.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 39/2006, de 14 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-21990",
+          "localizacion": "Artículo 1.1",
+          "fecha_documento": "2006-12-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-21990",
+      "fecha_documento": "2006-12-15",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

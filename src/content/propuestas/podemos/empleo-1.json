@@ -1,0 +1,44 @@
+{
+  "id": "podemos-empleo-1",
+  "partido": "podemos",
+  "tema": "empleo",
+  "eleccion": "generales-2026",
+  "titulo": "«Trabajar menos para vivir mejor» y bajar el coste de la vida",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "Entre los cinco ejes de la candidatura de Irene Montero figuran «trabajar menos para vivir mejor» y «bajar el coste de la vida», según fuentes de Podemos citadas por EFE. No se han detallado medidas concretas (por ejemplo, de cuántas horas sería la jornada).",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La legislación laboral, incluida la jornada máxima, es estatal y su ejecución es autonómica (art. 149.1.7.ª CE)."
+  },
+  "financiacion": {
+    "nota": "No se ha publicado coste ni fuente de financiación."
+  },
+  "calendario": "No publicado",
+  "detalle": "Declaraciones de dirigentes; Podemos no ha publicado aún un programa electoral de 2026 localizado en esta revisión. Enunciado genérico pendiente de concreción.",
+  "fuentes": [
+    {
+      "titulo": "Irene Montero presenta mañana su candidatura para liderar las izquierdas en las generales",
+      "emisor": "Diario de León (EFE)",
+      "tipo": "medio",
+      "url": "https://www.diariodeleon.es/nacional/260911/2097086/irene-montero-presenta-manana-candidatura-liderar-izquierdas-generales.html",
+      "fecha_documento": "2026-09-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española (texto consolidado)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 149.1.7.ª",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

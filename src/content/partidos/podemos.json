@@ -1,0 +1,596 @@
+{
+  "id": "podemos",
+  "nombre": "Podemos",
+  "siglas": "Podemos",
+  "naturaleza": "partido",
+  "ambito": "estatal",
+  "color_grafico": "#6B2C82",
+  "criterio_inclusion": "Partido con cuatro diputados en el Congreso al final de la XV legislatura (Grupo Mixto) y dos eurodiputados elegidos en 2024 con candidatura propia; ha anunciado que concurrirá el 29-N con Irene Montero como cabeza de cartel.",
+  "resumen": "Partido de izquierda fundado en 2014. Formó parte del primer Gobierno de coalición (2020-2023) como Unidas Podemos. En 2023 concurrió dentro de la coalición Sumar y en diciembre de ese año sus diputados pasaron al Grupo Mixto. Para el 29-N ha rechazado integrarse en Frente Amplio, ha celebrado primarias abiertas (14-15 de octubre) con Irene Montero como única aspirante a la Presidencia, no concurrirá en Cataluña —donde colaborará con la candidatura de ERC— y negocia alianzas territoriales.",
+  "historia": [
+    {
+      "texto": "Podemos se presentó el 17 de enero de 2014 en el Teatro del Barrio de Lavapiés (Madrid), con Pablo Iglesias, Juan Carlos Monedero, Íñigo Errejón, Teresa Rodríguez y Miguel Urbán entre sus impulsores; en las europeas de mayo de 2014 obtuvo 1,2 millones de votos y cinco eurodiputados.",
+      "tipo": "hecho",
+      "fecha": "2014-01-17",
+      "fuentes": [
+        {
+          "titulo": "Podemos, diez años después: cambiarlo todo para volver a empezar",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/diez-anos-despues-cambiarlo-volver-empezar_1_10833951.html",
+          "fecha_documento": "2024-01-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las generales de diciembre de 2015 Podemos y sus confluencias lograron 69 diputados, y en junio de 2016 concurrió con IU y otras fuerzas como Unidos Podemos.",
+      "tipo": "hecho",
+      "fecha": "2015-12",
+      "fuentes": [
+        {
+          "titulo": "Podemos, diez años después: cambiarlo todo para volver a empezar",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/diez-anos-despues-cambiarlo-volver-empezar_1_10833951.html",
+          "fecha_documento": "2024-01-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En enero de 2020 Unidas Podemos entró en el Gobierno de coalición con el PSOE: Pablo Iglesias fue vicepresidente segundo e Irene Montero ministra de Igualdad, entre otros cargos.",
+      "tipo": "hecho",
+      "fecha": "2020-01-12",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 5/2020, de 12 de enero, por el que se nombra Vicepresidente Segundo del Gobierno a don Pablo Iglesias Turrión",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-413",
+          "fecha_documento": "2020-01-13",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 8/2020, de 12 de enero, por el que se nombran Ministros del Gobierno",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-416",
+          "fecha_documento": "2020-01-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las generales de 2023 Podemos concurrió dentro de la coalición Sumar y quedó fuera del Gobierno formado en noviembre de 2023; el 5 de diciembre de 2023 sus cinco diputados abandonaron el grupo de Sumar y pasaron al Grupo Mixto.",
+      "tipo": "hecho",
+      "fecha": "2023-12-05",
+      "fuentes": [
+        {
+          "titulo": "Mónica García, Ernest Urtasun, Pablo Bustinduy y Sira Rego: los ministros de Sumar de la vicepresidenta Yolanda Díaz",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/monica-garcia-ernest-urtasun-pablo-bustinduy-sira-rego-ministros-sumar-vicepresidenta-yolanda-diaz_1_10700056.html",
+          "fecha_documento": "2023-11-20",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Podemos abandona Sumar en el Congreso y pasa al Grupo Mixto",
+          "emisor": "elDiario.es (Andrés Gil)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/decide-pasar-grupo-mixto_1_10745468.html",
+          "fecha_documento": "2023-12-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Qué partidos componen el Grupo Parlamentario de Sumar en el Congreso y con cuántos miembros cuentan cada uno",
+          "emisor": "Newtral (Rosa Soto)",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/partidos-componen-grupo-sumar-congreso/20250624/",
+          "fecha_documento": "2025-06-24",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En las elecciones europeas de 2024 Podemos concurrió con candidatura propia y obtuvo 578.007 votos y 2 escaños.",
+      "tipo": "hecho",
+      "fecha": "2024-06-09",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (columna «PODEMOS»)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En abril de 2025 la secretaria general, Ione Belarra, propuso a Irene Montero, eurodiputada, como candidata a las generales.",
+      "tipo": "hecho",
+      "fecha": "2025-04-06",
+      "fuentes": [
+        {
+          "titulo": "Ione Belarra oficializa la candidatura de Irene Montero a las generales",
+          "emisor": "elDiario.es (Alberto Órfão)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/belarra-oficializa-candidatura-irene-montero-generales_1_12197308.html",
+          "fecha_documento": "2025-04-06",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "liderazgo": [
+    {
+      "cargo": "Secretaria general",
+      "nombre": "Ione Belarra",
+      "fuentes": [
+        {
+          "titulo": "Podemos ofrece a IU acuerdos de unidad circunscritos a 10 comunidades y dejar al margen Madrid y Barcelona",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-podemos-ofrece-iu-acuerdos-unidad-mayoria-comunidades-dejar-margen-madrid-barcelona-20261015092230.html",
+          "fecha_documento": "2026-10-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretaria política, eurodiputada y aspirante a la Presidencia del Gobierno",
+      "nombre": "Irene Montero",
+      "fuentes": [
+        {
+          "titulo": "Irene Montero pide un decreto que baje alquileres y expropie viviendas a fondos buitre \"antes que convocar elecciones\"",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-irene-montero-pide-decreto-baje-alquileres-expropie-viviendas-fondos-buitre-antes-convocar-elecciones-20261003130430.html",
+          "fecha_documento": "2026-10-03",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Arranca las votaciones de las primarias impulsadas por Podemos con Irene Montero como aspirante a candidata",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-arranca-votaciones-primarias-impulsadas-podemos-irene-montero-aspirante-candidata-20261014102702.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "cargo": "Secretario de Organización",
+      "nombre": "Pablo Fernández",
+      "fuentes": [
+        {
+          "titulo": "La izquierda se encamina a negociaciones 'in extremis' sin disponer aún de un mapa claro de coaliciones",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-izquierda-encamina-negociaciones-in-extremis-disponer-aun-mapa-claro-coaliciones-20261014193905.html",
+          "fecha_documento": "2026-10-14",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "candidatura_2026": {
+    "estado": "anunciada_por_partido",
+    "forma_concurrencia": "Listas propias o alianzas territoriales aún en negociación; no presentará candidatura en Cataluña, donde contribuirá a la de ERC con candidatos como independientes en Barcelona y Tarragona.",
+    "candidato_presidencia": "Irene Montero",
+    "detalle": [
+      {
+        "texto": "Podemos celebró del 14 al 15 de octubre de 2026 unas primarias abiertas, con Irene Montero como única aspirante a la Presidencia; según las reglas, quien obtenga más votos encabezará la lista por Madrid. Los resultados se publicarán el 16 de octubre.",
+        "tipo": "hecho",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "Arranca las votaciones de las primarias impulsadas por Podemos con Irene Montero como aspirante a candidata",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-arranca-votaciones-primarias-impulsadas-podemos-irene-montero-aspirante-candidata-20261014102702.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Belarra reprocha a Colau que no se presentara a las primarias que ofrecieron para elegir al candidato el 29N",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-belarra-reprocha-colau-no-presentara-primarias-ofrecieron-elegir-candidato-29n-20261015104412.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Podemos anunció el 12 de octubre un acuerdo de colaboración con ERC: contribuirá a la candidatura de ERC en Cataluña e Irene Montero y Gabriel Rufián «harán equipo» en la campaña.",
+        "tipo": "hecho",
+        "fecha": "2026-10-12",
+        "fuentes": [
+          {
+            "titulo": "Podemos anuncia que contribuirá a la candidatura de ERC en Cataluña, y Montero y Rufián \"harán equipo\" en campaña",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-podemos-anuncia-contribuira-candidatura-erc-cataluna-montero-rufian-haran-equipo-campana-20261012122611.html",
+            "fecha_documento": "2026-10-12",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Arranca las votaciones de las primarias impulsadas por Podemos con Irene Montero como aspirante a candidata",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-arranca-votaciones-primarias-impulsadas-podemos-irene-montero-aspirante-candidata-20261014102702.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Irene Montero afirmó que Podemos no se integrará en la coalición Frente Amplio, aunque no descartó acuerdos con otras fuerzas.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-13",
+        "fuentes": [
+          {
+            "titulo": "Irene Montero asegura que Podemos no se integrará en Frente Amplio",
+            "emisor": "Diari de Tarragona (EFE)",
+            "tipo": "medio",
+            "url": "https://www.diaridetarragona.com/espana/272992/irene-montero-asegura-integrara-frente-amplio.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "El 15 de octubre Podemos ofreció a IU acuerdos de unidad en diez comunidades (Galicia, Asturias, Cantabria, Euskadi, Navarra, Castilla y León, Castilla-La Mancha, Murcia, Extremadura y Andalucía), dejando fuera Madrid y Barcelona, y negociaba con Compromís, Ara Més y Chunta; IU rechazó negociar al margen de Frente Amplio.",
+        "tipo": "hecho",
+        "fecha": "2026-10-15",
+        "fuentes": [
+          {
+            "titulo": "Podemos ofrece a IU acuerdos de unidad circunscritos a 10 comunidades y dejar al margen Madrid y Barcelona",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-podemos-ofrece-iu-acuerdos-unidad-mayoria-comunidades-dejar-margen-madrid-barcelona-20261015092230.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "IU rechaza negociar con Podemos fuera de Frente Amplio y deja claro que no acepta acuerdos \"troceados\" al 29N",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-iu-rechaza-negociar-podemos-fuera-frente-amplio-deja-claro-no-acepta-acuerdos-troceados-29n-20261015102013.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Las coaliciones debían comunicarse a la Junta Electoral hasta el 16 de octubre; las candidaturas se presentan del 21 al 26 de octubre y se proclaman el 2 de noviembre (BOE del 3 de noviembre).",
+        "tipo": "hecho",
+        "fuentes": [
+          {
+            "titulo": "Calendario electoral. Elecciones Generales 2026 (Cortes Generales)",
+            "emisor": "Junta Electoral Central",
+            "tipo": "oficial",
+            "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+            "localizacion": "Apartado «Candidaturas», pág. 4",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "orientacion": {
+    "descripcion": "Partido de izquierda surgido en 2014 en el contexto posterior al 15-M, que se presenta como alternativa a la izquierda del PSOE y ha centrado su discurso reciente en la vivienda, la oposición al aumento del gasto militar y la crítica a lo que considera subordinación de Sumar al PSOE.",
+    "clasificaciones_externas": [
+      {
+        "texto": "La Chapel Hill Expert Survey 2024 clasifica a Podemos en la familia «Radical Left» (izquierda radical), con una posición ideológica general media de 1,6 en una escala de 0 (extrema izquierda) a 10 (extrema derecha).",
+        "tipo": "interpretacion",
+        "fecha": "2025-02",
+        "fuentes": [
+          {
+            "titulo": "Chapel Hill Expert Survey 2024 – Codebook (Rovny, Bakker, Hooghe, Jolly, Marks, Polk, Steenbergen y Vachudova)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://github.com/chesdata/chesdata.github.io/releases/download/ches-europe/CHES.2024.Codebook.pdf",
+            "localizacion": "Variables «family» (código 6 = Radical Left) y «lrgen»",
+            "fecha_documento": "2025-02",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "CHES 2024 – conjunto de datos (medias por partido)",
+            "emisor": "Chapel Hill Expert Survey",
+            "tipo": "academica",
+            "url": "https://github.com/chesdata/chesdata.github.io/releases/download/ches-europe/CHES_2024_final_v2.csv",
+            "localizacion": "party_id 525 (Podemos): family = 6; lrgen = 1,56",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "matices": "No se ha podido consultar la web oficial de Podemos (podemos.info bloqueó el acceso automatizado), por lo que no se recoge su autodefinición estatutaria. La descripción del discurso reciente se basa en declaraciones de sus dirigentes recogidas en esta ficha."
+  },
+  "resultados": [
+    {
+      "eleccion": "generales-2023",
+      "candidatura": "Dentro de la coalición Sumar (sin candidatura propia)",
+      "nota": "Podemos no presentó candidatura propia en 2023: sus candidatos figuraron en las listas de la coalición Sumar (31 escaños en total), por lo que no existe un recuento oficial de votos de Podemos. Cinco diputados de Podemos fueron elegidos en esas listas y pasaron al Grupo Mixto en diciembre de 2023; tras la renuncia de Lilith Verstrynge en 2024 quedaron cuatro. El resultado de Sumar se registra en la ficha de Frente Amplio como antecedente.",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 30 de agosto de 2023, de la Presidencia de la Junta Electoral Central, por la que se publica el resumen de los resultados de las elecciones al Congreso de los Diputados y al Senado celebradas el 23 de julio de 2023",
+          "emisor": "Junta Electoral Central (BOE núm. 209)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf",
+          "localizacion": "Cuadro II (columna «Sumar (SUMAR)»); relación de diputados electos",
+          "fecha_documento": "2023-09-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Podemos abandona Sumar en el Congreso y pasa al Grupo Mixto",
+          "emisor": "elDiario.es (Andrés Gil)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/decide-pasar-grupo-mixto_1_10745468.html",
+          "fecha_documento": "2023-12-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Qué partidos componen el Grupo Parlamentario de Sumar en el Congreso y con cuántos miembros cuentan cada uno",
+          "emisor": "Newtral (Rosa Soto)",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/partidos-componen-grupo-sumar-congreso/20250624/",
+          "fecha_documento": "2025-06-24",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "eleccion": "europeas-2024",
+      "candidatura": "PODEMOS",
+      "votos": 578007,
+      "porcentaje": 3.3,
+      "nota": "Elección al Parlamento Europeo (circunscripción única), no al Congreso: obtuvo 2 escaños de eurodiputado. Porcentaje calculado por la redacción sobre 17.527.438 votos válidos.",
+      "fuentes": [
+        {
+          "titulo": "Acuerdo de 27 de junio de 2024, de la Junta Electoral Central, por el que se procede a la publicación de los resultados de las elecciones de diputados y diputadas al Parlamento Europeo celebradas el 9 de junio de 2024",
+          "emisor": "Junta Electoral Central (BOE)",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+          "localizacion": "Cuadros I y II (columna «PODEMOS»)",
+          "fecha_documento": "2024-06-28",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "trayectoria_institucional": [
+    {
+      "texto": "Entre 2020 y 2023 Podemos formó parte del Gobierno de coalición con el PSOE dentro de Unidas Podemos.",
+      "tipo": "hecho",
+      "fecha": "2020-01-12",
+      "fuentes": [
+        {
+          "titulo": "PSOE y Unidas Podemos presentan un acuerdo de coalición pero no aclaran cuándo será la investidura",
+          "emisor": "Newtral",
+          "tipo": "medio",
+          "url": "https://www.newtral.es/psoe-y-unidas-podemos-presentan-un-acuerdo-de-coalicion-pero-no-aclaran-cuando-sera-la-investidura/20191230/",
+          "fecha_documento": "2019-12-30",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Podemos, diez años después: cambiarlo todo para volver a empezar",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/diez-anos-despues-cambiarlo-volver-empezar_1_10833951.html",
+          "fecha_documento": "2024-01-13",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En la XV legislatura sus diputados actuaron en el Grupo Mixto desde diciembre de 2023 y no formaron parte del Gobierno.",
+      "tipo": "hecho",
+      "fecha": "2023-12-05",
+      "fuentes": [
+        {
+          "titulo": "Podemos abandona Sumar en el Congreso y pasa al Grupo Mixto",
+          "emisor": "elDiario.es (Andrés Gil)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/decide-pasar-grupo-mixto_1_10745468.html",
+          "fecha_documento": "2023-12-05",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Mónica García, Ernest Urtasun, Pablo Bustinduy y Sira Rego: los ministros de Sumar de la vicepresidenta Yolanda Díaz",
+          "emisor": "elDiario.es (Alberto Ortiz)",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/monica-garcia-ernest-urtasun-pablo-bustinduy-sira-rego-ministros-sumar-vicepresidenta-yolanda-diaz_1_10700056.html",
+          "fecha_documento": "2023-11-20",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "En enero de 2026 Podemos anunció un acuerdo con el Gobierno para una regularización extraordinaria de migrantes, que el Gobierno aprobó por real decreto en abril de 2026.",
+      "tipo": "hecho",
+      "fecha": "2026-01-26",
+      "fuentes": [
+        {
+          "titulo": "Podemos anuncia un pacto con el Gobierno para una regularización extraordinaria de migrantes",
+          "emisor": "elDiario.es",
+          "tipo": "medio",
+          "url": "https://www.eldiario.es/politica/anuncia-pacto-gobierno-regularizacion-extraordinaria-migrantes_1_12937083.html",
+          "fecha_documento": "2026-01-26",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Real Decreto 316/2026, de 14 de abril",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8284",
+          "fecha_documento": "2026-04-15",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Los cuatro diputados de Podemos votaron a favor de convalidar los dos decretos-ley de vivienda el 2 de octubre de 2026, pese a calificar las medidas de insuficientes; ambos fueron derogados.",
+      "tipo": "hecho",
+      "fecha": "2026-10-02",
+      "fuentes": [
+        {
+          "titulo": "Podemos confirma que apoyará en el Congreso los dos decretos de vivienda tras pedírselo el Sindicato de Inquilinos",
+          "emisor": "Europa Press",
+          "tipo": "medio",
+          "url": "https://www.europapress.es/nacional/noticia-podemos-confirma-apoyara-congreso-dos-decretos-vivienda-pedirselo-sindicato-inquilinos-20261001093419.html",
+          "fecha_documento": "2026-10-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "El Congreso tumba los decretos de vivienda pese al aviso de Sánchez",
+          "emisor": "Euronews (Rafael Salido)",
+          "tipo": "medio",
+          "url": "https://es.euronews.com/2026/10/02/el-congreso-tumba-los-decretos-de-vivienda-pese-al-aviso-de-sanchez-seran-juzgados-antes-d",
+          "fecha_documento": "2026-10-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "pactos": {
+    "anteriores": [
+      {
+        "texto": "El 30 de diciembre de 2019 Unidas Podemos y el PSOE presentaron el acuerdo «Coalición progresista. Un nuevo acuerdo para España», base del Gobierno de coalición de 2020.",
+        "tipo": "hecho",
+        "fecha": "2019-12-30",
+        "fuentes": [
+          {
+            "titulo": "PSOE y Unidas Podemos presentan un acuerdo de coalición pero no aclaran cuándo será la investidura",
+            "emisor": "Newtral",
+            "tipo": "medio",
+            "url": "https://www.newtral.es/psoe-y-unidas-podemos-presentan-un-acuerdo-de-coalicion-pero-no-aclaran-cuando-sera-la-investidura/20191230/",
+            "fecha_documento": "2019-12-30",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "En 2023 Podemos concurrió a las generales dentro de la coalición Sumar; Belarra recordó en 2026 que aceptaron hacerlo pese a denunciar el «veto» a Irene Montero.",
+        "tipo": "hecho",
+        "fecha": "2023",
+        "fuentes": [
+          {
+            "titulo": "Qué partidos componen el Grupo Parlamentario de Sumar en el Congreso y con cuántos miembros cuentan cada uno",
+            "emisor": "Newtral (Rosa Soto)",
+            "tipo": "medio",
+            "url": "https://www.newtral.es/partidos-componen-grupo-sumar-congreso/20250624/",
+            "fecha_documento": "2025-06-24",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Podemos ofrece a IU acuerdos de unidad circunscritos a 10 comunidades y dejar al margen Madrid y Barcelona",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-podemos-ofrece-iu-acuerdos-unidad-mayoria-comunidades-dejar-margen-madrid-barcelona-20261015092230.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "En enero de 2026 pactó con el Gobierno la regularización extraordinaria de migrantes; fuentes del Gobierno confirmaron que el real decreto era fruto de un acuerdo con Podemos.",
+        "tipo": "hecho",
+        "fecha": "2026-01-26",
+        "fuentes": [
+          {
+            "titulo": "Podemos anuncia un pacto con el Gobierno para una regularización extraordinaria de migrantes",
+            "emisor": "elDiario.es",
+            "tipo": "medio",
+            "url": "https://www.eldiario.es/politica/anuncia-pacto-gobierno-regularizacion-extraordinaria-migrantes_1_12937083.html",
+            "fecha_documento": "2026-01-26",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ],
+    "posicion_actual": [
+      {
+        "texto": "Ione Belarra sostuvo que «un proyecto político que hace todo lo que dice el PSOE no es lo que necesita la gente» y que la izquierda debe ir «a la ofensiva», en alusión a los partidos de Frente Amplio.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-15",
+        "fuentes": [
+          {
+            "titulo": "Belarra reprocha a Colau que no se presentara a las primarias que ofrecieron para elegir al candidato el 29N",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-belarra-reprocha-colau-no-presentara-primarias-ofrecieron-elegir-candidato-29n-20261015104412.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Irene Montero defendió el acuerdo con ERC y su tándem con Gabriel Rufián como referencia de Podemos, y mantuvo la mano tendida a Frente Amplio para acuerdos territoriales.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-14",
+        "fuentes": [
+          {
+            "titulo": "La izquierda se encamina a negociaciones 'in extremis' sin disponer aún de un mapa claro de coaliciones",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-izquierda-encamina-negociaciones-in-extremis-disponer-aun-mapa-claro-coaliciones-20261014193905.html",
+            "fecha_documento": "2026-10-14",
+            "fecha_consulta": "2026-10-15"
+          },
+          {
+            "titulo": "Irene Montero asegura que Podemos no se integrará en Frente Amplio",
+            "emisor": "Diari de Tarragona (EFE)",
+            "tipo": "medio",
+            "url": "https://www.diaridetarragona.com/espana/272992/irene-montero-asegura-integrara-frente-amplio.html",
+            "fecha_documento": "2026-10-13",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      },
+      {
+        "texto": "Belarra planteó la posibilidad de competir con Frente Amplio en Madrid y Barcelona, donde, según su argumento, la división penaliza menos en escaños.",
+        "tipo": "declaracion",
+        "fecha": "2026-10-15",
+        "fuentes": [
+          {
+            "titulo": "Podemos ofrece a IU acuerdos de unidad circunscritos a 10 comunidades y dejar al margen Madrid y Barcelona",
+            "emisor": "Europa Press",
+            "tipo": "medio",
+            "url": "https://www.europapress.es/nacional/noticia-podemos-ofrece-iu-acuerdos-unidad-mayoria-comunidades-dejar-margen-madrid-barcelona-20261015092230.html",
+            "fecha_documento": "2026-10-15",
+            "fecha_consulta": "2026-10-15"
+          }
+        ]
+      }
+    ]
+  },
+  "programa_2026": {
+    "estado": "no_localizado",
+    "comprobado_en": "2026-10-15"
+  },
+  "balance_informacion": {
+    "concreto": [
+      "Regularización extraordinaria de migrantes pactada con el Gobierno y aprobada por el RD 316/2026."
+    ],
+    "sin_desarrollar": [
+      "Propuestas de vivienda (bajar alquileres por ley, expropiar viviendas a fondos de inversión, prohibir la compra especulativa) formuladas en declaraciones, sin texto normativo ni coste.",
+      "Ejes de la candidatura de Montero («paz, casa, trabajo»: vivienda, reducción del tiempo de trabajo, coste de la vida, paz, emergencia climática) sin programa detallado."
+    ],
+    "pendiente": [
+      "Resultado de las primarias (16 de octubre de 2026).",
+      "Alianzas territoriales y coaliciones comunicadas a la JEC (plazo 16 de octubre).",
+      "Programa electoral 2026 (no localizado; la web oficial no fue accesible)."
+    ]
+  },
+  "rol_gobierno": "influencia_parlamentaria",
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado",
+    "notas": "Confirmar el 16-10-2026 el resultado de las primarias y las coaliciones registradas. Web oficial (podemos.info) inaccesible."
+  }
+}

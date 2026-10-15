@@ -1,0 +1,82 @@
+---
+/**
+ * Hemiciclo interactivo (SVG generado al compilar). Cada punto es un escaño.
+ * Accesible: descripción textual, leyenda con botones (resalta un grupo), tabla alternativa.
+ * El orden de los grupos lo decide quien llama y se explica en `nota`.
+ */
+import { asignar } from '../lib/hemiciclo.js';
+interface Grupo { nombre: string; siglas: string; escanos: number; color: string; ink?: string; href?: string }
+interface Props { grupos: Grupo[]; total: number; titulo: string; nota?: string; centro?: { num: string; label: string }; id?: string; animar?: boolean }
+const { grupos, total, titulo, nota, centro, id = 'hemi-' + Math.random().toString(36).slice(2, 8), animar = true } = Astro.props;
+const seats = asignar(grupos, total);
+const desc = `${titulo}. ` + grupos.filter((g) => g.escanos > 0).map((g) => `${g.nombre}: ${g.escanos}`).join('; ');
+---
+<figure class={`hemi${animar ? ' anim' : ''}`} id={id} data-hemi>
+  <svg viewBox="0 -2 200 106" role="img" aria-label={desc}>
+    {seats.map((s, i) => (
+      <circle cx={s.x} cy={s.y} r={s.r} fill={s.g >= 0 ? grupos[s.g].color : 'var(--line)'} data-g={s.g} style={`--i:${i}`} />
+    ))}
+    {centro && (
+      <>
+        <text x="100" y="92" text-anchor="middle" class="center-num">{centro.num}</text>
+        <text x="100" y="100" text-anchor="middle" class="center-lbl">{centro.label}</text>
+      </>
+    )}
+  </svg>
+  <div class="hemi-tip" role="status" aria-live="polite"></div>
+  <figcaption>
+    <ul class="hemi-legend">
+      {grupos.filter((g) => g.escanos > 0).map((g) => (
+        <li style={`--pc:${g.color}`}>
+          <button type="button" data-g={grupos.indexOf(g)} aria-pressed="false" title={`Resaltar ${g.nombre}`}>
+            <span class="pc-dot" aria-hidden="true"></span>{g.siglas} <strong>{g.escanos}</strong>
+          </button>
+        </li>
+      ))}
+    </ul>
+    {nota && <p class="small muted" style="margin:.5rem 0 0">{nota}</p>}
+    <details class="small">
+      <summary>Ver como tabla</summary>
+      <table>
+        <thead><tr><th scope="col">Formación</th><th scope="col" class="num">Escaños</th></tr></thead>
+        <tbody>{grupos.filter((g) => g.escanos > 0).map((g) => <tr><th scope="row">{g.href ? <a href={g.href}>{g.nombre}</a> : g.nombre}</th><td class="num">{g.escanos}</td></tr>)}</tbody>
+      </table>
+    </details>
+  </figcaption>
+  <script type="application/json" data-grupos set:html={JSON.stringify(grupos.map((g) => ({ n: g.nombre, s: g.siglas, e: g.escanos })))} />
+</figure>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-hemi]').forEach((fig) => {
+    if (fig.dataset.ready) return;
+    fig.dataset.ready = '1';
+    const grupos = JSON.parse(fig.querySelector('[data-grupos]')!.textContent!) as { n: string; s: string; e: number }[];
+    const circles = [...fig.querySelectorAll<SVGCircleElement>('circle')];
+    const tip = fig.querySelector<HTMLElement>('.hemi-tip')!;
+    let fijo: number | null = null;
+    const resaltar = (g: number | null) => {
+      fig.classList.toggle('focus', g !== null);
+      circles.forEach((c) => c.classList.toggle('on', g !== null && Number(c.dataset.g) === g));
+      fig.querySelectorAll<HTMLButtonElement>('.hemi-legend button').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.g) === g)));
+    };
+    fig.querySelectorAll<HTMLButtonElement>('.hemi-legend button').forEach((b) => {
+      const g = Number(b.dataset.g);
+      b.addEventListener('mouseenter', () => fijo === null && resaltar(g));
+      b.addEventListener('mouseleave', () => fijo === null && resaltar(null));
+      b.addEventListener('click', () => { fijo = fijo === g ? null : g; resaltar(fijo); });
+    });
+    const svg = fig.querySelector('svg')!;
+    svg.addEventListener('pointermove', (e) => {
+      const t = e.target as Element;
+      if (t.tagName !== 'circle') { tip.classList.remove('show'); return; }
+      const g = Number((t as SVGCircleElement).dataset.g);
+      if (g < 0) return;
+      const box = fig.getBoundingClientRect();
+      tip.textContent = `${grupos[g].n}: ${grupos[g].e} escaños`;
+      tip.style.left = `${e.clientX - box.left}px`;
+      tip.style.top = `${e.clientY - box.top}px`;
+      tip.classList.add('show');
+      if (fijo === null) resaltar(g);
+    });
+    svg.addEventListener('pointerleave', () => { tip.classList.remove('show'); if (fijo === null) resaltar(null); });
+  });
+</script>

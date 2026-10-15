@@ -1,0 +1,58 @@
+{
+  "id": "2004-12-28-ley-integral-contra-la-violencia-de-genero",
+  "fecha": "2004-12-28",
+  "titulo": "Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "La Ley Orgánica 1/2004, de 28 de diciembre, estableció un marco integral de prevención, protección y asistencia a las víctimas de la violencia de género, con medidas educativas, sociales, laborales, penales y judiciales.",
+  "contexto": "La ley se centra en la violencia que se ejerce sobre las mujeres por parte de quienes sean o hayan sido sus cónyuges o parejas. Se publicó en el BOE el 29 de diciembre de 2004.",
+  "consecuencias": [
+    {
+      "texto": "La ley creó los Juzgados de Violencia sobre la Mujer y la figura del Fiscal contra la Violencia sobre la Mujer.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 1/2004, de 28 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-21760",
+          "localizacion": "Título V",
+          "fecha_documento": "2004-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Previó una ayuda económica para determinadas víctimas, equivalente a seis meses de subsidio por desempleo, ampliable en función de la discapacidad o de las responsabilidades familiares.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley Orgánica 1/2004, de 28 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-21760",
+          "localizacion": "Artículo 27",
+          "fecha_documento": "2004-12-29",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-21760",
+      "fecha_documento": "2004-12-29",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

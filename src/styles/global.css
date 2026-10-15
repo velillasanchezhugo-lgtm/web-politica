@@ -208,3 +208,56 @@ details > :last-child { margin-bottom: 0.9rem; }
   .site-header, .site-footer, .ad-slot, .no-print { display: none !important; }
   a { text-decoration: none; }
 }
+
+/* ===== Color por partido =====
+ * Cada bloque de un partido define --pc (su color) y --pc-ink (texto legible sobre él).
+ * El color siempre va acompañado del nombre o las siglas: nunca identifica por sí solo.
+ */
+.pc-band { background: var(--pc, var(--ink)); color: var(--pc-ink, var(--paper)); }
+.pc-band a { color: inherit; text-decoration-color: currentColor; }
+.pc-soft { background: color-mix(in srgb, var(--pc, var(--ink)) 9%, var(--paper)); }
+.pc-edge { border-left: 6px solid var(--pc, var(--ink)); }
+.pc-top { border-top: 6px solid var(--pc, var(--ink)); }
+.pc-dot { display: inline-block; width: 0.75em; height: 0.75em; border-radius: 50%; background: var(--pc); vertical-align: -0.05em; margin-right: 0.35em; box-shadow: 0 0 0 2px var(--paper); }
+.pc-tag { display: inline-flex; align-items: center; gap: 0.3rem; font: 700 0.78rem/1 var(--font-sans); padding: 0.3rem 0.55rem; border-radius: 6px; background: var(--pc); color: var(--pc-ink); letter-spacing: 0.02em; }
+.pc-heading { border-bottom: 3px solid var(--pc, var(--accent)); padding-bottom: 0.3rem; display: inline-block; }
+
+/* Tarjetas de partido */
+.pcard { position: relative; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--paper); display: flex; flex-direction: column; transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.pcard:hover, .pcard:focus-within { transform: translateY(-3px); box-shadow: 0 10px 28px -14px color-mix(in srgb, var(--pc) 70%, transparent); }
+.pcard .pcard-head { padding: 0.9rem 1rem 0.8rem; display: flex; align-items: flex-end; justify-content: space-between; gap: 0.5rem; min-height: 5.2rem; }
+.pcard .pcard-siglas { font: 800 1.6rem/1 var(--font-sans); letter-spacing: -0.01em; }
+.pcard .pcard-esc { text-align: right; font: 600 0.78rem/1.2 var(--font-sans); opacity: 0.95; }
+.pcard .pcard-esc strong { display: block; font-size: 1.5rem; font-weight: 800; }
+.pcard .pcard-body { padding: 0.85rem 1rem 1rem; flex: 1; display: flex; flex-direction: column; gap: 0.45rem; }
+.pcard h2, .pcard h3 { margin: 0; font-size: 1.1rem; }
+.pcard a.stretch::after { content: ''; position: absolute; inset: 0; }
+.pcard .meter { height: 6px; background: var(--paper-2); border-radius: 99px; overflow: hidden; }
+.pcard .meter span { display: block; height: 100%; background: var(--pc); border-radius: 99px; }
+
+/* Cifras grandes */
+.stats { display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); margin: 1rem 0; }
+.stat { border: 1px solid var(--line); border-radius: 12px; padding: 0.8rem 1rem; background: var(--paper); }
+.stat b { display: block; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.3rem)/1.05 var(--font-sans); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.stat span { font-size: 0.85rem; color: var(--ink-2); }
+
+/* Hemiciclo */
+.hemi { position: relative; }
+.hemi svg { display: block; width: 100%; height: auto; overflow: visible; }
+.hemi circle { transition: opacity 0.2s ease, transform 0.2s ease; transform-box: fill-box; transform-origin: center; }
+.hemi.focus circle:not(.on) { opacity: 0.16; }
+.hemi .center-num { font: 800 22px/1 var(--font-sans); fill: var(--ink); }
+.hemi .center-lbl { font: 600 6px/1 var(--font-sans); fill: var(--ink-2); text-transform: uppercase; letter-spacing: 0.08em; }
+.hemi-legend { list-style: none; padding: 0; margin: 0.75rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.hemi-legend button, .hemi-legend a { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.25rem; padding: 0.25rem 0.65rem; border: 1px solid var(--line); border-radius: 99px; background: var(--paper); font: 600 0.85rem/1 var(--font-sans); color: var(--ink); cursor: pointer; text-decoration: none; }
+.hemi-legend [aria-pressed='true'], .hemi-legend button:hover, .hemi-legend a:hover { border-color: var(--pc); box-shadow: inset 0 0 0 1.5px var(--pc); }
+.hemi-tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--paper); font: 600 0.8rem/1.3 var(--font-sans); padding: 0.35rem 0.55rem; border-radius: 6px; transform: translate(-50%, -120%); white-space: nowrap; opacity: 0; transition: opacity 0.12s; }
+.hemi-tip.show { opacity: 1; }
+
+/* Aparición al hacer scroll (desactivada con movimiento reducido) */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease, transform 0.5s ease; }
+  .js .reveal.in { opacity: 1; transform: none; }
+  .hemi.anim circle { animation: seat-in 0.5s ease both; animation-delay: calc(var(--i) * 2ms); }
+  @keyframes seat-in { from { opacity: 0; transform: scale(0.2); } to { opacity: 1; transform: none; } }
+}

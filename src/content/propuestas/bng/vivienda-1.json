@@ -1,0 +1,52 @@
+{
+  "id": "bng-vivienda-1",
+  "partido": "bng",
+  "tema": "vivienda",
+  "eleccion": "generales-2026",
+  "titulo": "Apoyo a los decretos de vivienda, límite a los alquileres y plan masivo de vivienda pública",
+  "tipo_informacion": "declaracion",
+  "estado": "posicion_vigente",
+  "resumen": "El BNG votó a favor de los dos decretos de vivienda de octubre de 2026. Su eurodiputada Ana Miranda resume sus propuestas: limitar los precios del alquiler, prórrogas anuales de los contratos, declarar zonas tensionadas (como en Santiago, gobernada por el BNG) y un plan masivo de vivienda pública, incluida la compra de vivienda vacía; Pontón propone que toda la vivienda pública que se construya en Galicia sea de alquiler social.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa",
+      "local"
+    ],
+    "nota": "El régimen de los contratos de alquiler es legislación civil estatal (art. 149.1.8.ª CE); la vivienda pública y la declaración de zonas tensionadas corresponden a la Xunta (competencia exclusiva en vivienda) y los ayuntamientos."
+  },
+  "financiacion": {
+    "nota": "El partido no publica coste ni fuente de financiación de esta posición."
+  },
+  "calendario": "No publicado",
+  "fuentes": [
+    {
+      "titulo": "Ana Miranda leva ao Parlamento Europeo as medidas do BNG fronte a crise de vivenda",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/ana-miranda-leva-ao-parlamento-europeo-medidas-do-bng-fronte-crise-vivenda/20261006172904043568.html",
+      "fecha_documento": "2026-10-06",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Pontón propón que toda a vivenda pública sexa en alugueiro social e mobilizar a que hai baleira para alugar a prezos accesibles",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/ponton-propon-que-toda-vivenda-publica-sexa-alugueiro-social-mobilizar-que-hai-baleira-alugar-prezos-accesibles/20261007123801043570.html",
+      "fecha_documento": "2026-10-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "El Congreso tumba los decretos de vivienda del Gobierno",
+      "emisor": "Diario de Avisos (Europa Press)",
+      "tipo": "medio",
+      "url": "https://diariodeavisos.elespanol.com/2026/10/congreso-tumba-decretos-vivienda-gobierno/",
+      "fecha_documento": "2026-10-02",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}

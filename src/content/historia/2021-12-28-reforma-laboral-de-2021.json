@@ -1,0 +1,58 @@
+{
+  "id": "2021-12-28-reforma-laboral-de-2021",
+  "fecha": "2021-12-28",
+  "titulo": "Reforma laboral de 2021",
+  "categorias": [
+    "legislacion",
+    "economia-sociedad"
+  ],
+  "resumen": "El Real Decreto-ley 32/2021, de 28 de diciembre, reformó la contratación laboral para reducir la temporalidad: estableció que el contrato de trabajo se presume concertado por tiempo indefinido y limitó los contratos temporales.",
+  "contexto": "Según su preámbulo, los cambios fueron acordados en el diálogo social con CCOO, UGT, CEOE y CEPYME, y la reforma se enmarcaba en el Plan de Recuperación, Transformación y Resiliencia.",
+  "consecuencias": [
+    {
+      "texto": "El nuevo artículo 15 del Estatuto de los Trabajadores establece que el contrato de trabajo se presume concertado por tiempo indefinido.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto-ley 32/2021, de 28 de diciembre",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-21788",
+          "localizacion": "Artículo primero (artículo 15.1 del Estatuto de los Trabajadores)",
+          "fecha_documento": "2021-12-30",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "El Congreso de los Diputados convalidó el real decreto-ley; el acuerdo de convalidación se publicó por Resolución de 3 de febrero de 2022.",
+      "tipo": "hecho",
+      "fecha": "2022-02-03",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 3 de febrero de 2022, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 32/2021",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-1982",
+          "fecha_documento": "2022-02-08",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto-ley 32/2021, de 28 de diciembre, de medidas urgentes para la reforma laboral, la garantía de la estabilidad en el empleo y la transformación del mercado de trabajo",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-21788",
+      "fecha_documento": "2021-12-30",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

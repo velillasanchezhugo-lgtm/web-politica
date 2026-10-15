@@ -1,0 +1,52 @@
+{
+  "id": "bng-organizacion-territorial-1",
+  "partido": "bng",
+  "tema": "organizacion-territorial",
+  "eleccion": "generales-2026",
+  "titulo": "Transferencia de la AP-9 a Galicia y fin de los peajes",
+  "tipo_informacion": "iniciativa_parlamentaria",
+  "estado": "medida_aprobada",
+  "resumen": "El BNG impulsó en el Congreso la proposición de ley del Parlamento de Galicia para transferir a la Comunidad Autónoma la titularidad y las competencias de gestión de la autopista AP-9, con la cláusula de que las consecuencias de decisiones estatales previas recaigan sobre el Estado. La ley se aprobó (LO 3/2026). El BNG mantiene como objetivo una AP-9 «galega e libre de peaxes», poniendo fin a la concesión.",
+  "que_cambiaria": "Galicia pasa a ser titular de la AP-9; la supresión de peajes requeriría además actuar sobre la concesión vigente, cuyo fin el BNG reclama.",
+  "competencia": {
+    "administraciones": [
+      "estado",
+      "ccaa"
+    ],
+    "nota": "La transferencia se hizo por ley orgánica de transferencia (art. 150.2 CE); su concreción corresponde a la Comisión Mixta de Transferencias Xunta-Estado."
+  },
+  "financiacion": {
+    "nota": "El BNG no publica el coste de suprimir los peajes ni de rescatar la concesión."
+  },
+  "calendario": "Ley publicada el 31-7-2026; traspaso efectivo pendiente de la Comisión Mixta",
+  "fuentes": [
+    {
+      "titulo": "Ley Orgánica 3/2026, de 29 de julio, de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia (BOE-A-2026-16652)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16652",
+      "fecha_documento": "2026-07-31",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "A transferencia da AP-9 e a trampa do PP (artigo de Néstor Rego)",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/opinion/nestor-rego/transferencia-da-ap-9-trampa-do-pp/20260605100855042938.html",
+      "fecha_documento": "2026-06-05",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Ana Pontón: «Imos a por todas o 29N para darlle máis forza a Galiza e gañar en avances sociais fronte ao PP máis ultra da historia»",
+      "emisor": "Bloque Nacionalista Galego",
+      "tipo": "partido",
+      "url": "https://www.bng.gal/articulo/novas/ana-ponton-imos-todas-29n-darlle-mais-forza-galiza-ganar-avances-sociais-fronte-ao-pp-mais-ultra-da-historia/20261005142051043564.html",
+      "fecha_documento": "2026-10-05",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "revisado"
+  }
+}
