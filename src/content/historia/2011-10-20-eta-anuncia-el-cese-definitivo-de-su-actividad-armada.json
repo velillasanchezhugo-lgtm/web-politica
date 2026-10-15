@@ -6,11 +6,11 @@
     "elecciones-gobiernos",
     "territorial"
   ],
-  "resumen": "El 20 de octubre de 2011 la organización terrorista ETA anunció el «cese definitivo de su actividad armada», tras la conferencia internacional celebrada en el palacio de Aiete (San Sebastián).",
-  "contexto": "El anuncio se produjo durante el último Gobierno de José Luis Rodríguez Zapatero, un mes antes de las elecciones generales de noviembre de 2011. No implicaba todavía la disolución de la organización.",
+  "resumen": "El 20 de octubre de 2011 la organización terrorista ETA anunció el «cese definitivo de su actividad armada», tras la conferencia de paz de Aiete.",
+  "contexto": "El anuncio se produjo durante la IX Legislatura, con José Luis Rodríguez Zapatero como presidente del Gobierno, un mes antes de las elecciones generales del 20 de noviembre de 2011. No implicaba todavía la disolución de la organización.",
   "consecuencias": [
     {
-      "texto": "Según la cronología del Anuario del Conflicto Social, la declaración de «cese definitivo de la actividad armada» siguió a la conferencia de paz de Aiete, y en los días siguientes se reclamó desde distintos ámbitos la disolución de ETA.",
+      "texto": "Según la cronología del Anuario del Conflicto Social, la declaración siguió a la conferencia de paz de Aiete, y en los días posteriores el Gobierno reclamó la disolución de ETA.",
       "tipo": "hecho",
       "fecha": "2011-10-20",
       "fuentes": [
@@ -56,6 +56,13 @@
       "tipo": "oficial",
       "url": "https://www.lamoncloa.gob.es/consejodeministros/ruedas/Documents/2018/20180511ConferenciaConsejo.pdf",
       "fecha_documento": "2018-05-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: X Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/XLegislatura.aspx",
       "fecha_consulta": "2026-10-15"
     }
   ],

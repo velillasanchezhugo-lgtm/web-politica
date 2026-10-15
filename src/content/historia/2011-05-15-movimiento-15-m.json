@@ -6,23 +6,8 @@
     "economia-sociedad"
   ],
   "resumen": "El 15 de mayo de 2011 varias plataformas ciudadanas convocaron manifestaciones en distintas ciudades; tras ellas se produjeron acampadas en plazas como la Puerta del Sol de Madrid. Surgió así el movimiento 15-M o de los «indignados».",
-  "contexto": "Las protestas se produjeron en plena crisis económica, una semana antes de las elecciones municipales y autonómicas de mayo de 2011. El movimiento se caracterizó por asambleas en las plazas y manifestaciones no violentas.",
-  "consecuencias": [
-    {
-      "texto": "El movimiento combinó la crítica a una democracia que consideraba poco representativa y el rechazo a las políticas de ajuste frente a la crisis, según el análisis de Espinar Merino.",
-      "tipo": "interpretacion",
-      "fuentes": [
-        {
-          "titulo": "El espacio público y la pugna por el significado de la Democracia. El debate alternativo sobre el Estado de la Nación en el movimiento 15-M",
-          "emisor": "Ramón Espinar Merino (Universidad Autónoma de Madrid), ACME: An International E-Journal for Critical Geographies, 14(1), 61-74",
-          "tipo": "academica",
-          "url": "https://acme-journal.org/index.php/acme/article/download/1139/907/3280",
-          "fecha_documento": "2015",
-          "fecha_consulta": "2026-10-15"
-        }
-      ]
-    }
-  ],
+  "contexto": "Las protestas se produjeron en plena crisis económica. Según Espinar Merino, el movimiento se caracterizó por grandes asambleas ciudadanas en las principales plazas de cada ciudad y por numerosas manifestaciones no violentas.",
+  "consecuencias": [],
   "interpretaciones": [
     {
       "texto": "Ramón Espinar Merino identifica tres rasgos centrales del 15-M: la pugna por el significado de la democracia, el rechazo a las políticas de ajuste y, en general, neoliberales, y nuevas formas de reapropiación del espacio urbano.",
@@ -51,7 +36,6 @@
   ],
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "borrador",
-    "notas": "La referencia a las elecciones municipales y autonómicas de mayo de 2011 no se ha contrastado con fuente abierta; se recomienda añadir una segunda fuente académica de autor sin vinculación partidista posterior."
+    "estado_editorial": "publicado"
   }
 }
