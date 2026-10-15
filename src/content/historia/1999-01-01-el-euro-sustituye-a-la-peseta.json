@@ -1,0 +1,67 @@
+{
+  "id": "1999-01-01-el-euro-sustituye-a-la-peseta",
+  "fecha": "1999-01-01",
+  "fecha_fin": "2002-01-01",
+  "titulo": "El euro, moneda de España",
+  "categorias": [
+    "europa",
+    "economia-sociedad"
+  ],
+  "resumen": "El 1 de enero de 1999 España adoptó el euro como moneda, junto con otros diez países. Los billetes y monedas en euros entraron en circulación el 1 de enero de 2002, cuando la peseta dejó de ser unidad de cuenta.",
+  "contexto": "El Consejo de la UE, reunido a nivel de jefes de Estado o de Gobierno, decidió el 2 de mayo de 1998 que once países, entre ellos España, cumplían las condiciones para adoptar la moneda única. La Ley 46/1998 reguló en España la transición.",
+  "consecuencias": [
+    {
+      "texto": "La Ley 46/1998 estableció que el euro sucede sin solución de continuidad a la peseta y permitió seguir usando la peseta como unidad de cuenta, como subdivisión del euro, hasta el 31 de diciembre de 2001.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Ley 46/1998, de 17 de diciembre, sobre introducción del euro",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1998-29216",
+          "localizacion": "Artículos 3 y 4",
+          "fecha_documento": "1998-12-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La ley fijó la puesta en circulación de los billetes y monedas en euros a partir del 1 de enero de 2002; según su preámbulo, seis meses después la peseta perdía también su condición de medio de pago de curso legal, salvo anticipación.",
+      "tipo": "hecho",
+      "fecha": "2002-01-01",
+      "fuentes": [
+        {
+          "titulo": "Ley 46/1998, de 17 de diciembre, sobre introducción del euro",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1998-29216",
+          "localizacion": "Preámbulo",
+          "fecha_documento": "1998-12-18",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Ley 46/1998, de 17 de diciembre, sobre introducción del euro",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1998-29216",
+      "fecha_documento": "1998-12-18",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "España. País de la UE",
+      "emisor": "Unión Europea (european-union.europa.eu)",
+      "tipo": "oficial",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_es",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

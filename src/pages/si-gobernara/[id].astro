@@ -5,6 +5,7 @@ import Revision from '../../components/Revision.astro';
 import SourceList from '../../components/SourceList.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import { publicados, ETIQUETAS } from '../../lib/content';
+import { textoSobre } from '../../lib/hemiciclo.js';
 
 export async function getStaticPaths() {
   const esc = await publicados('escenarios');
@@ -28,8 +29,11 @@ const cls: Record<string, string> = { objetivo_declarado: 'declaracion', efecto_
 const todas = bloques.flatMap((b) => b.items.flatMap((i) => i.fuentes));
 ---
 <Base title={d.titulo} description={`${d.resumen.slice(0, 150)}…`} ogType="article" crumbs={[{ href: '/si-gobernara/', label: 'Si gobernara…' }, { label: p.data.siglas }]}>
-  <article class="wrap read">
-    <h1>{d.titulo}</h1>
+  <article style={`--pc:${p.data.color_grafico};--pc-ink:${textoSobre(p.data.color_grafico)}`}>
+  <header class="pc-band" style="padding:1.75rem 0 1.25rem">
+    <div class="wrap read"><p class="small" style="margin:0;font-weight:700;text-transform:uppercase;letter-spacing:.06em">Análisis condicionado · {p.data.siglas}</p><h1 style="margin:.3rem 0 0;color:inherit">{d.titulo}</h1></div>
+  </header>
+  <div class="wrap read">
     <Revision revision={d.revision} />
     <div class="notice warn" role="note"><strong>Análisis condicionado, no predicción.</strong> No afirmamos que ninguna de estas medidas vaya a aprobarse ni que sus efectos sean seguros.</div>
     <Quick><p style="margin:0">{d.resumen}</p></Quick>
@@ -40,7 +44,7 @@ const todas = bloques.flatMap((b) => b.items.flatMap((i) => i.fuentes));
     {bloques.map((b, i) => (
       <>
         <section id={b.id}>
-          <h2>{b.t}</h2>
+          <h2 class="pc-heading">{b.t}</h2>
           {b.items.length ? b.items.map((it) => (
             <div class="claim">
               <p><span class={`badge ${cls[it.tipo]}`}>{ETIQUETAS.analisis[it.tipo]}</span> {it.texto}</p>
@@ -53,5 +57,6 @@ const todas = bloques.flatMap((b) => b.items.flatMap((i) => i.fuentes));
     ))}
     <p><a href={`/partidos/${p.data.id}/`}>Ficha completa de {p.data.nombre}</a> · <a href="/simulador/">Probar sumas en el simulador</a></p>
     <SourceList fuentes={todas} titulo="Fuentes de este análisis" />
+  </div>
   </article>
 </Base>

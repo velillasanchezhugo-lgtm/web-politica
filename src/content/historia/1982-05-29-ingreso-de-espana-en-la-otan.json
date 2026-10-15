@@ -1,0 +1,88 @@
+{
+  "id": "1982-05-29-ingreso-de-espana-en-la-otan",
+  "fecha": "1982-05-29",
+  "fecha_fin": "1982-05-31",
+  "titulo": "Ingreso de España en la OTAN",
+  "categorias": [
+    "europa",
+    "elecciones-gobiernos"
+  ],
+  "resumen": "España se adhirió al Tratado del Atlántico Norte en 1982, bajo el Gobierno de Leopoldo Calvo-Sotelo (UCD). El instrumento de adhesión, fechado el 29 de mayo de 1982, se publicó en el BOE el 31 de mayo.",
+  "contexto": "La adhesión requirió la autorización previa de las Cortes Generales prevista en el artículo 94.1 de la Constitución para los tratados de carácter militar. El Tratado del Atlántico Norte se había firmado en Washington el 4 de abril de 1949.",
+  "consecuencias": [
+    {
+      "texto": "El instrumento de adhesión se extendió una vez concedida por las Cortes Generales la autorización prevista en el artículo 94.1 de la Constitución.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "Instrumento de Adhesión del Reino de España al Tratado del Atlántico Norte",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1982-12535",
+          "fecha_documento": "1982-05-31",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "La permanencia en la Alianza fue sometida a referéndum consultivo el 12 de marzo de 1986, convocado por el Gobierno de Felipe González.",
+      "tipo": "hecho",
+      "fecha": "1986-03-12",
+      "fuentes": [
+        {
+          "titulo": "Real Decreto 214/1986, de 6 de febrero, por el que se somete a referéndum de la Nación la decisión política del Gobierno en relación con la Alianza Atlántica",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-3251",
+          "fecha_documento": "1986-02-07",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Gobiernos por legislaturas: II Legislatura",
+          "emisor": "La Moncloa",
+          "tipo": "oficial",
+          "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/II%20Legislatura.aspx",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Instrumento de Adhesión del Reino de España al Tratado del Atlántico Norte",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1982-12535",
+      "fecha_documento": "1982-05-31",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Constitución Española",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "localizacion": "Artículo 94.1",
+      "fecha_documento": "1978-12-29",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: I Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/I%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: II Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/II%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

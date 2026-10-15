@@ -46,7 +46,7 @@
   ],
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "revisado",
-    "notas": "Cifras de deuda atribuidas por el BNG al Banco de España; no contrastadas con la fuente original en esta revisión."
+    "estado_editorial": "publicado",
+    "notas": "Cifras de deuda atribuidas por el BNG al Banco de España; no contrastadas con la fuente original en esta revisión. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

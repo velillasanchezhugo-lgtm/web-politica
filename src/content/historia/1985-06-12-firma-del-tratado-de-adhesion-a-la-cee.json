@@ -1,0 +1,80 @@
+{
+  "id": "1985-06-12-firma-del-tratado-de-adhesion-a-la-cee",
+  "fecha": "1985-06-12",
+  "fecha_fin": "1986-01-01",
+  "titulo": "Adhesión a las Comunidades Europeas",
+  "categorias": [
+    "europa",
+    "economia-sociedad"
+  ],
+  "resumen": "El 12 de junio de 1985 España y Portugal firmaron en Madrid y Lisboa el Tratado de adhesión a la Comunidad Económica Europea y a la Euratom. España es Estado miembro desde el 1 de enero de 1986.",
+  "contexto": "Las Cortes autorizaron la adhesión mediante la Ley Orgánica 10/1985, de 2 de agosto, conforme al artículo 93 de la Constitución, que permite atribuir a organizaciones internacionales el ejercicio de competencias derivadas de la Constitución.",
+  "consecuencias": [
+    {
+      "texto": "El instrumento de ratificación del Tratado de adhesión se publicó en el BOE del 1 de enero de 1986, junto con el de adhesión a la CECA.",
+      "tipo": "hecho",
+      "fecha": "1986-01-01",
+      "fuentes": [
+        {
+          "titulo": "Instrumento de Ratificación del Tratado hecho en Lisboa y Madrid el día 12 de junio de 1985, relativo a la adhesión del Reino de España y de la República Portuguesa a la Comunidad Económica Europea y a la Comunidad Europea de la Energía Atómica",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-1",
+          "fecha_documento": "1986-01-01",
+          "fecha_consulta": "2026-10-15"
+        },
+        {
+          "titulo": "Instrumento de Adhesión al Tratado Constitutivo de la Comunidad Europea del Carbón y del Acero",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-2",
+          "fecha_documento": "1986-01-01",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Según la Unión Europea, España es Estado miembro desde el 1 de enero de 1986, forma parte del espacio Schengen desde el 26 de marzo de 1995 y de la zona del euro desde el 1 de enero de 1999.",
+      "tipo": "hecho",
+      "fuentes": [
+        {
+          "titulo": "España. País de la UE",
+          "emisor": "Unión Europea (european-union.europa.eu)",
+          "tipo": "oficial",
+          "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_es",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Instrumento de Ratificación del Tratado hecho en Lisboa y Madrid el día 12 de junio de 1985, relativo a la adhesión del Reino de España y de la República Portuguesa a la Comunidad Económica Europea y a la Comunidad Europea de la Energía Atómica",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-1",
+      "fecha_documento": "1986-01-01",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "España. País de la UE",
+      "emisor": "Unión Europea (european-union.europa.eu)",
+      "tipo": "oficial",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_es",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Instrumento de Adhesión al Tratado Constitutivo de la Comunidad Europea del Carbón y del Acero",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-2",
+      "fecha_documento": "1986-01-01",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

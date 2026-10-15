@@ -4,6 +4,7 @@ import Quick from '../../components/Quick.astro';
 import Claim from '../../components/Claim.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import { publicados, alfa } from '../../lib/content';
+import { textoSobre } from '../../lib/hemiciclo.js';
 
 const escenarios = await publicados('escenarios');
 const partidos = (await publicados('partidos')).sort((a, b) => alfa(a.data.nombre, b.data.nombre));
@@ -31,7 +32,7 @@ const influencia = partidos.filter((p) => p.data.rol_gobierno === 'influencia_pa
     <h2>Partidos con opciones de encabezar el Gobierno</h2>
     {conEscenario.length ? (
       <ul class="grid" role="list" style="list-style:none;padding:0">
-        {conEscenario.map((p) => <li class="card"><a href={`/si-gobernara/${p.data.id}/`}><strong>Si gobernara {p.data.nombre}</strong></a></li>)}
+        {conEscenario.map((p) => <li class="pcard" style={`--pc:${p.data.color_grafico};--pc-ink:${textoSobre(p.data.color_grafico)}`}><div class="pcard-head pc-band"><span class="pcard-siglas" aria-hidden="true">{p.data.siglas}</span></div><div class="pcard-body"><h3><a class="stretch" href={`/si-gobernara/${p.data.id}/`}>Si gobernara {p.data.nombre}</a></h3><p class="small muted" style="margin:0">Medidas, instrumentos, apoyos, límites, efectos con evidencia e incertidumbres.</p></div></li>)}
       </ul>
     ) : <p class="notice info">Análisis en revisión editorial. Se publicará cuando todas sus afirmaciones estén verificadas.</p>}
     <p class="small muted">Criterio: incluimos las formaciones que han encabezado el Gobierno desde 1982 y que en 2023 obtuvieron más de 100 escaños. No creamos escenarios inverosímiles.</p>
@@ -41,8 +42,8 @@ const influencia = partidos.filter((p) => p.data.rol_gobierno === 'influencia_pa
     <h2 id="influencia">Cómo podrían influir las demás fuerzas</h2>
     <p>Sin opciones realistas de presidir el Gobierno, un partido puede ser decisivo en una investidura (con su voto a favor o su abstención), entrar en un Gobierno de coalición o condicionar leyes y presupuestos votación a votación. Lo que han dicho cada una sobre posibles acuerdos, con fecha y fuente:</p>
     {influencia.map((p) => (
-      <section class="tema-block">
-        <h3><a href={`/partidos/${p.data.id}/#pactos`}>{p.data.nombre}</a></h3>
+      <section class="tema-block reveal" style={`--pc:${p.data.color_grafico};--pc-ink:${textoSobre(p.data.color_grafico)};border-left:5px solid var(--pc);padding-left:1rem`}>
+        <h3><span class="pc-tag">{p.data.siglas}</span> <a href={`/partidos/${p.data.id}/#pactos`}>{p.data.nombre}</a></h3>
         {p.data.pactos.posicion_actual.length ? p.data.pactos.posicion_actual.slice(0, 2).map((a) => <Claim a={a} />) : <p class="muted small">No localizada una posición pública reciente en las fuentes consultadas.</p>}
       </section>
     ))}

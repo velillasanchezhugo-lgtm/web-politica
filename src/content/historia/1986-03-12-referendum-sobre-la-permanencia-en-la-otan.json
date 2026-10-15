@@ -1,0 +1,81 @@
+{
+  "id": "1986-03-12-referendum-sobre-la-permanencia-en-la-otan",
+  "fecha": "1986-03-12",
+  "titulo": "Referéndum sobre la permanencia en la OTAN",
+  "categorias": [
+    "europa",
+    "elecciones-gobiernos"
+  ],
+  "resumen": "El 12 de marzo de 1986 se celebró un referéndum consultivo sobre la permanencia de España en la Alianza Atlántica en los términos acordados por el Gobierno de Felipe González. Ganó el «sí».",
+  "contexto": "El Gobierno planteó la permanencia con tres condiciones: no incorporarse a la estructura militar integrada, mantener la prohibición de instalar, almacenar o introducir armas nucleares en España y reducir progresivamente la presencia militar de Estados Unidos. La pregunta fue: «¿Considera conveniente para España permanecer en la Alianza Atlántica en los términos acordados por el Gobierno de la Nación?».",
+  "consecuencias": [
+    {
+      "texto": "Según los resultados oficiales declarados por la Junta Electoral Central, hubo 9.054.509 votos a favor y 6.872.421 en contra, además de 1.127.673 votos en blanco.",
+      "tipo": "hecho",
+      "fecha": "1986-03-26",
+      "fuentes": [
+        {
+          "titulo": "Resolución de 26 de marzo de 1986 por la que se declaran los resultados oficiales definitivos del Referéndum convocado por Real Decreto 214/1986",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-8221",
+          "fecha_documento": "1986-04-02",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "texto": "Tras la rectificación de errores de la Junta Electoral Central, el censo quedó fijado en 29.024.494 electores y los votos nulos en 191.849.",
+      "tipo": "hecho",
+      "fecha": "1986-04-10",
+      "fuentes": [
+        {
+          "titulo": "Rectificación de errores materiales en la Resolución de 26 de marzo de 1986",
+          "emisor": "Boletín Oficial del Estado",
+          "tipo": "oficial",
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-8962",
+          "fecha_documento": "1986-04-11",
+          "fecha_consulta": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "interpretaciones": [],
+  "fuentes": [
+    {
+      "titulo": "Real Decreto 214/1986, de 6 de febrero, por el que se somete a referéndum de la Nación la decisión política del Gobierno en relación con la Alianza Atlántica",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-3251",
+      "fecha_documento": "1986-02-07",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Resolución de 26 de marzo de 1986 por la que se declaran los resultados oficiales definitivos del Referéndum convocado por Real Decreto 214/1986",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-8221",
+      "fecha_documento": "1986-04-02",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Rectificación de errores materiales en la Resolución de 26 de marzo de 1986 (resultados del referéndum)",
+      "emisor": "Boletín Oficial del Estado",
+      "tipo": "oficial",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-8962",
+      "fecha_documento": "1986-04-11",
+      "fecha_consulta": "2026-10-15"
+    },
+    {
+      "titulo": "Gobiernos por legislaturas: II Legislatura",
+      "emisor": "La Moncloa",
+      "tipo": "oficial",
+      "url": "https://www.lamoncloa.gob.es/gobierno/gobiernosporlegislaturas/Paginas/II%20Legislatura.aspx",
+      "fecha_consulta": "2026-10-15"
+    }
+  ],
+  "revision": {
+    "fecha_revision": "2026-10-15",
+    "estado_editorial": "publicado"
+  }
+}

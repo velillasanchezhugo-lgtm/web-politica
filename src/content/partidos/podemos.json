@@ -590,7 +590,7 @@
   "rol_gobierno": "influencia_parlamentaria",
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "revisado",
-    "notas": "Confirmar el 16-10-2026 el resultado de las primarias y las coaliciones registradas. Web oficial (podemos.info) inaccesible."
+    "estado_editorial": "publicado",
+    "notas": "Confirmar el 16-10-2026 el resultado de las primarias y las coaliciones registradas. Web oficial (podemos.info) inaccesible. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }

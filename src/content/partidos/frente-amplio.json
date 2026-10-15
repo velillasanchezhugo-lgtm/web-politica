@@ -592,7 +592,7 @@
   "rol_gobierno": "influencia_parlamentaria",
   "revision": {
     "fecha_revision": "2026-10-15",
-    "estado_editorial": "revisado",
-    "notas": "No se ha localizado web oficial de Frente Amplio ni la lista de coaliciones comunicadas a la JEC (el plazo terminaba el 16-10-2026). Revisar composición tras ese plazo. El dato de que Compromís no se integrará no se ha podido confirmar: a 14-15 de octubre seguía negociando."
+    "estado_editorial": "publicado",
+    "notas": "No se ha localizado web oficial de Frente Amplio ni la lista de coaliciones comunicadas a la JEC (el plazo terminaba el 16-10-2026). Revisar composición tras ese plazo. El dato de que Compromís no se integrará no se ha podido confirmar: a 14-15 de octubre seguía negociando. | 2026-10-15: revisado → publicado. Segunda revisión por muestreo de fuentes (dirección editorial, verificación asistida por IA). Pendiente de validación final por el titular antes de abrir la indexación."
   }
 }
